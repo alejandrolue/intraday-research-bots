@@ -1,0 +1,52 @@
+# All 72 year-1 variants (Asia open)
+
+| Variant | N | Avg R | Total R | PF | DD R | Long R | Short R | Positive Q | Eligible |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| J225-orb-tokyo-30-rr2-HOUR_4 | 89 | +0.247 | +22.0 | 1.42 | 7.0 | +10.0 | +12.0 | 3/4 | False |
+| J225-orb-tokyo-30-rr1.6-HOUR_4 | 90 | +0.184 | +16.6 | 1.34 | 7.4 | +8.0 | +8.6 | 4/4 | False |
+| J225-orb-tokyo-15-rr1.6-HOUR_4 | 120 | +0.148 | +17.8 | 1.27 | 11.2 | +15.8 | +2.0 | 3/4 | False |
+| J225-orb-tokyo-15-rr2-HOUR_4 | 120 | +0.100 | +12.0 | 1.16 | 18.0 | +11.0 | +1.0 | 2/4 | False |
+| GOLD-orb-tokyo-30-rr2-HOUR_4 | 175 | +0.029 | +5.0 | 1.04 | 12.0 | +15.0 | -10.0 | 2/4 | False |
+| GOLD-orb-tokyo-30-rr2-none | 493 | +0.028 | +14.0 | 1.04 | 22.0 | +30.0 | -16.0 | 1/4 | False |
+| GOLD-orb-tokyo-15-rr2-none | 547 | +0.009 | +5.0 | 1.01 | 27.0 | +34.0 | -29.0 | 1/4 | False |
+| HK50-orb-hongkong-30-rr2-HOUR_4 | 90 | -0.000 | -0.0 | 1.00 | 15.0 | -7.0 | +7.0 | 2/4 | False |
+| J225-rolling_sweep-tokyo-30-rr1.6-none | 294 | -0.009 | -2.6 | 0.99 | 28.6 | -13.6 | +11.0 | 2/4 | False |
+| GOLD-rolling_sweep-tokyo-15-rr2-none | 540 | -0.011 | -6.0 | 0.98 | 41.0 | +1.0 | -7.0 | 3/4 | False |
+| HK50-orb-hongkong-30-rr1.6-HOUR_4 | 90 | -0.018 | -1.6 | 0.97 | 11.4 | -6.8 | +5.2 | 3/4 | False |
+| J225-rolling_sweep-tokyo-30-rr2-none | 283 | -0.025 | -7.1 | 0.96 | 35.1 | -13.0 | +5.9 | 2/4 | False |
+| GOLD-rolling_sweep-tokyo-30-rr2-none | 453 | -0.026 | -12.0 | 0.96 | 41.0 | -5.0 | -7.0 | 1/4 | False |
+| J225-orb-tokyo-15-rr1.6-none | 362 | -0.038 | -13.7 | 0.94 | 44.6 | -3.4 | -10.2 | 1/4 | False |
+| GOLD-orb-tokyo-15-rr2-HOUR_4 | 212 | -0.038 | -8.0 | 0.94 | 25.0 | +17.0 | -25.0 | 2/4 | False |
+| J225-orb-tokyo-30-rr2-none | 272 | -0.040 | -11.0 | 0.94 | 29.0 | +0.0 | -11.0 | 1/4 | False |
+| GOLD-orb-tokyo-15-rr1.6-none | 548 | -0.046 | -25.4 | 0.93 | 39.4 | +10.0 | -35.4 | 1/4 | False |
+| GOLD-rolling_sweep-tokyo-30-rr1.6-none | 469 | -0.046 | -21.8 | 0.93 | 47.0 | -11.4 | -10.4 | 1/4 | False |
+| HK50-orb-hongkong-30-rr2-none | 255 | -0.047 | -12.1 | 0.93 | 27.1 | -20.0 | +7.9 | 2/4 | False |
+| HK50-orb-hongkong-15-rr2-HOUR_4 | 123 | -0.049 | -6.0 | 0.93 | 26.0 | -11.0 | +5.0 | 2/4 | False |
+| J225-orb-tokyo-30-rr1.6-none | 274 | -0.051 | -14.0 | 0.92 | 39.6 | -2.6 | -11.4 | 2/4 | False |
+| HK50-orb-hongkong-30-rr1.6-none | 256 | -0.056 | -14.3 | 0.91 | 20.9 | -18.8 | +4.5 | 1/4 | False |
+| GOLD-orb-tokyo-30-rr1.6-none | 496 | -0.056 | -28.0 | 0.91 | 41.0 | +1.4 | -29.4 | 1/4 | False |
+| GOLD-rolling_sweep-tokyo-15-rr1.6-none | 555 | -0.063 | -35.0 | 0.90 | 61.8 | -22.6 | -12.4 | 2/4 | False |
+| J225-orb-tokyo-15-rr2-none | 357 | -0.076 | -27.1 | 0.89 | 50.0 | -14.0 | -13.0 | 1/4 | False |
+| HK50-orb-hongkong-15-rr1.6-HOUR_4 | 123 | -0.091 | -11.2 | 0.86 | 27.0 | -13.2 | +2.0 | 1/4 | False |
+| J225-rolling_sweep-tokyo-15-rr1.6-none | 397 | -0.102 | -40.5 | 0.84 | 50.1 | -39.1 | -1.4 | 1/4 | False |
+| J225-rolling_sweep-tokyo-15-rr2-none | 383 | -0.107 | -41.1 | 0.85 | 44.1 | -32.0 | -9.1 | 2/4 | False |
+| GOLD-orb-tokyo-30-rr1.6-HOUR_4 | 175 | -0.109 | -19.0 | 0.83 | 20.6 | -4.2 | -14.8 | 1/4 | False |
+| HK50-orb-hongkong-15-rr2-none | 346 | -0.116 | -40.1 | 0.84 | 51.1 | -27.0 | -13.1 | 1/4 | False |
+| HK50-orb-hongkong-15-rr1.6-none | 350 | -0.116 | -40.7 | 0.82 | 51.1 | -27.4 | -13.3 | 1/4 | False |
+| GOLD-rolling_sweep-tokyo-30-rr2-HOUR_4 | 186 | -0.129 | -24.0 | 0.82 | 32.0 | -14.0 | -10.0 | 1/4 | False |
+| HK50-rolling_sweep-hongkong-15-rr2-none | 385 | -0.135 | -52.1 | 0.81 | 64.1 | -12.1 | -40.0 | 1/4 | False |
+| HK50-rolling_sweep-hongkong-15-rr1.6-none | 400 | -0.144 | -57.4 | 0.79 | 69.2 | -21.0 | -36.4 | 1/4 | False |
+| GOLD-rolling_sweep-tokyo-30-rr1.6-HOUR_4 | 186 | -0.147 | -27.4 | 0.78 | 34.6 | -14.4 | -13.0 | 0/4 | False |
+| GOLD-orb-tokyo-15-rr1.6-HOUR_4 | 212 | -0.154 | -32.6 | 0.77 | 32.6 | -2.8 | -29.8 | 0/4 | False |
+| J225-rolling_sweep-tokyo-30-rr2-HOUR_4 | 117 | -0.154 | -18.0 | 0.79 | 23.0 | -7.0 | -11.0 | 1/4 | False |
+| HK50-rolling_sweep-hongkong-15-rr1.6-HOUR_4 | 169 | -0.157 | -26.5 | 0.77 | 37.5 | -14.9 | -11.6 | 1/4 | False |
+| HK50-rolling_sweep-hongkong-30-rr1.6-none | 284 | -0.169 | -48.0 | 0.75 | 57.8 | -13.0 | -35.0 | 1/4 | False |
+| HK50-rolling_sweep-hongkong-30-rr2-none | 276 | -0.174 | -48.1 | 0.76 | 62.1 | -14.1 | -34.0 | 2/4 | False |
+| HK50-rolling_sweep-hongkong-15-rr2-HOUR_4 | 167 | -0.174 | -29.1 | 0.76 | 38.1 | -17.1 | -12.0 | 1/4 | False |
+| GOLD-rolling_sweep-tokyo-15-rr2-HOUR_4 | 248 | -0.177 | -44.0 | 0.76 | 58.0 | -30.0 | -14.0 | 0/4 | False |
+| J225-rolling_sweep-tokyo-30-rr1.6-HOUR_4 | 118 | -0.185 | -21.8 | 0.73 | 27.0 | -12.0 | -9.8 | 1/4 | False |
+| GOLD-rolling_sweep-tokyo-15-rr1.6-HOUR_4 | 249 | -0.196 | -48.8 | 0.72 | 59.6 | -33.2 | -15.6 | 0/4 | False |
+| J225-rolling_sweep-tokyo-15-rr2-HOUR_4 | 170 | -0.224 | -38.0 | 0.70 | 40.0 | -28.0 | -10.0 | 1/4 | False |
+| J225-rolling_sweep-tokyo-15-rr1.6-HOUR_4 | 171 | -0.240 | -41.0 | 0.66 | 43.4 | -32.4 | -8.6 | 0/4 | False |
+| HK50-rolling_sweep-hongkong-30-rr1.6-HOUR_4 | 107 | -0.276 | -29.5 | 0.63 | 35.1 | -17.3 | -12.2 | 1/4 | False |
+| HK50-rolling_sweep-hongkong-30-rr2-HOUR_4 | 106 | -0.322 | -34.1 | 0.59 | 39.1 | -22.1 | -12.0 | 0/4 | False |

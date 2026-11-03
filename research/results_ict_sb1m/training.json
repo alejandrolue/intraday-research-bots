@@ -1,0 +1,4461 @@
+{
+  "data": {
+    "GOLD": {
+      "bars": 175625,
+      "entry_sha256": "0513cd76cc3b586fabb8ff5d1ade88a30d247d51545fe8b42230721f41e6c6ee",
+      "first_bar": "2025-10-01T00:00:00+00:00",
+      "last_bar": "2026-03-31T23:59:00+00:00",
+      "median_spread": 0.3000000000001819,
+      "repaired_in_period": [
+        "2025-11-04T15:36:00+00:00",
+        "2025-11-04T15:53:00+00:00",
+        "2025-11-04T16:00:00+00:00",
+        "2025-11-04T16:09:00+00:00",
+        "2025-11-04T16:33:00+00:00",
+        "2025-11-04T16:34:00+00:00",
+        "2025-11-04T16:41:00+00:00",
+        "2025-11-04T16:46:00+00:00",
+        "2026-02-03T20:41:00+00:00",
+        "2026-02-03T20:42:00+00:00",
+        "2026-02-27T15:12:00+00:00"
+      ]
+    },
+    "US100": {
+      "bars": 180397,
+      "entry_sha256": "04f6f017abe3c29cd14c88b4b275e5abf344aeb825001d7bc76cdacbf9c3660a",
+      "first_bar": "2025-10-01T00:00:00+00:00",
+      "last_bar": "2026-03-31T23:59:00+00:00",
+      "median_spread": 1.7999999999992724,
+      "repaired_in_period": [
+        "2025-11-04T15:36:00+00:00",
+        "2025-11-04T15:42:00+00:00",
+        "2025-11-04T16:36:00+00:00",
+        "2025-11-04T16:40:00+00:00",
+        "2025-11-04T16:43:00+00:00",
+        "2025-11-04T16:52:00+00:00"
+      ]
+    },
+    "US500": {
+      "bars": 178931,
+      "entry_sha256": "a0c6f491f711cc906ec512dbb431e09f63d0415567206d3ac7a684a407c3945d",
+      "first_bar": "2025-10-01T00:00:00+00:00",
+      "last_bar": "2026-03-31T23:59:00+00:00",
+      "median_spread": 0.5,
+      "repaired_in_period": [
+        "2025-11-04T03:01:00+00:00",
+        "2025-11-04T03:02:00+00:00",
+        "2025-11-04T03:03:00+00:00",
+        "2025-11-04T03:04:00+00:00",
+        "2025-11-04T03:06:00+00:00",
+        "2025-11-04T03:08:00+00:00",
+        "2025-11-04T03:11:00+00:00",
+        "2025-11-04T03:17:00+00:00",
+        "2025-11-04T03:19:00+00:00",
+        "2025-11-04T03:24:00+00:00",
+        "2025-11-04T03:25:00+00:00",
+        "2025-11-04T03:33:00+00:00",
+        "2025-11-04T03:34:00+00:00",
+        "2025-11-04T03:39:00+00:00",
+        "2025-11-04T03:43:00+00:00",
+        "2025-11-04T03:44:00+00:00",
+        "2025-11-04T03:48:00+00:00",
+        "2025-11-04T03:50:00+00:00",
+        "2025-11-04T03:57:00+00:00",
+        "2025-11-04T04:02:00+00:00",
+        "2025-11-04T04:07:00+00:00",
+        "2025-11-04T04:08:00+00:00",
+        "2025-11-04T04:15:00+00:00",
+        "2025-11-04T04:18:00+00:00",
+        "2025-11-04T04:19:00+00:00",
+        "2025-11-04T04:24:00+00:00",
+        "2025-11-04T04:28:00+00:00",
+        "2025-11-04T04:31:00+00:00",
+        "2025-11-04T04:37:00+00:00",
+        "2025-11-04T04:42:00+00:00",
+        "2025-11-04T04:45:00+00:00",
+        "2025-11-04T04:46:00+00:00",
+        "2025-11-04T04:54:00+00:00",
+        "2025-11-04T04:55:00+00:00",
+        "2025-11-04T04:56:00+00:00",
+        "2025-11-04T04:58:00+00:00",
+        "2025-11-04T05:03:00+00:00",
+        "2025-11-04T05:07:00+00:00",
+        "2025-11-04T05:11:00+00:00",
+        "2025-11-04T05:30:00+00:00",
+        "2025-11-04T05:32:00+00:00",
+        "2025-11-04T05:33:00+00:00",
+        "2025-11-04T05:34:00+00:00",
+        "2025-11-04T05:36:00+00:00",
+        "2025-11-04T05:45:00+00:00",
+        "2025-11-04T05:50:00+00:00",
+        "2025-11-04T05:53:00+00:00",
+        "2025-11-04T05:55:00+00:00",
+        "2025-11-04T05:57:00+00:00",
+        "2025-11-04T05:59:00+00:00",
+        "2025-11-04T06:02:00+00:00",
+        "2025-11-04T06:04:00+00:00",
+        "2025-11-04T06:10:00+00:00",
+        "2025-11-04T06:13:00+00:00",
+        "2025-11-04T06:17:00+00:00",
+        "2025-11-04T06:18:00+00:00",
+        "2025-11-04T06:21:00+00:00",
+        "2025-11-04T06:32:00+00:00",
+        "2025-11-04T06:34:00+00:00",
+        "2025-11-04T06:40:00+00:00",
+        "2025-11-04T06:41:00+00:00",
+        "2025-11-04T06:43:00+00:00",
+        "2025-11-04T06:46:00+00:00",
+        "2025-11-04T06:47:00+00:00",
+        "2025-11-04T06:50:00+00:00",
+        "2025-11-04T06:51:00+00:00",
+        "2025-11-04T06:52:00+00:00",
+        "2025-11-04T06:54:00+00:00",
+        "2025-11-04T07:06:00+00:00",
+        "2025-11-04T07:11:00+00:00",
+        "2025-11-04T07:14:00+00:00",
+        "2025-11-04T07:17:00+00:00",
+        "2025-11-04T07:19:00+00:00",
+        "2025-11-04T07:20:00+00:00",
+        "2025-11-04T07:21:00+00:00",
+        "2025-11-04T07:22:00+00:00",
+        "2025-11-04T07:25:00+00:00",
+        "2025-11-04T07:30:00+00:00",
+        "2025-11-04T07:34:00+00:00",
+        "2025-11-04T07:35:00+00:00",
+        "2025-11-04T07:37:00+00:00",
+        "2025-11-04T07:44:00+00:00",
+        "2025-11-04T07:47:00+00:00",
+        "2025-11-04T07:48:00+00:00",
+        "2025-11-04T07:49:00+00:00",
+        "2025-11-04T07:50:00+00:00",
+        "2025-11-04T07:51:00+00:00",
+        "2025-11-04T07:52:00+00:00",
+        "2025-11-04T07:53:00+00:00",
+        "2025-11-04T07:59:00+00:00",
+        "2025-11-04T08:06:00+00:00",
+        "2025-11-04T08:07:00+00:00",
+        "2025-11-04T08:10:00+00:00",
+        "2025-11-04T08:16:00+00:00",
+        "2025-11-04T08:18:00+00:00",
+        "2025-11-04T08:20:00+00:00",
+        "2025-11-04T08:22:00+00:00",
+        "2025-11-04T08:23:00+00:00",
+        "2025-11-04T08:28:00+00:00",
+        "2025-11-04T08:31:00+00:00",
+        "2025-11-04T08:33:00+00:00",
+        "2025-11-04T08:36:00+00:00",
+        "2025-11-04T08:40:00+00:00",
+        "2025-11-04T08:41:00+00:00",
+        "2025-11-04T08:44:00+00:00",
+        "2025-11-04T08:49:00+00:00",
+        "2025-11-04T08:56:00+00:00",
+        "2025-11-04T08:57:00+00:00",
+        "2025-11-04T09:00:00+00:00",
+        "2025-11-04T09:01:00+00:00",
+        "2025-11-04T09:04:00+00:00",
+        "2025-11-04T09:09:00+00:00",
+        "2025-11-04T09:11:00+00:00",
+        "2025-11-04T09:12:00+00:00",
+        "2025-11-04T09:18:00+00:00",
+        "2025-11-04T09:19:00+00:00",
+        "2025-11-04T09:26:00+00:00",
+        "2025-11-04T09:30:00+00:00",
+        "2025-11-04T09:31:00+00:00",
+        "2025-11-04T09:34:00+00:00",
+        "2025-11-04T09:37:00+00:00",
+        "2025-11-04T09:38:00+00:00",
+        "2025-11-04T09:40:00+00:00",
+        "2025-11-04T09:41:00+00:00",
+        "2025-11-04T09:46:00+00:00",
+        "2025-11-04T09:47:00+00:00",
+        "2025-11-04T09:53:00+00:00",
+        "2025-11-04T09:57:00+00:00",
+        "2025-11-04T10:02:00+00:00",
+        "2025-11-04T10:05:00+00:00",
+        "2025-11-04T10:06:00+00:00",
+        "2025-11-04T10:07:00+00:00",
+        "2025-11-04T10:09:00+00:00",
+        "2025-11-04T10:10:00+00:00",
+        "2025-11-04T10:11:00+00:00",
+        "2025-11-04T10:15:00+00:00",
+        "2025-11-04T10:17:00+00:00",
+        "2025-11-04T10:18:00+00:00",
+        "2025-11-04T10:20:00+00:00",
+        "2025-11-04T10:21:00+00:00",
+        "2025-11-04T10:24:00+00:00",
+        "2025-11-04T10:26:00+00:00",
+        "2025-11-04T10:28:00+00:00",
+        "2025-11-04T10:30:00+00:00",
+        "2025-11-04T10:31:00+00:00",
+        "2025-11-04T10:33:00+00:00",
+        "2025-11-04T10:34:00+00:00",
+        "2025-11-04T10:38:00+00:00",
+        "2025-11-04T10:39:00+00:00",
+        "2025-11-04T10:41:00+00:00",
+        "2025-11-04T10:42:00+00:00",
+        "2025-11-04T10:44:00+00:00",
+        "2025-11-04T10:46:00+00:00",
+        "2025-11-04T10:47:00+00:00",
+        "2025-11-04T10:49:00+00:00",
+        "2025-11-04T10:50:00+00:00",
+        "2025-11-04T10:52:00+00:00",
+        "2025-11-04T10:56:00+00:00",
+        "2025-11-04T10:57:00+00:00",
+        "2025-11-04T10:59:00+00:00",
+        "2025-11-04T11:00:00+00:00",
+        "2025-11-04T11:03:00+00:00",
+        "2025-11-04T11:12:00+00:00",
+        "2025-11-04T11:13:00+00:00",
+        "2025-11-04T11:15:00+00:00",
+        "2025-11-04T11:17:00+00:00",
+        "2025-11-04T11:18:00+00:00",
+        "2025-11-04T11:21:00+00:00",
+        "2025-11-04T11:24:00+00:00",
+        "2025-11-04T11:29:00+00:00",
+        "2025-11-04T11:31:00+00:00",
+        "2025-11-04T11:37:00+00:00",
+        "2025-11-04T11:39:00+00:00",
+        "2025-11-04T11:43:00+00:00",
+        "2025-11-04T11:49:00+00:00",
+        "2025-11-04T11:51:00+00:00",
+        "2025-11-04T11:52:00+00:00",
+        "2025-11-04T11:54:00+00:00",
+        "2025-11-04T11:55:00+00:00",
+        "2025-11-04T11:58:00+00:00",
+        "2025-11-04T12:01:00+00:00",
+        "2025-11-04T12:13:00+00:00",
+        "2025-11-04T12:14:00+00:00",
+        "2025-11-04T12:15:00+00:00",
+        "2025-11-04T12:18:00+00:00",
+        "2025-11-04T12:19:00+00:00",
+        "2025-11-04T12:21:00+00:00",
+        "2025-11-04T12:22:00+00:00",
+        "2025-11-04T12:25:00+00:00",
+        "2025-11-04T12:27:00+00:00",
+        "2025-11-04T12:28:00+00:00",
+        "2025-11-04T12:32:00+00:00",
+        "2025-11-04T12:40:00+00:00",
+        "2025-11-04T12:45:00+00:00",
+        "2025-11-04T12:47:00+00:00",
+        "2025-11-04T12:48:00+00:00",
+        "2025-11-04T12:49:00+00:00",
+        "2025-11-04T12:51:00+00:00",
+        "2025-11-04T12:52:00+00:00",
+        "2025-11-04T12:56:00+00:00",
+        "2025-11-04T12:59:00+00:00",
+        "2025-11-04T13:01:00+00:00",
+        "2025-11-04T13:02:00+00:00",
+        "2025-11-04T13:07:00+00:00",
+        "2025-11-04T13:11:00+00:00",
+        "2025-11-04T13:12:00+00:00",
+        "2025-11-04T13:13:00+00:00",
+        "2025-11-04T13:17:00+00:00",
+        "2025-11-04T13:28:00+00:00",
+        "2025-11-04T13:32:00+00:00",
+        "2025-11-04T13:33:00+00:00",
+        "2025-11-04T13:39:00+00:00",
+        "2025-11-04T13:40:00+00:00",
+        "2025-11-04T13:43:00+00:00",
+        "2025-11-04T13:45:00+00:00",
+        "2025-11-04T13:47:00+00:00",
+        "2025-11-04T13:50:00+00:00",
+        "2025-11-04T13:51:00+00:00",
+        "2025-11-04T13:52:00+00:00",
+        "2025-11-04T13:53:00+00:00",
+        "2025-11-04T13:54:00+00:00",
+        "2025-11-04T14:04:00+00:00",
+        "2025-11-04T14:06:00+00:00",
+        "2025-11-04T14:08:00+00:00",
+        "2025-11-04T14:11:00+00:00",
+        "2025-11-04T14:13:00+00:00",
+        "2025-11-04T14:15:00+00:00",
+        "2025-11-04T14:16:00+00:00",
+        "2025-11-04T14:17:00+00:00",
+        "2025-11-04T14:18:00+00:00",
+        "2025-11-04T14:19:00+00:00",
+        "2025-11-04T14:22:00+00:00",
+        "2025-11-04T14:23:00+00:00",
+        "2025-11-04T14:29:00+00:00",
+        "2025-11-04T14:30:00+00:00",
+        "2025-11-04T14:36:00+00:00",
+        "2025-11-04T14:40:00+00:00",
+        "2025-11-04T14:41:00+00:00",
+        "2025-11-04T14:42:00+00:00",
+        "2025-11-04T14:44:00+00:00",
+        "2025-11-04T14:46:00+00:00",
+        "2025-11-04T14:48:00+00:00",
+        "2025-11-04T14:50:00+00:00",
+        "2025-11-04T14:51:00+00:00",
+        "2025-11-04T14:53:00+00:00",
+        "2025-11-04T14:54:00+00:00",
+        "2025-11-04T14:55:00+00:00",
+        "2025-11-04T14:56:00+00:00",
+        "2025-11-04T14:58:00+00:00",
+        "2025-11-04T14:59:00+00:00",
+        "2025-11-04T15:00:00+00:00",
+        "2025-11-04T15:01:00+00:00",
+        "2025-11-04T15:03:00+00:00",
+        "2025-11-04T15:04:00+00:00",
+        "2025-11-04T15:07:00+00:00",
+        "2025-11-04T15:09:00+00:00",
+        "2025-11-04T15:12:00+00:00",
+        "2025-11-04T15:13:00+00:00",
+        "2025-11-04T15:15:00+00:00",
+        "2025-11-04T15:16:00+00:00",
+        "2025-11-04T15:19:00+00:00",
+        "2025-11-04T15:21:00+00:00",
+        "2025-11-04T15:25:00+00:00",
+        "2025-11-04T15:26:00+00:00",
+        "2025-11-04T15:29:00+00:00",
+        "2025-11-04T15:33:00+00:00",
+        "2025-11-04T15:34:00+00:00",
+        "2025-11-04T15:37:00+00:00",
+        "2025-11-04T15:38:00+00:00",
+        "2025-11-04T15:39:00+00:00",
+        "2025-11-04T15:40:00+00:00",
+        "2025-11-04T15:57:00+00:00",
+        "2025-11-04T15:58:00+00:00",
+        "2025-11-04T16:00:00+00:00",
+        "2025-11-04T16:06:00+00:00",
+        "2025-11-04T16:07:00+00:00",
+        "2025-11-04T16:12:00+00:00",
+        "2025-11-04T16:14:00+00:00",
+        "2025-11-04T16:16:00+00:00",
+        "2025-11-04T16:17:00+00:00",
+        "2025-11-04T16:21:00+00:00",
+        "2025-11-04T16:25:00+00:00",
+        "2025-11-04T16:27:00+00:00",
+        "2025-11-04T16:28:00+00:00",
+        "2025-11-04T16:31:00+00:00",
+        "2025-11-04T16:34:00+00:00",
+        "2025-11-04T16:36:00+00:00",
+        "2025-11-04T16:40:00+00:00",
+        "2025-11-04T16:48:00+00:00",
+        "2025-11-04T16:57:00+00:00"
+      ]
+    },
+    "end_exclusive": "2026-04-01T00:00:00+00:00",
+    "start_inclusive": "2025-10-01T00:00:00+00:00",
+    "timeframe": "sb1m"
+  },
+  "rows": [
+    {
+      "adds": 0,
+      "average_r": -0.23076923076923078,
+      "buckets": [
+        2.0,
+        2.0,
+        -9.0,
+        -3.0,
+        -2.0,
+        1.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-hour-fvg-rr2": {
+          "total_r": -9.0,
+          "trades": 39,
+          "wins": 10
+        }
+      },
+      "exit_reasons": {
+        "STOP": 29,
+        "TARGET": 10
+      },
+      "extra_cost_average_r": -0.3818086751976472,
+      "first_half_r": -5.0,
+      "label": "sb1m-GOLD-silverbullet-london-hour-fvg-rr2-DAY",
+      "max_drawdown_r": 14.0,
+      "median_hold_hours": 0.016666666666666666,
+      "median_spread_r": 0.2639849151477778,
+      "pnl": -0.17374285714267892,
+      "profit_factor": 0.6896551724137931,
+      "second_half_r": -4.0,
+      "side": {
+        "BUY": {
+          "total_r": -9.0,
+          "trades": 36
+        },
+        "SELL": {
+          "total_r": 0.0,
+          "trades": 3
+        }
+      },
+      "skipped": {
+        "entry_drift": 4,
+        "risk: 1 position(s) already open": 8,
+        "risk: The daily paper-trade limit has been reached": 55,
+        "trend_filter": 165
+      },
+      "total_r": -9.0,
+      "trades": 39,
+      "trades_per_week": 1.500005723465062,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-london-hour-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.2564102564102564
+    },
+    {
+      "adds": 0,
+      "average_r": 0.22326459358747072,
+      "buckets": [
+        9.93478260869842,
+        5.658241678207114,
+        -9.0,
+        3.6711833784912358,
+        -0.41068602811072985,
+        -1.3694670809621519
+      ],
+      "by_strategy": {
+        "silverbullet-london-hour-fvg-liq": {
+          "total_r": 8.484054556323887,
+          "trades": 38,
+          "wins": 5
+        }
+      },
+      "exit_reasons": {
+        "STOP": 33,
+        "TARGET": 5
+      },
+      "extra_cost_average_r": 0.06892067335813798,
+      "first_half_r": 6.593024286905534,
+      "label": "sb1m-GOLD-silverbullet-london-hour-fvg-liq-DAY",
+      "max_drawdown_r": 13.0,
+      "median_hold_hours": 0.016666666666666666,
+      "median_spread_r": 0.26518878896634274,
+      "pnl": -2.8066678571426564,
+      "profit_factor": 1.2570925623128453,
+      "second_half_r": 1.891030269418354,
+      "side": {
+        "BUY": {
+          "total_r": 11.484054556323887,
+          "trades": 35
+        },
+        "SELL": {
+          "total_r": -3.0,
+          "trades": 3
+        }
+      },
+      "skipped": {
+        "entry_drift": 4,
+        "risk: 1 position(s) already open": 12,
+        "risk: The daily paper-trade limit has been reached": 45,
+        "trend_filter": 156
+      },
+      "total_r": 8.484054556323887,
+      "trades": 38,
+      "trades_per_week": 1.4615440382480092,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-london-hour-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.13157894736842105
+    },
+    {
+      "adds": 0,
+      "average_r": 0.275,
+      "buckets": [
+        2.0,
+        7.0,
+        -3.0,
+        0.0,
+        1.0,
+        4.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-hour-sweep-rr2": {
+          "total_r": 11.0,
+          "trades": 40,
+          "wins": 17
+        }
+      },
+      "exit_reasons": {
+        "STOP": 23,
+        "TARGET": 17
+      },
+      "extra_cost_average_r": 0.24499373045000067,
+      "first_half_r": 6.0,
+      "label": "sb1m-GOLD-silverbullet-london-hour-sweep-rr2-DAY",
+      "max_drawdown_r": 7.0,
+      "median_hold_hours": 0.7416666666666667,
+      "median_spread_r": 0.050123891805911425,
+      "pnl": 0.29853928571383187,
+      "profit_factor": 1.4782608695652173,
+      "second_half_r": 5.0,
+      "side": {
+        "BUY": {
+          "total_r": 11.0,
+          "trades": 37
+        },
+        "SELL": {
+          "total_r": 0.0,
+          "trades": 3
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 43,
+        "risk: The daily paper-trade limit has been reached": 23,
+        "trend_filter": 165
+      },
+      "total_r": 11.0,
+      "trades": 40,
+      "trades_per_week": 1.5384674086821148,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-london-hour-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.425
+    },
+    {
+      "adds": 0,
+      "average_r": 0.247176196250078,
+      "buckets": [
+        3.3649050252278014,
+        4.541629549966432,
+        -1.6363268437313783,
+        1.3408927115251135,
+        -0.38726795699234273,
+        0.9329819902569487
+      ],
+      "by_strategy": {
+        "silverbullet-london-hour-sweep-liq": {
+          "total_r": 8.156814476252576,
+          "trades": 33,
+          "wins": 13
+        }
+      },
+      "exit_reasons": {
+        "STOP": 20,
+        "TARGET": 13
+      },
+      "extra_cost_average_r": 0.21290689402593604,
+      "first_half_r": 6.270207731462855,
+      "label": "sb1m-GOLD-silverbullet-london-hour-sweep-liq-DAY",
+      "max_drawdown_r": 6.387267956992343,
+      "median_hold_hours": 0.65,
+      "median_spread_r": 0.05770261172997937,
+      "pnl": -3.136221428571071,
+      "profit_factor": 1.4078407238126287,
+      "second_half_r": 1.8866067447897195,
+      "side": {
+        "BUY": {
+          "total_r": 11.156814476252574,
+          "trades": 30
+        },
+        "SELL": {
+          "total_r": -3.0,
+          "trades": 3
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 19,
+        "risk: The daily paper-trade limit has been reached": 13,
+        "trend_filter": 125
+      },
+      "total_r": 8.156814476252574,
+      "trades": 33,
+      "trades_per_week": 1.2692356121627448,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-london-hour-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.3939393939393939
+    },
+    {
+      "adds": 0,
+      "average_r": -0.29411764705882354,
+      "buckets": [
+        3.0,
+        1.0,
+        -4.0,
+        -3.0,
+        -3.0,
+        1.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-day-fvg-rr2": {
+          "total_r": -5.0,
+          "trades": 17,
+          "wins": 4
+        }
+      },
+      "exit_reasons": {
+        "STOP": 13,
+        "TARGET": 4
+      },
+      "extra_cost_average_r": -0.4349759709071272,
+      "first_half_r": 0.0,
+      "label": "sb1m-GOLD-silverbullet-london-day-fvg-rr2-DAY",
+      "max_drawdown_r": 11.0,
+      "median_hold_hours": 0.016666666666666666,
+      "median_spread_r": 0.21103406692813229,
+      "pnl": -0.04086785714289362,
+      "profit_factor": 0.6153846153846154,
+      "second_half_r": -5.0,
+      "side": {
+        "BUY": {
+          "total_r": -7.0,
+          "trades": 16
+        },
+        "SELL": {
+          "total_r": 2.0,
+          "trades": 1
+        }
+      },
+      "skipped": {
+        "entry_drift": 4,
+        "risk: 1 position(s) already open": 5,
+        "risk: The daily paper-trade limit has been reached": 16,
+        "trend_filter": 79
+      },
+      "total_r": -5.0,
+      "trades": 17,
+      "trades_per_week": 0.6538486486898988,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-london-day-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.23529411764705882
+    },
+    {
+      "adds": 0,
+      "average_r": 0.09770297417422041,
+      "buckets": [
+        10.93478260869842,
+        2.726167952263327,
+        -4.0,
+        -3.0,
+        -3.0,
+        -2.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-day-fvg-liq": {
+          "total_r": 1.6609505609617479,
+          "trades": 17,
+          "wins": 2
+        }
+      },
+      "exit_reasons": {
+        "STOP": 15,
+        "TARGET": 2
+      },
+      "extra_cost_average_r": -0.04315534967408318,
+      "first_half_r": 9.660950560961748,
+      "label": "sb1m-GOLD-silverbullet-london-day-fvg-liq-DAY",
+      "max_drawdown_r": 12.0,
+      "median_hold_hours": 0.016666666666666666,
+      "median_spread_r": 0.21103406692813229,
+      "pnl": -1.0290392857143162,
+      "profit_factor": 1.1107300373974498,
+      "second_half_r": -8.0,
+      "side": {
+        "BUY": {
+          "total_r": 2.660950560961747,
+          "trades": 16
+        },
+        "SELL": {
+          "total_r": -1.0,
+          "trades": 1
+        }
+      },
+      "skipped": {
+        "entry_drift": 4,
+        "risk: 1 position(s) already open": 8,
+        "risk: The daily paper-trade limit has been reached": 13,
+        "trend_filter": 78
+      },
+      "total_r": 1.660950560961747,
+      "trades": 17,
+      "trades_per_week": 0.6538486486898988,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-london-day-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.11764705882352941
+    },
+    {
+      "adds": 0,
+      "average_r": -0.16666666666666666,
+      "buckets": [
+        0.0,
+        3.0,
+        -1.0,
+        -3.0,
+        0.0,
+        -2.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-day-sweep-rr2": {
+          "total_r": -3.0,
+          "trades": 18,
+          "wins": 5
+        }
+      },
+      "exit_reasons": {
+        "STOP": 13,
+        "TARGET": 5
+      },
+      "extra_cost_average_r": -0.1908718000903561,
+      "first_half_r": 2.0,
+      "label": "sb1m-GOLD-silverbullet-london-day-sweep-rr2-DAY",
+      "max_drawdown_r": 7.0,
+      "median_hold_hours": 1.0666666666666667,
+      "median_spread_r": 0.04309724462355831,
+      "pnl": -13.6001964285716,
+      "profit_factor": 0.7692307692307693,
+      "second_half_r": -5.0,
+      "side": {
+        "BUY": {
+          "total_r": -2.0,
+          "trades": 17
+        },
+        "SELL": {
+          "total_r": -1.0,
+          "trades": 1
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 18,
+        "risk: The daily paper-trade limit has been reached": 6,
+        "trend_filter": 79
+      },
+      "total_r": -3.0,
+      "trades": 18,
+      "trades_per_week": 0.6923103339069517,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-london-day-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.2777777777777778
+    },
+    {
+      "adds": 0,
+      "average_r": -0.16107373212641887,
+      "buckets": [
+        1.084899546338658,
+        3.7408495243203146,
+        -4.0,
+        -3.0,
+        1.4359974831919065,
+        -2.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-day-sweep-liq": {
+          "total_r": -2.7382534461491215,
+          "trades": 17,
+          "wins": 4
+        }
+      },
+      "exit_reasons": {
+        "STOP": 13,
+        "TARGET": 4
+      },
+      "extra_cost_average_r": -0.18615697091877953,
+      "first_half_r": 0.8257490706589725,
+      "label": "sb1m-GOLD-silverbullet-london-day-sweep-liq-DAY",
+      "max_drawdown_r": 7.5640025168080935,
+      "median_hold_hours": 2.05,
+      "median_spread_r": 0.04203783405066883,
+      "pnl": -12.178492857142828,
+      "profit_factor": 0.7893651195269906,
+      "second_half_r": -3.5640025168080935,
+      "side": {
+        "BUY": {
+          "total_r": -1.738253446149121,
+          "trades": 16
+        },
+        "SELL": {
+          "total_r": -1.0,
+          "trades": 1
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 12,
+        "risk: The daily paper-trade limit has been reached": 6,
+        "trend_filter": 77
+      },
+      "total_r": -2.738253446149121,
+      "trades": 17,
+      "trades_per_week": 0.6538486486898988,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-london-day-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.23529411764705882
+    },
+    {
+      "adds": 0,
+      "average_r": 0.17073170731707318,
+      "buckets": [
+        4.0,
+        -2.0,
+        4.0,
+        1.0,
+        -3.0,
+        3.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-hour-fvg-rr2": {
+          "total_r": 7.0,
+          "trades": 41,
+          "wins": 16
+        }
+      },
+      "exit_reasons": {
+        "STOP": 25,
+        "TARGET": 16
+      },
+      "extra_cost_average_r": 0.09533228669060058,
+      "first_half_r": 6.0,
+      "label": "sb1m-GOLD-silverbullet-am-hour-fvg-rr2-DAY",
+      "max_drawdown_r": 4.0,
+      "median_hold_hours": 0.05,
+      "median_spread_r": 0.11808964691196652,
+      "pnl": 5.11148928571447,
+      "profit_factor": 1.28,
+      "second_half_r": 1.0,
+      "side": {
+        "BUY": {
+          "total_r": 9.0,
+          "trades": 36
+        },
+        "SELL": {
+          "total_r": -2.0,
+          "trades": 5
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 7,
+        "risk: The daily paper-trade limit has been reached": 53,
+        "trend_filter": 135
+      },
+      "total_r": 7.0,
+      "trades": 41,
+      "trades_per_week": 1.5769290938991678,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-am-hour-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.3902439024390244
+    },
+    {
+      "adds": 0,
+      "average_r": 1.8423647902418798,
+      "buckets": [
+        11.832932841960943,
+        -1.0,
+        24.991550232897744,
+        -8.0,
+        8.944296247335862,
+        35.08344749723876
+      ],
+      "by_strategy": {
+        "silverbullet-am-hour-fvg-liq": {
+          "total_r": 71.85222681943331,
+          "trades": 39,
+          "wins": 11
+        }
+      },
+      "exit_reasons": {
+        "STOP": 28,
+        "TARGET": 11
+      },
+      "extra_cost_average_r": 1.7665121364313159,
+      "first_half_r": 35.82448307485869,
+      "label": "sb1m-GOLD-silverbullet-am-hour-fvg-liq-DAY",
+      "max_drawdown_r": 9.0,
+      "median_hold_hours": 0.06666666666666667,
+      "median_spread_r": 0.11808964691196652,
+      "pnl": 26.105860714285747,
+      "profit_factor": 3.566150957836904,
+      "second_half_r": 36.02774374457462,
+      "side": {
+        "BUY": {
+          "total_r": 60.489787666192434,
+          "trades": 34
+        },
+        "SELL": {
+          "total_r": 11.362439153240878,
+          "trades": 5
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 22,
+        "risk: The daily paper-trade limit has been reached": 29,
+        "trend_filter": 130
+      },
+      "total_r": 71.85222681943331,
+      "trades": 39,
+      "trades_per_week": 1.500005723465062,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-am-hour-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.28205128205128205
+    },
+    {
+      "adds": 0,
+      "average_r": 0.4574873656207806,
+      "buckets": [
+        1.0,
+        4.0,
+        7.0,
+        0.0,
+        4.0,
+        3.2144693560727817
+      ],
+      "by_strategy": {
+        "silverbullet-am-hour-sweep-rr2": {
+          "total_r": 19.214469356072783,
+          "trades": 42,
+          "wins": 20
+        }
+      },
+      "exit_reasons": {
+        "STOP": 22,
+        "TARGET": 20
+      },
+      "extra_cost_average_r": 0.44190142727092924,
+      "first_half_r": 12.0,
+      "label": "sb1m-GOLD-silverbullet-am-hour-sweep-rr2-DAY",
+      "max_drawdown_r": 4.0,
+      "median_hold_hours": 1.3083333333333333,
+      "median_spread_r": 0.02674785744901141,
+      "pnl": 45.47687857142774,
+      "profit_factor": 1.873384970730581,
+      "second_half_r": 7.214469356072781,
+      "side": {
+        "BUY": {
+          "total_r": 18.214469356072783,
+          "trades": 37
+        },
+        "SELL": {
+          "total_r": 1.0,
+          "trades": 5
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 47,
+        "risk: The daily paper-trade limit has been reached": 13,
+        "trend_filter": 135
+      },
+      "total_r": 19.214469356072783,
+      "trades": 42,
+      "trades_per_week": 1.6153907791162205,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-am-hour-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.47619047619047616
+    },
+    {
+      "adds": 0,
+      "average_r": 1.2187362043869345,
+      "buckets": [
+        1.4909271557490302,
+        9.661894309210503,
+        10.573962974460951,
+        4.197365901950152,
+        8.256529477805866,
+        6.037614925592335
+      ],
+      "by_strategy": {
+        "silverbullet-am-hour-sweep-liq": {
+          "total_r": 40.21829474476883,
+          "trades": 33,
+          "wins": 19
+        }
+      },
+      "exit_reasons": {
+        "STOP": 14,
+        "TARGET": 19
+      },
+      "extra_cost_average_r": 1.2013399301845604,
+      "first_half_r": 21.726784439420484,
+      "label": "sb1m-GOLD-silverbullet-am-hour-sweep-liq-DAY",
+      "max_drawdown_r": 2.0,
+      "median_hold_hours": 1.1333333333333333,
+      "median_spread_r": 0.031834967528332855,
+      "pnl": 47.769667857143446,
+      "profit_factor": 3.8727353389120602,
+      "second_half_r": 18.491510305348353,
+      "side": {
+        "BUY": {
+          "total_r": 35.335035085094916,
+          "trades": 28
+        },
+        "SELL": {
+          "total_r": 4.88325965967392,
+          "trades": 5
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 20,
+        "risk: The daily paper-trade limit has been reached": 8,
+        "trend_filter": 99
+      },
+      "total_r": 40.21829474476884,
+      "trades": 33,
+      "trades_per_week": 1.2692356121627448,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-am-hour-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.5757575757575758
+    },
+    {
+      "adds": 0,
+      "average_r": 0.043478260869565216,
+      "buckets": [
+        -3.0,
+        -2.0,
+        2.0,
+        1.0,
+        4.0,
+        -1.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-day-fvg-rr2": {
+          "total_r": 1.0,
+          "trades": 23,
+          "wins": 8
+        }
+      },
+      "exit_reasons": {
+        "STOP": 15,
+        "TARGET": 8
+      },
+      "extra_cost_average_r": -0.030828341390437407,
+      "first_half_r": -3.0,
+      "label": "sb1m-GOLD-silverbullet-am-day-fvg-rr2-DAY",
+      "max_drawdown_r": 7.0,
+      "median_hold_hours": 0.0,
+      "median_spread_r": 0.1309031067670621,
+      "pnl": 1.4966607142859176,
+      "profit_factor": 1.0666666666666667,
+      "second_half_r": 4.0,
+      "side": {
+        "BUY": {
+          "total_r": 3.0,
+          "trades": 21
+        },
+        "SELL": {
+          "total_r": -2.0,
+          "trades": 2
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 3,
+        "risk: The daily paper-trade limit has been reached": 32,
+        "trend_filter": 77
+      },
+      "total_r": 1.0,
+      "trades": 23,
+      "trades_per_week": 0.8846187599922161,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-am-day-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.34782608695652173
+    },
+    {
+      "adds": 0,
+      "average_r": 0.9881850425241846,
+      "buckets": [
+        -3.0,
+        -2.0,
+        23.050429397749788,
+        -5.0,
+        11.689641537782272,
+        -3.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-day-fvg-liq": {
+          "total_r": 21.74007093553206,
+          "trades": 22,
+          "wins": 3
+        }
+      },
+      "exit_reasons": {
+        "STOP": 19,
+        "TARGET": 3
+      },
+      "extra_cost_average_r": 0.9118034765602613,
+      "first_half_r": 18.050429397749788,
+      "label": "sb1m-GOLD-silverbullet-am-day-fvg-liq-DAY",
+      "max_drawdown_r": 8.0,
+      "median_hold_hours": 0.05,
+      "median_spread_r": 0.13238809117087286,
+      "pnl": 8.022082142857561,
+      "profit_factor": 2.1442142597648455,
+      "second_half_r": 3.689641537782272,
+      "side": {
+        "BUY": {
+          "total_r": 23.74007093553206,
+          "trades": 20
+        },
+        "SELL": {
+          "total_r": -2.0,
+          "trades": 2
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 18,
+        "risk: The daily paper-trade limit has been reached": 18,
+        "trend_filter": 77
+      },
+      "total_r": 21.74007093553206,
+      "trades": 22,
+      "trades_per_week": 0.8461570747751632,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-am-day-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.13636363636363635
+    },
+    {
+      "adds": 0,
+      "average_r": 0.7484551893944689,
+      "buckets": [
+        -3.0,
+        4.0,
+        2.0,
+        4.0,
+        5.0,
+        5.214469356072781
+      ],
+      "by_strategy": {
+        "silverbullet-am-day-sweep-rr2": {
+          "total_r": 17.214469356072783,
+          "trades": 23,
+          "wins": 13
+        }
+      },
+      "exit_reasons": {
+        "STOP": 10,
+        "TARGET": 13
+      },
+      "extra_cost_average_r": 0.734487838177987,
+      "first_half_r": 3.0,
+      "label": "sb1m-GOLD-silverbullet-am-day-sweep-rr2-DAY",
+      "max_drawdown_r": 3.0,
+      "median_hold_hours": 0.9833333333333333,
+      "median_spread_r": 0.026282491730402292,
+      "pnl": 47.79627499999933,
+      "profit_factor": 2.721446935607278,
+      "second_half_r": 14.214469356072781,
+      "side": {
+        "BUY": {
+          "total_r": 16.214469356072783,
+          "trades": 21
+        },
+        "SELL": {
+          "total_r": 1.0,
+          "trades": 2
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 24,
+        "risk: The daily paper-trade limit has been reached": 11,
+        "trend_filter": 77
+      },
+      "total_r": 17.214469356072783,
+      "trades": 23,
+      "trades_per_week": 0.8846187599922161,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-am-day-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.5652173913043478
+    },
+    {
+      "adds": 0,
+      "average_r": 1.0058221615191978,
+      "buckets": [
+        -3.0,
+        10.441634177506524,
+        8.213012820770132,
+        3.14742752336641,
+        4.314368708740888,
+        -3.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-day-sweep-liq": {
+          "total_r": 20.116443230383954,
+          "trades": 20,
+          "wins": 8
+        }
+      },
+      "exit_reasons": {
+        "STOP": 12,
+        "TARGET": 8
+      },
+      "extra_cost_average_r": 0.9907526679610237,
+      "first_half_r": 15.654646998276657,
+      "label": "sb1m-GOLD-silverbullet-am-day-sweep-liq-DAY",
+      "max_drawdown_r": 3.0,
+      "median_hold_hours": 3.3666666666666667,
+      "median_spread_r": 0.026325285643341828,
+      "pnl": 17.959939285714608,
+      "profit_factor": 2.6763702691986633,
+      "second_half_r": 4.461796232107298,
+      "side": {
+        "BUY": {
+          "total_r": 22.116443230383954,
+          "trades": 18
+        },
+        "SELL": {
+          "total_r": -2.0,
+          "trades": 2
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 22,
+        "risk: The daily paper-trade limit has been reached": 8,
+        "trend_filter": 70
+      },
+      "total_r": 20.116443230383954,
+      "trades": 20,
+      "trades_per_week": 0.7692337043410574,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-am-day-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.4
+    },
+    {
+      "adds": 0,
+      "average_r": -0.53125,
+      "buckets": [
+        0.0,
+        0.0,
+        -6.0,
+        -6.0,
+        0.0,
+        -5.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-hour-fvg-rr2": {
+          "total_r": -17.0,
+          "trades": 32,
+          "wins": 5
+        }
+      },
+      "exit_reasons": {
+        "STOP": 27,
+        "TARGET": 5
+      },
+      "extra_cost_average_r": -0.6872452062940625,
+      "first_half_r": -6.0,
+      "label": "sb1m-GOLD-silverbullet-pm-hour-fvg-rr2-DAY",
+      "max_drawdown_r": 20.0,
+      "median_hold_hours": 0.016666666666666666,
+      "median_spread_r": 0.19140708297252612,
+      "pnl": -5.32699285714266,
+      "profit_factor": 0.37037037037037035,
+      "second_half_r": -11.0,
+      "side": {
+        "BUY": {
+          "total_r": -14.0,
+          "trades": 29
+        },
+        "SELL": {
+          "total_r": -3.0,
+          "trades": 3
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 2,
+        "risk: The daily paper-trade limit has been reached": 60,
+        "trend_filter": 142
+      },
+      "total_r": -17.0,
+      "trades": 32,
+      "trades_per_week": 1.2307739269456919,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-pm-hour-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.15625
+    },
+    {
+      "adds": 0,
+      "average_r": -1.0,
+      "buckets": [
+        -6.0,
+        -3.0,
+        -8.0,
+        -6.0,
+        -3.0,
+        -5.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-hour-fvg-liq": {
+          "total_r": -31.0,
+          "trades": 31,
+          "wins": 0
+        }
+      },
+      "exit_reasons": {
+        "STOP": 31
+      },
+      "extra_cost_average_r": -1.1601041623971622,
+      "first_half_r": -17.0,
+      "label": "sb1m-GOLD-silverbullet-pm-hour-fvg-liq-DAY",
+      "max_drawdown_r": 31.0,
+      "median_hold_hours": 0.016666666666666666,
+      "median_spread_r": 0.19699812382693382,
+      "pnl": -6.655553571429346,
+      "profit_factor": 0.0,
+      "second_half_r": -14.0,
+      "side": {
+        "BUY": {
+          "total_r": -28.0,
+          "trades": 28
+        },
+        "SELL": {
+          "total_r": -3.0,
+          "trades": 3
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 11,
+        "risk: The daily paper-trade limit has been reached": 44,
+        "trend_filter": 131
+      },
+      "total_r": -31.0,
+      "trades": 31,
+      "trades_per_week": 1.192312241728639,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-pm-hour-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.0
+    },
+    {
+      "adds": 0,
+      "average_r": 0.3125,
+      "buckets": [
+        3.0,
+        -3.0,
+        3.0,
+        6.0,
+        0.0,
+        1.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-hour-sweep-rr2": {
+          "total_r": 10.0,
+          "trades": 32,
+          "wins": 14
+        }
+      },
+      "exit_reasons": {
+        "STOP": 18,
+        "TARGET": 14
+      },
+      "extra_cost_average_r": 0.27983445373072313,
+      "first_half_r": 3.0,
+      "label": "sb1m-GOLD-silverbullet-pm-hour-sweep-rr2-DAY",
+      "max_drawdown_r": 6.0,
+      "median_hold_hours": 0.7833333333333333,
+      "median_spread_r": 0.05573732268197734,
+      "pnl": 5.261210714285472,
+      "profit_factor": 1.5555555555555556,
+      "second_half_r": 7.0,
+      "side": {
+        "BUY": {
+          "total_r": 7.0,
+          "trades": 29
+        },
+        "SELL": {
+          "total_r": 3.0,
+          "trades": 3
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 48,
+        "risk: The daily paper-trade limit has been reached": 15,
+        "trend_filter": 142
+      },
+      "total_r": 10.0,
+      "trades": 32,
+      "trades_per_week": 1.2307739269456919,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-pm-hour-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.4375
+    },
+    {
+      "adds": 0,
+      "average_r": 0.22503684217245706,
+      "buckets": [
+        -4.0,
+        -3.0,
+        1.4854767018080226,
+        9.319464497543724,
+        1.3314791141206062,
+        0.714537583011531
+      ],
+      "by_strategy": {
+        "silverbullet-pm-hour-sweep-liq": {
+          "total_r": 5.850957896483884,
+          "trades": 26,
+          "wins": 9
+        }
+      },
+      "exit_reasons": {
+        "STOP": 17,
+        "TARGET": 9
+      },
+      "extra_cost_average_r": 0.18887785779898195,
+      "first_half_r": -5.514523298191977,
+      "label": "sb1m-GOLD-silverbullet-pm-hour-sweep-liq-DAY",
+      "max_drawdown_r": 10.0,
+      "median_hold_hours": 0.9666666666666667,
+      "median_spread_r": 0.060687095463450524,
+      "pnl": -3.868714285714805,
+      "profit_factor": 1.3441739939108166,
+      "second_half_r": 11.36548119467586,
+      "side": {
+        "BUY": {
+          "total_r": 3.1364203134723523,
+          "trades": 24
+        },
+        "SELL": {
+          "total_r": 2.714537583011531,
+          "trades": 2
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 24,
+        "risk: The daily paper-trade limit has been reached": 10,
+        "trend_filter": 110
+      },
+      "total_r": 5.850957896483884,
+      "trades": 26,
+      "trades_per_week": 1.0000038156433746,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-pm-hour-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.34615384615384615
+    },
+    {
+      "adds": 0,
+      "average_r": -1.0,
+      "buckets": [
+        0,
+        0,
+        0,
+        -2.0,
+        0,
+        -2.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-day-fvg-rr2": {
+          "total_r": -4.0,
+          "trades": 4,
+          "wins": 0
+        }
+      },
+      "exit_reasons": {
+        "STOP": 4
+      },
+      "extra_cost_average_r": -1.1288826284849693,
+      "first_half_r": 0,
+      "label": "sb1m-GOLD-silverbullet-pm-day-fvg-rr2-DAY",
+      "max_drawdown_r": 4.0,
+      "median_hold_hours": 0.008333333333333333,
+      "median_spread_r": 0.2834555256766934,
+      "pnl": -1.0660642857144011,
+      "profit_factor": 0.0,
+      "second_half_r": -4.0,
+      "side": {
+        "BUY": {
+          "total_r": -3.0,
+          "trades": 3
+        },
+        "SELL": {
+          "total_r": -1.0,
+          "trades": 1
+        }
+      },
+      "skipped": {
+        "risk: The daily paper-trade limit has been reached": 5,
+        "trend_filter": 22
+      },
+      "total_r": -4.0,
+      "trades": 4,
+      "trades_per_week": 0.15384674086821148,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-pm-day-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.0
+    },
+    {
+      "adds": 0,
+      "average_r": -1.0,
+      "buckets": [
+        0,
+        0,
+        0,
+        -2.0,
+        0,
+        -2.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-day-fvg-liq": {
+          "total_r": -4.0,
+          "trades": 4,
+          "wins": 0
+        }
+      },
+      "exit_reasons": {
+        "STOP": 4
+      },
+      "extra_cost_average_r": -1.1288826284849693,
+      "first_half_r": 0,
+      "label": "sb1m-GOLD-silverbullet-pm-day-fvg-liq-DAY",
+      "max_drawdown_r": 4.0,
+      "median_hold_hours": 0.008333333333333333,
+      "median_spread_r": 0.2834555256766934,
+      "pnl": -1.0660642857144011,
+      "profit_factor": 0.0,
+      "second_half_r": -4.0,
+      "side": {
+        "BUY": {
+          "total_r": -3.0,
+          "trades": 3
+        },
+        "SELL": {
+          "total_r": -1.0,
+          "trades": 1
+        }
+      },
+      "skipped": {
+        "risk: The daily paper-trade limit has been reached": 5,
+        "trend_filter": 21
+      },
+      "total_r": -4.0,
+      "trades": 4,
+      "trades_per_week": 0.15384674086821148,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-pm-day-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.0
+    },
+    {
+      "adds": 0,
+      "average_r": -0.25,
+      "buckets": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        -2.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-day-sweep-rr2": {
+          "total_r": -1.0,
+          "trades": 4,
+          "wins": 1
+        }
+      },
+      "exit_reasons": {
+        "STOP": 3,
+        "TARGET": 1
+      },
+      "extra_cost_average_r": -0.2701128580419063,
+      "first_half_r": 0,
+      "label": "sb1m-GOLD-silverbullet-pm-day-sweep-rr2-DAY",
+      "max_drawdown_r": 3.0,
+      "median_hold_hours": 0.15833333333333333,
+      "median_spread_r": 0.04644713417052895,
+      "pnl": 1.7449249999996939,
+      "profit_factor": 0.6666666666666666,
+      "second_half_r": -1.0,
+      "side": {
+        "BUY": {
+          "total_r": 0.0,
+          "trades": 3
+        },
+        "SELL": {
+          "total_r": -1.0,
+          "trades": 1
+        }
+      },
+      "skipped": {
+        "risk: The daily paper-trade limit has been reached": 5,
+        "trend_filter": 22
+      },
+      "total_r": -1.0,
+      "trades": 4,
+      "trades_per_week": 0.15384674086821148,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-pm-day-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.25
+    },
+    {
+      "adds": 0,
+      "average_r": 0.2738974027056158,
+      "buckets": [
+        0,
+        0,
+        0,
+        3.095589610822463,
+        0,
+        -2.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-day-sweep-liq": {
+          "total_r": 1.0955896108224632,
+          "trades": 4,
+          "wins": 1
+        }
+      },
+      "exit_reasons": {
+        "STOP": 3,
+        "TARGET": 1
+      },
+      "extra_cost_average_r": 0.2537845446637094,
+      "first_half_r": 0,
+      "label": "sb1m-GOLD-silverbullet-pm-day-sweep-liq-DAY",
+      "max_drawdown_r": 3.0,
+      "median_hold_hours": 0.15833333333333333,
+      "median_spread_r": 0.04644713417052895,
+      "pnl": 7.225932142857074,
+      "profit_factor": 1.365196536940821,
+      "second_half_r": 1.0955896108224632,
+      "side": {
+        "BUY": {
+          "total_r": 2.095589610822463,
+          "trades": 3
+        },
+        "SELL": {
+          "total_r": -1.0,
+          "trades": 1
+        }
+      },
+      "skipped": {
+        "risk: The daily paper-trade limit has been reached": 5,
+        "trend_filter": 20
+      },
+      "total_r": 1.0955896108224632,
+      "trades": 4,
+      "trades_per_week": 0.15384674086821148,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-pm-day-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.25
+    },
+    {
+      "adds": 0,
+      "average_r": -0.4549175288727471,
+      "buckets": [
+        4.0,
+        -4.0,
+        -8.43214166443862,
+        -3.403899721453242,
+        -6.0,
+        -4.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-hour-fvg-rr2": {
+          "total_r": -21.83604138589186,
+          "trades": 48,
+          "wins": 9
+        }
+      },
+      "exit_reasons": {
+        "STOP": 39,
+        "TARGET": 9
+      },
+      "extra_cost_average_r": -0.7057211171926506,
+      "first_half_r": -8.43214166443862,
+      "label": "sb1m-US100-silverbullet-london-hour-fvg-rr2-DAY",
+      "max_drawdown_r": 25.83604138589186,
+      "median_hold_hours": 0.0,
+      "median_spread_r": 0.3580217269395638,
+      "pnl": -10.320571428568291,
+      "profit_factor": 0.4518521262098797,
+      "second_half_r": -13.403899721453241,
+      "side": {
+        "BUY": {
+          "total_r": -11.836041385891862,
+          "trades": 32
+        },
+        "SELL": {
+          "total_r": -10.0,
+          "trades": 16
+        }
+      },
+      "skipped": {
+        "entry_drift": 12,
+        "risk: 1 position(s) already open": 2,
+        "risk: The daily paper-trade limit has been reached": 70,
+        "trend_filter": 154
+      },
+      "total_r": -21.83604138589186,
+      "trades": 48,
+      "trades_per_week": 1.8461608904185378,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-london-hour-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.1875
+    },
+    {
+      "adds": 0,
+      "average_r": -0.39790784731598633,
+      "buckets": [
+        7.3308421475692676,
+        -6.0,
+        -8.43214166443862,
+        4.991262082281939,
+        -9.0,
+        -6.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-hour-fvg-liq": {
+          "total_r": -17.11003743458741,
+          "trades": 43,
+          "wins": 5
+        }
+      },
+      "exit_reasons": {
+        "STOP": 38,
+        "TARGET": 5
+      },
+      "extra_cost_average_r": -0.6550138030736895,
+      "first_half_r": -7.101299516869352,
+      "label": "sb1m-US100-silverbullet-london-hour-fvg-liq-DAY",
+      "max_drawdown_r": 24.8180545451238,
+      "median_hold_hours": 0.0,
+      "median_spread_r": 0.34773009521201476,
+      "pnl": -6.423571428572177,
+      "profit_factor": 0.5594289009898148,
+      "second_half_r": -10.008737917718062,
+      "side": {
+        "BUY": {
+          "total_r": -2.1100374345874124,
+          "trades": 28
+        },
+        "SELL": {
+          "total_r": -15.0,
+          "trades": 15
+        }
+      },
+      "skipped": {
+        "entry_drift": 12,
+        "risk: 1 position(s) already open": 14,
+        "risk: The daily paper-trade limit has been reached": 45,
+        "trend_filter": 129
+      },
+      "total_r": -17.11003743458741,
+      "trades": 43,
+      "trades_per_week": 1.6538524643332735,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-london-hour-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.11627906976744186
+    },
+    {
+      "adds": 0,
+      "average_r": -0.25085042389151513,
+      "buckets": [
+        -3.0,
+        -4.0,
+        -2.0,
+        -0.04422204235878646,
+        -3.0,
+        -1.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-hour-sweep-rr2": {
+          "total_r": -13.044222042358786,
+          "trades": 52,
+          "wins": 13
+        }
+      },
+      "exit_reasons": {
+        "STOP": 39,
+        "TARGET": 13
+      },
+      "extra_cost_average_r": -0.3041215360697792,
+      "first_half_r": -9.0,
+      "label": "sb1m-US100-silverbullet-london-hour-sweep-rr2-DAY",
+      "max_drawdown_r": 19.044222042358786,
+      "median_hold_hours": 0.4166666666666667,
+      "median_spread_r": 0.0858320582929549,
+      "pnl": -56.419357142856825,
+      "profit_factor": 0.6661138595631293,
+      "second_half_r": -4.044222042358786,
+      "side": {
+        "BUY": {
+          "total_r": -9.044222042358786,
+          "trades": 36
+        },
+        "SELL": {
+          "total_r": -4.0,
+          "trades": 16
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 54,
+        "risk: The daily paper-trade limit has been reached": 26,
+        "trend_filter": 154
+      },
+      "total_r": -13.044222042358786,
+      "trades": 52,
+      "trades_per_week": 2.000007631286749,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-london-hour-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.25
+    },
+    {
+      "adds": 0,
+      "average_r": -0.14004623088417795,
+      "buckets": [
+        -0.6428840299685417,
+        -5.0,
+        -0.5202474177145819,
+        0.7638877377896103,
+        1.69201329608538,
+        -1.7545725906748069
+      ],
+      "by_strategy": {
+        "silverbullet-london-hour-sweep-liq": {
+          "total_r": -5.46180300448294,
+          "trades": 39,
+          "wins": 11
+        }
+      },
+      "exit_reasons": {
+        "STOP": 28,
+        "TARGET": 11
+      },
+      "extra_cost_average_r": -0.20125335986396647,
+      "first_half_r": -6.163131447683123,
+      "label": "sb1m-US100-silverbullet-london-hour-sweep-liq-DAY",
+      "max_drawdown_r": 9.226038568342243,
+      "median_hold_hours": 0.3,
+      "median_spread_r": 0.09942789504833106,
+      "pnl": -14.055357142859066,
+      "profit_factor": 0.8049356069827521,
+      "second_half_r": 0.7013284432001834,
+      "side": {
+        "BUY": {
+          "total_r": -5.399243709893513,
+          "trades": 26
+        },
+        "SELL": {
+          "total_r": -0.06255929458942688,
+          "trades": 13
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 9,
+        "risk: The daily paper-trade limit has been reached": 15,
+        "trend_filter": 84
+      },
+      "total_r": -5.46180300448294,
+      "trades": 39,
+      "trades_per_week": 1.500005723465062,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-london-hour-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.28205128205128205
+    },
+    {
+      "adds": 0,
+      "average_r": -0.4869735035468501,
+      "buckets": [
+        3.0,
+        -5.0,
+        -7.666225895592812,
+        -0.4038997214532418,
+        -5.0,
+        -1.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-day-fvg-rr2": {
+          "total_r": -16.070125617046052,
+          "trades": 33,
+          "wins": 6
+        }
+      },
+      "exit_reasons": {
+        "STOP": 27,
+        "TARGET": 6
+      },
+      "extra_cost_average_r": -0.757358659191992,
+      "first_half_r": -9.666225895592813,
+      "label": "sb1m-US100-silverbullet-london-day-fvg-rr2-DAY",
+      "max_drawdown_r": 21.070125617046052,
+      "median_hold_hours": 0.0,
+      "median_spread_r": 0.34773009521201476,
+      "pnl": -8.926642857139086,
+      "profit_factor": 0.4275007587679907,
+      "second_half_r": -6.403899721453242,
+      "side": {
+        "BUY": {
+          "total_r": -10.070125617046054,
+          "trades": 21
+        },
+        "SELL": {
+          "total_r": -6.0,
+          "trades": 12
+        }
+      },
+      "skipped": {
+        "entry_drift": 9,
+        "risk: 1 position(s) already open": 2,
+        "risk: The daily paper-trade limit has been reached": 41,
+        "trend_filter": 121
+      },
+      "total_r": -16.070125617046052,
+      "trades": 33,
+      "trades_per_week": 1.2692356121627448,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-london-day-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.18181818181818182
+    },
+    {
+      "adds": 0,
+      "average_r": -0.3828456361217218,
+      "buckets": [
+        7.394525382814791,
+        -5.0,
+        -7.666225895592812,
+        4.637794520761202,
+        -8.0,
+        -4.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-day-fvg-liq": {
+          "total_r": -12.63390599201682,
+          "trades": 33,
+          "wins": 3
+        }
+      },
+      "exit_reasons": {
+        "STOP": 30,
+        "TARGET": 3
+      },
+      "extra_cost_average_r": -0.6532307917668637,
+      "first_half_r": -5.27170051277802,
+      "label": "sb1m-US100-silverbullet-london-day-fvg-liq-DAY",
+      "max_drawdown_r": 20.689653197765928,
+      "median_hold_hours": 0.0,
+      "median_spread_r": 0.34773009521201476,
+      "pnl": -7.4896428571402796,
+      "profit_factor": 0.5933744797901475,
+      "second_half_r": -7.362205479238798,
+      "side": {
+        "BUY": {
+          "total_r": -0.6339059920168186,
+          "trades": 21
+        },
+        "SELL": {
+          "total_r": -12.0,
+          "trades": 12
+        }
+      },
+      "skipped": {
+        "entry_drift": 9,
+        "risk: 1 position(s) already open": 10,
+        "risk: The daily paper-trade limit has been reached": 28,
+        "trend_filter": 113
+      },
+      "total_r": -12.63390599201682,
+      "trades": 33,
+      "trades_per_week": 1.2692356121627448,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-london-day-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.09090909090909091
+    },
+    {
+      "adds": 0,
+      "average_r": -0.33521875362221576,
+      "buckets": [
+        -1.0,
+        -2.0,
+        -1.0,
+        -2.0678751303997664,
+        -5.0,
+        -1.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-day-sweep-rr2": {
+          "total_r": -12.067875130399766,
+          "trades": 36,
+          "wins": 8
+        }
+      },
+      "exit_reasons": {
+        "STOP": 28,
+        "TARGET": 8
+      },
+      "extra_cost_average_r": -0.389613819341727,
+      "first_half_r": -4.0,
+      "label": "sb1m-US100-silverbullet-london-day-sweep-rr2-DAY",
+      "max_drawdown_r": 16.067875130399766,
+      "median_hold_hours": 0.4083333333333333,
+      "median_spread_r": 0.0865856252991712,
+      "pnl": -43.340071428570084,
+      "profit_factor": 0.5700467144614988,
+      "second_half_r": -8.067875130399766,
+      "side": {
+        "BUY": {
+          "total_r": -6.0678751303997664,
+          "trades": 24
+        },
+        "SELL": {
+          "total_r": -6.0,
+          "trades": 12
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 32,
+        "risk: The daily paper-trade limit has been reached": 17,
+        "trend_filter": 121
+      },
+      "total_r": -12.067875130399766,
+      "trades": 36,
+      "trades_per_week": 1.3846206678139035,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-london-day-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.2222222222222222
+    },
+    {
+      "adds": 0,
+      "average_r": -0.2821134807188678,
+      "buckets": [
+        -1.8733796285612847,
+        -4.0,
+        0.9338753583493786,
+        -1.9592742584228613,
+        -1.6880946855422003,
+        -0.7228716495456702
+      ],
+      "by_strategy": {
+        "silverbullet-london-day-sweep-liq": {
+          "total_r": -9.309744863722639,
+          "trades": 33,
+          "wins": 7
+        }
+      },
+      "exit_reasons": {
+        "STOP": 26,
+        "TARGET": 7
+      },
+      "extra_cost_average_r": -0.33967512713901254,
+      "first_half_r": -4.939504270211906,
+      "label": "sb1m-US100-silverbullet-london-day-sweep-liq-DAY",
+      "max_drawdown_r": 13.737692441761025,
+      "median_hold_hours": 0.43333333333333335,
+      "median_spread_r": 0.089657380723627,
+      "pnl": -26.684857142857073,
+      "profit_factor": 0.6428652194644808,
+      "second_half_r": -4.370240593510732,
+      "side": {
+        "BUY": {
+          "total_r": -6.898778528634767,
+          "trades": 22
+        },
+        "SELL": {
+          "total_r": -2.4109663350878705,
+          "trades": 11
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 21,
+        "risk: The daily paper-trade limit has been reached": 11,
+        "trend_filter": 96
+      },
+      "total_r": -9.309744863722639,
+      "trades": 33,
+      "trades_per_week": 1.2692356121627448,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-london-day-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.21212121212121213
+    },
+    {
+      "adds": 0,
+      "average_r": -0.07692307692307693,
+      "buckets": [
+        -4.0,
+        -1.0,
+        3.0,
+        5.0,
+        -5.0,
+        -1.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-hour-fvg-rr2": {
+          "total_r": -3.0,
+          "trades": 39,
+          "wins": 12
+        }
+      },
+      "exit_reasons": {
+        "STOP": 27,
+        "TARGET": 12
+      },
+      "extra_cost_average_r": -0.1926405390274421,
+      "first_half_r": -1.0,
+      "label": "sb1m-US100-silverbullet-am-hour-fvg-rr2-DAY",
+      "max_drawdown_r": 8.0,
+      "median_hold_hours": 0.0,
+      "median_spread_r": 0.1601932489987298,
+      "pnl": -17.715428571429587,
+      "profit_factor": 0.8888888888888888,
+      "second_half_r": -2.0,
+      "side": {
+        "BUY": {
+          "total_r": 2.0,
+          "trades": 25
+        },
+        "SELL": {
+          "total_r": -5.0,
+          "trades": 14
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 1,
+        "risk: The daily paper-trade limit has been reached": 43,
+        "trend_filter": 126
+      },
+      "total_r": -3.0,
+      "trades": 39,
+      "trades_per_week": 1.500005723465062,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-am-hour-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.3076923076923077
+    },
+    {
+      "adds": 0,
+      "average_r": -1.198235788246533,
+      "buckets": [
+        -7.0,
+        -4.0,
+        -6.0,
+        -13.532959953368255,
+        -8.0,
+        -7.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-hour-fvg-liq": {
+          "total_r": -45.532959953368255,
+          "trades": 38,
+          "wins": 1
+        }
+      },
+      "exit_reasons": {
+        "STOP": 37,
+        "TARGET": 1
+      },
+      "extra_cost_average_r": -1.3159886589938714,
+      "first_half_r": -16.0,
+      "label": "sb1m-US100-silverbullet-am-hour-fvg-liq-DAY",
+      "max_drawdown_r": 45.532959953368255,
+      "median_hold_hours": 0.03333333333333333,
+      "median_spread_r": 0.16257894971533596,
+      "pnl": -63.40499999999993,
+      "profit_factor": 0.08751080774200164,
+      "second_half_r": -29.532959953368255,
+      "side": {
+        "BUY": {
+          "total_r": -31.532959953368255,
+          "trades": 24
+        },
+        "SELL": {
+          "total_r": -14.0,
+          "trades": 14
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 4,
+        "risk: The daily paper-trade limit has been reached": 38,
+        "trend_filter": 123
+      },
+      "total_r": -45.532959953368255,
+      "trades": 38,
+      "trades_per_week": 1.4615440382480092,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-am-hour-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.02631578947368421
+    },
+    {
+      "adds": 0,
+      "average_r": -0.43482155359282304,
+      "buckets": [
+        -4.0,
+        -1.0,
+        -3.0,
+        -2.523219036527275,
+        -5.0,
+        -1.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-hour-sweep-rr2": {
+          "total_r": -16.523219036527273,
+          "trades": 38,
+          "wins": 8
+        }
+      },
+      "exit_reasons": {
+        "STOP": 30,
+        "TARGET": 8
+      },
+      "extra_cost_average_r": -0.45757694821319256,
+      "first_half_r": -7.0,
+      "label": "sb1m-US100-silverbullet-am-hour-sweep-rr2-DAY",
+      "max_drawdown_r": 18.523219036527273,
+      "median_hold_hours": 0.4166666666666667,
+      "median_spread_r": 0.03750530262255485,
+      "pnl": -120.10150000000068,
+      "profit_factor": 0.4919562230918834,
+      "second_half_r": -9.523219036527275,
+      "side": {
+        "BUY": {
+          "total_r": -11.523219036527275,
+          "trades": 24
+        },
+        "SELL": {
+          "total_r": -5.0,
+          "trades": 14
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 29,
+        "risk: The daily paper-trade limit has been reached": 16,
+        "trend_filter": 126
+      },
+      "total_r": -16.523219036527276,
+      "trades": 38,
+      "trades_per_week": 1.4615440382480092,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-am-hour-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.21052631578947367
+    },
+    {
+      "adds": 0,
+      "average_r": -0.43033352357942384,
+      "buckets": [
+        0.696508107772061,
+        -0.7276503290942982,
+        -3.8331819950707438,
+        -4.930872105567195,
+        -2.473684210526544,
+        -3.7927927927931147
+      ],
+      "by_strategy": {
+        "silverbullet-am-hour-sweep-liq": {
+          "total_r": -15.061673325279834,
+          "trades": 35,
+          "wins": 7
+        }
+      },
+      "exit_reasons": {
+        "STOP": 28,
+        "TARGET": 7
+      },
+      "extra_cost_average_r": -0.4542084249886864,
+      "first_half_r": -2.8643242163929807,
+      "label": "sb1m-US100-silverbullet-am-hour-sweep-liq-DAY",
+      "max_drawdown_r": 18.96538864025878,
+      "median_hold_hours": 0.43333333333333335,
+      "median_spread_r": 0.03984252715464911,
+      "pnl": -81.12528571428885,
+      "profit_factor": 0.5065502984054381,
+      "second_half_r": -12.197349108886854,
+      "side": {
+        "BUY": {
+          "total_r": -9.795196321960177,
+          "trades": 21
+        },
+        "SELL": {
+          "total_r": -5.266477003319659,
+          "trades": 14
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 15,
+        "risk: The daily paper-trade limit has been reached": 10,
+        "trend_filter": 99
+      },
+      "total_r": -15.061673325279834,
+      "trades": 35,
+      "trades_per_week": 1.3461589825968505,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-am-hour-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.2
+    },
+    {
+      "adds": 0,
+      "average_r": 0.38461538461538464,
+      "buckets": [
+        -1.0,
+        1.0,
+        4.0,
+        9.0,
+        -2.0,
+        -1.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-day-fvg-rr2": {
+          "total_r": 10.0,
+          "trades": 26,
+          "wins": 12
+        }
+      },
+      "exit_reasons": {
+        "STOP": 14,
+        "TARGET": 12
+      },
+      "extra_cost_average_r": 0.2827235858168572,
+      "first_half_r": 4.0,
+      "label": "sb1m-US100-silverbullet-am-day-fvg-rr2-DAY",
+      "max_drawdown_r": 4.0,
+      "median_hold_hours": 0.008333333333333333,
+      "median_spread_r": 0.1371701654517825,
+      "pnl": 8.317571428569499,
+      "profit_factor": 1.7142857142857142,
+      "second_half_r": 6.0,
+      "side": {
+        "BUY": {
+          "total_r": 12.0,
+          "trades": 18
+        },
+        "SELL": {
+          "total_r": -2.0,
+          "trades": 8
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 1,
+        "risk: The daily paper-trade limit has been reached": 30,
+        "trend_filter": 93
+      },
+      "total_r": 10.0,
+      "trades": 26,
+      "trades_per_week": 1.0000038156433746,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-am-day-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.46153846153846156
+    },
+    {
+      "adds": 0,
+      "average_r": -1.289729228975702,
+      "buckets": [
+        -4.0,
+        -2.0,
+        -5.0,
+        -13.532959953368255,
+        -5.0,
+        -4.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-day-fvg-liq": {
+          "total_r": -33.532959953368255,
+          "trades": 26,
+          "wins": 1
+        }
+      },
+      "exit_reasons": {
+        "STOP": 25,
+        "TARGET": 1
+      },
+      "extra_cost_average_r": -1.3916210277742294,
+      "first_half_r": -11.0,
+      "label": "sb1m-US100-silverbullet-am-day-fvg-liq-DAY",
+      "max_drawdown_r": 33.532959953368255,
+      "median_hold_hours": 0.03333333333333333,
+      "median_spread_r": 0.1371701654517825,
+      "pnl": -50.655285714284766,
+      "profit_factor": 0.11521891609915696,
+      "second_half_r": -22.532959953368255,
+      "side": {
+        "BUY": {
+          "total_r": -25.532959953368255,
+          "trades": 18
+        },
+        "SELL": {
+          "total_r": -8.0,
+          "trades": 8
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 5,
+        "risk: The daily paper-trade limit has been reached": 25,
+        "trend_filter": 92
+      },
+      "total_r": -33.532959953368255,
+      "trades": 26,
+      "trades_per_week": 1.0000038156433746,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-am-day-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.038461538461538464
+    },
+    {
+      "adds": 0,
+      "average_r": -0.500928761461091,
+      "buckets": [
+        -4.0,
+        -2.0,
+        -2.0,
+        -1.523219036527275,
+        -2.0,
+        -1.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-day-sweep-rr2": {
+          "total_r": -12.523219036527275,
+          "trades": 25,
+          "wins": 5
+        }
+      },
+      "exit_reasons": {
+        "STOP": 20,
+        "TARGET": 5
+      },
+      "extra_cost_average_r": -0.5231221111544445,
+      "first_half_r": -8.0,
+      "label": "sb1m-US100-silverbullet-am-day-sweep-rr2-DAY",
+      "max_drawdown_r": 12.523219036527275,
+      "median_hold_hours": 0.3,
+      "median_spread_r": 0.032569921935639304,
+      "pnl": -88.24114285714532,
+      "profit_factor": 0.44398626962613075,
+      "second_half_r": -4.523219036527275,
+      "side": {
+        "BUY": {
+          "total_r": -10.523219036527275,
+          "trades": 17
+        },
+        "SELL": {
+          "total_r": -2.0,
+          "trades": 8
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 18,
+        "risk: The daily paper-trade limit has been reached": 14,
+        "trend_filter": 93
+      },
+      "total_r": -12.523219036527275,
+      "trades": 25,
+      "trades_per_week": 0.9615421304263218,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-am-day-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.2
+    },
+    {
+      "adds": 0,
+      "average_r": -0.5636626442478366,
+      "buckets": [
+        -1.0809182753874076,
+        -2.0,
+        -2.6757902019285105,
+        -4.861173418353454,
+        0.5263157894734558,
+        -4.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-day-sweep-liq": {
+          "total_r": -14.091566106195916,
+          "trades": 25,
+          "wins": 4
+        }
+      },
+      "exit_reasons": {
+        "STOP": 21,
+        "TARGET": 4
+      },
+      "extra_cost_average_r": -0.5869571061183126,
+      "first_half_r": -5.756708477315918,
+      "label": "sb1m-US100-silverbullet-am-day-sweep-liq-DAY",
+      "max_drawdown_r": 14.091566106195916,
+      "median_hold_hours": 0.43333333333333335,
+      "median_spread_r": 0.03984252715464911,
+      "pnl": -71.60264285714511,
+      "profit_factor": 0.4009507761537959,
+      "second_half_r": -8.334857628879998,
+      "side": {
+        "BUY": {
+          "total_r": -11.617881895669372,
+          "trades": 17
+        },
+        "SELL": {
+          "total_r": -2.473684210526544,
+          "trades": 8
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 10,
+        "risk: The daily paper-trade limit has been reached": 10,
+        "trend_filter": 88
+      },
+      "total_r": -14.091566106195916,
+      "trades": 25,
+      "trades_per_week": 0.9615421304263218,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-am-day-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.16
+    },
+    {
+      "adds": 0,
+      "average_r": 0.4450725525888245,
+      "buckets": [
+        -1.0,
+        -2.0,
+        3.0169589198982605,
+        2.0,
+        5.0,
+        5.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-hour-fvg-rr2": {
+          "total_r": 12.016958919898261,
+          "trades": 27,
+          "wins": 13
+        }
+      },
+      "exit_reasons": {
+        "STOP": 14,
+        "TARGET": 13
+      },
+      "extra_cost_average_r": 0.29381789494657046,
+      "first_half_r": 0.016958919898260483,
+      "label": "sb1m-US100-silverbullet-pm-hour-fvg-rr2-DAY",
+      "max_drawdown_r": 6.0,
+      "median_hold_hours": 0.03333333333333333,
+      "median_spread_r": 0.20745863176088006,
+      "pnl": 18.57092857142743,
+      "profit_factor": 1.8583542085641616,
+      "second_half_r": 12.0,
+      "side": {
+        "BUY": {
+          "total_r": 4.0169589198982605,
+          "trades": 14
+        },
+        "SELL": {
+          "total_r": 8.0,
+          "trades": 13
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 6,
+        "risk: The daily paper-trade limit has been reached": 24,
+        "trend_filter": 114
+      },
+      "total_r": 12.016958919898261,
+      "trades": 27,
+      "trades_per_week": 1.0384655008604275,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-pm-hour-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.48148148148148145
+    },
+    {
+      "adds": 0,
+      "average_r": 0.1923823599340271,
+      "buckets": [
+        3.487502764874252,
+        -2.0,
+        -3.0027167201776566,
+        2.6927796947541585,
+        7.452822131345215,
+        -3.4360641525772366
+      ],
+      "by_strategy": {
+        "silverbullet-pm-hour-fvg-liq": {
+          "total_r": 5.194323718218731,
+          "trades": 27,
+          "wins": 6
+        }
+      },
+      "exit_reasons": {
+        "STOP": 21,
+        "TARGET": 6
+      },
+      "extra_cost_average_r": 0.04112770229177311,
+      "first_half_r": -1.5152139553034047,
+      "label": "sb1m-US100-silverbullet-pm-hour-fvg-liq-DAY",
+      "max_drawdown_r": 8.002716720177657,
+      "median_hold_hours": 0.08333333333333333,
+      "median_spread_r": 0.20745863176088006,
+      "pnl": 1.5101428571429998,
+      "profit_factor": 1.2473167537049368,
+      "second_half_r": 6.709537673522137,
+      "side": {
+        "BUY": {
+          "total_r": 0.1775657394507537,
+          "trades": 14
+        },
+        "SELL": {
+          "total_r": 5.016757978767979,
+          "trades": 13
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 13,
+        "risk: The daily paper-trade limit has been reached": 14,
+        "trend_filter": 103
+      },
+      "total_r": 5.194323718218732,
+      "trades": 27,
+      "trades_per_week": 1.0384655008604275,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-pm-hour-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.2222222222222222
+    },
+    {
+      "adds": 0,
+      "average_r": 0.0,
+      "buckets": [
+        -1.0,
+        -2.0,
+        0.0,
+        5.0,
+        2.0,
+        -4.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-hour-sweep-rr2": {
+          "total_r": 0.0,
+          "trades": 27,
+          "wins": 9
+        }
+      },
+      "exit_reasons": {
+        "STOP": 18,
+        "TARGET": 9
+      },
+      "extra_cost_average_r": -0.038608926160229456,
+      "first_half_r": -3.0,
+      "label": "sb1m-US100-silverbullet-pm-hour-sweep-rr2-DAY",
+      "max_drawdown_r": 6.0,
+      "median_hold_hours": 0.7,
+      "median_spread_r": 0.054439403758896734,
+      "pnl": -9.230642857140992,
+      "profit_factor": 1.0,
+      "second_half_r": 3.0,
+      "side": {
+        "BUY": {
+          "total_r": 1.0,
+          "trades": 14
+        },
+        "SELL": {
+          "total_r": -1.0,
+          "trades": 13
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 26,
+        "risk: The daily paper-trade limit has been reached": 5,
+        "trend_filter": 114
+      },
+      "total_r": 0.0,
+      "trades": 27,
+      "trades_per_week": 1.0384655008604275,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-pm-hour-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.3333333333333333
+    },
+    {
+      "adds": 0,
+      "average_r": 0.1497454246578907,
+      "buckets": [
+        -1.6243609586794219,
+        -2.0,
+        -2.0,
+        0.4806076999736193,
+        7.274840177768815,
+        0.8638215740948016
+      ],
+      "by_strategy": {
+        "silverbullet-pm-hour-sweep-liq": {
+          "total_r": 2.9949084931578147,
+          "trades": 20,
+          "wins": 5
+        }
+      },
+      "exit_reasons": {
+        "STOP": 15,
+        "TARGET": 5
+      },
+      "extra_cost_average_r": 0.10525973024643105,
+      "first_half_r": -5.624360958679421,
+      "label": "sb1m-US100-silverbullet-pm-hour-sweep-liq-DAY",
+      "max_drawdown_r": 7.0,
+      "median_hold_hours": 0.8583333333333334,
+      "median_spread_r": 0.0675436284503513,
+      "pnl": -13.3174999999992,
+      "profit_factor": 1.199660566210521,
+      "second_half_r": 8.619269451837235,
+      "side": {
+        "BUY": {
+          "total_r": -5.143753258705803,
+          "trades": 10
+        },
+        "SELL": {
+          "total_r": 8.138661751863616,
+          "trades": 10
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 12,
+        "risk: The daily paper-trade limit has been reached": 4,
+        "trend_filter": 83
+      },
+      "total_r": 2.994908493157814,
+      "trades": 20,
+      "trades_per_week": 0.7692337043410574,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-pm-hour-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.25
+    },
+    {
+      "adds": 0,
+      "average_r": 0.125,
+      "buckets": [
+        -1.0,
+        0,
+        -2.0,
+        0,
+        6.0,
+        -2.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-day-fvg-rr2": {
+          "total_r": 1.0,
+          "trades": 8,
+          "wins": 3
+        }
+      },
+      "exit_reasons": {
+        "STOP": 5,
+        "TARGET": 3
+      },
+      "extra_cost_average_r": -0.06292989236379457,
+      "first_half_r": -2.0,
+      "label": "sb1m-US100-silverbullet-pm-day-fvg-rr2-DAY",
+      "max_drawdown_r": 3.0,
+      "median_hold_hours": 0.016666666666666666,
+      "median_spread_r": 0.2861263466623454,
+      "pnl": 5.755142857141982,
+      "profit_factor": 1.2,
+      "second_half_r": 3.0,
+      "side": {
+        "BUY": {
+          "total_r": -1.0,
+          "trades": 4
+        },
+        "SELL": {
+          "total_r": 2.0,
+          "trades": 4
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 1,
+        "risk: The daily paper-trade limit has been reached": 6,
+        "trend_filter": 37
+      },
+      "total_r": 1.0,
+      "trades": 8,
+      "trades_per_week": 0.30769348173642297,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-pm-day-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.375
+    },
+    {
+      "adds": 0,
+      "average_r": -1.0,
+      "buckets": [
+        -1.0,
+        0,
+        -2.0,
+        0,
+        -3.0,
+        -2.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-day-fvg-liq": {
+          "total_r": -8.0,
+          "trades": 8,
+          "wins": 0
+        }
+      },
+      "exit_reasons": {
+        "STOP": 8
+      },
+      "extra_cost_average_r": -1.1879298923637946,
+      "first_half_r": -2.0,
+      "label": "sb1m-US100-silverbullet-pm-day-fvg-liq-DAY",
+      "max_drawdown_r": 8.0,
+      "median_hold_hours": 0.016666666666666666,
+      "median_spread_r": 0.2861263466623454,
+      "pnl": -6.376642857143452,
+      "profit_factor": 0.0,
+      "second_half_r": -6.0,
+      "side": {
+        "BUY": {
+          "total_r": -4.0,
+          "trades": 4
+        },
+        "SELL": {
+          "total_r": -4.0,
+          "trades": 4
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 1,
+        "risk: The daily paper-trade limit has been reached": 6,
+        "trend_filter": 37
+      },
+      "total_r": -8.0,
+      "trades": 8,
+      "trades_per_week": 0.30769348173642297,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-pm-day-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.0
+    },
+    {
+      "adds": 0,
+      "average_r": 0.5,
+      "buckets": [
+        -1.0,
+        0,
+        1.0,
+        0,
+        3.0,
+        1.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-day-sweep-rr2": {
+          "total_r": 4.0,
+          "trades": 8,
+          "wins": 4
+        }
+      },
+      "exit_reasons": {
+        "STOP": 4,
+        "TARGET": 4
+      },
+      "extra_cost_average_r": 0.4606813580745147,
+      "first_half_r": 1.0,
+      "label": "sb1m-US100-silverbullet-pm-day-sweep-rr2-DAY",
+      "max_drawdown_r": 2.0,
+      "median_hold_hours": 0.6833333333333333,
+      "median_spread_r": 0.06592974199375629,
+      "pnl": 17.61750000000102,
+      "profit_factor": 2.0,
+      "second_half_r": 3.0,
+      "side": {
+        "BUY": {
+          "total_r": -1.0,
+          "trades": 4
+        },
+        "SELL": {
+          "total_r": 5.0,
+          "trades": 4
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 5,
+        "risk: The daily paper-trade limit has been reached": 2,
+        "trend_filter": 37
+      },
+      "total_r": 4.0,
+      "trades": 8,
+      "trades_per_week": 0.30769348173642297,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-pm-day-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.5
+    },
+    {
+      "adds": 0,
+      "average_r": -1.0,
+      "buckets": [
+        -1.0,
+        0,
+        -1.0,
+        0,
+        -3.0,
+        -2.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-day-sweep-liq": {
+          "total_r": -7.0,
+          "trades": 7,
+          "wins": 0
+        }
+      },
+      "exit_reasons": {
+        "STOP": 7
+      },
+      "extra_cost_average_r": -1.043576331839953,
+      "first_half_r": -1.0,
+      "label": "sb1m-US100-silverbullet-pm-day-sweep-liq-DAY",
+      "max_drawdown_r": 7.0,
+      "median_hold_hours": 4.833333333333333,
+      "median_spread_r": 0.09964018820921135,
+      "pnl": -28.49671428571528,
+      "profit_factor": 0.0,
+      "second_half_r": -6.0,
+      "side": {
+        "BUY": {
+          "total_r": -3.0,
+          "trades": 3
+        },
+        "SELL": {
+          "total_r": -4.0,
+          "trades": 4
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 4,
+        "risk: The daily paper-trade limit has been reached": 2,
+        "trend_filter": 36
+      },
+      "total_r": -7.0,
+      "trades": 7,
+      "trades_per_week": 0.2692317965193701,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-pm-day-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.0
+    },
+    {
+      "adds": 0,
+      "average_r": -0.6838556112579616,
+      "buckets": [
+        -5.0,
+        -5.095890410958563,
+        0.49137931034522975,
+        -5.1925042589425106,
+        -6.1379310344728095,
+        -3.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-hour-fvg-rr2": {
+          "total_r": -23.934946394028653,
+          "trades": 35,
+          "wins": 5
+        }
+      },
+      "exit_reasons": {
+        "STOP": 30,
+        "TARGET": 5
+      },
+      "extra_cost_average_r": -0.9865908459289046,
+      "first_half_r": -9.604511100613333,
+      "label": "sb1m-US500-silverbullet-london-hour-fvg-rr2-DAY",
+      "max_drawdown_r": 23.934946394028653,
+      "median_hold_hours": 0.016666666666666666,
+      "median_spread_r": 0.46640755136025525,
+      "pnl": -2.1687142857143957,
+      "profit_factor": 0.29468147330739985,
+      "second_half_r": -14.33043529341532,
+      "side": {
+        "BUY": {
+          "total_r": -20.934946394028653,
+          "trades": 32
+        },
+        "SELL": {
+          "total_r": -3.0,
+          "trades": 3
+        }
+      },
+      "skipped": {
+        "entry_drift": 10,
+        "risk: 1 position(s) already open": 3,
+        "risk: The daily paper-trade limit has been reached": 47,
+        "trend_filter": 184
+      },
+      "total_r": -23.934946394028653,
+      "trades": 35,
+      "trades_per_week": 1.3461589825968505,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-london-hour-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.14285714285714285
+    },
+    {
+      "adds": 0,
+      "average_r": -0.8480380721294167,
+      "buckets": [
+        -2.3268365817096863,
+        -4.095890410958563,
+        -3.5360179499283486,
+        -7.1925042589425106,
+        -6.1379310344728095,
+        -3.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-hour-fvg-liq": {
+          "total_r": -26.28918023601192,
+          "trades": 31,
+          "wins": 2
+        }
+      },
+      "exit_reasons": {
+        "STOP": 29,
+        "TARGET": 2
+      },
+      "extra_cost_average_r": -1.155475361208137,
+      "first_half_r": -9.958744942596597,
+      "label": "sb1m-US500-silverbullet-london-hour-fvg-liq-DAY",
+      "max_drawdown_r": 26.28918023601192,
+      "median_hold_hours": 0.016666666666666666,
+      "median_spread_r": 0.4554326610281146,
+      "pnl": -1.983714285714541,
+      "profit_factor": 0.20178463564226906,
+      "second_half_r": -16.33043529341532,
+      "side": {
+        "BUY": {
+          "total_r": -23.28918023601192,
+          "trades": 28
+        },
+        "SELL": {
+          "total_r": -3.0,
+          "trades": 3
+        }
+      },
+      "skipped": {
+        "entry_drift": 10,
+        "risk: 1 position(s) already open": 5,
+        "risk: The daily paper-trade limit has been reached": 32,
+        "trend_filter": 152
+      },
+      "total_r": -26.28918023601192,
+      "trades": 31,
+      "trades_per_week": 1.192312241728639,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-london-hour-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.06451612903225806
+    },
+    {
+      "adds": 0,
+      "average_r": -0.25005592841161806,
+      "buckets": [
+        -6.0,
+        -3.0,
+        4.0,
+        -2.0022371364647213,
+        0.0,
+        -3.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-hour-sweep-rr2": {
+          "total_r": -10.002237136464721,
+          "trades": 40,
+          "wins": 10
+        }
+      },
+      "exit_reasons": {
+        "STOP": 30,
+        "TARGET": 10
+      },
+      "extra_cost_average_r": -0.3253053161938869,
+      "first_half_r": -5.0,
+      "label": "sb1m-US500-silverbullet-london-hour-sweep-rr2-DAY",
+      "max_drawdown_r": 12.002237136464721,
+      "median_hold_hours": 0.4083333333333333,
+      "median_spread_r": 0.13166590601129574,
+      "pnl": -6.830357142857065,
+      "profit_factor": 0.6666169562299739,
+      "second_half_r": -5.002237136464721,
+      "side": {
+        "BUY": {
+          "total_r": -7.002237136464721,
+          "trades": 34
+        },
+        "SELL": {
+          "total_r": -3.0,
+          "trades": 6
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 34,
+        "risk: The daily paper-trade limit has been reached": 21,
+        "trend_filter": 184
+      },
+      "total_r": -10.002237136464721,
+      "trades": 40,
+      "trades_per_week": 1.5384674086821148,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-london-hour-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.25
+    },
+    {
+      "adds": 0,
+      "average_r": -0.06535571365412707,
+      "buckets": [
+        -1.8763169375565287,
+        -0.44908616187973305,
+        5.179438227605014,
+        -3.087812787104422,
+        2.1423948220036033,
+        -4.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-hour-sweep-liq": {
+          "total_r": -2.091382836932066,
+          "trades": 32,
+          "wins": 10
+        }
+      },
+      "exit_reasons": {
+        "STOP": 22,
+        "TARGET": 10
+      },
+      "extra_cost_average_r": -0.1631177918414013,
+      "first_half_r": 2.8540351281687526,
+      "label": "sb1m-US500-silverbullet-london-hour-sweep-liq-DAY",
+      "max_drawdown_r": 6.087812787104422,
+      "median_hold_hours": 0.2,
+      "median_spread_r": 0.17689589047769172,
+      "pnl": -1.752714285714228,
+      "profit_factor": 0.9049468095466539,
+      "second_half_r": -4.945417965100819,
+      "side": {
+        "BUY": {
+          "total_r": 1.9086171630679338,
+          "trades": 28
+        },
+        "SELL": {
+          "total_r": -4.0,
+          "trades": 4
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 10,
+        "risk: The daily paper-trade limit has been reached": 8,
+        "trend_filter": 97
+      },
+      "total_r": -2.091382836932066,
+      "trades": 32,
+      "trades_per_week": 1.2307739269456919,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-london-hour-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.3125
+    },
+    {
+      "adds": 0,
+      "average_r": -0.4776645768024895,
+      "buckets": [
+        -4.0,
+        -3.0,
+        0.49137931034522975,
+        -1.0,
+        -1.0,
+        -2.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-day-fvg-rr2": {
+          "total_r": -10.50862068965477,
+          "trades": 22,
+          "wins": 4
+        }
+      },
+      "exit_reasons": {
+        "STOP": 18,
+        "TARGET": 4
+      },
+      "extra_cost_average_r": -0.7297829496421301,
+      "first_half_r": -6.50862068965477,
+      "label": "sb1m-US500-silverbullet-london-day-fvg-rr2-DAY",
+      "max_drawdown_r": 10.50862068965477,
+      "median_hold_hours": 0.016666666666666666,
+      "median_spread_r": 0.45727547862500634,
+      "pnl": -1.3002857142857467,
+      "profit_factor": 0.4322310200279554,
+      "second_half_r": -4.0,
+      "side": {
+        "BUY": {
+          "total_r": -8.50862068965477,
+          "trades": 20
+        },
+        "SELL": {
+          "total_r": -2.0,
+          "trades": 2
+        }
+      },
+      "skipped": {
+        "entry_drift": 9,
+        "risk: 1 position(s) already open": 4,
+        "risk: The daily paper-trade limit has been reached": 33,
+        "trend_filter": 136
+      },
+      "total_r": -10.50862068965477,
+      "trades": 22,
+      "trades_per_week": 0.8461570747751632,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-london-day-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.18181818181818182
+    },
+    {
+      "adds": 0,
+      "average_r": -0.8350484738061119,
+      "buckets": [
+        -3.0,
+        -3.0,
+        -4.536017949928349,
+        -4.0,
+        -1.0,
+        -2.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-day-fvg-liq": {
+          "total_r": -17.536017949928347,
+          "trades": 21,
+          "wins": 1
+        }
+      },
+      "exit_reasons": {
+        "STOP": 20,
+        "TARGET": 1
+      },
+      "extra_cost_average_r": -1.084729964672369,
+      "first_half_r": -10.536017949928349,
+      "label": "sb1m-US500-silverbullet-london-day-fvg-liq-DAY",
+      "max_drawdown_r": 17.536017949928347,
+      "median_hold_hours": 0.03333333333333333,
+      "median_spread_r": 0.44814340588975743,
+      "pnl": -2.0202142857145193,
+      "profit_factor": 0.14494405960835297,
+      "second_half_r": -7.0,
+      "side": {
+        "BUY": {
+          "total_r": -15.536017949928349,
+          "trades": 19
+        },
+        "SELL": {
+          "total_r": -2.0,
+          "trades": 2
+        }
+      },
+      "skipped": {
+        "entry_drift": 9,
+        "risk: 1 position(s) already open": 9,
+        "risk: The daily paper-trade limit has been reached": 25,
+        "trend_filter": 128
+      },
+      "total_r": -17.53601794992835,
+      "trades": 21,
+      "trades_per_week": 0.8076953895581103,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-london-day-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.047619047619047616
+    },
+    {
+      "adds": 0,
+      "average_r": -0.19230769230769232,
+      "buckets": [
+        -1.0,
+        -4.0,
+        7.0,
+        -5.0,
+        -1.0,
+        -1.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-day-sweep-rr2": {
+          "total_r": -5.0,
+          "trades": 26,
+          "wins": 7
+        }
+      },
+      "exit_reasons": {
+        "STOP": 19,
+        "TARGET": 7
+      },
+      "extra_cost_average_r": -0.2647677765008535,
+      "first_half_r": 2.0,
+      "label": "sb1m-US500-silverbullet-london-day-sweep-rr2-DAY",
+      "max_drawdown_r": 9.0,
+      "median_hold_hours": 0.6083333333333334,
+      "median_spread_r": 0.14219738818673797,
+      "pnl": -1.8587857142856592,
+      "profit_factor": 0.7368421052631579,
+      "second_half_r": -7.0,
+      "side": {
+        "BUY": {
+          "total_r": -4.0,
+          "trades": 22
+        },
+        "SELL": {
+          "total_r": -1.0,
+          "trades": 4
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 26,
+        "risk: The daily paper-trade limit has been reached": 16,
+        "trend_filter": 136
+      },
+      "total_r": -5.0,
+      "trades": 26,
+      "trades_per_week": 1.0000038156433746,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-london-day-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.2692307692307692
+    },
+    {
+      "adds": 0,
+      "average_r": -0.4105233498643432,
+      "buckets": [
+        0.17531515684529264,
+        -3.0,
+        2.3826477962748154,
+        -5.0,
+        -1.0,
+        -3.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-day-sweep-liq": {
+          "total_r": -9.442037046879893,
+          "trades": 23,
+          "wins": 5
+        }
+      },
+      "exit_reasons": {
+        "STOP": 18,
+        "TARGET": 5
+      },
+      "extra_cost_average_r": -0.48864308395838707,
+      "first_half_r": -0.442037046879892,
+      "label": "sb1m-US500-silverbullet-london-day-sweep-liq-DAY",
+      "max_drawdown_r": 11.617352203725186,
+      "median_hold_hours": 0.55,
+      "median_spread_r": 0.1599268905643052,
+      "pnl": -3.950071428571482,
+      "profit_factor": 0.4754423862844504,
+      "second_half_r": -9.0,
+      "side": {
+        "BUY": {
+          "total_r": -6.442037046879892,
+          "trades": 20
+        },
+        "SELL": {
+          "total_r": -3.0,
+          "trades": 3
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 12,
+        "risk: The daily paper-trade limit has been reached": 13,
+        "trend_filter": 107
+      },
+      "total_r": -9.442037046879893,
+      "trades": 23,
+      "trades_per_week": 0.8846187599922161,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-london-day-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.21739130434782608
+    },
+    {
+      "adds": 0,
+      "average_r": -0.22857142857142856,
+      "buckets": [
+        -4.0,
+        -1.0,
+        -3.0,
+        0.0,
+        -3.0,
+        3.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-hour-fvg-rr2": {
+          "total_r": -8.0,
+          "trades": 35,
+          "wins": 9
+        }
+      },
+      "exit_reasons": {
+        "STOP": 26,
+        "TARGET": 9
+      },
+      "extra_cost_average_r": -0.36174097511147424,
+      "first_half_r": -7.0,
+      "label": "sb1m-US500-silverbullet-am-hour-fvg-rr2-DAY",
+      "max_drawdown_r": 11.0,
+      "median_hold_hours": 0.0,
+      "median_spread_r": 0.17252002464552688,
+      "pnl": -1.0008571428569666,
+      "profit_factor": 0.6923076923076923,
+      "second_half_r": -1.0,
+      "side": {
+        "BUY": {
+          "total_r": -11.0,
+          "trades": 26
+        },
+        "SELL": {
+          "total_r": 3.0,
+          "trades": 9
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 4,
+        "risk: The daily paper-trade limit has been reached": 50,
+        "trend_filter": 156
+      },
+      "total_r": -8.0,
+      "trades": 35,
+      "trades_per_week": 1.3461589825968505,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-am-hour-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.2571428571428571
+    },
+    {
+      "adds": 0,
+      "average_r": -0.27174737025988327,
+      "buckets": [
+        -4.291757049891629,
+        -4.0,
+        1.995070856437354,
+        -2.704672096013371,
+        -3.0,
+        2.761947700631614
+      ],
+      "by_strategy": {
+        "silverbullet-am-hour-fvg-liq": {
+          "total_r": -9.239410588836032,
+          "trades": 34,
+          "wins": 4
+        }
+      },
+      "exit_reasons": {
+        "STOP": 30,
+        "TARGET": 4
+      },
+      "extra_cost_average_r": -0.4061591767042017,
+      "first_half_r": -5.296686193454276,
+      "label": "sb1m-US500-silverbullet-am-hour-fvg-liq-DAY",
+      "max_drawdown_r": 14.001358289467646,
+      "median_hold_hours": 0.016666666666666666,
+      "median_spread_r": 0.1769923519208913,
+      "pnl": -0.7609285714284851,
+      "profit_factor": 0.6920196470387989,
+      "second_half_r": -3.942724395381757,
+      "side": {
+        "BUY": {
+          "total_r": -12.001358289467646,
+          "trades": 25
+        },
+        "SELL": {
+          "total_r": 2.761947700631614,
+          "trades": 9
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 6,
+        "risk: The daily paper-trade limit has been reached": 43,
+        "trend_filter": 145
+      },
+      "total_r": -9.239410588836032,
+      "trades": 34,
+      "trades_per_week": 1.3076972973797976,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-am-hour-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.11764705882352941
+    },
+    {
+      "adds": 0,
+      "average_r": -0.22857142857142856,
+      "buckets": [
+        -1.0,
+        -4.0,
+        -3.0,
+        0.0,
+        -3.0,
+        3.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-hour-sweep-rr2": {
+          "total_r": -8.0,
+          "trades": 35,
+          "wins": 9
+        }
+      },
+      "exit_reasons": {
+        "STOP": 26,
+        "TARGET": 9
+      },
+      "extra_cost_average_r": -0.2593597056639618,
+      "first_half_r": -7.0,
+      "label": "sb1m-US500-silverbullet-am-hour-sweep-rr2-DAY",
+      "max_drawdown_r": 15.0,
+      "median_hold_hours": 0.31666666666666665,
+      "median_spread_r": 0.046151310367626514,
+      "pnl": -13.012214285714618,
+      "profit_factor": 0.6923076923076923,
+      "second_half_r": -1.0,
+      "side": {
+        "BUY": {
+          "total_r": -11.0,
+          "trades": 26
+        },
+        "SELL": {
+          "total_r": 3.0,
+          "trades": 9
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 31,
+        "risk: The daily paper-trade limit has been reached": 24,
+        "trend_filter": 156
+      },
+      "total_r": -8.0,
+      "trades": 35,
+      "trades_per_week": 1.3461589825968505,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-am-hour-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.2571428571428571
+    },
+    {
+      "adds": 0,
+      "average_r": -0.28602057551832694,
+      "buckets": [
+        -1.2007956989904054,
+        -4.0,
+        -4.0,
+        -5.0,
+        -3.0,
+        8.334157857922271
+      ],
+      "by_strategy": {
+        "silverbullet-am-hour-sweep-liq": {
+          "total_r": -8.866637841068133,
+          "trades": 31,
+          "wins": 6
+        }
+      },
+      "exit_reasons": {
+        "STOP": 25,
+        "TARGET": 6
+      },
+      "extra_cost_average_r": -0.3196046804055647,
+      "first_half_r": -8.200795698990405,
+      "label": "sb1m-US500-silverbullet-am-hour-sweep-liq-DAY",
+      "max_drawdown_r": 20.546573103912113,
+      "median_hold_hours": 0.2833333333333333,
+      "median_spread_r": 0.05071545009957348,
+      "pnl": -8.788428571428813,
+      "profit_factor": 0.6453344863572746,
+      "second_half_r": -0.6658421420777296,
+      "side": {
+        "BUY": {
+          "total_r": -17.200795698990405,
+          "trades": 22
+        },
+        "SELL": {
+          "total_r": 8.334157857922271,
+          "trades": 9
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 15,
+        "risk: The daily paper-trade limit has been reached": 17,
+        "trend_filter": 107
+      },
+      "total_r": -8.866637841068135,
+      "trades": 31,
+      "trades_per_week": 1.192312241728639,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-am-hour-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.1935483870967742
+    },
+    {
+      "adds": 0,
+      "average_r": -0.4782608695652174,
+      "buckets": [
+        -5.0,
+        -1.0,
+        -2.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-day-fvg-rr2": {
+          "total_r": -11.0,
+          "trades": 23,
+          "wins": 4
+        }
+      },
+      "exit_reasons": {
+        "STOP": 19,
+        "TARGET": 4
+      },
+      "extra_cost_average_r": -0.6026305900183686,
+      "first_half_r": -8.0,
+      "label": "sb1m-US500-silverbullet-am-day-fvg-rr2-DAY",
+      "max_drawdown_r": 11.0,
+      "median_hold_hours": 0.016666666666666666,
+      "median_spread_r": 0.18543046357645213,
+      "pnl": -2.58028571428531,
+      "profit_factor": 0.42105263157894735,
+      "second_half_r": -3.0,
+      "side": {
+        "BUY": {
+          "total_r": -10.0,
+          "trades": 19
+        },
+        "SELL": {
+          "total_r": -1.0,
+          "trades": 4
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 1,
+        "risk: The daily paper-trade limit has been reached": 32,
+        "trend_filter": 106
+      },
+      "total_r": -11.0,
+      "trades": 23,
+      "trades_per_week": 0.8846187599922161,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-am-day-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.17391304347826086
+    },
+    {
+      "adds": 0,
+      "average_r": -1.0,
+      "buckets": [
+        -5.0,
+        -4.0,
+        -2.0,
+        -4.0,
+        -3.0,
+        -4.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-day-fvg-liq": {
+          "total_r": -22.0,
+          "trades": 22,
+          "wins": 0
+        }
+      },
+      "exit_reasons": {
+        "STOP": 22
+      },
+      "extra_cost_average_r": -1.1276091297544493,
+      "first_half_r": -11.0,
+      "label": "sb1m-US500-silverbullet-am-day-fvg-liq-DAY",
+      "max_drawdown_r": 22.0,
+      "median_hold_hours": 0.025,
+      "median_spread_r": 0.19645735850175117,
+      "pnl": -5.73521428571421,
+      "profit_factor": 0.0,
+      "second_half_r": -11.0,
+      "side": {
+        "BUY": {
+          "total_r": -18.0,
+          "trades": 18
+        },
+        "SELL": {
+          "total_r": -4.0,
+          "trades": 4
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 6,
+        "risk: The daily paper-trade limit has been reached": 28,
+        "trend_filter": 106
+      },
+      "total_r": -22.0,
+      "trades": 22,
+      "trades_per_week": 0.8461570747751632,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-am-day-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.0
+    },
+    {
+      "adds": 0,
+      "average_r": -0.08695652173913043,
+      "buckets": [
+        1.0,
+        -4.0,
+        -2.0,
+        2.0,
+        -1.0,
+        2.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-day-sweep-rr2": {
+          "total_r": -2.0,
+          "trades": 23,
+          "wins": 7
+        }
+      },
+      "exit_reasons": {
+        "STOP": 16,
+        "TARGET": 7
+      },
+      "extra_cost_average_r": -0.12029543831521398,
+      "first_half_r": -5.0,
+      "label": "sb1m-US500-silverbullet-am-day-sweep-rr2-DAY",
+      "max_drawdown_r": 9.0,
+      "median_hold_hours": 0.25,
+      "median_spread_r": 0.05071545009957348,
+      "pnl": -4.773142857143284,
+      "profit_factor": 0.875,
+      "second_half_r": 3.0,
+      "side": {
+        "BUY": {
+          "total_r": -4.0,
+          "trades": 19
+        },
+        "SELL": {
+          "total_r": 2.0,
+          "trades": 4
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 13,
+        "risk: The daily paper-trade limit has been reached": 21,
+        "trend_filter": 106
+      },
+      "total_r": -2.0,
+      "trades": 23,
+      "trades_per_week": 0.8846187599922161,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-am-day-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.30434782608695654
+    },
+    {
+      "adds": 0,
+      "average_r": -0.7608613587054208,
+      "buckets": [
+        0.26105010848074195,
+        -4.0,
+        -2.0,
+        -4.0,
+        -3.0,
+        -4.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-day-sweep-liq": {
+          "total_r": -16.73894989151926,
+          "trades": 22,
+          "wins": 2
+        }
+      },
+      "exit_reasons": {
+        "STOP": 20,
+        "TARGET": 2
+      },
+      "extra_cost_average_r": -0.794468006601193,
+      "first_half_r": -5.738949891519258,
+      "label": "sb1m-US500-silverbullet-am-day-sweep-liq-DAY",
+      "max_drawdown_r": 19.0,
+      "median_hold_hours": 0.275,
+      "median_spread_r": 0.05114041381593644,
+      "pnl": -17.888285714286123,
+      "profit_factor": 0.1630525054240371,
+      "second_half_r": -11.0,
+      "side": {
+        "BUY": {
+          "total_r": -12.738949891519258,
+          "trades": 18
+        },
+        "SELL": {
+          "total_r": -4.0,
+          "trades": 4
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 17,
+        "risk: The daily paper-trade limit has been reached": 14,
+        "trend_filter": 95
+      },
+      "total_r": -16.73894989151926,
+      "trades": 22,
+      "trades_per_week": 0.8461570747751632,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-am-day-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.09090909090909091
+    },
+    {
+      "adds": 0,
+      "average_r": -0.28,
+      "buckets": [
+        -4.0,
+        -2.0,
+        2.0,
+        -5.0,
+        -2.0,
+        4.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-hour-fvg-rr2": {
+          "total_r": -7.0,
+          "trades": 25,
+          "wins": 6
+        }
+      },
+      "exit_reasons": {
+        "STOP": 19,
+        "TARGET": 6
+      },
+      "extra_cost_average_r": -0.43960608130246476,
+      "first_half_r": -3.0,
+      "label": "sb1m-US500-silverbullet-pm-hour-fvg-rr2-DAY",
+      "max_drawdown_r": 11.0,
+      "median_hold_hours": 0.03333333333333333,
+      "median_spread_r": 0.22782750203451932,
+      "pnl": 0.34564285714322973,
+      "profit_factor": 0.631578947368421,
+      "second_half_r": -4.0,
+      "side": {
+        "BUY": {
+          "total_r": -11.0,
+          "trades": 17
+        },
+        "SELL": {
+          "total_r": 4.0,
+          "trades": 8
+        }
+      },
+      "skipped": {
+        "entry_drift": 4,
+        "risk: 1 position(s) already open": 4,
+        "risk: The daily paper-trade limit has been reached": 25,
+        "trend_filter": 129
+      },
+      "total_r": -7.0,
+      "trades": 25,
+      "trades_per_week": 0.9615421304263218,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-pm-hour-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.24
+    },
+    {
+      "adds": 0,
+      "average_r": -0.7048188194779827,
+      "buckets": [
+        -4.0,
+        -2.0,
+        2.789167152006396,
+        -5.0,
+        -2.0,
+        -6.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-hour-fvg-liq": {
+          "total_r": -16.210832847993604,
+          "trades": 23,
+          "wins": 1
+        }
+      },
+      "exit_reasons": {
+        "STOP": 22,
+        "TARGET": 1
+      },
+      "extra_cost_average_r": -0.8732927558405498,
+      "first_half_r": -2.210832847993604,
+      "label": "sb1m-US500-silverbullet-pm-hour-fvg-liq-DAY",
+      "max_drawdown_r": 16.210832847993604,
+      "median_hold_hours": 0.05,
+      "median_spread_r": 0.22819885900609274,
+      "pnl": -4.872857142856993,
+      "profit_factor": 0.26314396145483615,
+      "second_half_r": -14.0,
+      "side": {
+        "BUY": {
+          "total_r": -10.210832847993604,
+          "trades": 17
+        },
+        "SELL": {
+          "total_r": -6.0,
+          "trades": 6
+        }
+      },
+      "skipped": {
+        "entry_drift": 4,
+        "risk: 1 position(s) already open": 6,
+        "risk: The daily paper-trade limit has been reached": 20,
+        "trend_filter": 118
+      },
+      "total_r": -16.210832847993604,
+      "trades": 23,
+      "trades_per_week": 0.8846187599922161,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-pm-hour-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.043478260869565216
+    },
+    {
+      "adds": 0,
+      "average_r": -0.07692307692307693,
+      "buckets": [
+        2.0,
+        -2.0,
+        1.0,
+        -5.0,
+        4.0,
+        -2.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-hour-sweep-rr2": {
+          "total_r": -2.0,
+          "trades": 26,
+          "wins": 8
+        }
+      },
+      "exit_reasons": {
+        "STOP": 18,
+        "TARGET": 8
+      },
+      "extra_cost_average_r": -0.1228503104330591,
+      "first_half_r": 2.0,
+      "label": "sb1m-US500-silverbullet-pm-hour-sweep-rr2-DAY",
+      "max_drawdown_r": 8.0,
+      "median_hold_hours": 0.475,
+      "median_spread_r": 0.06160659668972173,
+      "pnl": 4.21650000000036,
+      "profit_factor": 0.8888888888888888,
+      "second_half_r": -4.0,
+      "side": {
+        "BUY": {
+          "total_r": 0.0,
+          "trades": 18
+        },
+        "SELL": {
+          "total_r": -2.0,
+          "trades": 8
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 16,
+        "risk: The daily paper-trade limit has been reached": 16,
+        "trend_filter": 129
+      },
+      "total_r": -2.0,
+      "trades": 26,
+      "trades_per_week": 1.0000038156433746,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-pm-hour-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.3076923076923077
+    },
+    {
+      "adds": 0,
+      "average_r": -0.5255782929597594,
+      "buckets": [
+        -1.8726591760299072,
+        -2.0,
+        -0.9866315576266471,
+        -3.0,
+        2.8733031674211245,
+        -5.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-hour-sweep-liq": {
+          "total_r": -9.98598756623543,
+          "trades": 19,
+          "wins": 3
+        }
+      },
+      "exit_reasons": {
+        "STOP": 16,
+        "TARGET": 3
+      },
+      "extra_cost_average_r": -0.5818037645488725,
+      "first_half_r": -3.8592907336565543,
+      "label": "sb1m-US500-silverbullet-pm-hour-sweep-liq-DAY",
+      "max_drawdown_r": 11.113328390205522,
+      "median_hold_hours": 0.2833333333333333,
+      "median_spread_r": 0.07356805044677331,
+      "pnl": -5.7717142857141885,
+      "profit_factor": 0.37587577711028564,
+      "second_half_r": -6.126696832578876,
+      "side": {
+        "BUY": {
+          "total_r": -4.98598756623543,
+          "trades": 14
+        },
+        "SELL": {
+          "total_r": -5.0,
+          "trades": 5
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 6,
+        "risk: The daily paper-trade limit has been reached": 15,
+        "trend_filter": 94
+      },
+      "total_r": -9.98598756623543,
+      "trades": 19,
+      "trades_per_week": 0.7307720191240046,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-pm-hour-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.15789473684210525
+    },
+    {
+      "adds": 0,
+      "average_r": -0.5714285714285714,
+      "buckets": [
+        -2.0,
+        0,
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-day-fvg-rr2": {
+          "total_r": -4.0,
+          "trades": 7,
+          "wins": 1
+        }
+      },
+      "exit_reasons": {
+        "STOP": 6,
+        "TARGET": 1
+      },
+      "extra_cost_average_r": -0.7737297442862554,
+      "first_half_r": -2.0,
+      "label": "sb1m-US500-silverbullet-pm-day-fvg-rr2-DAY",
+      "max_drawdown_r": 5.0,
+      "median_hold_hours": 0.016666666666666666,
+      "median_spread_r": 0.24582967515387372,
+      "pnl": -0.859642857142535,
+      "profit_factor": 0.3333333333333333,
+      "second_half_r": -2.0,
+      "side": {
+        "BUY": {
+          "total_r": -5.0,
+          "trades": 5
+        },
+        "SELL": {
+          "total_r": 1.0,
+          "trades": 2
+        }
+      },
+      "skipped": {
+        "entry_drift": 4,
+        "risk: The daily paper-trade limit has been reached": 8,
+        "trend_filter": 48
+      },
+      "total_r": -4.0,
+      "trades": 7,
+      "trades_per_week": 0.2692317965193701,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-pm-day-fvg-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.14285714285714285
+    },
+    {
+      "adds": 0,
+      "average_r": -1.0,
+      "buckets": [
+        -2.0,
+        0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -2.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-day-fvg-liq": {
+          "total_r": -7.0,
+          "trades": 7,
+          "wins": 0
+        }
+      },
+      "exit_reasons": {
+        "STOP": 7
+      },
+      "extra_cost_average_r": -1.202301172857684,
+      "first_half_r": -2.0,
+      "label": "sb1m-US500-silverbullet-pm-day-fvg-liq-DAY",
+      "max_drawdown_r": 7.0,
+      "median_hold_hours": 0.016666666666666666,
+      "median_spread_r": 0.24582967515387372,
+      "pnl": -1.347785714285601,
+      "profit_factor": 0.0,
+      "second_half_r": -5.0,
+      "side": {
+        "BUY": {
+          "total_r": -5.0,
+          "trades": 5
+        },
+        "SELL": {
+          "total_r": -2.0,
+          "trades": 2
+        }
+      },
+      "skipped": {
+        "entry_drift": 4,
+        "risk: 1 position(s) already open": 1,
+        "risk: The daily paper-trade limit has been reached": 7,
+        "trend_filter": 48
+      },
+      "total_r": -7.0,
+      "trades": 7,
+      "trades_per_week": 0.2692317965193701,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-pm-day-fvg-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.0
+    },
+    {
+      "adds": 0,
+      "average_r": 0.125,
+      "buckets": [
+        1.0,
+        0,
+        1.0,
+        -1.0,
+        2.0,
+        -2.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-day-sweep-rr2": {
+          "total_r": 1.0,
+          "trades": 8,
+          "wins": 3
+        }
+      },
+      "exit_reasons": {
+        "STOP": 5,
+        "TARGET": 3
+      },
+      "extra_cost_average_r": 0.06986897333317404,
+      "first_half_r": 3.0,
+      "label": "sb1m-US500-silverbullet-pm-day-sweep-rr2-DAY",
+      "max_drawdown_r": 2.0,
+      "median_hold_hours": 0.15833333333333333,
+      "median_spread_r": 0.059880108323133174,
+      "pnl": 6.294285714286071,
+      "profit_factor": 1.2,
+      "second_half_r": -2.0,
+      "side": {
+        "BUY": {
+          "total_r": 3.0,
+          "trades": 6
+        },
+        "SELL": {
+          "total_r": -2.0,
+          "trades": 2
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 3,
+        "risk: The daily paper-trade limit has been reached": 8,
+        "trend_filter": 48
+      },
+      "total_r": 1.0,
+      "trades": 8,
+      "trades_per_week": 0.30769348173642297,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-pm-day-sweep-rr2",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.375
+    },
+    {
+      "adds": 0,
+      "average_r": -0.741246212508082,
+      "buckets": [
+        -2.0,
+        0,
+        0.07003029993534438,
+        -1.0,
+        -1.0,
+        -2.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-day-sweep-liq": {
+          "total_r": -5.929969700064656,
+          "trades": 8,
+          "wins": 1
+        }
+      },
+      "exit_reasons": {
+        "STOP": 7,
+        "TARGET": 1
+      },
+      "extra_cost_average_r": -0.7963772391749079,
+      "first_half_r": -0.9299697000646556,
+      "label": "sb1m-US500-silverbullet-pm-day-sweep-liq-DAY",
+      "max_drawdown_r": 5.929969700064656,
+      "median_hold_hours": 0.19166666666666665,
+      "median_spread_r": 0.059880108323133174,
+      "pnl": -4.3019999999999525,
+      "profit_factor": 0.1528614714193349,
+      "second_half_r": -5.0,
+      "side": {
+        "BUY": {
+          "total_r": -3.929969700064656,
+          "trades": 6
+        },
+        "SELL": {
+          "total_r": -2.0,
+          "trades": 2
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 3,
+        "risk: The daily paper-trade limit has been reached": 8,
+        "trend_filter": 47
+      },
+      "total_r": -5.929969700064656,
+      "trades": 8,
+      "trades_per_week": 0.30769348173642297,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-pm-day-sweep-liq",
+        "timeframe": "sb1m"
+      },
+      "win_rate": 0.125
+    }
+  ]
+}

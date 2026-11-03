@@ -1,0 +1,1835 @@
+{
+  "data": {
+    "bars": 70655,
+    "end_exclusive": "2025-09-29T00:00:00+00:00",
+    "entry_sha256": "7f09b8a2032552fe5a5772f182ad6cd85a0c2cdfea5ac65b35cb4a1a76edd688",
+    "first_bar": "2024-09-29T22:00:00+00:00",
+    "last_bar": "2025-09-28T23:55:00+00:00",
+    "median_spread": 0.3000000000001819,
+    "repaired_in_period": [
+      "2025-02-07T16:15:00+00:00"
+    ],
+    "start_inclusive": "2024-09-29T00:00:00+00:00",
+    "timeframe": "5m"
+  },
+  "rows": [
+    {
+      "adds": 0,
+      "average_r": -0.009929099313386862,
+      "buckets": [
+        -60.94794856385663,
+        7.8988841151655595,
+        14.159715737807664,
+        31.363091431336162
+      ],
+      "by_strategy": {
+        "structure_zone-w288-r3-rr1.5": {
+          "total_r": -7.526257279547218,
+          "trades": 758,
+          "wins": 209
+        }
+      },
+      "exit_reasons": {
+        "STOP": 549,
+        "TARGET": 209
+      },
+      "extra_cost_average_r": -0.09958623115550255,
+      "first_half_r": -53.04906444869107,
+      "label": "5m-structure_zone-w288-r3-rr1.5-none",
+      "max_drawdown_r": 85.98903148701835,
+      "median_hold_hours": 0.3333333333333333,
+      "median_spread_r": 0.12022757746983413,
+      "pnl": 14.314544642856617,
+      "profit_factor": 0.9862909703469084,
+      "second_half_r": 45.522807169143825,
+      "side": {
+        "BUY": {
+          "total_r": 23.261915086073383,
+          "trades": 367
+        },
+        "SELL": {
+          "total_r": -30.788172365620625,
+          "trades": 391
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 609,
+        "risk: The daily paper-trade limit has been reached": 1268
+      },
+      "total_r": -7.526257279547241,
+      "trades": 758,
+      "trades_per_week": 14.5737256210958,
+      "variant": {
+        "family": "zone",
+        "min_rr": 1.5,
+        "radius": 3,
+        "timeframe": "5m",
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.2757255936675462
+    },
+    {
+      "adds": 0,
+      "average_r": 0.022777283286094085,
+      "buckets": [
+        -32.01041352165826,
+        11.347469295096836,
+        13.043266248940165,
+        18.52999667166032
+      ],
+      "by_strategy": {
+        "structure_zone-w288-r3-rr1.5": {
+          "total_r": 10.910318694039063,
+          "trades": 479,
+          "wins": 138
+        }
+      },
+      "exit_reasons": {
+        "STOP": 341,
+        "TARGET": 138
+      },
+      "extra_cost_average_r": -0.07083409958802489,
+      "first_half_r": -20.66294422656142,
+      "label": "5m-structure_zone-w288-r3-rr1.5-HOUR_4",
+      "max_drawdown_r": 47.71138151544959,
+      "median_hold_hours": 0.3333333333333333,
+      "median_spread_r": 0.12404016538696692,
+      "pnl": 6.815294642857952,
+      "profit_factor": 1.0317390166761344,
+      "second_half_r": 31.573262920600488,
+      "side": {
+        "BUY": {
+          "total_r": 38.154148083299866,
+          "trades": 334
+        },
+        "SELL": {
+          "total_r": -27.2438293892608,
+          "trades": 145
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 211,
+        "risk: The daily paper-trade limit has been reached": 187,
+        "trend_filter": 1758
+      },
+      "total_r": 10.910318694039066,
+      "trades": 479,
+      "trades_per_week": 9.209517905679272,
+      "variant": {
+        "family": "zone",
+        "min_rr": 1.5,
+        "radius": 3,
+        "timeframe": "5m",
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.2881002087682672
+    },
+    {
+      "adds": 0,
+      "average_r": -0.14168637369021933,
+      "buckets": [
+        -78.57793743134766,
+        7.419701015077809,
+        -48.918858593090256,
+        13.954001115385823
+      ],
+      "by_strategy": {
+        "structure_zone-w288-r3-rr2.5": {
+          "total_r": -106.12309389397433,
+          "trades": 749,
+          "wins": 147
+        }
+      },
+      "exit_reasons": {
+        "STOP": 602,
+        "TARGET": 147
+      },
+      "extra_cost_average_r": -0.23255172431951193,
+      "first_half_r": -72.15823641626986,
+      "label": "5m-structure_zone-w288-r3-rr2.5-none",
+      "max_drawdown_r": 132.72494888476874,
+      "median_hold_hours": 0.3333333333333333,
+      "median_spread_r": 0.12158934645732204,
+      "pnl": -24.596419642856837,
+      "profit_factor": 0.8237157908737969,
+      "second_half_r": -33.96485747770443,
+      "side": {
+        "BUY": {
+          "total_r": -17.96908568205049,
+          "trades": 342
+        },
+        "SELL": {
+          "total_r": -88.1540082119238,
+          "trades": 407
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 700,
+        "risk: The daily paper-trade limit has been reached": 1034
+      },
+      "total_r": -106.12309389397429,
+      "trades": 749,
+      "trades_per_week": 14.400686662533976,
+      "variant": {
+        "family": "zone",
+        "min_rr": 2.5,
+        "radius": 3,
+        "timeframe": "5m",
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.19626168224299065
+    },
+    {
+      "adds": 0,
+      "average_r": 0.07465456206475711,
+      "buckets": [
+        -16.884710680235003,
+        6.892150669269648,
+        1.2128528014285602,
+        41.47840539390041
+      ],
+      "by_strategy": {
+        "structure_zone-w288-r3-rr2.5": {
+          "total_r": 32.69869818436362,
+          "trades": 438,
+          "wins": 109
+        }
+      },
+      "exit_reasons": {
+        "STOP": 329,
+        "TARGET": 109
+      },
+      "extra_cost_average_r": -0.02209709774658383,
+      "first_half_r": -9.992560010965356,
+      "label": "5m-structure_zone-w288-r3-rr2.5-HOUR_4",
+      "max_drawdown_r": 43.80281589551153,
+      "median_hold_hours": 0.4166666666666667,
+      "median_spread_r": 0.12844055916065197,
+      "pnl": 9.526160714286743,
+      "profit_factor": 1.0985639780119711,
+      "second_half_r": 42.69125819532897,
+      "side": {
+        "BUY": {
+          "total_r": 43.08653322801245,
+          "trades": 302
+        },
+        "SELL": {
+          "total_r": -10.387835043648833,
+          "trades": 136
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 207,
+        "risk: The daily paper-trade limit has been reached": 151,
+        "trend_filter": 1687
+      },
+      "total_r": 32.698698184363614,
+      "trades": 438,
+      "trades_per_week": 8.42122931667541,
+      "variant": {
+        "family": "zone",
+        "min_rr": 2.5,
+        "radius": 3,
+        "timeframe": "5m",
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.24885844748858446
+    },
+    {
+      "adds": 0,
+      "average_r": -0.07896698378378336,
+      "buckets": [
+        -44.25502426280706,
+        -11.437778810438944,
+        -13.103424980298382,
+        15.809381934625753
+      ],
+      "by_strategy": {
+        "structure_zone-w288-r6-rr1.5": {
+          "total_r": -52.98684611891866,
+          "trades": 671,
+          "wins": 145
+        }
+      },
+      "exit_reasons": {
+        "STOP": 526,
+        "TARGET": 145
+      },
+      "extra_cost_average_r": -0.16962285243864397,
+      "first_half_r": -55.692803073246004,
+      "label": "5m-structure_zone-w288-r6-rr1.5-none",
+      "max_drawdown_r": 85.57519904097519,
+      "median_hold_hours": 0.3333333333333333,
+      "median_spread_r": 0.12064631956920605,
+      "pnl": -14.114187500000346,
+      "profit_factor": 0.8997293886895992,
+      "second_half_r": 2.705956954327372,
+      "side": {
+        "BUY": {
+          "total_r": -34.08632356067734,
+          "trades": 323
+        },
+        "SELL": {
+          "total_r": -18.900522558241295,
+          "trades": 348
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 355,
+        "risk: The daily paper-trade limit has been reached": 385
+      },
+      "total_r": -52.986846118918635,
+      "trades": 671,
+      "trades_per_week": 12.901015688331507,
+      "variant": {
+        "family": "zone",
+        "min_rr": 1.5,
+        "radius": 6,
+        "timeframe": "5m",
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.21609538002980627
+    },
+    {
+      "adds": 0,
+      "average_r": 0.09722025620211971,
+      "buckets": [
+        -1.2737341881927764,
+        7.434260058151114,
+        -16.078420916350183,
+        40.54227575005955
+      ],
+      "by_strategy": {
+        "structure_zone-w288-r6-rr1.5": {
+          "total_r": 30.624380703667704,
+          "trades": 315,
+          "wins": 81
+        }
+      },
+      "exit_reasons": {
+        "STOP": 234,
+        "TARGET": 81
+      },
+      "extra_cost_average_r": 0.006800045329114787,
+      "first_half_r": 6.160525869958337,
+      "label": "5m-structure_zone-w288-r6-rr1.5-HOUR_4",
+      "max_drawdown_r": 26.588505863426008,
+      "median_hold_hours": 0.4166666666666667,
+      "median_spread_r": 0.1164321851825176,
+      "pnl": 2.8073125000000796,
+      "profit_factor": 1.1302873232719748,
+      "second_half_r": 24.463854833709373,
+      "side": {
+        "BUY": {
+          "total_r": 26.124123562547,
+          "trades": 221
+        },
+        "SELL": {
+          "total_r": 4.500257141120711,
+          "trades": 94
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 103,
+        "risk: The daily paper-trade limit has been reached": 60,
+        "trend_filter": 933
+      },
+      "total_r": 30.62438070366771,
+      "trades": 315,
+      "trades_per_week": 6.056363549663822,
+      "variant": {
+        "family": "zone",
+        "min_rr": 1.5,
+        "radius": 6,
+        "timeframe": "5m",
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.2571428571428571
+    },
+    {
+      "adds": 0,
+      "average_r": -0.08436771379018566,
+      "buckets": [
+        -43.761009121562054,
+        -16.889041856108896,
+        -8.958058828672533,
+        14.769095842722804
+      ],
+      "by_strategy": {
+        "structure_zone-w288-r6-rr2.5": {
+          "total_r": -54.8390139636207,
+          "trades": 650,
+          "wins": 120
+        }
+      },
+      "exit_reasons": {
+        "STOP": 530,
+        "TARGET": 120
+      },
+      "extra_cost_average_r": -0.1764711246312814,
+      "first_half_r": -61.65005097767095,
+      "label": "5m-structure_zone-w288-r6-rr2.5-none",
+      "max_drawdown_r": 90.88637073916483,
+      "median_hold_hours": 0.3333333333333333,
+      "median_spread_r": 0.1230634196017987,
+      "pnl": -17.461660714285657,
+      "profit_factor": 0.8970040306549145,
+      "second_half_r": 6.811037014050271,
+      "side": {
+        "BUY": {
+          "total_r": -36.30900021274702,
+          "trades": 309
+        },
+        "SELL": {
+          "total_r": -18.530013750873657,
+          "trades": 341
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 364,
+        "risk: The daily paper-trade limit has been reached": 334
+      },
+      "total_r": -54.83901396362068,
+      "trades": 650,
+      "trades_per_week": 12.497258118353917,
+      "variant": {
+        "family": "zone",
+        "min_rr": 2.5,
+        "radius": 6,
+        "timeframe": "5m",
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.18461538461538463
+    },
+    {
+      "adds": 0,
+      "average_r": 0.11281080278782973,
+      "buckets": [
+        -1.7999614413610345,
+        14.394728124297012,
+        -18.897188487604783,
+        39.58160862707857
+      ],
+      "by_strategy": {
+        "structure_zone-w288-r6-rr2.5": {
+          "total_r": 33.27918682240977,
+          "trades": 295,
+          "wins": 68
+        }
+      },
+      "exit_reasons": {
+        "STOP": 227,
+        "TARGET": 68
+      },
+      "extra_cost_average_r": 0.01955984492139558,
+      "first_half_r": 12.594766682935978,
+      "label": "5m-structure_zone-w288-r6-rr2.5-HOUR_4",
+      "max_drawdown_r": 28.195901419264814,
+      "median_hold_hours": 0.4166666666666667,
+      "median_spread_r": 0.11918274687863549,
+      "pnl": 2.5250803571433607,
+      "profit_factor": 1.1459276474198374,
+      "second_half_r": 20.68442013947379,
+      "side": {
+        "BUY": {
+          "total_r": 23.991674587504484,
+          "trades": 205
+        },
+        "SELL": {
+          "total_r": 9.287512234905282,
+          "trades": 90
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 99,
+        "risk: The daily paper-trade limit has been reached": 53,
+        "trend_filter": 901
+      },
+      "total_r": 33.27918682240977,
+      "trades": 295,
+      "trades_per_week": 5.671832530637547,
+      "variant": {
+        "family": "zone",
+        "min_rr": 2.5,
+        "radius": 6,
+        "timeframe": "5m",
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.2305084745762712
+    },
+    {
+      "adds": 0,
+      "average_r": -0.06183577940957473,
+      "buckets": [
+        -72.97299385030394,
+        -1.1965128699504506,
+        -5.838449355720815,
+        33.01276372469842
+      ],
+      "by_strategy": {
+        "structure_zone-w864-r3-rr1.5": {
+          "total_r": -46.99519235127682,
+          "trades": 760,
+          "wins": 199
+        }
+      },
+      "exit_reasons": {
+        "STOP": 561,
+        "TARGET": 199
+      },
+      "extra_cost_average_r": -0.14985856079546675,
+      "first_half_r": -74.16950672025439,
+      "label": "5m-structure_zone-w864-r3-rr1.5-none",
+      "max_drawdown_r": 103.13325978573626,
+      "median_hold_hours": 0.3333333333333333,
+      "median_spread_r": 0.1179858159382018,
+      "pnl": -4.6819017857149445,
+      "profit_factor": 0.916229603651913,
+      "second_half_r": 27.174314368977598,
+      "side": {
+        "BUY": {
+          "total_r": 1.804934587454879,
+          "trades": 372
+        },
+        "SELL": {
+          "total_r": -48.80012693873167,
+          "trades": 388
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 599,
+        "risk: The daily paper-trade limit has been reached": 1434
+      },
+      "total_r": -46.99519235127679,
+      "trades": 760,
+      "trades_per_week": 14.612178722998427,
+      "variant": {
+        "family": "zone",
+        "min_rr": 1.5,
+        "radius": 3,
+        "timeframe": "5m",
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.2618421052631579
+    },
+    {
+      "adds": 0,
+      "average_r": 0.007781980702506162,
+      "buckets": [
+        -33.895325642617124,
+        4.96998898020963,
+        17.270766380595237,
+        15.529996671660323
+      ],
+      "by_strategy": {
+        "structure_zone-w864-r3-rr1.5": {
+          "total_r": 3.8754263898480596,
+          "trades": 498,
+          "wins": 140
+        }
+      },
+      "exit_reasons": {
+        "STOP": 358,
+        "TARGET": 140
+      },
+      "extra_cost_average_r": -0.08413589489880709,
+      "first_half_r": -28.925336662407492,
+      "label": "5m-structure_zone-w864-r3-rr1.5-HOUR_4",
+      "max_drawdown_r": 59.92397128529286,
+      "median_hold_hours": 0.3333333333333333,
+      "median_spread_r": 0.12067666383179068,
+      "pnl": 4.022071428572098,
+      "profit_factor": 1.0107426629423668,
+      "second_half_r": 32.80076305225556,
+      "side": {
+        "BUY": {
+          "total_r": 34.71688211553895,
+          "trades": 346
+        },
+        "SELL": {
+          "total_r": -30.84145572569088,
+          "trades": 152
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 227,
+        "risk: The daily paper-trade limit has been reached": 212,
+        "trend_filter": 1856
+      },
+      "total_r": 3.8754263898480685,
+      "trades": 498,
+      "trades_per_week": 9.574822373754232,
+      "variant": {
+        "family": "zone",
+        "min_rr": 1.5,
+        "radius": 3,
+        "timeframe": "5m",
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.28112449799196787
+    },
+    {
+      "adds": 0,
+      "average_r": -0.15469869215014717,
+      "buckets": [
+        -78.59650329805106,
+        -2.5796418604570794,
+        -51.75834319601632,
+        16.29167447331349
+      ],
+      "by_strategy": {
+        "structure_zone-w864-r3-rr2.5": {
+          "total_r": -116.64281388121103,
+          "trades": 754,
+          "wins": 145
+        }
+      },
+      "exit_reasons": {
+        "STOP": 609,
+        "TARGET": 145
+      },
+      "extra_cost_average_r": -0.24318387780805664,
+      "first_half_r": -82.17614515850813,
+      "label": "5m-structure_zone-w864-r3-rr2.5-none",
+      "max_drawdown_r": 141.71068945001298,
+      "median_hold_hours": 0.3333333333333333,
+      "median_spread_r": 0.11841015917101463,
+      "pnl": -29.934660714285748,
+      "profit_factor": 0.8084682859093415,
+      "second_half_r": -34.466668722702835,
+      "side": {
+        "BUY": {
+          "total_r": -24.133994910219222,
+          "trades": 352
+        },
+        "SELL": {
+          "total_r": -92.50881897099175,
+          "trades": 402
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 710,
+        "risk: The daily paper-trade limit has been reached": 1254
+      },
+      "total_r": -116.64281388121097,
+      "trades": 754,
+      "trades_per_week": 14.496819417290546,
+      "variant": {
+        "family": "zone",
+        "min_rr": 2.5,
+        "radius": 3,
+        "timeframe": "5m",
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.19230769230769232
+    },
+    {
+      "adds": 0,
+      "average_r": 0.027851325765014607,
+      "buckets": [
+        -30.54768766829193,
+        4.087280521749783,
+        2.440352933083631,
+        37.11017732301538
+      ],
+      "by_strategy": {
+        "structure_zone-w864-r3-rr2.5": {
+          "total_r": 13.090123109556849,
+          "trades": 470,
+          "wins": 111
+        }
+      },
+      "exit_reasons": {
+        "STOP": 359,
+        "TARGET": 111
+      },
+      "extra_cost_average_r": -0.06675205729095873,
+      "first_half_r": -26.460407146542146,
+      "label": "5m-structure_zone-w864-r3-rr2.5-HOUR_4",
+      "max_drawdown_r": 60.926098984915214,
+      "median_hold_hours": 0.4166666666666667,
+      "median_spread_r": 0.12376626576986442,
+      "pnl": 2.39724107142947,
+      "profit_factor": 1.03618545115506,
+      "second_half_r": 39.55053025609901,
+      "side": {
+        "BUY": {
+          "total_r": 36.4779581532057,
+          "trades": 321
+        },
+        "SELL": {
+          "total_r": -23.387835043648835,
+          "trades": 149
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 230,
+        "risk: The daily paper-trade limit has been reached": 179,
+        "trend_filter": 1839
+      },
+      "total_r": 13.090123109556865,
+      "trades": 470,
+      "trades_per_week": 9.036478947117448,
+      "variant": {
+        "family": "zone",
+        "min_rr": 2.5,
+        "radius": 3,
+        "timeframe": "5m",
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.23617021276595745
+    },
+    {
+      "adds": 0,
+      "average_r": -0.12399381350108676,
+      "buckets": [
+        -44.77635122924099,
+        -19.678695048669795,
+        -46.68480724979158,
+        25.708116025453585
+      ],
+      "by_strategy": {
+        "structure_zone-w864-r6-rr1.5": {
+          "total_r": -85.43173750224872,
+          "trades": 689,
+          "wins": 143
+        }
+      },
+      "exit_reasons": {
+        "STOP": 546,
+        "TARGET": 143
+      },
+      "extra_cost_average_r": -0.2129506003341579,
+      "first_half_r": -64.45504627791078,
+      "label": "5m-structure_zone-w864-r6-rr1.5-none",
+      "max_drawdown_r": 115.50206150611815,
+      "median_hold_hours": 0.3333333333333333,
+      "median_spread_r": 0.11856870633060917,
+      "pnl": -35.15436607142906,
+      "profit_factor": 0.8442273003065472,
+      "second_half_r": -20.976691224337994,
+      "side": {
+        "BUY": {
+          "total_r": -37.574568829351115,
+          "trades": 343
+        },
+        "SELL": {
+          "total_r": -47.85716867289766,
+          "trades": 346
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 362,
+        "risk: The daily paper-trade limit has been reached": 476
+      },
+      "total_r": -85.43173750224878,
+      "trades": 689,
+      "trades_per_week": 13.247093605455152,
+      "variant": {
+        "family": "zone",
+        "min_rr": 1.5,
+        "radius": 6,
+        "timeframe": "5m",
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.20754716981132076
+    },
+    {
+      "adds": 0,
+      "average_r": 0.06850480488842793,
+      "buckets": [
+        -7.299864255267697,
+        -1.59904197627761,
+        -8.317590731072213,
+        40.439625819794585
+      ],
+      "by_strategy": {
+        "structure_zone-w864-r6-rr1.5": {
+          "total_r": 23.22312885717707,
+          "trades": 339,
+          "wins": 84
+        }
+      },
+      "exit_reasons": {
+        "STOP": 255,
+        "TARGET": 84
+      },
+      "extra_cost_average_r": -0.020002741077183948,
+      "first_half_r": -8.898906231545308,
+      "label": "5m-structure_zone-w864-r6-rr1.5-HOUR_4",
+      "max_drawdown_r": 35.62180789785472,
+      "median_hold_hours": 0.4166666666666667,
+      "median_spread_r": 0.11426239542956589,
+      "pnl": 1.627946428571522,
+      "profit_factor": 1.0906966937563962,
+      "second_half_r": 32.12203508872238,
+      "side": {
+        "BUY": {
+          "total_r": 24.749001783131277,
+          "trades": 239
+        },
+        "SELL": {
+          "total_r": -1.5258729259542096,
+          "trades": 100
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 114,
+        "risk: The daily paper-trade limit has been reached": 68,
+        "trend_filter": 1006
+      },
+      "total_r": 23.22312885717707,
+      "trades": 339,
+      "trades_per_week": 6.517800772495351,
+      "variant": {
+        "family": "zone",
+        "min_rr": 1.5,
+        "radius": 6,
+        "timeframe": "5m",
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.24778761061946902
+    },
+    {
+      "adds": 0,
+      "average_r": -0.11289183068633768,
+      "buckets": [
+        -46.59426283563073,
+        -26.354775132952994,
+        -30.10023333406856,
+        26.395718266628997
+      ],
+      "by_strategy": {
+        "structure_zone-w864-r6-rr2.5": {
+          "total_r": -76.65355303602327,
+          "trades": 679,
+          "wins": 122
+        }
+      },
+      "exit_reasons": {
+        "STOP": 557,
+        "TARGET": 122
+      },
+      "extra_cost_average_r": -0.20288864833105635,
+      "first_half_r": -73.94903796858372,
+      "label": "5m-structure_zone-w864-r6-rr2.5-none",
+      "max_drawdown_r": 110.55097152456841,
+      "median_hold_hours": 0.3333333333333333,
+      "median_spread_r": 0.11919120255418116,
+      "pnl": -30.437339285714508,
+      "profit_factor": 0.8629812565629174,
+      "second_half_r": -2.704515067439563,
+      "side": {
+        "BUY": {
+          "total_r": -31.665914704420437,
+          "trades": 333
+        },
+        "SELL": {
+          "total_r": -44.987638331602845,
+          "trades": 346
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 386,
+        "risk: The daily paper-trade limit has been reached": 431
+      },
+      "total_r": -76.65355303602328,
+      "trades": 679,
+      "trades_per_week": 13.054828095942016,
+      "variant": {
+        "family": "zone",
+        "min_rr": 2.5,
+        "radius": 6,
+        "timeframe": "5m",
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.1796759941089838
+    },
+    {
+      "adds": 0,
+      "average_r": 0.048014184217947765,
+      "buckets": [
+        -8.826091508435955,
+        1.2702830239314058,
+        -11.136358302326816,
+        34.152734105010545
+      ],
+      "by_strategy": {
+        "structure_zone-w864-r6-rr2.5": {
+          "total_r": 15.460567318179177,
+          "trades": 322,
+          "wins": 70
+        }
+      },
+      "exit_reasons": {
+        "STOP": 252,
+        "TARGET": 70
+      },
+      "extra_cost_average_r": -0.04265357894915656,
+      "first_half_r": -7.555808484504549,
+      "label": "5m-structure_zone-w864-r6-rr2.5-HOUR_4",
+      "max_drawdown_r": 35.30222819308666,
+      "median_hold_hours": 0.4166666666666667,
+      "median_spread_r": 0.11646044150258927,
+      "pnl": -2.25596428571389,
+      "profit_factor": 1.0610962472351788,
+      "second_half_r": 23.01637580268373,
+      "side": {
+        "BUY": {
+          "total_r": 13.19918515034882,
+          "trades": 225
+        },
+        "SELL": {
+          "total_r": 2.2613821678303605,
+          "trades": 97
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 114,
+        "risk: The daily paper-trade limit has been reached": 63,
+        "trend_filter": 997
+      },
+      "total_r": 15.46056731817918,
+      "trades": 322,
+      "trades_per_week": 6.190949406323018,
+      "variant": {
+        "family": "zone",
+        "min_rr": 2.5,
+        "radius": 6,
+        "timeframe": "5m",
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.21739130434782608
+    },
+    {
+      "adds": 0,
+      "average_r": -0.07828813430742251,
+      "buckets": [
+        -24.743463272539707,
+        8.683441094741763,
+        -25.874326507662865,
+        -4.41222682453332
+      ],
+      "by_strategy": {
+        "structure_channel-w288-r3-rr1.5": {
+          "total_r": -46.34657550999408,
+          "trades": 592,
+          "wins": 177
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 415,
+        "TARGET": 176
+      },
+      "extra_cost_average_r": -0.12022832600092932,
+      "first_half_r": -17.060022177797943,
+      "label": "5m-structure_channel-w288-r3-rr1.5-none",
+      "max_drawdown_r": 62.20187458802981,
+      "median_hold_hours": 1.75,
+      "median_spread_r": 0.05030395239246868,
+      "pnl": -21.143892857142784,
+      "profit_factor": 0.8892783966372378,
+      "second_half_r": -29.286553332196185,
+      "side": {
+        "BUY": {
+          "total_r": -0.5757891924787402,
+          "trades": 245
+        },
+        "SELL": {
+          "total_r": -45.77078631751539,
+          "trades": 347
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 1355,
+        "risk: The daily paper-trade limit has been reached": 322
+      },
+      "total_r": -46.34657550999413,
+      "trades": 592,
+      "trades_per_week": 11.382118163177722,
+      "variant": {
+        "family": "channel",
+        "min_rr": 1.5,
+        "radius": 3,
+        "timeframe": "5m",
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.2989864864864865
+    },
+    {
+      "adds": 0,
+      "average_r": -0.06995682643216719,
+      "buckets": [
+        -17.483342931486654,
+        1.7544108326341794,
+        -13.796969792573046,
+        6.440149168810349
+      ],
+      "by_strategy": {
+        "structure_channel-w288-r3-rr1.5": {
+          "total_r": -23.08575272261517,
+          "trades": 330,
+          "wins": 100
+        }
+      },
+      "exit_reasons": {
+        "STOP": 230,
+        "TARGET": 100
+      },
+      "extra_cost_average_r": -0.12169711975533322,
+      "first_half_r": -13.30534146572168,
+      "label": "5m-structure_channel-w288-r3-rr1.5-HOUR_4",
+      "max_drawdown_r": 34.106994226384316,
+      "median_hold_hours": 1.5,
+      "median_spread_r": 0.060868129330756485,
+      "pnl": -14.127214285714127,
+      "profit_factor": 0.9026520046517347,
+      "second_half_r": -9.780411256893494,
+      "side": {
+        "BUY": {
+          "total_r": -12.231514942878892,
+          "trades": 206
+        },
+        "SELL": {
+          "total_r": -10.85423777973628,
+          "trades": 124
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 254,
+        "risk: The daily paper-trade limit has been reached": 32,
+        "trend_filter": 1653
+      },
+      "total_r": -23.085752722615172,
+      "trades": 330,
+      "trades_per_week": 6.344761813933528,
+      "variant": {
+        "family": "channel",
+        "min_rr": 1.5,
+        "radius": 3,
+        "timeframe": "5m",
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.30303030303030304
+    },
+    {
+      "adds": 0,
+      "average_r": -0.21191973380520135,
+      "buckets": [
+        -36.7482875275177,
+        -24.586431070945935,
+        -30.97784063310856,
+        -28.269769303587374
+      ],
+      "by_strategy": {
+        "structure_channel-w288-r3-rr2.5": {
+          "total_r": -120.58232853515956,
+          "trades": 569,
+          "wins": 108
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 461,
+        "TARGET": 107
+      },
+      "extra_cost_average_r": -0.25756157580942296,
+      "first_half_r": -58.760564218585024,
+      "label": "5m-structure_channel-w288-r3-rr2.5-none",
+      "max_drawdown_r": 136.41061852994054,
+      "median_hold_hours": 1.75,
+      "median_spread_r": 0.057228505245980756,
+      "pnl": -70.6450089285714,
+      "profit_factor": 0.7422662832306982,
+      "second_half_r": -61.82176431657454,
+      "side": {
+        "BUY": {
+          "total_r": -29.34949124765697,
+          "trades": 228
+        },
+        "SELL": {
+          "total_r": -91.23283728750259,
+          "trades": 341
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 1096,
+        "risk: The daily paper-trade limit has been reached": 172
+      },
+      "total_r": -120.58232853515956,
+      "trades": 569,
+      "trades_per_week": 10.939907491297507,
+      "variant": {
+        "family": "channel",
+        "min_rr": 2.5,
+        "radius": 3,
+        "timeframe": "5m",
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.18980667838312829
+    },
+    {
+      "adds": 0,
+      "average_r": -0.07432127715026493,
+      "buckets": [
+        -3.5761971937158936,
+        -19.4313448828839,
+        -8.871105262978569,
+        13.149685497711594
+      ],
+      "by_strategy": {
+        "structure_channel-w288-r3-rr2.5": {
+          "total_r": -18.728961841866763,
+          "trades": 252,
+          "wins": 59
+        }
+      },
+      "exit_reasons": {
+        "STOP": 193,
+        "TARGET": 59
+      },
+      "extra_cost_average_r": -0.1315516395605616,
+      "first_half_r": -20.43338769672119,
+      "label": "5m-structure_channel-w288-r3-rr2.5-HOUR_4",
+      "max_drawdown_r": 41.99088002135306,
+      "median_hold_hours": 1.4166666666666667,
+      "median_spread_r": 0.06792685494702844,
+      "pnl": -4.880955357142693,
+      "profit_factor": 0.906706821711783,
+      "second_half_r": 1.7044258548544255,
+      "side": {
+        "BUY": {
+          "total_r": -16.445455459895356,
+          "trades": 152
+        },
+        "SELL": {
+          "total_r": -2.2835063819714074,
+          "trades": 100
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 172,
+        "risk: The daily paper-trade limit has been reached": 19,
+        "trend_filter": 1394
+      },
+      "total_r": -18.728961841866763,
+      "trades": 252,
+      "trades_per_week": 4.845090839731057,
+      "variant": {
+        "family": "channel",
+        "min_rr": 2.5,
+        "radius": 3,
+        "timeframe": "5m",
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.23412698412698413
+    },
+    {
+      "adds": 0,
+      "average_r": -0.0943606472861917,
+      "buckets": [
+        -18.506220033623205,
+        -28.355637482084887,
+        -19.97262498318169,
+        27.10864999140307
+      ],
+      "by_strategy": {
+        "structure_channel-w288-r6-rr1.5": {
+          "total_r": -39.72583250748672,
+          "trades": 421,
+          "wins": 121
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 300,
+        "TARGET": 120
+      },
+      "extra_cost_average_r": -0.12942880262094,
+      "first_half_r": -47.86185751570809,
+      "label": "5m-structure_channel-w288-r6-rr1.5-none",
+      "max_drawdown_r": 79.76528553974427,
+      "median_hold_hours": 2.8333333333333335,
+      "median_spread_r": 0.0394218134033824,
+      "pnl": -13.96798214285718,
+      "profit_factor": 0.868176703390683,
+      "second_half_r": 8.136025008221385,
+      "side": {
+        "BUY": {
+          "total_r": -10.704678390196312,
+          "trades": 180
+        },
+        "SELL": {
+          "total_r": -29.021154117290394,
+          "trades": 241
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 832,
+        "risk: The daily paper-trade limit has been reached": 10,
+        "risk: spread above maximum": 1
+      },
+      "total_r": -39.72583250748671,
+      "trades": 421,
+      "trades_per_week": 8.094377950503077,
+      "variant": {
+        "family": "channel",
+        "min_rr": 1.5,
+        "radius": 6,
+        "timeframe": "5m",
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.28741092636579574
+    },
+    {
+      "adds": 0,
+      "average_r": 0.02882349539949744,
+      "buckets": [
+        -3.96121132849533,
+        -5.8610799579646695,
+        -16.349527146958177,
+        31.475341586925705
+      ],
+      "by_strategy": {
+        "structure_channel-w288-r6-rr1.5": {
+          "total_r": 5.303523153507529,
+          "trades": 184,
+          "wins": 59
+        }
+      },
+      "exit_reasons": {
+        "STOP": 125,
+        "TARGET": 59
+      },
+      "extra_cost_average_r": -0.016298918358002647,
+      "first_half_r": -9.82229128646,
+      "label": "5m-structure_channel-w288-r6-rr1.5-HOUR_4",
+      "max_drawdown_r": 30.518978354085558,
+      "median_hold_hours": 2.75,
+      "median_spread_r": 0.05723345386969083,
+      "pnl": 0.4440625000000632,
+      "profit_factor": 1.0412214036699345,
+      "second_half_r": 15.125814439967527,
+      "side": {
+        "BUY": {
+          "total_r": 6.667235862904246,
+          "trades": 116
+        },
+        "SELL": {
+          "total_r": -1.3637127093967176,
+          "trades": 68
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 137,
+        "risk: The daily paper-trade limit has been reached": 3,
+        "trend_filter": 940
+      },
+      "total_r": 5.303523153507529,
+      "trades": 184,
+      "trades_per_week": 3.5376853750417245,
+      "variant": {
+        "family": "channel",
+        "min_rr": 1.5,
+        "radius": 6,
+        "timeframe": "5m",
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.32065217391304346
+    },
+    {
+      "adds": 0,
+      "average_r": -0.13965182477345803,
+      "buckets": [
+        -6.958661901416818,
+        -29.394631695248414,
+        -17.287705539536375,
+        -0.8232125254470237
+      ],
+      "by_strategy": {
+        "structure_channel-w288-r6-rr2.5": {
+          "total_r": -54.46421166164862,
+          "trades": 390,
+          "wins": 78
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 312,
+        "TARGET": 77
+      },
+      "extra_cost_average_r": -0.179496610945786,
+      "first_half_r": -36.35329359666523,
+      "label": "5m-structure_channel-w288-r6-rr2.5-none",
+      "max_drawdown_r": 80.51476161492911,
+      "median_hold_hours": 2.9166666666666665,
+      "median_spread_r": 0.046446690417017274,
+      "pnl": -36.2115892857139,
+      "profit_factor": 0.8280015213085548,
+      "second_half_r": -18.110918064983398,
+      "side": {
+        "BUY": {
+          "total_r": -6.541783007569908,
+          "trades": 160
+        },
+        "SELL": {
+          "total_r": -47.92242865407872,
+          "trades": 230
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 558,
+        "risk: The daily paper-trade limit has been reached": 6,
+        "risk: spread above maximum": 1
+      },
+      "total_r": -54.46421166164863,
+      "trades": 390,
+      "trades_per_week": 7.498354871012351,
+      "variant": {
+        "family": "channel",
+        "min_rr": 2.5,
+        "radius": 6,
+        "timeframe": "5m",
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.2
+    },
+    {
+      "adds": 0,
+      "average_r": -0.10803385279809848,
+      "buckets": [
+        2.1963690015221156,
+        -14.800381820708004,
+        -14.150890954718669,
+        11.522130529372674
+      ],
+      "by_strategy": {
+        "structure_channel-w288-r6-rr2.5": {
+          "total_r": -15.232773244531888,
+          "trades": 141,
+          "wins": 30
+        }
+      },
+      "exit_reasons": {
+        "STOP": 111,
+        "TARGET": 30
+      },
+      "extra_cost_average_r": -0.159202587932964,
+      "first_half_r": -12.604012819185888,
+      "label": "5m-structure_channel-w288-r6-rr2.5-HOUR_4",
+      "max_drawdown_r": 33.17733989826806,
+      "median_hold_hours": 2.6666666666666665,
+      "median_spread_r": 0.06295199910072329,
+      "pnl": -6.352803571428376,
+      "profit_factor": 0.8670000430347236,
+      "second_half_r": -2.628760425345996,
+      "side": {
+        "BUY": {
+          "total_r": -11.240345924672681,
+          "trades": 86
+        },
+        "SELL": {
+          "total_r": -3.992427319859203,
+          "trades": 55
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 76,
+        "trend_filter": 738
+      },
+      "total_r": -15.232773244531884,
+      "trades": 141,
+      "trades_per_week": 2.7109436841352346,
+      "variant": {
+        "family": "channel",
+        "min_rr": 2.5,
+        "radius": 6,
+        "timeframe": "5m",
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.2127659574468085
+    },
+    {
+      "adds": 0,
+      "average_r": -0.09161830526443195,
+      "buckets": [
+        -20.730382196397006,
+        3.2437449591580205,
+        -19.010358253466336,
+        -14.992492067905431
+      ],
+      "by_strategy": {
+        "structure_channel-w864-r3-rr1.5": {
+          "total_r": -51.489487558610755,
+          "trades": 562,
+          "wins": 164
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 398,
+        "TARGET": 163
+      },
+      "extra_cost_average_r": -0.1286544580937644,
+      "first_half_r": -18.486637237238988,
+      "label": "5m-structure_channel-w864-r3-rr1.5-none",
+      "max_drawdown_r": 66.01383701720736,
+      "median_hold_hours": 1.9166666666666667,
+      "median_spread_r": 0.04616220064327541,
+      "pnl": -51.24033928571353,
+      "profit_factor": 0.8707100208164609,
+      "second_half_r": -33.00285032137177,
+      "side": {
+        "BUY": {
+          "total_r": -4.701749408206814,
+          "trades": 248
+        },
+        "SELL": {
+          "total_r": -46.78773815040394,
+          "trades": 314
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 1837,
+        "risk: The daily paper-trade limit has been reached": 340
+      },
+      "total_r": -51.489487558610755,
+      "trades": 562,
+      "trades_per_week": 10.805321634638311,
+      "variant": {
+        "family": "channel",
+        "min_rr": 1.5,
+        "radius": 3,
+        "timeframe": "5m",
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.2918149466192171
+    },
+    {
+      "adds": 0,
+      "average_r": -0.02397153390028641,
+      "buckets": [
+        -16.012092173586435,
+        9.143299091181884,
+        -25.883584695164433,
+        23.95482483616387
+      ],
+      "by_strategy": {
+        "structure_channel-w864-r3-rr1.5": {
+          "total_r": -8.797552941405094,
+          "trades": 367,
+          "wins": 114
+        }
+      },
+      "exit_reasons": {
+        "STOP": 253,
+        "TARGET": 114
+      },
+      "extra_cost_average_r": -0.07196144553707501,
+      "first_half_r": -4.445202449273756,
+      "label": "5m-structure_channel-w864-r3-rr1.5-HOUR_4",
+      "max_drawdown_r": 39.82036017090103,
+      "median_hold_hours": 1.8333333333333333,
+      "median_spread_r": 0.05729877216920027,
+      "pnl": -18.351401785713872,
+      "profit_factor": 0.9662129740080114,
+      "second_half_r": -4.352350492131357,
+      "side": {
+        "BUY": {
+          "total_r": 8.224033593988384,
+          "trades": 238
+        },
+        "SELL": {
+          "total_r": -17.0215865353935,
+          "trades": 129
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 334,
+        "risk: The daily paper-trade limit has been reached": 39,
+        "trend_filter": 1999
+      },
+      "total_r": -8.797552941405113,
+      "trades": 367,
+      "trades_per_week": 7.056144199132135,
+      "variant": {
+        "family": "channel",
+        "min_rr": 1.5,
+        "radius": 3,
+        "timeframe": "5m",
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.3106267029972752
+    },
+    {
+      "adds": 0,
+      "average_r": -0.13285281520056122,
+      "buckets": [
+        -43.59725528332598,
+        6.584493551607301,
+        -20.365916895232164,
+        -14.494694396552774
+      ],
+      "by_strategy": {
+        "structure_channel-w864-r3-rr2.5": {
+          "total_r": -71.8733730235036,
+          "trades": 541,
+          "wins": 110
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 431,
+        "TARGET": 109
+      },
+      "extra_cost_average_r": -0.17297808721202831,
+      "first_half_r": -38.012761731718676,
+      "label": "5m-structure_channel-w864-r3-rr2.5-none",
+      "max_drawdown_r": 92.59571362384527,
+      "median_hold_hours": 2.0833333333333335,
+      "median_spread_r": 0.04887414906610739,
+      "pnl": -43.10079464285654,
+      "profit_factor": 0.8332404338201772,
+      "second_half_r": -33.860611291784934,
+      "side": {
+        "BUY": {
+          "total_r": -3.3678885798159013,
+          "trades": 227
+        },
+        "SELL": {
+          "total_r": -68.50548444368772,
+          "trades": 314
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 1681,
+        "risk: The daily paper-trade limit has been reached": 208
+      },
+      "total_r": -71.87337302350362,
+      "trades": 541,
+      "trades_per_week": 10.401564064660722,
+      "variant": {
+        "family": "channel",
+        "min_rr": 2.5,
+        "radius": 3,
+        "timeframe": "5m",
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.2033271719038817
+    },
+    {
+      "adds": 0,
+      "average_r": -0.001881874578196978,
+      "buckets": [
+        -2.795743396508331,
+        -11.70957515499985,
+        -17.186637364200422,
+        31.153739786344268
+      ],
+      "by_strategy": {
+        "structure_channel-w864-r3-rr2.5": {
+          "total_r": -0.5382161293643395,
+          "trades": 286,
+          "wins": 71
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 215,
+        "TARGET": 70
+      },
+      "extra_cost_average_r": -0.05390836792389829,
+      "first_half_r": -11.931164171629579,
+      "label": "5m-structure_channel-w864-r3-rr2.5-HOUR_4",
+      "max_drawdown_r": 43.47550554443929,
+      "median_hold_hours": 1.7916666666666665,
+      "median_spread_r": 0.0605187370146075,
+      "pnl": 0.3640000000001695,
+      "profit_factor": 0.9975863635944462,
+      "second_half_r": 11.392948042265244,
+      "side": {
+        "BUY": {
+          "total_r": 5.293820995170658,
+          "trades": 181
+        },
+        "SELL": {
+          "total_r": -5.832037124534994,
+          "trades": 105
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 255,
+        "risk: The daily paper-trade limit has been reached": 27,
+        "trend_filter": 1862
+      },
+      "total_r": -0.5382161293643357,
+      "trades": 286,
+      "trades_per_week": 5.498793572075724,
+      "variant": {
+        "family": "channel",
+        "min_rr": 2.5,
+        "radius": 3,
+        "timeframe": "5m",
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.24825174825174826
+    },
+    {
+      "adds": 0,
+      "average_r": -0.0034219727025736864,
+      "buckets": [
+        -10.01366700395586,
+        -3.5589108125223468,
+        -10.234012954072213,
+        22.43437971681837
+      ],
+      "by_strategy": {
+        "structure_channel-w864-r6-rr1.5": {
+          "total_r": -1.3722110537320473,
+          "trades": 401,
+          "wins": 123
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 278,
+        "TARGET": 122
+      },
+      "extra_cost_average_r": -0.034406881343866665,
+      "first_half_r": -14.572577816478205,
+      "label": "5m-structure_channel-w864-r6-rr1.5-none",
+      "max_drawdown_r": 39.744394262184436,
+      "median_hold_hours": 3.5,
+      "median_spread_r": 0.034906914893639326,
+      "pnl": 9.834651785714236,
+      "profit_factor": 0.9950750127682392,
+      "second_half_r": 13.200366762746157,
+      "side": {
+        "BUY": {
+          "total_r": 25.880650535688144,
+          "trades": 167
+        },
+        "SELL": {
+          "total_r": -27.252861589420192,
+          "trades": 234
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 1208,
+        "risk: The daily paper-trade limit has been reached": 25,
+        "risk: spread above maximum": 1
+      },
+      "total_r": -1.3722110537320482,
+      "trades": 401,
+      "trades_per_week": 7.709846931476802,
+      "variant": {
+        "family": "channel",
+        "min_rr": 1.5,
+        "radius": 6,
+        "timeframe": "5m",
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.30673316708229426
+    },
+    {
+      "adds": 0,
+      "average_r": 0.10560490324026185,
+      "buckets": [
+        -7.457002313590734,
+        2.7172527426769975,
+        -17.304453944128706,
+        43.587603776055865
+      ],
+      "by_strategy": {
+        "structure_channel-w864-r6-rr1.5": {
+          "total_r": 21.543400261013417,
+          "trades": 204,
+          "wins": 69
+        }
+      },
+      "exit_reasons": {
+        "STOP": 135,
+        "TARGET": 69
+      },
+      "extra_cost_average_r": 0.06359704636093853,
+      "first_half_r": -4.739749570913737,
+      "label": "5m-structure_channel-w864-r6-rr1.5-HOUR_4",
+      "max_drawdown_r": 25.939473011153705,
+      "median_hold_hours": 2.791666666666667,
+      "median_spread_r": 0.05207708680674744,
+      "pnl": 15.593544642856978,
+      "profit_factor": 1.1553691447017114,
+      "second_half_r": 26.283149831927155,
+      "side": {
+        "BUY": {
+          "total_r": 25.903547943686608,
+          "trades": 133
+        },
+        "SELL": {
+          "total_r": -4.3601476826731895,
+          "trades": 71
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 184,
+        "risk: The daily paper-trade limit has been reached": 4,
+        "trend_filter": 1243
+      },
+      "total_r": 21.543400261013417,
+      "trades": 204,
+      "trades_per_week": 3.922216394067999,
+      "variant": {
+        "family": "channel",
+        "min_rr": 1.5,
+        "radius": 6,
+        "timeframe": "5m",
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.3382352941176471
+    },
+    {
+      "adds": 0,
+      "average_r": -0.040407062916178696,
+      "buckets": [
+        -2.311769928823074,
+        -0.9362718692723624,
+        -10.203234992138114,
+        -1.9842212437467126
+      ],
+      "by_strategy": {
+        "structure_channel-w864-r6-rr2.5": {
+          "total_r": -15.435498033980242,
+          "trades": 382,
+          "wins": 85
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 297,
+        "TARGET": 84
+      },
+      "extra_cost_average_r": -0.0754338997558976,
+      "first_half_r": -4.248041798095437,
+      "label": "5m-structure_channel-w864-r6-rr2.5-none",
+      "max_drawdown_r": 47.3184191180784,
+      "median_hold_hours": 4.291666666666666,
+      "median_spread_r": 0.03929643059924852,
+      "pnl": -6.248080357142404,
+      "profit_factor": 0.9482428705768255,
+      "second_half_r": -11.187456235884827,
+      "side": {
+        "BUY": {
+          "total_r": 14.166695519682918,
+          "trades": 150
+        },
+        "SELL": {
+          "total_r": -29.60219355366318,
+          "trades": 232
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 1007,
+        "risk: The daily paper-trade limit has been reached": 7
+      },
+      "total_r": -15.435498033980263,
+      "trades": 382,
+      "trades_per_week": 7.344542463401841,
+      "variant": {
+        "family": "channel",
+        "min_rr": 2.5,
+        "radius": 6,
+        "timeframe": "5m",
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.22251308900523561
+    },
+    {
+      "adds": 0,
+      "average_r": -0.01830039060173734,
+      "buckets": [
+        -1.2989211638161713,
+        -3.5110302326925247,
+        -19.278174943569745,
+        21.050261500190043
+      ],
+      "by_strategy": {
+        "structure_channel-w864-r6-rr2.5": {
+          "total_r": -3.037864839888402,
+          "trades": 166,
+          "wins": 38
+        }
+      },
+      "exit_reasons": {
+        "STOP": 128,
+        "TARGET": 38
+      },
+      "extra_cost_average_r": -0.06543288540285541,
+      "first_half_r": -4.809951396508696,
+      "label": "5m-structure_channel-w864-r6-rr2.5-HOUR_4",
+      "max_drawdown_r": 33.38055702898,
+      "median_hold_hours": 2.916666666666667,
+      "median_spread_r": 0.059711778775411596,
+      "pnl": 5.345589285714231,
+      "profit_factor": 0.976926344264719,
+      "second_half_r": 1.772086556620297,
+      "side": {
+        "BUY": {
+          "total_r": 6.077780622341235,
+          "trades": 103
+        },
+        "SELL": {
+          "total_r": -9.115645462229635,
+          "trades": 63
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 130,
+        "trend_filter": 1100
+      },
+      "total_r": -3.0378648398883987,
+      "trades": 166,
+      "trades_per_week": 3.1916074579180775,
+      "variant": {
+        "family": "channel",
+        "min_rr": 2.5,
+        "radius": 6,
+        "timeframe": "5m",
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.2289156626506024
+    }
+  ]
+}

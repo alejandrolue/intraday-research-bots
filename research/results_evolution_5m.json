@@ -1,0 +1,440 @@
+{
+  "protocol_sha256": "32827ecaa434a37b8eeb5422c6a16a5e715eb067d33f00d396144d5ab4576cf8",
+  "repaired_spreads": [
+    "2025-02-07T16:15:00+00:00",
+    "2025-11-04T16:05:00+00:00",
+    "2025-11-04T16:30:00+00:00",
+    "2026-02-03T20:40:00+00:00",
+    "2026-05-19T13:35:00+00:00",
+    "2026-06-08T14:00:00+00:00",
+    "2026-06-26T14:05:00+00:00",
+    "2026-06-26T14:15:00+00:00",
+    "2026-06-29T14:10:00+00:00",
+    "2026-07-02T14:30:00+00:00",
+    "2026-07-21T14:20:00+00:00",
+    "2026-07-22T13:45:00+00:00",
+    "2026-07-22T14:00:00+00:00",
+    "2026-07-22T14:05:00+00:00",
+    "2026-07-23T14:35:00+00:00",
+    "2026-07-28T14:40:00+00:00",
+    "2026-07-30T14:20:00+00:00",
+    "2026-07-31T13:55:00+00:00",
+    "2026-08-06T13:45:00+00:00",
+    "2026-08-07T14:05:00+00:00",
+    "2026-08-11T14:05:00+00:00",
+    "2026-08-12T14:25:00+00:00",
+    "2026-08-13T14:00:00+00:00",
+    "2026-08-14T14:00:00+00:00",
+    "2026-08-17T14:00:00+00:00",
+    "2026-08-18T13:45:00+00:00",
+    "2026-08-18T14:05:00+00:00",
+    "2026-08-20T14:15:00+00:00",
+    "2026-08-20T14:20:00+00:00",
+    "2026-08-21T13:40:00+00:00",
+    "2026-08-21T15:10:00+00:00",
+    "2026-08-24T13:40:00+00:00",
+    "2026-08-24T13:50:00+00:00",
+    "2026-08-24T14:25:00+00:00",
+    "2026-08-25T13:40:00+00:00",
+    "2026-08-27T13:30:00+00:00",
+    "2026-08-27T13:40:00+00:00",
+    "2026-08-27T14:30:00+00:00",
+    "2026-08-28T15:05:00+00:00",
+    "2026-09-02T13:35:00+00:00",
+    "2026-09-02T13:50:00+00:00",
+    "2026-09-02T14:45:00+00:00",
+    "2026-09-08T14:00:00+00:00",
+    "2026-09-09T14:05:00+00:00"
+  ],
+  "rows": {
+    "5m_evolution": {
+      "combined": {
+        "adds": 0,
+        "average_r": 0.054945054945054944,
+        "by_strategy": {
+          "5m_evolution_confluence": {
+            "total_r": -10.0,
+            "trades": 34,
+            "wins": 8
+          },
+          "5m_evolution_fakeout": {
+            "total_r": 15.0,
+            "trades": 57,
+            "wins": 24
+          }
+        },
+        "exit_reasons": {
+          "STOP": 59,
+          "TARGET": 32
+        },
+        "extra_cost_average_r": 0.009632635226563931,
+        "first_half_r": -3.0,
+        "label": "5m_evolution-combined",
+        "max_drawdown_r": 14.0,
+        "median_spread": 0.3000000000001819,
+        "period": [
+          "2024-09-29T00:00:00+00:00",
+          "2026-09-29T00:00:00+00:00"
+        ],
+        "pnl": 939.7023214287785,
+        "profit_factor": 1.0847457627118644,
+        "quarters": {
+          "2024Q4": -1.0,
+          "2025Q1": -9.0,
+          "2025Q2": 10.0,
+          "2025Q3": -3.0,
+          "2025Q4": -5.0,
+          "2026Q1": 9.0,
+          "2026Q2": -5.0,
+          "2026Q3": 9.0
+        },
+        "second_half_r": 8.0,
+        "side": {
+          "BUY": {
+            "total_r": 18.0,
+            "trades": 54
+          },
+          "SELL": {
+            "total_r": -13.0,
+            "trades": 37
+          }
+        },
+        "skipped": {
+          "risk: Open positions are BUY": 1,
+          "trend_filter": 427
+        },
+        "total_r": 5.0,
+        "trades": 91,
+        "trades_per_week": 0.8737040123824265,
+        "win_rate": 0.3516483516483517
+      },
+      "year1": {
+        "adds": 0,
+        "average_r": -0.0625,
+        "by_strategy": {
+          "5m_evolution_confluence": {
+            "total_r": -7.0,
+            "trades": 16,
+            "wins": 3
+          },
+          "5m_evolution_fakeout": {
+            "total_r": 4.0,
+            "trades": 32,
+            "wins": 12
+          }
+        },
+        "exit_reasons": {
+          "STOP": 33,
+          "TARGET": 15
+        },
+        "extra_cost_average_r": -0.12645812225188305,
+        "first_half_r": -10.0,
+        "label": "5m_evolution-year1",
+        "max_drawdown_r": 14.0,
+        "median_spread": 0.3000000000001819,
+        "period": [
+          "2024-09-29T00:00:00+00:00",
+          "2025-09-29T00:00:00+00:00"
+        ],
+        "pnl": -612.2641339284232,
+        "profit_factor": 0.9090909090909091,
+        "quarters": {
+          "2024Q4": -1.0,
+          "2025Q1": -9.0,
+          "2025Q2": 10.0,
+          "2025Q3": -3.0
+        },
+        "second_half_r": 7.0,
+        "side": {
+          "BUY": {
+            "total_r": -3.0,
+            "trades": 30
+          },
+          "SELL": {
+            "total_r": 0.0,
+            "trades": 18
+          }
+        },
+        "skipped": {
+          "trend_filter": 233
+        },
+        "total_r": -3.0,
+        "trades": 48,
+        "trades_per_week": 0.9228744456630585,
+        "win_rate": 0.3125
+      },
+      "year2": {
+        "adds": 0,
+        "average_r": 0.18604651162790697,
+        "by_strategy": {
+          "5m_evolution_confluence": {
+            "total_r": -3.0,
+            "trades": 18,
+            "wins": 5
+          },
+          "5m_evolution_fakeout": {
+            "total_r": 11.0,
+            "trades": 25,
+            "wins": 12
+          }
+        },
+        "exit_reasons": {
+          "STOP": 26,
+          "TARGET": 17
+        },
+        "extra_cost_average_r": 0.16154789938855127,
+        "first_half_r": 4.0,
+        "label": "5m_evolution-year2",
+        "max_drawdown_r": 9.0,
+        "median_spread": 0.5,
+        "period": [
+          "2025-09-29T00:00:00+00:00",
+          "2026-09-29T00:00:00+00:00"
+        ],
+        "pnl": 1642.5490330357766,
+        "profit_factor": 1.3076923076923077,
+        "quarters": {
+          "2025Q4": -5.0,
+          "2026Q1": 9.0,
+          "2026Q2": -5.0,
+          "2026Q3": 9.0
+        },
+        "second_half_r": 4.0,
+        "side": {
+          "BUY": {
+            "total_r": 21.0,
+            "trades": 24
+          },
+          "SELL": {
+            "total_r": -13.0,
+            "trades": 19
+          }
+        },
+        "skipped": {
+          "risk: Open positions are BUY": 1,
+          "trend_filter": 194
+        },
+        "total_r": 8.0,
+        "trades": 43,
+        "trades_per_week": 0.8246653792368648,
+        "win_rate": 0.3953488372093023
+      }
+    },
+    "baseline_5m_learn": {
+      "combined": {
+        "adds": 0,
+        "average_r": -0.0261970987654493,
+        "by_strategy": {
+          "breakout_retest": {
+            "total_r": -37.546355036172145,
+            "trades": 1004,
+            "wins": 323
+          },
+          "demand_zone_rejection": {
+            "total_r": -6.424062666284364,
+            "trades": 254,
+            "wins": 96
+          },
+          "ema_pullback": {
+            "total_r": -141.1382821742082,
+            "trades": 5808,
+            "wins": 2268
+          }
+        },
+        "exit_reasons": {
+          "STOP": 4379,
+          "TARGET": 2687
+        },
+        "extra_cost_average_r": -0.0749526058851832,
+        "first_half_r": -141.5291636292812,
+        "label": "baseline_5m_learn-combined",
+        "max_drawdown_r": 221.9318461718039,
+        "median_spread": 0.3000000000001819,
+        "period": [
+          "2024-09-29T00:00:00+00:00",
+          "2026-09-29T00:00:00+00:00"
+        ],
+        "pnl": -10994.316965624506,
+        "profit_factor": 0.9579835187540844,
+        "quarters": {
+          "2024Q3": 7.5000000000001315,
+          "2024Q4": -107.47448657963538,
+          "2025Q1": 0.7471390149353461,
+          "2025Q2": 61.19818393541402,
+          "2025Q3": -93.4999999999952,
+          "2025Q4": 65.50000000000648,
+          "2026Q1": 34.6268711297084,
+          "2026Q2": -130.88165308868213,
+          "2026Q3": -22.82475428841637
+        },
+        "second_half_r": -43.57953624738355,
+        "side": {
+          "BUY": {
+            "total_r": -124.54283817814037,
+            "trades": 3986
+          },
+          "SELL": {
+            "total_r": -60.56586169852437,
+            "trades": 3080
+          }
+        },
+        "skipped": {
+          "entry_drift": 4,
+          "risk: 3 position(s) already open": 1651,
+          "risk: Open positions are SELL": 2,
+          "risk: Reward-to-risk is below the configured minimum": 2090,
+          "risk: The daily paper-loss limit has been reached": 2076,
+          "risk: spread above maximum": 134,
+          "size_below_minimum": 107,
+          "trend_filter": 13575
+        },
+        "total_r": -185.10869987666476,
+        "trades": 7066,
+        "trades_per_week": 67.84167639004643,
+        "win_rate": 0.3802717237475233
+      },
+      "year1": {
+        "adds": 0,
+        "average_r": -0.042319569194421154,
+        "by_strategy": {
+          "breakout_retest": {
+            "total_r": -35.54635503617206,
+            "trades": 513,
+            "wins": 160
+          },
+          "demand_zone_rejection": {
+            "total_r": -14.424062666285316,
+            "trades": 122,
+            "wins": 40
+          },
+          "ema_pullback": {
+            "total_r": -95.0587459268239,
+            "trades": 2792,
+            "wins": 1074
+          }
+        },
+        "exit_reasons": {
+          "STOP": 2153,
+          "TARGET": 1274
+        },
+        "extra_cost_average_r": -0.11101567856413512,
+        "first_half_r": -100.7273475646999,
+        "label": "baseline_5m_learn-year1",
+        "max_drawdown_r": 156.5291636292814,
+        "median_spread": 0.3000000000001819,
+        "period": [
+          "2024-09-29T00:00:00+00:00",
+          "2025-09-29T00:00:00+00:00"
+        ],
+        "pnl": -10914.20352366027,
+        "profit_factor": 0.9328101749907786,
+        "quarters": {
+          "2024Q3": 7.5000000000001315,
+          "2024Q4": -107.47448657963538,
+          "2025Q1": 0.7471390149353461,
+          "2025Q2": 61.19818393541402,
+          "2025Q3": -106.99999999999541
+        },
+        "second_half_r": -44.30181606458139,
+        "side": {
+          "BUY": {
+            "total_r": -91.85639991052612,
+            "trades": 2067
+          },
+          "SELL": {
+            "total_r": -53.17276371875517,
+            "trades": 1360
+          }
+        },
+        "skipped": {
+          "entry_drift": 2,
+          "risk: 3 position(s) already open": 902,
+          "risk: Reward-to-risk is below the configured minimum": 1008,
+          "risk: The daily paper-loss limit has been reached": 1217,
+          "risk: spread above maximum": 8,
+          "trend_filter": 6948
+        },
+        "total_r": -145.0291636292813,
+        "trades": 3427,
+        "trades_per_week": 65.88939011015212,
+        "win_rate": 0.37175372045520866
+      },
+      "year2": {
+        "adds": 0,
+        "average_r": -0.018780840621684666,
+        "by_strategy": {
+          "breakout_retest": {
+            "total_r": -2.0000000000000853,
+            "trades": 488,
+            "wins": 162
+          },
+          "demand_zone_rejection": {
+            "total_r": 4.00000000000097,
+            "trades": 131,
+            "wins": 54
+          },
+          "ema_pullback": {
+            "total_r": -70.09932809422952,
+            "trades": 3007,
+            "wins": 1187
+          }
+        },
+        "exit_reasons": {
+          "STOP": 2223,
+          "TARGET": 1403
+        },
+        "extra_cost_average_r": -0.0482600119333078,
+        "first_half_r": 112.60877527057039,
+        "label": "baseline_5m_learn-year2",
+        "max_drawdown_r": 210.69379031587647,
+        "median_spread": 0.5,
+        "period": [
+          "2025-09-29T00:00:00+00:00",
+          "2026-09-29T00:00:00+00:00"
+        ],
+        "pnl": -10344.261879902797,
+        "profit_factor": 0.969806034305245,
+        "quarters": {
+          "2025Q3": 13.500000000000213,
+          "2025Q4": 70.0000000000071,
+          "2026Q1": 19.60877527056308,
+          "2026Q2": -121.37645091494281,
+          "2026Q3": -49.831652449856165
+        },
+        "second_half_r": -180.708103364799,
+        "side": {
+          "BUY": {
+            "total_r": -39.19933195302018,
+            "trades": 1990
+          },
+          "SELL": {
+            "total_r": -28.89999614120842,
+            "trades": 1636
+          }
+        },
+        "skipped": {
+          "entry_drift": 2,
+          "risk: 3 position(s) already open": 820,
+          "risk: Open positions are BUY": 40,
+          "risk: Open positions are SELL": 2,
+          "risk: Reward-to-risk is below the configured minimum": 1050,
+          "risk: The daily paper-loss limit has been reached": 902,
+          "risk: spread above maximum": 124,
+          "trend_filter": 6627
+        },
+        "total_r": -68.0993280942286,
+        "trades": 3626,
+        "trades_per_week": 69.54038756076446,
+        "win_rate": 0.3869277440706012
+      }
+    }
+  },
+  "source_hashes": {
+    "research/EVOLUTION_5M_PROTOCOL.md": "32827ecaa434a37b8eeb5422c6a16a5e715eb067d33f00d396144d5ab4576cf8",
+    "research/evolution_5m_study.py": "2c63a49ddc4f35f4af8b34f3910f8d49533b421ef63c10be49e9a966c1f6db58",
+    "src/goldbot/backtest.py": "052aa7c1ab737112a2d49099ce0d8b7918ec251864ceed411142613a5e4d5562",
+    "src/goldbot/evolution_strategy.py": "42a3361bb5d95615d3d2fece5e7a8fd712757a4dd52590aa83b32e5f968adb3f",
+    "src/goldbot/paper.py": "302b5270227a5678c8007d65001bfc23135c10498497ed69bbd8b1de4fb1285c",
+    "src/goldbot/risk.py": "af9042e6e1910f752233656790918d7879b1cd77ba06cceba78e833184114fd8"
+  }
+}

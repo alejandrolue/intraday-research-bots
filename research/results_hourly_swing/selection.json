@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-10-07T20:00:56.633029+00:00",
+  "training_sha256": "63d33c6c00c3501056715c14f1542373a628790e8cfacc3767135d5f38f53baa",
+  "sources": {
+    "research/hourly_swing_study.py": "cdf195b1f943c1cd3255ec60bb37abd3dac76b248c01d58c220a912a60ac02ae",
+    "research/HOURLY_SWING_PROTOCOL.md": "4472b1b6b773f364dccbd8e1150ab9ca597cc39f8d0a9070fdd79e4fdb7b8fef",
+    "research/hourly_swing.py": "de946a2d593262b20fb54ad80a3ade1c36cad12e4872f224881312af415d690b",
+    "src/goldbot/regime.py": "aa7d6fe25c98e5b0bd524d00c38afc391982124f0947be3783f166ccd23a8ecc"
+  },
+  "selected": [
+    {
+      "rule": "range-loose-1.0-edge",
+      "eligible": false
+    },
+    {
+      "rule": "breakout-3-opposite-3",
+      "eligible": false
+    }
+  ]
+}

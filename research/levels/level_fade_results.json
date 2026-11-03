@@ -1,0 +1,205 @@
+{
+ "issue": 189,
+ "check": "fade at the level, 1:1, stop first",
+ "GOLD": {
+  "trades": 4147,
+  "by_session_period": {
+   "Asia | 2024": {
+    "trades": 368,
+    "avg_r": -0.0995,
+    "win_rate": 0.505
+   },
+   "Asia | 2025-26": {
+    "trades": 785,
+    "avg_r": -0.0517,
+    "win_rate": 0.501
+   },
+   "London open | 2024": {
+    "trades": 271,
+    "avg_r": -0.1279,
+    "win_rate": 0.502
+   },
+   "London open | 2025-26": {
+    "trades": 389,
+    "avg_r": 0.0079,
+    "win_rate": 0.535
+   },
+   "London | 2024": {
+    "trades": 351,
+    "avg_r": -0.2074,
+    "win_rate": 0.467
+   },
+   "London | 2025-26": {
+    "trades": 591,
+    "avg_r": -0.1355,
+    "win_rate": 0.46
+   },
+   "US afternoon | 2024": {
+    "trades": 92,
+    "avg_r": -0.0881,
+    "win_rate": 0.467
+   },
+   "US afternoon | 2025-26": {
+    "trades": 182,
+    "avg_r": 0.0173,
+    "win_rate": 0.527
+   },
+   "US midday | 2024": {
+    "trades": 178,
+    "avg_r": -0.1816,
+    "win_rate": 0.466
+   },
+   "US midday | 2025-26": {
+    "trades": 302,
+    "avg_r": -0.0306,
+    "win_rate": 0.507
+   },
+   "US open | 2024": {
+    "trades": 270,
+    "avg_r": -0.3629,
+    "win_rate": 0.393
+   },
+   "US open | 2025-26": {
+    "trades": 368,
+    "avg_r": -0.2065,
+    "win_rate": 0.427
+   }
+  },
+  "by_kind": {
+   "asia | 2024": {
+    "trades": 341,
+    "avg_r": -0.2128,
+    "win_rate": 0.463
+   },
+   "asia | 2025-26": {
+    "trades": 518,
+    "avg_r": -0.1459,
+    "win_rate": 0.458
+   },
+   "fvg | 2024": {
+    "trades": 954,
+    "avg_r": -0.1319,
+    "win_rate": 0.491
+   },
+   "fvg | 2025-26": {
+    "trades": 1691,
+    "avg_r": -0.0167,
+    "win_rate": 0.516
+   },
+   "prev-day | 2024": {
+    "trades": 235,
+    "avg_r": -0.3577,
+    "win_rate": 0.391
+   },
+   "prev-day | 2025-26": {
+    "trades": 408,
+    "avg_r": -0.2349,
+    "win_rate": 0.414
+   }
+  },
+  "sessions_passing": []
+ },
+ "US100": {
+  "trades": 4756,
+  "by_session_period": {
+   "Asia | 2024": {
+    "trades": 313,
+    "avg_r": -0.1637,
+    "win_rate": 0.441
+   },
+   "Asia | 2025-26": {
+    "trades": 746,
+    "avg_r": -0.0548,
+    "win_rate": 0.487
+   },
+   "London open | 2024": {
+    "trades": 308,
+    "avg_r": -0.0857,
+    "win_rate": 0.497
+   },
+   "London open | 2025-26": {
+    "trades": 458,
+    "avg_r": -0.0372,
+    "win_rate": 0.511
+   },
+   "London | 2024": {
+    "trades": 345,
+    "avg_r": -0.1705,
+    "win_rate": 0.455
+   },
+   "London | 2025-26": {
+    "trades": 641,
+    "avg_r": -0.0997,
+    "win_rate": 0.479
+   },
+   "US afternoon | 2024": {
+    "trades": 135,
+    "avg_r": -0.1091,
+    "win_rate": 0.481
+   },
+   "US afternoon | 2025-26": {
+    "trades": 256,
+    "avg_r": -0.146,
+    "win_rate": 0.43
+   },
+   "US midday | 2024": {
+    "trades": 236,
+    "avg_r": -0.2253,
+    "win_rate": 0.424
+   },
+   "US midday | 2025-26": {
+    "trades": 395,
+    "avg_r": -0.0426,
+    "win_rate": 0.504
+   },
+   "US open | 2024": {
+    "trades": 355,
+    "avg_r": -0.1982,
+    "win_rate": 0.445
+   },
+   "US open | 2025-26": {
+    "trades": 546,
+    "avg_r": -0.2005,
+    "win_rate": 0.429
+   },
+   "other | 2025-26": {
+    "trades": 22,
+    "avg_r": -0.2545,
+    "win_rate": 0.364
+   }
+  },
+  "by_kind": {
+   "asia | 2024": {
+    "trades": 423,
+    "avg_r": -0.1884,
+    "win_rate": 0.442
+   },
+   "asia | 2025-26": {
+    "trades": 659,
+    "avg_r": -0.1449,
+    "win_rate": 0.457
+   },
+   "fvg | 2024": {
+    "trades": 1030,
+    "avg_r": -0.1019,
+    "win_rate": 0.485
+   },
+   "fvg | 2025-26": {
+    "trades": 1988,
+    "avg_r": -0.048,
+    "win_rate": 0.496
+   },
+   "prev-day | 2024": {
+    "trades": 239,
+    "avg_r": -0.377,
+    "win_rate": 0.351
+   },
+   "prev-day | 2025-26": {
+    "trades": 417,
+    "avg_r": -0.2405,
+    "win_rate": 0.4
+   }
+  },
+  "sessions_passing": []
+ }
+}

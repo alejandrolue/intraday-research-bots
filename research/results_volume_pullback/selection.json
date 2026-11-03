@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-10-01T02:35:07.971450+00:00",
+  "selected": {
+    "eligible": false,
+    "id": "evp-pullback-off-rr3-all",
+    "variant": {
+      "entry": "pullback",
+      "hours": "all",
+      "reward": 3.0,
+      "volume": "off"
+    }
+  },
+  "source_hashes": {
+    "research/VOLUME_PULLBACK_PROTOCOL.md": "cd485b9322d605ca4298f4e25f8ba9e26277ca11abbfd0ed5282c617e3ac07c8",
+    "research/volume_pullback_study.py": "d068de45486d25fb228524a4075fcb1be072bf16c48858e6f7979fa780d5852b",
+    "src/goldbot/backtest.py": "6e6dcb2216b1c9b685d4295ccc936f7c366f3d05b016a09d943a0526218f601f",
+    "src/goldbot/indicators.py": "91dacb0c236dbf7aa210dd555c3af10d6479787760fa2af50522bf6b5cfee3d5",
+    "src/goldbot/market_events.py": "17c35e78ff707b6511cc9e27b820ff427ebc21298febb1279efb839c2c4c37cd",
+    "src/goldbot/risk.py": "af9042e6e1910f752233656790918d7879b1cd77ba06cceba78e833184114fd8",
+    "src/goldbot/volume_pullback.py": "56198278fc8fd0f563c7c2e77f8d40e186049f58ea7394ba87987f8be3e5950e"
+  },
+  "training_sha256": "6620465c5bcae87a226c9e3bd089d25bcdcd7c13b9cc2091709e8bdcb3b86fb2",
+  "trial_count": 48
+}

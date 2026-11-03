@@ -1,0 +1,76 @@
+{
+  "created_utc": "2026-09-29T16:48:34.901306+00:00",
+  "selected": [
+    {
+      "eligible": true,
+      "id": "US100-orb-nycash-15-rr2-HOUR_4",
+      "variant": {
+        "family": "orb",
+        "market": "US100",
+        "minutes": 15,
+        "reward": 2.0,
+        "trend": "HOUR_4"
+      }
+    },
+    {
+      "eligible": false,
+      "id": "US100-rolling_sweep-nycash-30-rr2-none",
+      "variant": {
+        "family": "rolling_sweep",
+        "market": "US100",
+        "minutes": 30,
+        "reward": 2.0,
+        "trend": null
+      }
+    },
+    {
+      "eligible": true,
+      "id": "US30-orb-nycash-15-rr2-none",
+      "variant": {
+        "family": "orb",
+        "market": "US30",
+        "minutes": 15,
+        "reward": 2.0,
+        "trend": null
+      }
+    },
+    {
+      "eligible": false,
+      "id": "US30-rolling_sweep-nycash-30-rr2-none",
+      "variant": {
+        "family": "rolling_sweep",
+        "market": "US30",
+        "minutes": 30,
+        "reward": 2.0,
+        "trend": null
+      }
+    }
+  ],
+  "source_hashes": {
+    "research/INDEX_OPEN_PROTOCOL.md": "e415b91052616f65103cfadbc732110fa4f07876b030e27490f457ae11c04e57",
+    "research/index_open_study.py": "06f4a3ca3d91b483230f9a311789ec2a0963ea81ed7961a817e0e660d57df86e",
+    "src/goldbot/__init__.py": "6d5e141a0f8090e139e30ddb37030766118878e9d0f8d8c9676221c6f019aaaf",
+    "src/goldbot/ai_review.py": "f90eb17f839f43307015008959f30329efefb9492bc8eb5f9e42187195f83615",
+    "src/goldbot/backtest.py": "aeeddc7ff6701c09480822d65afa9524691ddc69dd0d50db1f59d0a2551e6216",
+    "src/goldbot/capital.py": "dd5cda3687ed8ab15a619b1e24551513b5eee4d0587427900bf0aab83427ede9",
+    "src/goldbot/cli.py": "dafec63686e503dc3c3b71ea606d060cd5e8938a7fa5ea50fadbcafa87386a37",
+    "src/goldbot/commands.py": "e2d99e2fb2099c46a0346308a0356fe6523a558e71c6746fb23b1c317a57e024",
+    "src/goldbot/config.py": "ba8f04e0865eeea11743f8c09365c50dc4b0b97e3daab01364d71c562e21c67d",
+    "src/goldbot/control.py": "4c9478ada654fcf36e6fc8402e56c7773baffd55b0b82b6c5c064ad00a7e2861",
+    "src/goldbot/execution.py": "ca936266f5ed1ed8763456264157b0b0f4cc60db8cbd9a0ee27e9976fd100d55",
+    "src/goldbot/history.py": "81d29e7517f111c8350a8be025ed7919b30d3af410842f6779763770007d13d3",
+    "src/goldbot/indicators.py": "91dacb0c236dbf7aa210dd555c3af10d6479787760fa2af50522bf6b5cfee3d5",
+    "src/goldbot/management.py": "bffa35701b9952ebba32b4202741af5f440f829019034c9eadc4136976503af8",
+    "src/goldbot/models.py": "440f54fded65a7ce167ca09922035ca20e580d6c70c4e814bfe4ddd4a744c20c",
+    "src/goldbot/paper.py": "649523c5f813a6a8cc8cd9383c1c8b311dc94990e23a2d76df822199730633bc",
+    "src/goldbot/risk.py": "51adfe6f9325e377e28a5bed6cc1b926a94a6646af94cb788898e6edcbdfcbe7",
+    "src/goldbot/runner.py": "4def185ef98dc0abc493a50f93e7192918fc804b55d4b0f9513d14039f071f11",
+    "src/goldbot/session_strategies.py": "99537f2eba0f832c85ef5627b8bd1c83a80adc086b398fcc093b4e4789617265",
+    "src/goldbot/sessions.py": "3b6712cdf1d21a0a23b07350175ebbbd5053b7de7ba7262764259af8ed350d24",
+    "src/goldbot/stats.py": "663b82cfc62c556c1c3ad7010cb3792fd2d6980690e3e9211da9c95942008178",
+    "src/goldbot/strategy.py": "9733689dad8352585904a53a9693ff37dd850d4ed83263cb2a7b9fef6aee2533",
+    "src/goldbot/telegram.py": "5d2c8fff6b548157d160a3e87a6edc5b6b35e743b68f82996284a25b210fb153"
+  },
+  "training_sha256": "70ea1e743cfcd760e82afed7a1258b81ad4b335bcf1f6a80723ecb04e2d703f1",
+  "trial_count": 48
+}

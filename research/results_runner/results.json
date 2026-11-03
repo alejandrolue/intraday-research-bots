@@ -1,0 +1,161 @@
+{
+  "created_utc": "2026-10-10T13:47:29.919018+00:00",
+  "sources": {
+    "research/runner_study.py": "2aa7f36229715b8bfb26081a195a90bdedc448cb6afaa8d0b0b4d942770b0f74",
+    "research/RUNNER_PROTOCOL.md": "bc88cea459701ea64e2686cb46af674788d6340221fef460c8df6814fc7ee746"
+  },
+  "signals": 3044,
+  "fidelity": {
+    "run_backtest_trades": 1717,
+    "run_backtest_average_r": -0.006825806087328147,
+    "replay_trades": 1725,
+    "replay_average_r": -0.020831707871528958,
+    "valid": true
+  },
+  "rows": {
+    "B": {
+      "trades": 1725,
+      "average_r": -0.020831707871528958,
+      "total_r": -35.934696078387454,
+      "win_rate": 0.2544927536231884,
+      "best_r": 3.0,
+      "years": {
+        "2024": {
+          "trades": 640,
+          "average_r": -0.1763045167127792
+        },
+        "2025": {
+          "trades": 609,
+          "average_r": 0.12803808661443933
+        },
+        "2026": {
+          "trades": 476,
+          "average_r": -0.0022584036352990117
+        }
+      },
+      "exits": {
+        "stop": 1262,
+        "target": 399,
+        "weekend": 64
+      },
+      "extra_spread_average_r": -0.06428444141254848
+    },
+    "P1.5-T3": {
+      "trades": 1542,
+      "average_r": -0.0014615894807630454,
+      "total_r": -2.253770979336616,
+      "win_rate": 0.38975356679636836,
+      "best_r": 8.126865671642019,
+      "years": {
+        "2024": {
+          "trades": 577,
+          "average_r": -0.12796442798608315
+        },
+        "2025": {
+          "trades": 548,
+          "average_r": 0.06837061725659567
+        },
+        "2026": {
+          "trades": 417,
+          "average_r": 0.0818096060240262
+        }
+      },
+      "exits": {
+        "stop": 922,
+        "runner_stop": 553,
+        "weekend": 67
+      },
+      "extra_spread_average_r": -0.0468354899184627,
+      "helps": false,
+      "tradable": false
+    },
+    "P1.5-T2": {
+      "trades": 1665,
+      "average_r": -0.03316832055538875,
+      "total_r": -55.22525372472227,
+      "win_rate": 0.3825825825825826,
+      "best_r": 6.4079529459079865,
+      "years": {
+        "2024": {
+          "trades": 618,
+          "average_r": -0.13934610360047117
+        },
+        "2025": {
+          "trades": 590,
+          "average_r": 0.061006799163968284
+        },
+        "2026": {
+          "trades": 457,
+          "average_r": -0.011167118613506286
+        }
+      },
+      "exits": {
+        "stop": 1005,
+        "runner_stop": 599,
+        "weekend": 61
+      },
+      "extra_spread_average_r": -0.0736935922634278,
+      "helps": false,
+      "tradable": false
+    },
+    "P3-T3": {
+      "trades": 1462,
+      "average_r": -0.004346147478342162,
+      "total_r": -6.354067613336241,
+      "win_rate": 0.25102599179206564,
+      "best_r": 8.876865671642019,
+      "years": {
+        "2024": {
+          "trades": 551,
+          "average_r": -0.17116960518314486
+        },
+        "2025": {
+          "trades": 513,
+          "average_r": 0.12470856153212827
+        },
+        "2026": {
+          "trades": 398,
+          "average_r": 0.0602635496899366
+        }
+      },
+      "exits": {
+        "stop": 1076,
+        "runner_stop": 313,
+        "weekend": 73
+      },
+      "extra_spread_average_r": -0.046593935563380165,
+      "helps": false,
+      "tradable": false
+    },
+    "P1.5-EOD": {
+      "trades": 1550,
+      "average_r": -0.0033111524219606573,
+      "total_r": -5.132286254039019,
+      "win_rate": 0.38451612903225807,
+      "best_r": 15.718948174065005,
+      "years": {
+        "2024": {
+          "trades": 585,
+          "average_r": -0.1423204225075412
+        },
+        "2025": {
+          "trades": 545,
+          "average_r": 0.06031033164353129
+        },
+        "2026": {
+          "trades": 420,
+          "average_r": 0.10775245277892391
+        }
+      },
+      "exits": {
+        "stop": 936,
+        "runner_stop": 381,
+        "weekend": 72,
+        "end_of_day": 161
+      },
+      "extra_spread_average_r": -0.04628376825752212,
+      "helps": false,
+      "tradable": false
+    }
+  }
+}

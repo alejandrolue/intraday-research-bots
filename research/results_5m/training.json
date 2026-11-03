@@ -1,0 +1,1854 @@
+{
+  "data": {
+    "bars": 70655,
+    "end_exclusive": "2025-09-29T00:00:00+00:00",
+    "entry_sha256": "8bbbde9c33976c79cfb3457d2ff033a752e1ac0921195aafd8ae1807f8fa5b69",
+    "first_bar": "2024-09-29T22:00:00+00:00",
+    "gaps_over_5m": 260,
+    "last_bar": "2025-09-28T23:55:00+00:00",
+    "max_spread": 1.2000000000002728,
+    "median_spread": 0.3000000000001819,
+    "repaired_nonpositive_spreads": [
+      "2025-02-07T16:15:00+00:00"
+    ],
+    "start_inclusive": "2024-09-29T00:00:00+00:00",
+    "trend_sha256": "b7c41182f0621c0c1ecd736dc084380c8a15b564fbd0690c3e3646dcacaa8c51",
+    "warmup": 300
+  },
+  "rows": [
+    {
+      "adds": 0,
+      "average_r": -0.06479591836734584,
+      "by_strategy": {
+        "orb-london-30-rr1.6-none": {
+          "total_r": -25.39999999999956,
+          "trades": 392,
+          "wins": 141
+        }
+      },
+      "exit_reasons": {
+        "STOP": 251,
+        "TARGET": 141
+      },
+      "extra_020_cost_average_r": -0.12573375755138422,
+      "first_half_r": -15.200000000000198,
+      "label": "orb-london-30-rr1.6-none",
+      "max_drawdown_r": 42.19999999999931,
+      "max_hold_hours": 60.416666666666664,
+      "median_hold_hours": 0.5416666666666667,
+      "median_spread_r": 0.09105769059928423,
+      "overnight_utc": 1,
+      "pnl": -14.958960714285922,
+      "profit_factor": 0.8988047808764957,
+      "quarters": [
+        -15.39999999999981,
+        0.19999999999961204,
+        -5.799999999999746,
+        -4.399999999999629
+      ],
+      "second_half_r": -10.199999999999374,
+      "side": {
+        "BUY": {
+          "total_r": -15.400000000000917,
+          "trades": 226
+        },
+        "SELL": {
+          "total_r": -9.999999999998655,
+          "trades": 166
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 175,
+        "risk: The daily paper-trade limit has been reached": 8
+      },
+      "total_r": -25.399999999999572,
+      "trades": 392,
+      "trades_per_week": 7.536807972914978,
+      "variant": {
+        "family": "orb",
+        "minutes": 30,
+        "reward": 1.6,
+        "session": "london",
+        "trend": null
+      },
+      "win_rate": 0.3596938775510204
+    },
+    {
+      "adds": 0,
+      "average_r": -0.20130718954248555,
+      "by_strategy": {
+        "orb-london-30-rr1.6-HOUR_4": {
+          "total_r": -30.800000000000278,
+          "trades": 153,
+          "wins": 47
+        }
+      },
+      "exit_reasons": {
+        "STOP": 106,
+        "TARGET": 47
+      },
+      "extra_020_cost_average_r": -0.2649359325293485,
+      "first_half_r": -13.800000000000553,
+      "label": "orb-london-30-rr1.6-HOUR_4",
+      "max_drawdown_r": 37.20000000000015,
+      "max_hold_hours": 4.416666666666667,
+      "median_hold_hours": 0.5,
+      "median_spread_r": 0.09250082590028971,
+      "overnight_utc": 0,
+      "pnl": -13.662246428571507,
+      "profit_factor": 0.7094339622641481,
+      "quarters": [
+        -3.7999999999998195,
+        -10.000000000000734,
+        -6.199999999999907,
+        -10.79999999999983
+      ],
+      "second_half_r": -16.999999999999737,
+      "side": {
+        "BUY": {
+          "total_r": -28.20000000000067,
+          "trades": 114
+        },
+        "SELL": {
+          "total_r": -2.5999999999996213,
+          "trades": 39
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 61,
+        "risk: The daily paper-trade limit has been reached": 2,
+        "trend_filter": 359
+      },
+      "total_r": -30.80000000000029,
+      "trades": 153,
+      "trades_per_week": 2.9416622955509992,
+      "variant": {
+        "family": "orb",
+        "minutes": 30,
+        "reward": 1.6,
+        "session": "london",
+        "trend": "HOUR_4"
+      },
+      "win_rate": 0.30718954248366015
+    },
+    {
+      "adds": 0,
+      "average_r": -0.11311053984575704,
+      "by_strategy": {
+        "orb-london-30-rr2-none": {
+          "total_r": -43.999999999999496,
+          "trades": 389,
+          "wins": 115
+        }
+      },
+      "exit_reasons": {
+        "STOP": 274,
+        "TARGET": 115
+      },
+      "extra_020_cost_average_r": -0.17407341289711845,
+      "first_half_r": -20.99999999999998,
+      "label": "orb-london-30-rr2-none",
+      "max_drawdown_r": 55.999999999999055,
+      "max_hold_hours": 60.416666666666664,
+      "median_hold_hours": 0.6666666666666666,
+      "median_spread_r": 0.09079118028540548,
+      "overnight_utc": 1,
+      "pnl": -19.707696428571353,
+      "profit_factor": 0.8394160583941624,
+      "quarters": [
+        -18.9999999999999,
+        -2.00000000000008,
+        -12.999999999999478,
+        -10.00000000000003
+      ],
+      "second_half_r": -22.999999999999506,
+      "side": {
+        "BUY": {
+          "total_r": -22.000000000000526,
+          "trades": 226
+        },
+        "SELL": {
+          "total_r": -21.99999999999896,
+          "trades": 163
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 178,
+        "risk: The daily paper-trade limit has been reached": 8
+      },
+      "total_r": -43.99999999999949,
+      "trades": 389,
+      "trades_per_week": 7.4791283200610374,
+      "variant": {
+        "family": "orb",
+        "minutes": 30,
+        "reward": 2.0,
+        "session": "london",
+        "trend": null
+      },
+      "win_rate": 0.29562982005141386
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1960784313725482,
+      "by_strategy": {
+        "orb-london-30-rr2-HOUR_4": {
+          "total_r": -29.999999999999886,
+          "trades": 153,
+          "wins": 41
+        }
+      },
+      "exit_reasons": {
+        "STOP": 112,
+        "TARGET": 41
+      },
+      "extra_020_cost_average_r": -0.25970717435941115,
+      "first_half_r": -14.999999999999984,
+      "label": "orb-london-30-rr2-HOUR_4",
+      "max_drawdown_r": 36.000000000000114,
+      "max_hold_hours": 5.333333333333333,
+      "median_hold_hours": 0.75,
+      "median_spread_r": 0.09250082590028971,
+      "overnight_utc": 0,
+      "pnl": -12.035839285714156,
+      "profit_factor": 0.7321428571428583,
+      "quarters": [
+        -7.9999999999999,
+        -7.0000000000000835,
+        -2.9999999999999334,
+        -11.999999999999957
+      ],
+      "second_half_r": -14.99999999999989,
+      "side": {
+        "BUY": {
+          "total_r": -27.000000000000387,
+          "trades": 114
+        },
+        "SELL": {
+          "total_r": -2.9999999999994857,
+          "trades": 39
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 61,
+        "risk: The daily paper-trade limit has been reached": 2,
+        "trend_filter": 359
+      },
+      "total_r": -29.999999999999876,
+      "trades": 153,
+      "trades_per_week": 2.9416622955509992,
+      "variant": {
+        "family": "orb",
+        "minutes": 30,
+        "reward": 2.0,
+        "session": "london",
+        "trend": "HOUR_4"
+      },
+      "win_rate": 0.2679738562091503
+    },
+    {
+      "adds": 0,
+      "average_r": -0.09565217391304395,
+      "by_strategy": {
+        "orb-london-60-rr1.6-none": {
+          "total_r": -24.200000000000117,
+          "trades": 253,
+          "wins": 88
+        }
+      },
+      "exit_reasons": {
+        "STOP": 165,
+        "TARGET": 88
+      },
+      "extra_020_cost_average_r": -0.1475779851729922,
+      "first_half_r": -4.000000000000283,
+      "label": "orb-london-60-rr1.6-none",
+      "max_drawdown_r": 32.200000000000095,
+      "max_hold_hours": 60.416666666666664,
+      "median_hold_hours": 0.8333333333333334,
+      "median_spread_r": 0.07453416149072674,
+      "overnight_utc": 2,
+      "pnl": -11.857810714285598,
+      "profit_factor": 0.8533333333333325,
+      "quarters": [
+        -6.000000000000284,
+        2.000000000000001,
+        -10.199999999999946,
+        -9.999999999999892
+      ],
+      "second_half_r": -20.19999999999984,
+      "side": {
+        "BUY": {
+          "total_r": -16.400000000000333,
+          "trades": 149
+        },
+        "SELL": {
+          "total_r": -7.799999999999787,
+          "trades": 104
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 135
+      },
+      "total_r": -24.20000000000012,
+      "trades": 253,
+      "trades_per_week": 4.864317390682372,
+      "variant": {
+        "family": "orb",
+        "minutes": 60,
+        "reward": 1.6,
+        "session": "london",
+        "trend": null
+      },
+      "win_rate": 0.34782608695652173
+    },
+    {
+      "adds": 0,
+      "average_r": -0.27920792079208556,
+      "by_strategy": {
+        "orb-london-60-rr1.6-HOUR_4": {
+          "total_r": -28.20000000000064,
+          "trades": 101,
+          "wins": 28
+        }
+      },
+      "exit_reasons": {
+        "STOP": 73,
+        "TARGET": 28
+      },
+      "extra_020_cost_average_r": -0.33425769479028467,
+      "first_half_r": -9.800000000000498,
+      "label": "orb-london-60-rr1.6-HOUR_4",
+      "max_drawdown_r": 30.600000000000545,
+      "max_hold_hours": 4.583333333333333,
+      "median_hold_hours": 0.9166666666666666,
+      "median_spread_r": 0.0772200772201197,
+      "overnight_utc": 0,
+      "pnl": -10.921535714285666,
+      "profit_factor": 0.6136986301369775,
+      "quarters": [
+        -8.80000000000024,
+        -1.0000000000002578,
+        -7.0000000000000435,
+        -11.400000000000098
+      ],
+      "second_half_r": -18.40000000000014,
+      "side": {
+        "BUY": {
+          "total_r": -18.200000000000493,
+          "trades": 78
+        },
+        "SELL": {
+          "total_r": -10.000000000000146,
+          "trades": 23
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 52,
+        "trend_filter": 235
+      },
+      "total_r": -28.200000000000642,
+      "trades": 101,
+      "trades_per_week": 1.9418816460826858,
+      "variant": {
+        "family": "orb",
+        "minutes": 60,
+        "reward": 1.6,
+        "session": "london",
+        "trend": "HOUR_4"
+      },
+      "win_rate": 0.27722772277227725
+    },
+    {
+      "adds": 0,
+      "average_r": -0.09523809523809437,
+      "by_strategy": {
+        "orb-london-60-rr2-none": {
+          "total_r": -23.999999999999783,
+          "trades": 252,
+          "wins": 76
+        }
+      },
+      "exit_reasons": {
+        "STOP": 176,
+        "TARGET": 76
+      },
+      "extra_020_cost_average_r": -0.14710452625658593,
+      "first_half_r": 2.0000000000001066,
+      "label": "orb-london-60-rr2-none",
+      "max_drawdown_r": 38.99999999999989,
+      "max_hold_hours": 60.416666666666664,
+      "median_hold_hours": 1.0,
+      "median_spread_r": 0.07448792441784487,
+      "overnight_utc": 2,
+      "pnl": -13.068874999999663,
+      "profit_factor": 0.863636363636365,
+      "quarters": [
+        -2.000000000000163,
+        4.00000000000027,
+        -11.999999999999844,
+        -14.000000000000044
+      ],
+      "second_half_r": -25.99999999999989,
+      "side": {
+        "BUY": {
+          "total_r": -17.00000000000002,
+          "trades": 149
+        },
+        "SELL": {
+          "total_r": -6.999999999999759,
+          "trades": 103
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 136
+      },
+      "total_r": -23.999999999999783,
+      "trades": 252,
+      "trades_per_week": 4.845090839731057,
+      "variant": {
+        "family": "orb",
+        "minutes": 60,
+        "reward": 2.0,
+        "session": "london",
+        "trend": null
+      },
+      "win_rate": 0.30158730158730157
+    },
+    {
+      "adds": 0,
+      "average_r": -0.28712871287128994,
+      "by_strategy": {
+        "orb-london-60-rr2-HOUR_4": {
+          "total_r": -29.000000000000284,
+          "trades": 101,
+          "wins": 24
+        }
+      },
+      "exit_reasons": {
+        "STOP": 77,
+        "TARGET": 24
+      },
+      "extra_020_cost_average_r": -0.3421784868694891,
+      "first_half_r": -9.0000000000001,
+      "label": "orb-london-60-rr2-HOUR_4",
+      "max_drawdown_r": 31.000000000000284,
+      "max_hold_hours": 10.666666666666666,
+      "median_hold_hours": 0.9166666666666666,
+      "median_spread_r": 0.0772200772201197,
+      "overnight_utc": 0,
+      "pnl": -10.877928571428402,
+      "profit_factor": 0.6233766233766197,
+      "quarters": [
+        -9.000000000000155,
+        5.573319583618286e-14,
+        -8.000000000000062,
+        -12.000000000000124
+      ],
+      "second_half_r": -20.000000000000185,
+      "side": {
+        "BUY": {
+          "total_r": -21.000000000000213,
+          "trades": 78
+        },
+        "SELL": {
+          "total_r": -8.000000000000071,
+          "trades": 23
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 52,
+        "trend_filter": 235
+      },
+      "total_r": -29.000000000000284,
+      "trades": 101,
+      "trades_per_week": 1.9418816460826858,
+      "variant": {
+        "family": "orb",
+        "minutes": 60,
+        "reward": 2.0,
+        "session": "london",
+        "trend": "HOUR_4"
+      },
+      "win_rate": 0.2376237623762376
+    },
+    {
+      "adds": 0,
+      "average_r": -0.08190241129502578,
+      "by_strategy": {
+        "orb-ny-30-rr1.6-none": {
+          "total_r": -35.05423203427101,
+          "trades": 428,
+          "wins": 151
+        }
+      },
+      "exit_reasons": {
+        "STOP": 277,
+        "TARGET": 151
+      },
+      "extra_020_cost_average_r": -0.1218505189856418,
+      "first_half_r": 6.39191981180302,
+      "label": "orb-ny-30-rr1.6-none",
+      "max_drawdown_r": 63.00808018819671,
+      "max_hold_hours": 97.66666666666667,
+      "median_hold_hours": 0.4166666666666667,
+      "median_spread_r": 0.05961897931143329,
+      "overnight_utc": 19,
+      "pnl": -27.738617857142483,
+      "profit_factor": 0.8734541172573179,
+      "quarters": [
+        12.599999999999756,
+        -6.208080188196735,
+        -46.79999999999996,
+        5.353848153925915
+      ],
+      "second_half_r": -41.44615184607405,
+      "side": {
+        "BUY": {
+          "total_r": -11.399999999999785,
+          "trades": 222
+        },
+        "SELL": {
+          "total_r": -23.654232034271246,
+          "trades": 206
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 153,
+        "risk: The daily paper-trade limit has been reached": 17
+      },
+      "total_r": -35.05423203427103,
+      "trades": 428,
+      "trades_per_week": 8.228963807162271,
+      "variant": {
+        "family": "orb",
+        "minutes": 30,
+        "reward": 1.6,
+        "session": "ny",
+        "trend": null
+      },
+      "win_rate": 0.352803738317757
+    },
+    {
+      "adds": 0,
+      "average_r": -0.04666666666666685,
+      "by_strategy": {
+        "orb-ny-30-rr1.6-HOUR_4": {
+          "total_r": -8.400000000000034,
+          "trades": 180,
+          "wins": 66
+        }
+      },
+      "exit_reasons": {
+        "STOP": 114,
+        "TARGET": 66
+      },
+      "extra_020_cost_average_r": -0.08627575580765783,
+      "first_half_r": 5.400000000000116,
+      "label": "orb-ny-30-rr1.6-HOUR_4",
+      "max_drawdown_r": 35.59999999999973,
+      "max_hold_hours": 69.58333333333333,
+      "median_hold_hours": 0.5,
+      "median_spread_r": 0.05836060761369738,
+      "overnight_utc": 9,
+      "pnl": -13.82847142857163,
+      "profit_factor": 0.9263157894736839,
+      "quarters": [
+        8.799999999999919,
+        -3.3999999999998027,
+        -28.19999999999993,
+        14.399999999999782
+      ],
+      "second_half_r": -13.800000000000148,
+      "side": {
+        "BUY": {
+          "total_r": -3.1999999999999695,
+          "trades": 128
+        },
+        "SELL": {
+          "total_r": -5.200000000000062,
+          "trades": 52
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 69,
+        "risk: The daily paper-trade limit has been reached": 2,
+        "trend_filter": 347
+      },
+      "total_r": -8.400000000000032,
+      "trades": 180,
+      "trades_per_week": 3.4607791712364695,
+      "variant": {
+        "family": "orb",
+        "minutes": 30,
+        "reward": 1.6,
+        "session": "ny",
+        "trend": "HOUR_4"
+      },
+      "win_rate": 0.36666666666666664
+    },
+    {
+      "adds": 0,
+      "average_r": -0.04420024927476146,
+      "by_strategy": {
+        "orb-ny-30-rr2-none": {
+          "total_r": -18.74090569249886,
+          "trades": 424,
+          "wins": 135
+        }
+      },
+      "exit_reasons": {
+        "STOP": 289,
+        "TARGET": 135
+      },
+      "extra_020_cost_average_r": -0.08406861806544245,
+      "first_half_r": 6.259094307501489,
+      "label": "orb-ny-30-rr2-none",
+      "max_drawdown_r": 50.74090569249903,
+      "max_hold_hours": 138.25,
+      "median_hold_hours": 0.5,
+      "median_spread_r": 0.059410409625453534,
+      "overnight_utc": 26,
+      "pnl": -15.509553571428025,
+      "profit_factor": 0.9351543884852801,
+      "quarters": [
+        11.00000000000034,
+        -4.740905692498849,
+        -36.999999999999964,
+        11.999999999999616
+      ],
+      "second_half_r": -25.000000000000348,
+      "side": {
+        "BUY": {
+          "total_r": -4.999999999999812,
+          "trades": 218
+        },
+        "SELL": {
+          "total_r": -13.740905692499048,
+          "trades": 206
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 157,
+        "risk: The daily paper-trade limit has been reached": 17
+      },
+      "total_r": -18.74090569249886,
+      "trades": 424,
+      "trades_per_week": 8.152057603357017,
+      "variant": {
+        "family": "orb",
+        "minutes": 30,
+        "reward": 2.0,
+        "session": "ny",
+        "trend": null
+      },
+      "win_rate": 0.31839622641509435
+    },
+    {
+      "adds": 0,
+      "average_r": -0.0446927374301643,
+      "by_strategy": {
+        "orb-ny-30-rr2-HOUR_4": {
+          "total_r": -7.999999999999409,
+          "trades": 179,
+          "wins": 57
+        }
+      },
+      "exit_reasons": {
+        "STOP": 122,
+        "TARGET": 57
+      },
+      "extra_020_cost_average_r": -0.08435229058548467,
+      "first_half_r": -1.9999999999993587,
+      "label": "orb-ny-30-rr2-HOUR_4",
+      "max_drawdown_r": 33.999999999999815,
+      "max_hold_hours": 69.58333333333333,
+      "median_hold_hours": 0.5833333333333334,
+      "median_spread_r": 0.058593750000036776,
+      "overnight_utc": 13,
+      "pnl": -12.714196428571496,
+      "profit_factor": 0.9344262295082015,
+      "quarters": [
+        1.0000000000005878,
+        -2.9999999999999467,
+        -24.999999999999865,
+        18.999999999999815
+      ],
+      "second_half_r": -6.0000000000000515,
+      "side": {
+        "BUY": {
+          "total_r": 2.0000000000003784,
+          "trades": 127
+        },
+        "SELL": {
+          "total_r": -9.999999999999789,
+          "trades": 52
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 70,
+        "risk: The daily paper-trade limit has been reached": 2,
+        "trend_filter": 347
+      },
+      "total_r": -7.99999999999941,
+      "trades": 179,
+      "trades_per_week": 3.441552620285156,
+      "variant": {
+        "family": "orb",
+        "minutes": 30,
+        "reward": 2.0,
+        "session": "ny",
+        "trend": "HOUR_4"
+      },
+      "win_rate": 0.31843575418994413
+    },
+    {
+      "adds": 0,
+      "average_r": 0.031248683019725932,
+      "by_strategy": {
+        "orb-ny-60-rr1.6-none": {
+          "total_r": 9.937081200272853,
+          "trades": 318,
+          "wins": 126
+        }
+      },
+      "exit_reasons": {
+        "STOP": 192,
+        "TARGET": 126
+      },
+      "extra_020_cost_average_r": -0.004506932529285375,
+      "first_half_r": 16.991919811803733,
+      "label": "orb-ny-60-rr1.6-none",
+      "max_drawdown_r": 31.808080188196353,
+      "max_hold_hours": 65.33333333333333,
+      "median_hold_hours": 0.5,
+      "median_spread_r": 0.0511727171948965,
+      "overnight_utc": 30,
+      "pnl": 2.3872392857148945,
+      "profit_factor": 1.051751111936341,
+      "quarters": [
+        26.200000000000177,
+        -9.208080188196446,
+        -13.800000000000047,
+        6.745161388469162
+      ],
+      "second_half_r": -7.054838611530886,
+      "side": {
+        "BUY": {
+          "total_r": 21.99131323454363,
+          "trades": 160
+        },
+        "SELL": {
+          "total_r": -12.054232034270782,
+          "trades": 158
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 117,
+        "risk: The daily paper-trade limit has been reached": 1
+      },
+      "total_r": 9.937081200272846,
+      "trades": 318,
+      "trades_per_week": 6.114043202517763,
+      "variant": {
+        "family": "orb",
+        "minutes": 60,
+        "reward": 1.6,
+        "session": "ny",
+        "trend": null
+      },
+      "win_rate": 0.39622641509433965
+    },
+    {
+      "adds": 0,
+      "average_r": 0.10845979251583876,
+      "by_strategy": {
+        "orb-ny-60-rr1.6-HOUR_4": {
+          "total_r": 13.991313234543199,
+          "trades": 129,
+          "wins": 55
+        }
+      },
+      "exit_reasons": {
+        "STOP": 74,
+        "TARGET": 55
+      },
+      "extra_020_cost_average_r": 0.07354434744773133,
+      "first_half_r": 12.000000000000249,
+      "label": "orb-ny-60-rr1.6-HOUR_4",
+      "max_drawdown_r": 15.399999999999615,
+      "max_hold_hours": 65.33333333333333,
+      "median_hold_hours": 0.75,
+      "median_spread_r": 0.04979253112028967,
+      "overnight_utc": 14,
+      "pnl": 0.8351071428569867,
+      "profit_factor": 1.1890496081748267,
+      "quarters": [
+        14.600000000000067,
+        -2.5999999999998193,
+        -10.400000000000043,
+        12.391313234542997
+      ],
+      "second_half_r": 1.9913132345429527,
+      "side": {
+        "BUY": {
+          "total_r": 14.59131323454313,
+          "trades": 92
+        },
+        "SELL": {
+          "total_r": -0.5999999999999286,
+          "trades": 37
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 52,
+        "trend_filter": 255
+      },
+      "total_r": 13.9913132345432,
+      "trades": 129,
+      "trades_per_week": 2.48022507271947,
+      "variant": {
+        "family": "orb",
+        "minutes": 60,
+        "reward": 1.6,
+        "session": "ny",
+        "trend": "HOUR_4"
+      },
+      "win_rate": 0.4263565891472868
+    },
+    {
+      "adds": 0,
+      "average_r": -0.019516514695667894,
+      "by_strategy": {
+        "orb-ny-60-rr2-none": {
+          "total_r": -6.0696360703527175,
+          "trades": 311,
+          "wins": 101
+        }
+      },
+      "exit_reasons": {
+        "STOP": 210,
+        "TARGET": 101
+      },
+      "extra_020_cost_average_r": -0.05504175959974326,
+      "first_half_r": 2.991919811803597,
+      "label": "orb-ny-60-rr2-none",
+      "max_drawdown_r": 35.00808018819684,
+      "max_hold_hours": 73.33333333333333,
+      "median_hold_hours": 0.6666666666666666,
+      "median_spread_r": 0.05115089514069392,
+      "overnight_utc": 52,
+      "pnl": -4.116178571428055,
+      "profit_factor": 0.97109927860335,
+      "quarters": [
+        16.00000000000046,
+        -13.00808018819686,
+        -11.052869116698844,
+        1.9913132345425333
+      ],
+      "second_half_r": -9.061555882156311,
+      "side": {
+        "BUY": {
+          "total_r": 18.9384441178442,
+          "trades": 157
+        },
+        "SELL": {
+          "total_r": -25.00808018819691,
+          "trades": 154
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 124,
+        "risk: The daily paper-trade limit has been reached": 1
+      },
+      "total_r": -6.069636070352715,
+      "trades": 311,
+      "trades_per_week": 5.979457345858567,
+      "variant": {
+        "family": "orb",
+        "minutes": 60,
+        "reward": 2.0,
+        "session": "ny",
+        "trend": null
+      },
+      "win_rate": 0.3247588424437299
+    },
+    {
+      "adds": 0,
+      "average_r": 0.03118213464486642,
+      "by_strategy": {
+        "orb-ny-60-rr2-HOUR_4": {
+          "total_r": 3.9913132345429023,
+          "trades": 128,
+          "wins": 44
+        }
+      },
+      "exit_reasons": {
+        "STOP": 84,
+        "TARGET": 44
+      },
+      "extra_020_cost_average_r": -0.00367411981374427,
+      "first_half_r": 4.000000000000121,
+      "label": "orb-ny-60-rr2-HOUR_4",
+      "max_drawdown_r": 17.000000000000025,
+      "max_hold_hours": 67.25,
+      "median_hold_hours": 1.0,
+      "median_spread_r": 0.04973070264625276,
+      "overnight_utc": 25,
+      "pnl": -1.7288750000002895,
+      "profit_factor": 1.0475107204768739,
+      "quarters": [
+        6.000000000000112,
+        -1.9999999999999913,
+        -11.000000000000034,
+        10.991313234542815
+      ],
+      "second_half_r": -0.00868676545721847,
+      "side": {
+        "BUY": {
+          "total_r": 10.991313234542735,
+          "trades": 91
+        },
+        "SELL": {
+          "total_r": -6.999999999999834,
+          "trades": 37
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 53,
+        "trend_filter": 255
+      },
+      "total_r": 3.991313234542902,
+      "trades": 128,
+      "trades_per_week": 2.4609985217681563,
+      "variant": {
+        "family": "orb",
+        "minutes": 60,
+        "reward": 2.0,
+        "session": "ny",
+        "trend": "HOUR_4"
+      },
+      "win_rate": 0.34375
+    },
+    {
+      "adds": 0,
+      "average_r": -0.04847698334129001,
+      "by_strategy": {
+        "rolling_sweep-london-30-rr1.6-none": {
+          "total_r": -19.730132219905034,
+          "trades": 407,
+          "wins": 149
+        }
+      },
+      "exit_reasons": {
+        "STOP": 258,
+        "TARGET": 149
+      },
+      "extra_020_cost_average_r": -0.1114597009886836,
+      "first_half_r": -22.130132219903736,
+      "label": "rolling_sweep-london-30-rr1.6-none",
+      "max_drawdown_r": 42.73013221990424,
+      "max_hold_hours": 6.583333333333333,
+      "median_hold_hours": 0.5833333333333334,
+      "median_spread_r": 0.0928074245940217,
+      "overnight_utc": 0,
+      "pnl": -4.843223571428598,
+      "profit_factor": 0.923565172146982,
+      "quarters": [
+        -8.600000000000326,
+        -13.53013221990341,
+        -6.60000000000027,
+        8.99999999999897
+      ],
+      "second_half_r": 2.3999999999987,
+      "side": {
+        "BUY": {
+          "total_r": -7.530132219903988,
+          "trades": 205
+        },
+        "SELL": {
+          "total_r": -12.200000000001047,
+          "trades": 202
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 164,
+        "risk: The daily paper-trade limit has been reached": 13
+      },
+      "total_r": -19.730132219905034,
+      "trades": 407,
+      "trades_per_week": 7.825206237184684,
+      "variant": {
+        "family": "rolling_sweep",
+        "minutes": 30,
+        "reward": 1.6,
+        "session": "london",
+        "trend": null
+      },
+      "win_rate": 0.36609336609336607
+    },
+    {
+      "adds": 0,
+      "average_r": -0.03331472220873911,
+      "by_strategy": {
+        "rolling_sweep-london-30-rr1.6-HOUR_4": {
+          "total_r": -5.730132219903132,
+          "trades": 172,
+          "wins": 64
+        }
+      },
+      "exit_reasons": {
+        "STOP": 108,
+        "TARGET": 64
+      },
+      "extra_020_cost_average_r": -0.09720283080805946,
+      "first_half_r": -7.330132219902734,
+      "label": "rolling_sweep-london-30-rr1.6-HOUR_4",
+      "max_drawdown_r": 13.130132219902617,
+      "max_hold_hours": 6.583333333333333,
+      "median_hold_hours": 0.6666666666666666,
+      "median_spread_r": 0.0917288029944498,
+      "overnight_utc": 0,
+      "pnl": 0.04404285714272163,
+      "profit_factor": 0.9470070728458018,
+      "quarters": [
+        -11.599999999999847,
+        4.269867780097114,
+        -2.9999999999998734,
+        4.599999999999481
+      ],
+      "second_half_r": 1.5999999999996075,
+      "side": {
+        "BUY": {
+          "total_r": 3.2698677800971963,
+          "trades": 124
+        },
+        "SELL": {
+          "total_r": -9.000000000000323,
+          "trades": 48
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 30,
+        "risk: The daily paper-trade limit has been reached": 2,
+        "trend_filter": 380
+      },
+      "total_r": -5.730132219903126,
+      "trades": 172,
+      "trades_per_week": 3.30696676362596,
+      "variant": {
+        "family": "rolling_sweep",
+        "minutes": 30,
+        "reward": 1.6,
+        "session": "london",
+        "trend": "HOUR_4"
+      },
+      "win_rate": 0.37209302325581395
+    },
+    {
+      "adds": 0,
+      "average_r": 0.022919554987322916,
+      "by_strategy": {
+        "rolling_sweep-london-30-rr2-none": {
+          "total_r": 8.869867780093967,
+          "trades": 387,
+          "wins": 132
+        }
+      },
+      "exit_reasons": {
+        "STOP": 255,
+        "TARGET": 132
+      },
+      "extra_020_cost_average_r": -0.04014825312693968,
+      "first_half_r": -4.13013221990403,
+      "label": "rolling_sweep-london-30-rr2-none",
+      "max_drawdown_r": 25.130132219904375,
+      "max_hold_hours": 16.25,
+      "median_hold_hours": 0.75,
+      "median_spread_r": 0.0928074245940217,
+      "overnight_utc": 1,
+      "pnl": 2.6535821428568402,
+      "profit_factor": 1.034766053319209,
+      "quarters": [
+        -5.453415496958769e-13,
+        -4.1301322199034844,
+        -4.000000000000557,
+        16.999999999998554
+      ],
+      "second_half_r": 12.999999999998,
+      "side": {
+        "BUY": {
+          "total_r": 1.869867780094991,
+          "trades": 196
+        },
+        "SELL": {
+          "total_r": 6.999999999998978,
+          "trades": 191
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 192,
+        "risk: The daily paper-trade limit has been reached": 5
+      },
+      "total_r": 8.86986778009397,
+      "trades": 387,
+      "trades_per_week": 7.440675218158409,
+      "variant": {
+        "family": "rolling_sweep",
+        "minutes": 30,
+        "reward": 2.0,
+        "session": "london",
+        "trend": null
+      },
+      "win_rate": 0.34108527131782945
+    },
+    {
+      "adds": 0,
+      "average_r": 0.022763928118212304,
+      "by_strategy": {
+        "rolling_sweep-london-30-rr2-HOUR_4": {
+          "total_r": 3.8698677800960937,
+          "trades": 170,
+          "wins": 58
+        }
+      },
+      "exit_reasons": {
+        "STOP": 112,
+        "TARGET": 58
+      },
+      "extra_020_cost_average_r": -0.04092746858818206,
+      "first_half_r": -7.130132219902851,
+      "label": "rolling_sweep-london-30-rr2-HOUR_4",
+      "max_drawdown_r": 14.000000000000366,
+      "max_hold_hours": 16.25,
+      "median_hold_hours": 0.8333333333333334,
+      "median_spread_r": 0.09145843784700124,
+      "overnight_utc": 1,
+      "pnl": 4.432507142856822,
+      "profit_factor": 1.034512291241276,
+      "quarters": [
+        -14.000000000000368,
+        6.8698677800975165,
+        -2.4291679778798425e-13,
+        10.999999999999186
+      ],
+      "second_half_r": 10.999999999998943,
+      "side": {
+        "BUY": {
+          "total_r": 9.869867780096634,
+          "trades": 122
+        },
+        "SELL": {
+          "total_r": -6.000000000000543,
+          "trades": 48
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 32,
+        "risk: The daily paper-trade limit has been reached": 2,
+        "trend_filter": 380
+      },
+      "total_r": 3.869867780096092,
+      "trades": 170,
+      "trades_per_week": 3.2685136617233326,
+      "variant": {
+        "family": "rolling_sweep",
+        "minutes": 30,
+        "reward": 2.0,
+        "session": "london",
+        "trend": "HOUR_4"
+      },
+      "win_rate": 0.3411764705882353
+    },
+    {
+      "adds": 0,
+      "average_r": -0.12380952380952812,
+      "by_strategy": {
+        "rolling_sweep-london-60-rr1.6-none": {
+          "total_r": -33.80000000000116,
+          "trades": 273,
+          "wins": 92
+        }
+      },
+      "exit_reasons": {
+        "STOP": 181,
+        "TARGET": 92
+      },
+      "extra_020_cost_average_r": -0.1887186617656369,
+      "first_half_r": -38.99999999999993,
+      "label": "rolling_sweep-london-60-rr1.6-none",
+      "max_drawdown_r": 47.000000000000725,
+      "max_hold_hours": 3.9166666666666665,
+      "median_hold_hours": 0.5833333333333334,
+      "median_spread_r": 0.09615384615390782,
+      "overnight_utc": 0,
+      "pnl": -8.512715714285651,
+      "profit_factor": 0.8132596685082808,
+      "quarters": [
+        -17.19999999999958,
+        -21.800000000000345,
+        0.5999999999997614,
+        4.599999999998991
+      ],
+      "second_half_r": 5.199999999998752,
+      "side": {
+        "BUY": {
+          "total_r": -19.20000000000053,
+          "trades": 131
+        },
+        "SELL": {
+          "total_r": -14.600000000000648,
+          "trades": 142
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 34,
+        "risk: The daily paper-trade limit has been reached": 5
+      },
+      "total_r": -33.80000000000118,
+      "trades": 273,
+      "trades_per_week": 5.248848409708645,
+      "variant": {
+        "family": "rolling_sweep",
+        "minutes": 60,
+        "reward": 1.6,
+        "session": "london",
+        "trend": null
+      },
+      "win_rate": 0.336996336996337
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1669902912621382,
+      "by_strategy": {
+        "rolling_sweep-london-60-rr1.6-HOUR_4": {
+          "total_r": -17.200000000000237,
+          "trades": 103,
+          "wins": 33
+        }
+      },
+      "exit_reasons": {
+        "STOP": 70,
+        "TARGET": 33
+      },
+      "extra_020_cost_average_r": -0.23310019330010912,
+      "first_half_r": -15.999999999999572,
+      "label": "rolling_sweep-london-60-rr1.6-HOUR_4",
+      "max_drawdown_r": 21.999999999999485,
+      "max_hold_hours": 3.9166666666666665,
+      "median_hold_hours": 0.5833333333333334,
+      "median_spread_r": 0.09712105445722793,
+      "overnight_utc": 0,
+      "pnl": -4.156951428571301,
+      "profit_factor": 0.7542857142857109,
+      "quarters": [
+        -10.799999999999764,
+        -5.199999999999807,
+        -2.1999999999999797,
+        0.9999999999993152
+      ],
+      "second_half_r": -1.2000000000006645,
+      "side": {
+        "BUY": {
+          "total_r": -14.200000000000184,
+          "trades": 74
+        },
+        "SELL": {
+          "total_r": -3.0000000000000515,
+          "trades": 29
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 6,
+        "risk: The daily paper-trade limit has been reached": 1,
+        "trend_filter": 202
+      },
+      "total_r": -17.200000000000237,
+      "trades": 103,
+      "trades_per_week": 1.980334747985313,
+      "variant": {
+        "family": "rolling_sweep",
+        "minutes": 60,
+        "reward": 1.6,
+        "session": "london",
+        "trend": "HOUR_4"
+      },
+      "win_rate": 0.32038834951456313
+    },
+    {
+      "adds": 0,
+      "average_r": -0.07865168539326386,
+      "by_strategy": {
+        "rolling_sweep-london-60-rr2-none": {
+          "total_r": -21.000000000001446,
+          "trades": 267,
+          "wins": 82
+        }
+      },
+      "exit_reasons": {
+        "STOP": 185,
+        "TARGET": 82
+      },
+      "extra_020_cost_average_r": -0.14351168629526811,
+      "first_half_r": -29.00000000000022,
+      "label": "rolling_sweep-london-60-rr2-none",
+      "max_drawdown_r": 40.00000000000082,
+      "max_hold_hours": 4.083333333333333,
+      "median_hold_hours": 0.75,
+      "median_spread_r": 0.09605488850763054,
+      "overnight_utc": 0,
+      "pnl": -5.922614285714144,
+      "profit_factor": 0.8864864864864787,
+      "quarters": [
+        -13.999999999999753,
+        -15.000000000000465,
+        -4.707345624410664e-14,
+        7.999999999998815
+      ],
+      "second_half_r": 7.999999999998767,
+      "side": {
+        "BUY": {
+          "total_r": -15.000000000000774,
+          "trades": 129
+        },
+        "SELL": {
+          "total_r": -6.000000000000677,
+          "trades": 138
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 42,
+        "risk: The daily paper-trade limit has been reached": 3
+      },
+      "total_r": -21.000000000001453,
+      "trades": 267,
+      "trades_per_week": 5.1334891040007635,
+      "variant": {
+        "family": "rolling_sweep",
+        "minutes": 60,
+        "reward": 2.0,
+        "session": "london",
+        "trend": null
+      },
+      "win_rate": 0.30711610486891383
+    },
+    {
+      "adds": 0,
+      "average_r": -0.05882352941177341,
+      "by_strategy": {
+        "rolling_sweep-london-60-rr2-HOUR_4": {
+          "total_r": -6.000000000000892,
+          "trades": 102,
+          "wins": 32
+        }
+      },
+      "exit_reasons": {
+        "STOP": 70,
+        "TARGET": 32
+      },
+      "extra_020_cost_average_r": -0.12470719346832534,
+      "first_half_r": -11.999999999999956,
+      "label": "rolling_sweep-london-60-rr2-HOUR_4",
+      "max_drawdown_r": 15.999999999999847,
+      "max_hold_hours": 4.083333333333333,
+      "median_hold_hours": 0.6666666666666666,
+      "median_spread_r": 0.09693647747052321,
+      "overnight_utc": 0,
+      "pnl": 0.18367857142857244,
+      "profit_factor": 0.9142857142857016,
+      "quarters": [
+        -10.000000000000188,
+        -1.999999999999767,
+        0.9999999999998808,
+        4.999999999999186
+      ],
+      "second_half_r": 5.999999999999067,
+      "side": {
+        "BUY": {
+          "total_r": -7.000000000000507,
+          "trades": 73
+        },
+        "SELL": {
+          "total_r": 0.9999999999996187,
+          "trades": 29
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 7,
+        "risk: The daily paper-trade limit has been reached": 1,
+        "trend_filter": 202
+      },
+      "total_r": -6.000000000000888,
+      "trades": 102,
+      "trades_per_week": 1.9611081970339994,
+      "variant": {
+        "family": "rolling_sweep",
+        "minutes": 60,
+        "reward": 2.0,
+        "session": "london",
+        "trend": "HOUR_4"
+      },
+      "win_rate": 0.3137254901960784
+    },
+    {
+      "adds": 0,
+      "average_r": -0.039427741119259396,
+      "by_strategy": {
+        "rolling_sweep-ny-30-rr1.6-none": {
+          "total_r": -17.269350610235595,
+          "trades": 438,
+          "wins": 163
+        }
+      },
+      "exit_reasons": {
+        "STOP": 275,
+        "TARGET": 163
+      },
+      "extra_020_cost_average_r": -0.07925451424820944,
+      "first_half_r": -20.5528960707149,
+      "label": "rolling_sweep-ny-30-rr1.6-none",
+      "max_drawdown_r": 43.55289607071433,
+      "max_hold_hours": 80.58333333333333,
+      "median_hold_hours": 0.4166666666666667,
+      "median_spread_r": 0.0578842101684854,
+      "overnight_utc": 21,
+      "pnl": -3.952000714286169,
+      "profit_factor": 0.9378955265212175,
+      "quarters": [
+        -21.35289607071461,
+        0.7999999999997092,
+        3.083545460478839,
+        0.20000000000044604
+      ],
+      "second_half_r": 3.283545460479285,
+      "side": {
+        "BUY": {
+          "total_r": 2.5999999999992456,
+          "trades": 221
+        },
+        "SELL": {
+          "total_r": -19.86935061023486,
+          "trades": 217
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 123,
+        "risk: The daily paper-trade limit has been reached": 14,
+        "risk: spread above maximum": 1
+      },
+      "total_r": -17.269350610235616,
+      "trades": 438,
+      "trades_per_week": 8.42122931667541,
+      "variant": {
+        "family": "rolling_sweep",
+        "minutes": 30,
+        "reward": 1.6,
+        "session": "ny",
+        "trend": null
+      },
+      "win_rate": 0.3721461187214612
+    },
+    {
+      "adds": 0,
+      "average_r": 0.033952848822277774,
+      "by_strategy": {
+        "rolling_sweep-ny-30-rr1.6-HOUR_4": {
+          "total_r": 5.534314358031271,
+          "trades": 163,
+          "wins": 66
+        }
+      },
+      "exit_reasons": {
+        "STOP": 97,
+        "TARGET": 66
+      },
+      "extra_020_cost_average_r": -0.005911087169276516,
+      "first_half_r": -1.9492311024479976,
+      "label": "rolling_sweep-ny-30-rr1.6-HOUR_4",
+      "max_drawdown_r": 24.149231102447477,
+      "max_hold_hours": 80.58333333333333,
+      "median_hold_hours": 0.5,
+      "median_spread_r": 0.05807923667283402,
+      "overnight_utc": 11,
+      "pnl": 4.040065714285675,
+      "profit_factor": 1.0553068149438645,
+      "quarters": [
+        -9.14923110244788,
+        7.199999999999883,
+        1.6835454604788984,
+        5.800000000000377
+      ],
+      "second_half_r": 7.4835454604792755,
+      "side": {
+        "BUY": {
+          "total_r": 7.199999999999752,
+          "trades": 115
+        },
+        "SELL": {
+          "total_r": -1.6656856419684742,
+          "trades": 48
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 18,
+        "trend_filter": 395
+      },
+      "total_r": 5.534314358031278,
+      "trades": 163,
+      "trades_per_week": 3.133927805064136,
+      "variant": {
+        "family": "rolling_sweep",
+        "minutes": 30,
+        "reward": 1.6,
+        "session": "ny",
+        "trend": "HOUR_4"
+      },
+      "win_rate": 0.4049079754601227
+    },
+    {
+      "adds": 0,
+      "average_r": -0.04708576227096491,
+      "by_strategy": {
+        "rolling_sweep-ny-30-rr2-none": {
+          "total_r": -19.870191678347197,
+          "trades": 422,
+          "wins": 135
+        }
+      },
+      "exit_reasons": {
+        "STOP": 287,
+        "TARGET": 135
+      },
+      "extra_020_cost_average_r": -0.08706029907552944,
+      "first_half_r": -8.95373713882641,
+      "label": "rolling_sweep-ny-30-rr2-none",
+      "max_drawdown_r": 37.95373713882604,
+      "max_hold_hours": 80.83333333333333,
+      "median_hold_hours": 0.5,
+      "median_spread_r": 0.05805516237783993,
+      "overnight_utc": 41,
+      "pnl": -9.376096428572101,
+      "profit_factor": 0.9314632192064427,
+      "quarters": [
+        -11.953737138826472,
+        1.000000000000062,
+        2.0835454604786356,
+        -10.99999999999942
+      ],
+      "second_half_r": -10.916454539520783,
+      "side": {
+        "BUY": {
+          "total_r": 6.049927829440397,
+          "trades": 213
+        },
+        "SELL": {
+          "total_r": -25.92011950778759,
+          "trades": 209
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 142,
+        "risk: The daily paper-trade limit has been reached": 11,
+        "risk: spread above maximum": 1
+      },
+      "total_r": -19.870191678347194,
+      "trades": 422,
+      "trades_per_week": 8.11360450145439,
+      "variant": {
+        "family": "rolling_sweep",
+        "minutes": 30,
+        "reward": 2.0,
+        "session": "ny",
+        "trend": null
+      },
+      "win_rate": 0.31990521327014215
+    },
+    {
+      "adds": 0,
+      "average_r": 0.11070564418538006,
+      "by_strategy": {
+        "rolling_sweep-ny-30-rr2-HOUR_4": {
+          "total_r": 17.934314358031568,
+          "trades": 162,
+          "wins": 61
+        }
+      },
+      "exit_reasons": {
+        "STOP": 101,
+        "TARGET": 61
+      },
+      "extra_020_cost_average_r": 0.07083679470207477,
+      "first_half_r": 4.8507688975521965,
+      "label": "rolling_sweep-ny-30-rr2-HOUR_4",
+      "max_drawdown_r": 26.149231102447388,
+      "max_hold_hours": 80.83333333333333,
+      "median_hold_hours": 0.5833333333333334,
+      "median_spread_r": 0.05798018681184252,
+      "overnight_utc": 19,
+      "pnl": 9.282957142857095,
+      "profit_factor": 1.1723364838985777,
+      "quarters": [
+        -6.149231102447873,
+        9.00000000000007,
+        7.083545460478949,
+        8.000000000000426
+      ],
+      "second_half_r": 13.083545460479375,
+      "side": {
+        "BUY": {
+          "total_r": 21.0,
+          "trades": 114
+        },
+        "SELL": {
+          "total_r": -3.065685641968428,
+          "trades": 48
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 19,
+        "trend_filter": 395
+      },
+      "total_r": 17.93431435803157,
+      "trades": 162,
+      "trades_per_week": 3.1147012541128225,
+      "variant": {
+        "family": "rolling_sweep",
+        "minutes": 30,
+        "reward": 2.0,
+        "session": "ny",
+        "trend": "HOUR_4"
+      },
+      "win_rate": 0.3765432098765432
+    },
+    {
+      "adds": 0,
+      "average_r": -0.03381637095609002,
+      "by_strategy": {
+        "rolling_sweep-ny-60-rr1.6-none": {
+          "total_r": -9.26568564196868,
+          "trades": 274,
+          "wins": 103
+        }
+      },
+      "exit_reasons": {
+        "STOP": 171,
+        "TARGET": 103
+      },
+      "extra_020_cost_average_r": -0.07247847714434635,
+      "first_half_r": -12.54923110244788,
+      "label": "rolling_sweep-ny-60-rr1.6-none",
+      "max_drawdown_r": 23.14923110244789,
+      "max_hold_hours": 80.58333333333333,
+      "median_hold_hours": 0.5,
+      "median_spread_r": 0.05747167355872803,
+      "overnight_utc": 14,
+      "pnl": -4.163312142857739,
+      "profit_factor": 0.9467690279804659,
+      "quarters": [
+        -11.549231102447678,
+        -1.0000000000002016,
+        -1.9164545395211512,
+        5.200000000000366
+      ],
+      "second_half_r": 3.283545460479215,
+      "side": {
+        "BUY": {
+          "total_r": -0.6000000000004131,
+          "trades": 128
+        },
+        "SELL": {
+          "total_r": -8.66568564196825,
+          "trades": 146
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 41,
+        "risk: The daily paper-trade limit has been reached": 5,
+        "risk: spread above maximum": 1
+      },
+      "total_r": -9.265685641968664,
+      "trades": 274,
+      "trades_per_week": 5.268074960659959,
+      "variant": {
+        "family": "rolling_sweep",
+        "minutes": 60,
+        "reward": 1.6,
+        "session": "ny",
+        "trend": null
+      },
+      "win_rate": 0.3759124087591241
+    },
+    {
+      "adds": 0,
+      "average_r": -0.026655125199629464,
+      "by_strategy": {
+        "rolling_sweep-ny-60-rr1.6-HOUR_4": {
+          "total_r": -2.2656856419685054,
+          "trades": 85,
+          "wins": 33
+        }
+      },
+      "exit_reasons": {
+        "STOP": 52,
+        "TARGET": 33
+      },
+      "extra_020_cost_average_r": -0.06344977834836804,
+      "first_half_r": -7.34923110244768,
+      "label": "rolling_sweep-ny-60-rr1.6-HOUR_4",
+      "max_drawdown_r": 14.349231102447732,
+      "max_hold_hours": 80.58333333333333,
+      "median_hold_hours": 0.6666666666666666,
+      "median_spread_r": 0.056084500647593016,
+      "overnight_utc": 8,
+      "pnl": 0.6006392857139882,
+      "profit_factor": 0.9588548546058291,
+      "quarters": [
+        -6.749231102447528,
+        -0.6000000000001526,
+        3.0835454604790207,
+        2.0000000000001554
+      ],
+      "second_half_r": 5.083545460479176,
+      "side": {
+        "BUY": {
+          "total_r": -0.2000000000001092,
+          "trades": 60
+        },
+        "SELL": {
+          "total_r": -2.065685641968395,
+          "trades": 25
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 9,
+        "trend_filter": 227
+      },
+      "total_r": -2.2656856419685045,
+      "trades": 85,
+      "trades_per_week": 1.6342568308616663,
+      "variant": {
+        "family": "rolling_sweep",
+        "minutes": 60,
+        "reward": 1.6,
+        "session": "ny",
+        "trend": "HOUR_4"
+      },
+      "win_rate": 0.38823529411764707
+    },
+    {
+      "adds": 0,
+      "average_r": -0.03395387880887341,
+      "by_strategy": {
+        "rolling_sweep-ny-60-rr2-none": {
+          "total_r": -9.065685641969203,
+          "trades": 267,
+          "wins": 87
+        }
+      },
+      "exit_reasons": {
+        "STOP": 180,
+        "TARGET": 87
+      },
+      "extra_020_cost_average_r": -0.07256682264357568,
+      "first_half_r": -15.149231102448253,
+      "label": "rolling_sweep-ny-60-rr2-none",
+      "max_drawdown_r": 23.14923110244827,
+      "max_hold_hours": 80.83333333333333,
+      "median_hold_hours": 0.6666666666666666,
+      "median_spread_r": 0.05731832139204857,
+      "overnight_utc": 30,
+      "pnl": -2.0207285714294367,
+      "profit_factor": 0.9504785093384489,
+      "quarters": [
+        -12.149231102448073,
+        -5.0000000000001785,
+        6.083545460478722,
+        2.0000000000003295
+      ],
+      "second_half_r": 6.083545460479051,
+      "side": {
+        "BUY": {
+          "total_r": 2.9999999999996128,
+          "trades": 123
+        },
+        "SELL": {
+          "total_r": -12.065685641968814,
+          "trades": 144
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 48,
+        "risk: The daily paper-trade limit has been reached": 5,
+        "risk: spread above maximum": 1
+      },
+      "total_r": -9.065685641969202,
+      "trades": 267,
+      "trades_per_week": 5.1334891040007635,
+      "variant": {
+        "family": "rolling_sweep",
+        "minutes": 60,
+        "reward": 2.0,
+        "session": "ny",
+        "trend": null
+      },
+      "win_rate": 0.3258426966292135
+    },
+    {
+      "adds": 0,
+      "average_r": 0.02275663950625332,
+      "by_strategy": {
+        "rolling_sweep-ny-60-rr2-HOUR_4": {
+          "total_r": 1.9343143580315338,
+          "trades": 85,
+          "wins": 30
+        }
+      },
+      "exit_reasons": {
+        "STOP": 55,
+        "TARGET": 30
+      },
+      "extra_020_cost_average_r": -0.014038013642485256,
+      "first_half_r": -6.149231102447621,
+      "label": "rolling_sweep-ny-60-rr2-HOUR_4",
+      "max_drawdown_r": 17.149231102447576,
+      "max_hold_hours": 80.83333333333333,
+      "median_hold_hours": 0.9166666666666666,
+      "median_spread_r": 0.056084500647593016,
+      "overnight_utc": 13,
+      "pnl": 2.6393535714282277,
+      "profit_factor": 1.033312520753797,
+      "quarters": [
+        -6.149231102447616,
+        -2.0000000000000058,
+        9.083545460478948,
+        1.0000000000002056
+      ],
+      "second_half_r": 8.083545460479154,
+      "side": {
+        "BUY": {
+          "total_r": 5.999999999999915,
+          "trades": 60
+        },
+        "SELL": {
+          "total_r": -4.065685641968383,
+          "trades": 25
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 9,
+        "trend_filter": 227
+      },
+      "total_r": 1.934314358031532,
+      "trades": 85,
+      "trades_per_week": 1.6342568308616663,
+      "variant": {
+        "family": "rolling_sweep",
+        "minutes": 60,
+        "reward": 2.0,
+        "session": "ny",
+        "trend": "HOUR_4"
+      },
+      "win_rate": 0.35294117647058826
+    }
+  ]
+}

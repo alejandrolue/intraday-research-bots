@@ -1,0 +1,30 @@
+[
+  {
+    "rule": "fib0.382-any-ext",
+    "trades": 245,
+    "average_r": 0.03454368355807756,
+    "total_r": 8.463202471729003,
+    "profit_factor": 1.0789293036084906,
+    "max_drawdown_r": 10.822224736561086,
+    "win_rate": 0.47346938775510206,
+    "long_r": 21.572356822755943,
+    "short_r": -13.109154351026937,
+    "long_trades": 146,
+    "years": {
+      "2023": 8.735964060600592,
+      "2024": 6.299239291407428,
+      "2025": -3.5243643443901225,
+      "2026": -3.0476365358888957
+    },
+    "exits": {
+      "stop": 43,
+      "target": 114,
+      "failed": 84,
+      "time": 4
+    },
+    "stress_spread_average_r": -0.0008508715717155618,
+    "stress_financing_average_r": 0.025298869470634467,
+    "eligible_in_training": false,
+    "passed": false
+  }
+]

@@ -1,0 +1,688 @@
+{
+  "data": {
+    "GOLD": {
+      "bars": 70879,
+      "entry_sha256": "7ed0f723d9ffedfcf6d9aac591fd76f896fe91bacef9a9ce530d91d8b6b8b5be",
+      "first_bar": "2025-09-29T00:00:00+00:00",
+      "last_bar": "2026-09-28T23:55:00+00:00",
+      "median_spread": 0.5,
+      "repaired_in_period": [
+        "2025-11-04T16:05:00+00:00",
+        "2025-11-04T16:30:00+00:00",
+        "2026-02-03T20:40:00+00:00",
+        "2026-05-19T13:35:00+00:00",
+        "2026-06-08T14:00:00+00:00",
+        "2026-06-26T14:05:00+00:00",
+        "2026-06-26T14:15:00+00:00",
+        "2026-06-29T14:10:00+00:00",
+        "2026-07-02T14:30:00+00:00",
+        "2026-07-21T14:20:00+00:00",
+        "2026-07-22T13:45:00+00:00",
+        "2026-07-22T14:00:00+00:00",
+        "2026-07-22T14:05:00+00:00",
+        "2026-07-23T14:35:00+00:00",
+        "2026-07-28T14:40:00+00:00",
+        "2026-07-30T14:20:00+00:00",
+        "2026-07-31T13:55:00+00:00",
+        "2026-08-06T13:45:00+00:00",
+        "2026-08-07T14:05:00+00:00",
+        "2026-08-11T14:05:00+00:00",
+        "2026-08-12T14:25:00+00:00",
+        "2026-08-13T14:00:00+00:00",
+        "2026-08-14T14:00:00+00:00",
+        "2026-08-17T14:00:00+00:00",
+        "2026-08-18T13:45:00+00:00",
+        "2026-08-18T14:05:00+00:00",
+        "2026-08-20T14:15:00+00:00",
+        "2026-08-20T14:20:00+00:00",
+        "2026-08-21T13:40:00+00:00",
+        "2026-08-21T15:10:00+00:00",
+        "2026-08-24T13:40:00+00:00",
+        "2026-08-24T13:50:00+00:00",
+        "2026-08-24T14:25:00+00:00",
+        "2026-08-25T13:40:00+00:00",
+        "2026-08-27T13:30:00+00:00",
+        "2026-08-27T13:40:00+00:00",
+        "2026-08-27T14:30:00+00:00",
+        "2026-08-28T15:05:00+00:00",
+        "2026-09-02T13:35:00+00:00",
+        "2026-09-02T13:50:00+00:00",
+        "2026-09-02T14:45:00+00:00",
+        "2026-09-08T14:00:00+00:00",
+        "2026-09-09T14:05:00+00:00"
+      ]
+    },
+    "US100": {
+      "bars": 73308,
+      "entry_sha256": "602752fbcbe983b6a9f2e5852a8768b41bcd498188aab974c028120bdfea66c0",
+      "first_bar": "2025-09-29T00:00:00+00:00",
+      "last_bar": "2026-09-28T23:55:00+00:00",
+      "median_spread": 1.7999999999992724,
+      "repaired_in_period": [
+        "2026-05-18T14:40:00+00:00",
+        "2026-05-19T13:45:00+00:00",
+        "2026-06-05T14:00:00+00:00",
+        "2026-06-26T13:45:00+00:00",
+        "2026-06-29T14:05:00+00:00",
+        "2026-06-29T14:10:00+00:00",
+        "2026-07-02T14:15:00+00:00",
+        "2026-07-02T14:30:00+00:00",
+        "2026-07-16T14:00:00+00:00",
+        "2026-07-17T14:00:00+00:00",
+        "2026-07-20T14:05:00+00:00",
+        "2026-07-21T14:35:00+00:00",
+        "2026-07-22T13:45:00+00:00",
+        "2026-07-22T14:00:00+00:00",
+        "2026-07-23T13:40:00+00:00",
+        "2026-07-23T13:45:00+00:00",
+        "2026-07-23T14:50:00+00:00",
+        "2026-07-23T15:20:00+00:00",
+        "2026-07-28T14:40:00+00:00",
+        "2026-07-29T13:55:00+00:00",
+        "2026-07-30T13:40:00+00:00",
+        "2026-07-30T14:05:00+00:00",
+        "2026-07-30T14:20:00+00:00",
+        "2026-08-11T13:45:00+00:00",
+        "2026-08-13T13:40:00+00:00",
+        "2026-08-20T13:30:00+00:00",
+        "2026-08-20T13:50:00+00:00",
+        "2026-08-20T14:15:00+00:00",
+        "2026-08-20T14:25:00+00:00",
+        "2026-08-20T14:55:00+00:00",
+        "2026-08-20T15:05:00+00:00",
+        "2026-08-21T15:00:00+00:00",
+        "2026-08-24T14:25:00+00:00",
+        "2026-08-24T14:35:00+00:00",
+        "2026-08-25T14:05:00+00:00",
+        "2026-08-26T13:55:00+00:00",
+        "2026-08-28T14:15:00+00:00",
+        "2026-08-28T14:55:00+00:00",
+        "2026-08-31T14:30:00+00:00",
+        "2026-08-31T14:40:00+00:00",
+        "2026-08-31T19:55:00+00:00",
+        "2026-09-02T13:50:00+00:00"
+      ]
+    },
+    "US500": {
+      "bars": 73193,
+      "entry_sha256": "9a0b6a9c4b3d5cb44256f8e24990401043b86f3d28933de3febff6394882cdae",
+      "first_bar": "2025-09-29T00:00:00+00:00",
+      "last_bar": "2026-09-28T23:55:00+00:00",
+      "median_spread": 0.5,
+      "repaired_in_period": [
+        "2025-11-04T16:55:00+00:00",
+        "2026-05-19T14:00:00+00:00",
+        "2026-06-23T13:35:00+00:00",
+        "2026-06-24T14:00:00+00:00",
+        "2026-06-25T14:15:00+00:00",
+        "2026-06-25T15:05:00+00:00",
+        "2026-06-26T14:10:00+00:00",
+        "2026-06-26T15:00:00+00:00",
+        "2026-06-29T14:10:00+00:00",
+        "2026-07-16T14:00:00+00:00",
+        "2026-07-21T14:25:00+00:00",
+        "2026-07-24T14:15:00+00:00",
+        "2026-07-27T15:00:00+00:00",
+        "2026-07-28T14:40:00+00:00",
+        "2026-07-29T14:35:00+00:00",
+        "2026-07-30T14:25:00+00:00",
+        "2026-08-10T13:35:00+00:00",
+        "2026-08-13T13:45:00+00:00",
+        "2026-08-18T13:45:00+00:00",
+        "2026-08-18T14:05:00+00:00",
+        "2026-08-20T13:55:00+00:00",
+        "2026-08-21T13:45:00+00:00",
+        "2026-08-24T13:35:00+00:00",
+        "2026-08-24T13:40:00+00:00",
+        "2026-08-24T14:15:00+00:00",
+        "2026-08-24T14:45:00+00:00",
+        "2026-08-25T13:30:00+00:00",
+        "2026-08-25T14:30:00+00:00",
+        "2026-08-26T15:05:00+00:00",
+        "2026-08-28T15:05:00+00:00",
+        "2026-08-31T13:45:00+00:00",
+        "2026-08-31T13:50:00+00:00",
+        "2026-08-31T14:20:00+00:00",
+        "2026-08-31T14:30:00+00:00",
+        "2026-09-01T13:35:00+00:00",
+        "2026-09-01T14:45:00+00:00",
+        "2026-09-01T14:50:00+00:00",
+        "2026-09-01T15:00:00+00:00",
+        "2026-09-01T15:10:00+00:00",
+        "2026-09-02T13:45:00+00:00",
+        "2026-09-02T14:15:00+00:00",
+        "2026-09-02T15:05:00+00:00",
+        "2026-09-08T14:00:00+00:00",
+        "2026-09-10T13:45:00+00:00",
+        "2026-09-14T14:15:00+00:00",
+        "2026-09-18T13:40:00+00:00"
+      ]
+    },
+    "end_exclusive": "2026-09-29T00:00:00+00:00",
+    "start_inclusive": "2025-09-29T00:00:00+00:00",
+    "timeframe": "sb5m"
+  },
+  "rows": [
+    {
+      "adds": 0,
+      "average_r": 0.17391304347826086,
+      "buckets": [
+        7.0,
+        -1.0,
+        2.0,
+        -4.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-hour-sweep-rr2": {
+          "total_r": 4.0,
+          "trades": 23,
+          "wins": 9
+        }
+      },
+      "exit_reasons": {
+        "STOP": 14,
+        "TARGET": 9
+      },
+      "extra_cost_average_r": 0.1620899088514362,
+      "first_half_r": 6.0,
+      "label": "sb5m-GOLD-silverbullet-am-hour-sweep-rr2-DAY",
+      "max_drawdown_r": 4.0,
+      "median_hold_hours": 1.6666666666666667,
+      "median_spread_r": 0.02113692322725821,
+      "pnl": 4.111996428571138,
+      "profit_factor": 1.2857142857142858,
+      "second_half_r": -2.0,
+      "side": {
+        "BUY": {
+          "total_r": 5.0,
+          "trades": 16
+        },
+        "SELL": {
+          "total_r": -1.0,
+          "trades": 7
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 2,
+        "trend_filter": 42
+      },
+      "total_r": 4.0,
+      "trades": 23,
+      "trades_per_week": 0.4411000865685556,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-am-hour-sweep-rr2",
+        "timeframe": "sb5m"
+      },
+      "week_bootstrap_95_interval": [
+        -0.375,
+        0.75
+      ],
+      "win_rate": 0.391304347826087
+    },
+    {
+      "adds": 0,
+      "average_r": -0.03571428571428829,
+      "buckets": [
+        7.999999999999928,
+        -8.0,
+        -1.0,
+        0
+      ],
+      "by_strategy": {
+        "silverbullet-london-hour-sweep-rr2": {
+          "total_r": -1.000000000000071,
+          "trades": 28,
+          "wins": 9
+        }
+      },
+      "exit_reasons": {
+        "STOP": 19,
+        "TARGET": 9
+      },
+      "extra_cost_average_r": -0.05694302320230948,
+      "first_half_r": -7.194245199571014e-14,
+      "label": "sb5m-GOLD-silverbullet-london-hour-sweep-rr2-DAY",
+      "max_drawdown_r": 12.0,
+      "median_hold_hours": 1.125,
+      "median_spread_r": 0.0393598421604858,
+      "pnl": -10.081417857143379,
+      "profit_factor": 0.9473684210526279,
+      "second_half_r": -1.0,
+      "side": {
+        "BUY": {
+          "total_r": 0.9999999999999281,
+          "trades": 17
+        },
+        "SELL": {
+          "total_r": -2.0,
+          "trades": 11
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 1,
+        "trend_filter": 31
+      },
+      "total_r": -1.000000000000072,
+      "trades": 28,
+      "trades_per_week": 0.5369914097356329,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-london-hour-sweep-rr2",
+        "timeframe": "sb5m"
+      },
+      "week_bootstrap_95_interval": [
+        -0.625,
+        0.6153846153846126
+      ],
+      "win_rate": 0.32142857142857145
+    },
+    {
+      "adds": 0,
+      "average_r": 0.42105263157894735,
+      "buckets": [
+        5.0,
+        1.0,
+        0.0,
+        2.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-hour-sweep-rr2": {
+          "total_r": 8.0,
+          "trades": 19,
+          "wins": 9
+        }
+      },
+      "exit_reasons": {
+        "STOP": 10,
+        "TARGET": 9
+      },
+      "extra_cost_average_r": 0.39528448515371045,
+      "first_half_r": 6.0,
+      "label": "sb5m-GOLD-silverbullet-pm-hour-sweep-rr2-DAY",
+      "max_drawdown_r": 3.0,
+      "median_hold_hours": 1.5,
+      "median_spread_r": 0.04566557576682522,
+      "pnl": 8.271678571428584,
+      "profit_factor": 1.8,
+      "second_half_r": 2.0,
+      "side": {
+        "BUY": {
+          "total_r": 4.0,
+          "trades": 11
+        },
+        "SELL": {
+          "total_r": 4.0,
+          "trades": 8
+        }
+      },
+      "skipped": {
+        "trend_filter": 47
+      },
+      "total_r": 8.0,
+      "trades": 19,
+      "trades_per_week": 0.36438702803489376,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "silverbullet-pm-hour-sweep-rr2",
+        "timeframe": "sb5m"
+      },
+      "week_bootstrap_95_interval": [
+        -0.21739130434782608,
+        1.1176470588235294
+      ],
+      "win_rate": 0.47368421052631576
+    },
+    {
+      "adds": 0,
+      "average_r": -0.25,
+      "buckets": [
+        -1.0,
+        -2.0,
+        1.0,
+        -2.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-hour-sweep-rr2": {
+          "total_r": -4.0,
+          "trades": 16,
+          "wins": 4
+        }
+      },
+      "exit_reasons": {
+        "STOP": 12,
+        "TARGET": 4
+      },
+      "extra_cost_average_r": -0.2607769036618822,
+      "first_half_r": -3.0,
+      "label": "sb5m-US100-silverbullet-am-hour-sweep-rr2-DAY",
+      "max_drawdown_r": 5.0,
+      "median_hold_hours": 2.083333333333333,
+      "median_spread_r": 0.018091008218144994,
+      "pnl": -49.89717857142532,
+      "profit_factor": 0.6666666666666666,
+      "second_half_r": -1.0,
+      "side": {
+        "BUY": {
+          "total_r": -1.0,
+          "trades": 13
+        },
+        "SELL": {
+          "total_r": -3.0,
+          "trades": 3
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 2,
+        "trend_filter": 39
+      },
+      "total_r": -4.0,
+      "trades": 16,
+      "trades_per_week": 0.3068522341346474,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-am-hour-sweep-rr2",
+        "timeframe": "sb5m"
+      },
+      "week_bootstrap_95_interval": [
+        -0.8235294117647058,
+        0.5
+      ],
+      "win_rate": 0.25
+    },
+    {
+      "adds": 0,
+      "average_r": -0.6552775218767563,
+      "buckets": [
+        -8.279435743809714,
+        0.0,
+        -6.0,
+        -8.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-hour-sweep-rr2": {
+          "total_r": -22.279435743809714,
+          "trades": 34,
+          "wins": 4
+        }
+      },
+      "exit_reasons": {
+        "STOP": 30,
+        "TARGET": 4
+      },
+      "extra_cost_average_r": -0.6830015060142165,
+      "first_half_r": -8.279435743809714,
+      "label": "sb5m-US100-silverbullet-london-hour-sweep-rr2-DAY",
+      "max_drawdown_r": 22.279435743809714,
+      "median_hold_hours": 0.8333333333333334,
+      "median_spread_r": 0.044539458580360486,
+      "pnl": -95.69339285714341,
+      "profit_factor": 0.26420571597459536,
+      "second_half_r": -14.0,
+      "side": {
+        "BUY": {
+          "total_r": -17.279435743809714,
+          "trades": 26
+        },
+        "SELL": {
+          "total_r": -5.0,
+          "trades": 8
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 2,
+        "trend_filter": 50
+      },
+      "total_r": -22.279435743809714,
+      "trades": 34,
+      "trades_per_week": 0.6520609975361257,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-london-hour-sweep-rr2",
+        "timeframe": "sb5m"
+      },
+      "week_bootstrap_95_interval": [
+        -0.925,
+        -0.28966277235210386
+      ],
+      "win_rate": 0.11764705882352941
+    },
+    {
+      "adds": 0,
+      "average_r": -0.29411764705882354,
+      "buckets": [
+        0,
+        -3.0,
+        3.0,
+        -5.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-hour-sweep-rr2": {
+          "total_r": -5.0,
+          "trades": 17,
+          "wins": 4
+        }
+      },
+      "exit_reasons": {
+        "STOP": 13,
+        "TARGET": 4
+      },
+      "extra_cost_average_r": -0.3112610873250188,
+      "first_half_r": -3.0,
+      "label": "sb5m-US100-silverbullet-pm-hour-sweep-rr2-DAY",
+      "max_drawdown_r": 8.0,
+      "median_hold_hours": 1.0,
+      "median_spread_r": 0.03291450066611338,
+      "pnl": -28.685142857143,
+      "profit_factor": 0.6153846153846154,
+      "second_half_r": -2.0,
+      "side": {
+        "BUY": {
+          "total_r": 0.0,
+          "trades": 12
+        },
+        "SELL": {
+          "total_r": -5.0,
+          "trades": 5
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 1,
+        "trend_filter": 27
+      },
+      "total_r": -5.0,
+      "trades": 17,
+      "trades_per_week": 0.32603049876806284,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "silverbullet-pm-hour-sweep-rr2",
+        "timeframe": "sb5m"
+      },
+      "week_bootstrap_95_interval": [
+        -0.8421052631578947,
+        0.5
+      ],
+      "win_rate": 0.23529411764705882
+    },
+    {
+      "adds": 0,
+      "average_r": 0.2,
+      "buckets": [
+        -3.0,
+        0.0,
+        5.0,
+        1.0
+      ],
+      "by_strategy": {
+        "silverbullet-am-hour-sweep-rr2": {
+          "total_r": 3.0,
+          "trades": 15,
+          "wins": 6
+        }
+      },
+      "exit_reasons": {
+        "STOP": 9,
+        "TARGET": 6
+      },
+      "extra_cost_average_r": 0.18684773234428895,
+      "first_half_r": -3.0,
+      "label": "sb5m-US500-silverbullet-am-hour-sweep-rr2-DAY",
+      "max_drawdown_r": 5.0,
+      "median_hold_hours": 22.833333333333332,
+      "median_spread_r": 0.02303484019577548,
+      "pnl": 17.283928571428714,
+      "profit_factor": 1.3333333333333333,
+      "second_half_r": 6.0,
+      "side": {
+        "BUY": {
+          "total_r": 0.0,
+          "trades": 12
+        },
+        "SELL": {
+          "total_r": 3.0,
+          "trades": 3
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 1,
+        "trend_filter": 40
+      },
+      "total_r": 3.0,
+      "trades": 15,
+      "trades_per_week": 0.2876739695012319,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-am-hour-sweep-rr2",
+        "timeframe": "sb5m"
+      },
+      "week_bootstrap_95_interval": [
+        -0.625,
+        1.0769230769230769
+      ],
+      "win_rate": 0.4
+    },
+    {
+      "adds": 0,
+      "average_r": -0.5384615384615384,
+      "buckets": [
+        -5.0,
+        -1.0,
+        -5.0,
+        -3.0
+      ],
+      "by_strategy": {
+        "silverbullet-london-hour-sweep-rr2": {
+          "total_r": -14.0,
+          "trades": 26,
+          "wins": 4
+        }
+      },
+      "exit_reasons": {
+        "STOP": 22,
+        "TARGET": 4
+      },
+      "extra_cost_average_r": -0.5778506290890726,
+      "first_half_r": -6.0,
+      "label": "sb5m-US500-silverbullet-london-hour-sweep-rr2-DAY",
+      "max_drawdown_r": 14.0,
+      "median_hold_hours": 1.375,
+      "median_spread_r": 0.06841540711850043,
+      "pnl": -11.35357142857165,
+      "profit_factor": 0.36363636363636365,
+      "second_half_r": -8.0,
+      "side": {
+        "BUY": {
+          "total_r": -12.0,
+          "trades": 24
+        },
+        "SELL": {
+          "total_r": -2.0,
+          "trades": 2
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 1,
+        "trend_filter": 38
+      },
+      "total_r": -14.0,
+      "trades": 26,
+      "trades_per_week": 0.498634880468802,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-london-hour-sweep-rr2",
+        "timeframe": "sb5m"
+      },
+      "week_bootstrap_95_interval": [
+        -0.8888888888888888,
+        -0.1
+      ],
+      "win_rate": 0.15384615384615385
+    },
+    {
+      "adds": 0,
+      "average_r": -0.7,
+      "buckets": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -4.0
+      ],
+      "by_strategy": {
+        "silverbullet-pm-hour-fvg-rr2": {
+          "total_r": -7.0,
+          "trades": 10,
+          "wins": 1
+        }
+      },
+      "exit_reasons": {
+        "STOP": 9,
+        "TARGET": 1
+      },
+      "extra_cost_average_r": -0.825276859459071,
+      "first_half_r": -2.0,
+      "label": "sb5m-US500-silverbullet-pm-hour-fvg-rr2-DAY",
+      "max_drawdown_r": 7.0,
+      "median_hold_hours": 0.125,
+      "median_spread_r": 0.13426737658246998,
+      "pnl": -2.6859285714284855,
+      "profit_factor": 0.2222222222222222,
+      "second_half_r": -5.0,
+      "side": {
+        "BUY": {
+          "total_r": -7.0,
+          "trades": 7
+        },
+        "SELL": {
+          "total_r": 0.0,
+          "trades": 3
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "trend_filter": 31
+      },
+      "total_r": -7.0,
+      "trades": 10,
+      "trades_per_week": 0.19178264633415462,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "silverbullet-pm-hour-fvg-rr2",
+        "timeframe": "sb5m"
+      },
+      "week_bootstrap_95_interval": [
+        -1.0,
+        -0.29411764705882354
+      ],
+      "win_rate": 0.1
+    }
+  ]
+}

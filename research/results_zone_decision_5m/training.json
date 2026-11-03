@@ -1,0 +1,5368 @@
+{
+  "data": {
+    "bars": 70655,
+    "end_exclusive": "2025-09-29T00:00:00+00:00",
+    "entry_sha256": "7f09b8a2032552fe5a5772f182ad6cd85a0c2cdfea5ac65b35cb4a1a76edd688",
+    "first_bar": "2024-09-29T22:00:00+00:00",
+    "last_bar": "2025-09-28T23:55:00+00:00",
+    "median_spread": 0.3000000000001819,
+    "repaired_in_period": [
+      "2025-02-07T16:15:00+00:00"
+    ],
+    "start_inclusive": "2024-09-29T00:00:00+00:00"
+  },
+  "rows": [
+    {
+      "adds": 0,
+      "average_r": -0.10109185276844179,
+      "by_strategy": {
+        "zone_ema_room-w288-r3-room1-none-all": {
+          "total_r": -116.55890624201344,
+          "trades": 1153,
+          "wins": 415
+        }
+      },
+      "exit_reasons": {
+        "STOP": 738,
+        "TARGET": 415
+      },
+      "extra_cost_average_r": -0.16618821219622434,
+      "first_half_r": -31.176503967336046,
+      "label": "zone_ema_room-w288-r3-room1-none-all",
+      "max_drawdown_r": 128.51059567463213,
+      "median_spread_r": 0.08128114567714934,
+      "pnl": -44.07168749999724,
+      "profit_factor": 0.8430499807704664,
+      "quarters": [
+        -15.649837280680297,
+        -17.274927700236105,
+        -28.13414126109884,
+        -55.499999999998145
+      ],
+      "second_half_r": -85.38240227467733,
+      "side": {
+        "BUY": {
+          "total_r": -47.019595496114746,
+          "trades": 643
+        },
+        "SELL": {
+          "total_r": -69.53931074589863,
+          "trades": 510
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 925,
+        "risk: Reward-to-risk is below the configured minimum": 368,
+        "risk: spread above maximum": 2
+      },
+      "total_r": -116.55890624201338,
+      "trades": 1153,
+      "trades_per_week": 22.16821324686472,
+      "variant": {
+        "family": "ema_room",
+        "hours": "all",
+        "parameter": 1.0,
+        "radius": 3,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.3599306157849089
+    },
+    {
+      "adds": 0,
+      "average_r": -0.12414155460589921,
+      "by_strategy": {
+        "zone_ema_room-w288-r3-room1.5-none-all": {
+          "total_r": -98.9408190209017,
+          "trades": 797,
+          "wins": 280
+        }
+      },
+      "exit_reasons": {
+        "STOP": 517,
+        "TARGET": 280
+      },
+      "extra_cost_average_r": -0.1812490850534764,
+      "first_half_r": -32.558416746223145,
+      "label": "zone_ema_room-w288-r3-room1.5-none-all",
+      "max_drawdown_r": 100.44081902090178,
+      "median_spread_r": 0.07269265717622751,
+      "pnl": -36.337075892854685,
+      "profit_factor": 0.8102977234301962,
+      "quarters": [
+        -16.55841674622499,
+        -15.99999999999816,
+        -38.88240227467994,
+        -27.49999999999858
+      ],
+      "second_half_r": -66.38240227467853,
+      "side": {
+        "BUY": {
+          "total_r": -35.99292880945921,
+          "trades": 456
+        },
+        "SELL": {
+          "total_r": -62.947890211442456,
+          "trades": 341
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 651,
+        "risk: Reward-to-risk is below the configured minimum": 255,
+        "risk: spread above maximum": 1
+      },
+      "total_r": -98.94081902090167,
+      "trades": 797,
+      "trades_per_week": 15.323561108197035,
+      "variant": {
+        "family": "ema_room",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.35131744040150564
+    },
+    {
+      "adds": 0,
+      "average_r": -0.15279976196541528,
+      "by_strategy": {
+        "zone_rejection-w288-r3-rr1.5-none-all": {
+          "total_r": -118.72541504712768,
+          "trades": 777,
+          "wins": 262
+        }
+      },
+      "exit_reasons": {
+        "STOP": 515,
+        "TARGET": 262
+      },
+      "extra_cost_average_r": -0.2280807354023813,
+      "first_half_r": -81.1321000445525,
+      "label": "zone_rejection-w288-r3-rr1.5-none-all",
+      "max_drawdown_r": 123.72541504712797,
+      "median_spread_r": 0.09815377424623005,
+      "pnl": -39.32347321428361,
+      "profit_factor": 0.770634858368965,
+      "quarters": [
+        -32.328006080266576,
+        -48.804093964285926,
+        -24.093315002577114,
+        -13.499999999998062
+      ],
+      "second_half_r": -37.593315002575174,
+      "side": {
+        "BUY": {
+          "total_r": -23.328006080265247,
+          "trades": 369
+        },
+        "SELL": {
+          "total_r": -95.39740896686243,
+          "trades": 408
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 182,
+        "risk: Reward-to-risk is below the configured minimum": 286,
+        "risk: spread above maximum": 3
+      },
+      "total_r": -118.72541504712768,
+      "trades": 777,
+      "trades_per_week": 14.93903008917076,
+      "variant": {
+        "family": "rejection",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.33719433719433717
+    },
+    {
+      "adds": 0,
+      "average_r": -0.17474361102027428,
+      "by_strategy": {
+        "zone_rejection-w288-r3-rr2-none-all": {
+          "total_r": -111.83591105297553,
+          "trades": 640,
+          "wins": 175
+        }
+      },
+      "exit_reasons": {
+        "STOP": 465,
+        "TARGET": 175
+      },
+      "extra_cost_average_r": -0.2548837076443756,
+      "first_half_r": -86.05274889472304,
+      "label": "zone_rejection-w288-r3-rr2-none-all",
+      "max_drawdown_r": 131.83591105297552,
+      "median_spread_r": 0.10487913953442521,
+      "pnl": -41.76105357142942,
+      "profit_factor": 0.7606476620948549,
+      "quarters": [
+        -36.75578572420531,
+        -49.29696317051772,
+        -24.783162158252495,
+        -1.0
+      ],
+      "second_half_r": -25.783162158252495,
+      "side": {
+        "BUY": {
+          "total_r": -14.755785724205309,
+          "trades": 284
+        },
+        "SELL": {
+          "total_r": -97.08012532877022,
+          "trades": 356
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 124,
+        "risk: spread above maximum": 2
+      },
+      "total_r": -111.83591105297553,
+      "trades": 640,
+      "trades_per_week": 12.30499260884078,
+      "variant": {
+        "family": "rejection",
+        "hours": "all",
+        "parameter": 2.0,
+        "radius": 3,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.2734375
+    },
+    {
+      "adds": 0,
+      "average_r": -0.018438177874174833,
+      "by_strategy": {
+        "zone_breakout_retest-w288-r3-rr1.5-none-all": {
+          "total_r": -8.499999999994596,
+          "trades": 461,
+          "wins": 181
+        }
+      },
+      "exit_reasons": {
+        "STOP": 280,
+        "TARGET": 181
+      },
+      "extra_cost_average_r": -0.10804242066758016,
+      "first_half_r": 8.000000000003697,
+      "label": "zone_breakout_retest-w288-r3-rr1.5-none-all",
+      "max_drawdown_r": 34.49999999999879,
+      "median_spread_r": 0.11894647408658518,
+      "pnl": 4.686406250003256,
+      "profit_factor": 0.9696428571428765,
+      "quarters": [
+        9.50000000000223,
+        -1.4999999999985323,
+        7.000000000000867,
+        -23.49999999999916
+      ],
+      "second_half_r": -16.499999999998295,
+      "side": {
+        "BUY": {
+          "total_r": 15.000000000003103,
+          "trades": 245
+        },
+        "SELL": {
+          "total_r": -23.4999999999977,
+          "trades": 216
+        }
+      },
+      "skipped": {
+        "entry_drift": 3,
+        "risk: 1 position(s) already open": 46,
+        "risk: Reward-to-risk is below the configured minimum": 138,
+        "risk: spread above maximum": 3
+      },
+      "total_r": -8.499999999994598,
+      "trades": 461,
+      "trades_per_week": 8.863439988555625,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.3926247288503254
+    },
+    {
+      "adds": 0,
+      "average_r": -0.03930295704081371,
+      "by_strategy": {
+        "zone_breakout_retest-w288-r3-rr2-none-all": {
+          "total_r": -19.494266692243603,
+          "trades": 496,
+          "wins": 162
+        }
+      },
+      "exit_reasons": {
+        "STOP": 334,
+        "TARGET": 162
+      },
+      "extra_cost_average_r": -0.12755831726151304,
+      "first_half_r": -20.494266692243603,
+      "label": "zone_breakout_retest-w288-r3-rr2-none-all",
+      "max_drawdown_r": 27.494266692243603,
+      "median_spread_r": 0.11965052070481462,
+      "pnl": 1.1090714285725423,
+      "profit_factor": 0.9432471846474525,
+      "quarters": [
+        -20.494266692243603,
+        0.0,
+        5.0,
+        -4.0
+      ],
+      "second_half_r": 1.0,
+      "side": {
+        "BUY": {
+          "total_r": 2.505733307756398,
+          "trades": 285
+        },
+        "SELL": {
+          "total_r": -22.0,
+          "trades": 211
+        }
+      },
+      "skipped": {
+        "entry_drift": 2,
+        "risk: 1 position(s) already open": 56,
+        "risk: spread above maximum": 3
+      },
+      "total_r": -19.494266692243603,
+      "trades": 496,
+      "trades_per_week": 9.536369271851605,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "all",
+        "parameter": 2.0,
+        "radius": 3,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.32661290322580644
+    },
+    {
+      "adds": 0,
+      "average_r": -0.07889230679846304,
+      "by_strategy": {
+        "zone_ema_room-w288-r3-room1-none-london-ny": {
+          "total_r": -51.437784032597904,
+          "trades": 652,
+          "wins": 240
+        }
+      },
+      "exit_reasons": {
+        "STOP": 412,
+        "TARGET": 240
+      },
+      "extra_cost_average_r": -0.13804075095353993,
+      "first_half_r": -24.999999999996547,
+      "label": "zone_ema_room-w288-r3-room1-none-london-ny",
+      "max_drawdown_r": 59.437784032599644,
+      "median_spread_r": 0.0762631177795375,
+      "pnl": -25.478272321427994,
+      "profit_factor": 0.8751510096296168,
+      "quarters": [
+        -6.499999999997999,
+        -18.49999999999855,
+        -18.437784032602814,
+        -7.999999999998543
+      ],
+      "second_half_r": -26.437784032601357,
+      "side": {
+        "BUY": {
+          "total_r": -26.999999999996867,
+          "trades": 367
+        },
+        "SELL": {
+          "total_r": -24.437784032601037,
+          "trades": 285
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 454,
+        "risk: Reward-to-risk is below the configured minimum": 200
+      },
+      "total_r": -51.437784032597904,
+      "trades": 652,
+      "trades_per_week": 12.535711220256545,
+      "variant": {
+        "family": "ema_room",
+        "hours": "london-ny",
+        "parameter": 1.0,
+        "radius": 3,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.36809815950920244
+    },
+    {
+      "adds": 0,
+      "average_r": -0.09015301136027175,
+      "by_strategy": {
+        "zone_ema_room-w288-r3-room1.5-none-london-ny": {
+          "total_r": -39.93778403260038,
+          "trades": 443,
+          "wins": 161
+        }
+      },
+      "exit_reasons": {
+        "STOP": 282,
+        "TARGET": 161
+      },
+      "extra_cost_average_r": -0.14220072542211043,
+      "first_half_r": -12.999999999998254,
+      "label": "zone_ema_room-w288-r3-room1.5-none-london-ny",
+      "max_drawdown_r": 45.43778403260059,
+      "median_spread_r": 0.06816936841885307,
+      "pnl": -22.040294642857134,
+      "profit_factor": 0.8583766523666654,
+      "quarters": [
+        -4.999999999999267,
+        -7.999999999998986,
+        -20.937784032603105,
+        -5.999999999999022
+      ],
+      "second_half_r": -26.937784032602128,
+      "side": {
+        "BUY": {
+          "total_r": -9.999999999998108,
+          "trades": 255
+        },
+        "SELL": {
+          "total_r": -29.937784032602273,
+          "trades": 188
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 332,
+        "risk: Reward-to-risk is below the configured minimum": 137
+      },
+      "total_r": -39.93778403260038,
+      "trades": 443,
+      "trades_per_week": 8.517362071431977,
+      "variant": {
+        "family": "ema_room",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.36343115124153497
+    },
+    {
+      "adds": 0,
+      "average_r": -0.09333067143208967,
+      "by_strategy": {
+        "zone_rejection-w288-r3-rr1.5-none-london-ny": {
+          "total_r": -39.66553535863811,
+          "trades": 425,
+          "wins": 155
+        }
+      },
+      "exit_reasons": {
+        "STOP": 270,
+        "TARGET": 155
+      },
+      "extra_cost_average_r": -0.16022446228885134,
+      "first_half_r": -55.07222035606206,
+      "label": "zone_rejection-w288-r3-rr1.5-none-london-ny",
+      "max_drawdown_r": 65.5722203560619,
+      "median_spread_r": 0.08979155531794127,
+      "pnl": -12.300526785713194,
+      "profit_factor": 0.8542595214843437,
+      "quarters": [
+        -33.072220356062644,
+        -21.99999999999942,
+        -0.0933150025772882,
+        15.50000000000124
+      ],
+      "second_half_r": 15.406684997423952,
+      "side": {
+        "BUY": {
+          "total_r": 9.427779643938552,
+          "trades": 208
+        },
+        "SELL": {
+          "total_r": -49.09331500257666,
+          "trades": 217
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 94,
+        "risk: Reward-to-risk is below the configured minimum": 153,
+        "risk: spread above maximum": 1
+      },
+      "total_r": -39.66553535863811,
+      "trades": 425,
+      "trades_per_week": 8.171284154308331,
+      "variant": {
+        "family": "rejection",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.36470588235294116
+    },
+    {
+      "adds": 0,
+      "average_r": -0.025166653748574484,
+      "by_strategy": {
+        "zone_rejection-w288-r3-rr2-none-london-ny": {
+          "total_r": -8.783162158252495,
+          "trades": 349,
+          "wins": 114
+        }
+      },
+      "exit_reasons": {
+        "STOP": 235,
+        "TARGET": 114
+      },
+      "extra_cost_average_r": -0.09549840870779228,
+      "first_half_r": -27.0,
+      "label": "zone_rejection-w288-r3-rr2-none-london-ny",
+      "max_drawdown_r": 40.0,
+      "median_spread_r": 0.09688581314870202,
+      "pnl": -8.89219642857256,
+      "profit_factor": 0.9629063060135064,
+      "quarters": [
+        -19.0,
+        -8.0,
+        -2.783162158252495,
+        21.0
+      ],
+      "second_half_r": 18.216837841747505,
+      "side": {
+        "BUY": {
+          "total_r": 12.0,
+          "trades": 159
+        },
+        "SELL": {
+          "total_r": -20.783162158252495,
+          "trades": 190
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 65,
+        "risk: spread above maximum": 1
+      },
+      "total_r": -8.783162158252495,
+      "trades": 349,
+      "trades_per_week": 6.710066282008488,
+      "variant": {
+        "family": "rejection",
+        "hours": "london-ny",
+        "parameter": 2.0,
+        "radius": 3,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.32664756446991405
+    },
+    {
+      "adds": 0,
+      "average_r": -0.010869565217379315,
+      "by_strategy": {
+        "zone_breakout_retest-w288-r3-rr1.5-none-london-ny": {
+          "total_r": -2.4999999999972427,
+          "trades": 230,
+          "wins": 91
+        }
+      },
+      "exit_reasons": {
+        "STOP": 139,
+        "TARGET": 91
+      },
+      "extra_cost_average_r": -0.08936929152350213,
+      "first_half_r": 10.00000000000205,
+      "label": "zone_breakout_retest-w288-r3-rr1.5-none-london-ny",
+      "max_drawdown_r": 21.999999999999652,
+      "median_spread_r": 0.10403451282211898,
+      "pnl": -1.3297767857126928,
+      "profit_factor": 0.9820143884892285,
+      "quarters": [
+        4.000000000001099,
+        6.000000000000951,
+        -4.999999999999835,
+        -7.499999999999458
+      ],
+      "second_half_r": -12.499999999999293,
+      "side": {
+        "BUY": {
+          "total_r": 18.00000000000156,
+          "trades": 117
+        },
+        "SELL": {
+          "total_r": -20.499999999998803,
+          "trades": 113
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 24,
+        "risk: Reward-to-risk is below the configured minimum": 68
+      },
+      "total_r": -2.4999999999972427,
+      "trades": 230,
+      "trades_per_week": 4.422106718802156,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.39565217391304347
+    },
+    {
+      "adds": 0,
+      "average_r": -0.047058823529411764,
+      "by_strategy": {
+        "zone_breakout_retest-w288-r3-rr2-none-london-ny": {
+          "total_r": -12.0,
+          "trades": 255,
+          "wins": 81
+        }
+      },
+      "exit_reasons": {
+        "STOP": 174,
+        "TARGET": 81
+      },
+      "extra_cost_average_r": -0.12538342704618485,
+      "first_half_r": -13.0,
+      "label": "zone_breakout_retest-w288-r3-rr2-none-london-ny",
+      "max_drawdown_r": 28.0,
+      "median_spread_r": 0.10738941447207055,
+      "pnl": -5.650062499999877,
+      "profit_factor": 0.9310344827586207,
+      "quarters": [
+        -11.0,
+        -2.0,
+        -10.0,
+        11.0
+      ],
+      "second_half_r": 1.0,
+      "side": {
+        "BUY": {
+          "total_r": 5.0,
+          "trades": 145
+        },
+        "SELL": {
+          "total_r": -17.0,
+          "trades": 110
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 29
+      },
+      "total_r": -12.0,
+      "trades": 255,
+      "trades_per_week": 4.902770492584999,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "london-ny",
+        "parameter": 2.0,
+        "radius": 3,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.3176470588235294
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1079868486806616,
+      "by_strategy": {
+        "zone_ema_room-w288-r3-room1-HOUR_4-all": {
+          "total_r": -54.64134543241477,
+          "trades": 506,
+          "wins": 182
+        }
+      },
+      "exit_reasons": {
+        "STOP": 324,
+        "TARGET": 182
+      },
+      "extra_cost_average_r": -0.1734658871364571,
+      "first_half_r": -7.800049553801993,
+      "label": "zone_ema_room-w288-r3-room1-HOUR_4-all",
+      "max_drawdown_r": 55.641345432415186,
+      "median_spread_r": 0.0815079767059316,
+      "pnl": -17.51047321428455,
+      "profit_factor": 0.8336885515008371,
+      "quarters": [
+        -15.048310567383988,
+        5.50000000000164,
+        -8.093034865032939,
+        -36.99999999999948
+      ],
+      "second_half_r": -46.841295878612776,
+      "side": {
+        "BUY": {
+          "total_r": -45.64134543241518,
+          "trades": 387
+        },
+        "SELL": {
+          "total_r": -8.999999999999591,
+          "trades": 119
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 335,
+        "risk: Reward-to-risk is below the configured minimum": 149,
+        "trend_filter": 1459
+      },
+      "total_r": -54.641345432414774,
+      "trades": 506,
+      "trades_per_week": 9.728634781364743,
+      "variant": {
+        "family": "ema_room",
+        "hours": "all",
+        "parameter": 1.0,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.35968379446640314
+    },
+    {
+      "adds": 0,
+      "average_r": -0.13955041278627237,
+      "by_strategy": {
+        "zone_ema_room-w288-r3-room1.5-HOUR_4-all": {
+          "total_r": -52.88960644599723,
+          "trades": 379,
+          "wins": 132
+        }
+      },
+      "exit_reasons": {
+        "STOP": 247,
+        "TARGET": 132
+      },
+      "extra_cost_average_r": -0.19608431359819342,
+      "first_half_r": -15.548310567383963,
+      "label": "zone_ema_room-w288-r3-room1.5-HOUR_4-all",
+      "max_drawdown_r": 56.38960644599725,
+      "median_spread_r": 0.07305618368405743,
+      "pnl": -17.44999107142735,
+      "profit_factor": 0.7897437421595046,
+      "quarters": [
+        -19.548310567385215,
+        4.000000000001251,
+        -13.841295878613616,
+        -23.499999999999655
+      ],
+      "second_half_r": -37.34129587861327,
+      "side": {
+        "BUY": {
+          "total_r": -45.38960644599748,
+          "trades": 289
+        },
+        "SELL": {
+          "total_r": -7.499999999999756,
+          "trades": 90
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 266,
+        "risk: Reward-to-risk is below the configured minimum": 117,
+        "trend_filter": 943
+      },
+      "total_r": -52.88960644599723,
+      "trades": 379,
+      "trades_per_week": 7.2868628105479,
+      "variant": {
+        "family": "ema_room",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.3482849604221636
+    },
+    {
+      "adds": 0,
+      "average_r": -0.24288613482399818,
+      "by_strategy": {
+        "zone_rejection-w288-r3-rr1.5-HOUR_4-all": {
+          "total_r": -65.8221425373035,
+          "trades": 271,
+          "wins": 83
+        }
+      },
+      "exit_reasons": {
+        "STOP": 188,
+        "TARGET": 83
+      },
+      "extra_cost_average_r": -0.31604654864285026,
+      "first_half_r": -39.728827534726584,
+      "label": "zone_rejection-w288-r3-rr1.5-HOUR_4-all",
+      "max_drawdown_r": 69.8221425373037,
+      "median_spread_r": 0.0922013061852181,
+      "pnl": -19.501611607141786,
+      "profit_factor": 0.6541540481849006,
+      "quarters": [
+        -19.728827534727138,
+        -19.99999999999945,
+        -13.593315002577603,
+        -12.499999999999321
+      ],
+      "second_half_r": -26.093315002576922,
+      "side": {
+        "BUY": {
+          "total_r": -36.728827534726854,
+          "trades": 194
+        },
+        "SELL": {
+          "total_r": -29.093315002576656,
+          "trades": 77
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 51,
+        "risk: Reward-to-risk is below the configured minimum": 109,
+        "risk: spread above maximum": 1,
+        "trend_filter": 816
+      },
+      "total_r": -65.8221425373035,
+      "trades": 271,
+      "trades_per_week": 5.210395307806018,
+      "variant": {
+        "family": "rejection",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.3062730627306273
+    },
+    {
+      "adds": 0,
+      "average_r": -0.343216388421379,
+      "by_strategy": {
+        "zone_rejection-w288-r3-rr2-HOUR_4-all": {
+          "total_r": -78.9397693369172,
+          "trades": 230,
+          "wins": 51
+        }
+      },
+      "exit_reasons": {
+        "STOP": 179,
+        "TARGET": 51
+      },
+      "extra_cost_average_r": -0.42164883486787824,
+      "first_half_r": -46.15660717866469,
+      "label": "zone_rejection-w288-r3-rr2-HOUR_4-all",
+      "max_drawdown_r": 87.9397693369172,
+      "median_spread_r": 0.09806326903933732,
+      "pnl": -26.596955357142953,
+      "profit_factor": 0.5637234996695053,
+      "quarters": [
+        -26.156607178664693,
+        -20.0,
+        -21.783162158252495,
+        -11.0
+      ],
+      "second_half_r": -32.783162158252495,
+      "side": {
+        "BUY": {
+          "total_r": -29.156607178664693,
+          "trades": 164
+        },
+        "SELL": {
+          "total_r": -49.783162158252495,
+          "trades": 66
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 34,
+        "trend_filter": 502
+      },
+      "total_r": -78.93976933691718,
+      "trades": 230,
+      "trades_per_week": 4.422106718802156,
+      "variant": {
+        "family": "rejection",
+        "hours": "all",
+        "parameter": 2.0,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.2217391304347826
+    },
+    {
+      "adds": 0,
+      "average_r": -0.10919540229883916,
+      "by_strategy": {
+        "zone_breakout_retest-w288-r3-rr1.5-HOUR_4-all": {
+          "total_r": -18.999999999998014,
+          "trades": 174,
+          "wins": 62
+        }
+      },
+      "exit_reasons": {
+        "STOP": 112,
+        "TARGET": 62
+      },
+      "extra_cost_average_r": -0.19856212452045663,
+      "first_half_r": -11.999999999998492,
+      "label": "zone_breakout_retest-w288-r3-rr1.5-HOUR_4-all",
+      "max_drawdown_r": 20.499999999998014,
+      "median_spread_r": 0.12020622508808086,
+      "pnl": -2.1762410714269667,
+      "profit_factor": 0.8303571428571607,
+      "quarters": [
+        -10.499999999999563,
+        -1.4999999999989289,
+        3.0000000000003255,
+        -9.999999999999847
+      ],
+      "second_half_r": -6.999999999999522,
+      "side": {
+        "BUY": {
+          "total_r": -5.4999999999983995,
+          "trades": 133
+        },
+        "SELL": {
+          "total_r": -13.499999999999615,
+          "trades": 41
+        }
+      },
+      "skipped": {
+        "entry_drift": 3,
+        "risk: 1 position(s) already open": 14,
+        "risk: Reward-to-risk is below the configured minimum": 59,
+        "trend_filter": 401
+      },
+      "total_r": -18.999999999998014,
+      "trades": 174,
+      "trades_per_week": 3.345419865528587,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.3563218390804598
+    },
+    {
+      "adds": 0,
+      "average_r": -0.07708590394151046,
+      "by_strategy": {
+        "zone_breakout_retest-w288-r3-rr2-HOUR_4-all": {
+          "total_r": -15.494266692243603,
+          "trades": 201,
+          "wins": 65
+        }
+      },
+      "exit_reasons": {
+        "STOP": 136,
+        "TARGET": 65
+      },
+      "extra_cost_average_r": -0.16196325709971585,
+      "first_half_r": -14.494266692243603,
+      "label": "zone_breakout_retest-w288-r3-rr2-HOUR_4-all",
+      "max_drawdown_r": 22.494266692243603,
+      "median_spread_r": 0.11436351259347612,
+      "pnl": 2.333258928572195,
+      "profit_factor": 0.8935059982465302,
+      "quarters": [
+        -16.494266692243603,
+        2.0,
+        5.0,
+        -6.0
+      ],
+      "second_half_r": -1.0,
+      "side": {
+        "BUY": {
+          "total_r": -1.494266692243602,
+          "trades": 157
+        },
+        "SELL": {
+          "total_r": -14.0,
+          "trades": 44
+        }
+      },
+      "skipped": {
+        "entry_drift": 2,
+        "risk: 1 position(s) already open": 17,
+        "trend_filter": 337
+      },
+      "total_r": -15.494266692243603,
+      "trades": 201,
+      "trades_per_week": 3.864536741214058,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "all",
+        "parameter": 2.0,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.32338308457711445
+    },
+    {
+      "adds": 0,
+      "average_r": -0.14233576642335122,
+      "by_strategy": {
+        "zone_ema_room-w288-r3-room1-HOUR_4-london-ny": {
+          "total_r": -38.99999999999823,
+          "trades": 274,
+          "wins": 94
+        }
+      },
+      "exit_reasons": {
+        "STOP": 180,
+        "TARGET": 94
+      },
+      "extra_cost_average_r": -0.19986474930519857,
+      "first_half_r": -9.99999999999859,
+      "label": "zone_ema_room-w288-r3-room1-HOUR_4-london-ny",
+      "max_drawdown_r": 40.49999999999825,
+      "median_spread_r": 0.07409859058136971,
+      "pnl": -15.788723214285529,
+      "profit_factor": 0.7833333333333431,
+      "quarters": [
+        -13.99999999999953,
+        4.00000000000094,
+        -14.999999999999856,
+        -13.999999999999785
+      ],
+      "second_half_r": -28.99999999999964,
+      "side": {
+        "BUY": {
+          "total_r": -30.999999999998323,
+          "trades": 206
+        },
+        "SELL": {
+          "total_r": -7.999999999999908,
+          "trades": 68
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 173,
+        "risk: Reward-to-risk is below the configured minimum": 80,
+        "trend_filter": 779
+      },
+      "total_r": -38.99999999999823,
+      "trades": 274,
+      "trades_per_week": 5.268074960659959,
+      "variant": {
+        "family": "ema_room",
+        "hours": "london-ny",
+        "parameter": 1.0,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.34306569343065696
+    },
+    {
+      "adds": 0,
+      "average_r": -0.09855769230768771,
+      "by_strategy": {
+        "zone_ema_room-w288-r3-room1.5-HOUR_4-london-ny": {
+          "total_r": -20.49999999999904,
+          "trades": 208,
+          "wins": 75
+        }
+      },
+      "exit_reasons": {
+        "STOP": 133,
+        "TARGET": 75
+      },
+      "extra_cost_average_r": -0.15027682610638662,
+      "first_half_r": -1.9999999999992155,
+      "label": "zone_ema_room-w288-r3-room1.5-HOUR_4-london-ny",
+      "max_drawdown_r": 23.999999999999062,
+      "median_spread_r": 0.07012710540909024,
+      "pnl": -10.656999999999972,
+      "profit_factor": 0.8458646616541425,
+      "quarters": [
+        -10.499999999999897,
+        8.500000000000682,
+        -9.499999999999877,
+        -8.99999999999995
+      ],
+      "second_half_r": -18.49999999999983,
+      "side": {
+        "BUY": {
+          "total_r": -18.499999999999115,
+          "trades": 156
+        },
+        "SELL": {
+          "total_r": -1.999999999999929,
+          "trades": 52
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 140,
+        "risk: Reward-to-risk is below the configured minimum": 62,
+        "trend_filter": 502
+      },
+      "total_r": -20.499999999999044,
+      "trades": 208,
+      "trades_per_week": 3.999122597873254,
+      "variant": {
+        "family": "ema_room",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.3605769230769231
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1644806232590858,
+      "by_strategy": {
+        "zone_rejection-w288-r3-rr1.5-HOUR_4-london-ny": {
+          "total_r": -25.165535358640128,
+          "trades": 153,
+          "wins": 52
+        }
+      },
+      "exit_reasons": {
+        "STOP": 101,
+        "TARGET": 52
+      },
+      "extra_cost_average_r": -0.23042435121177976,
+      "first_half_r": -29.072220356062925,
+      "label": "zone_rejection-w288-r3-rr1.5-HOUR_4-london-ny",
+      "max_drawdown_r": 32.572220356062964,
+      "median_spread_r": 0.08441786844874402,
+      "pnl": -8.546803571427928,
+      "profit_factor": 0.7560664492152778,
+      "quarters": [
+        -18.07222035606308,
+        -10.999999999999845,
+        -0.0933150025776337,
+        4.0000000000004325
+      ],
+      "second_half_r": 3.906684997422799,
+      "side": {
+        "BUY": {
+          "total_r": -5.572220356062704,
+          "trades": 113
+        },
+        "SELL": {
+          "total_r": -19.593315002577423,
+          "trades": 40
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 28,
+        "risk: Reward-to-risk is below the configured minimum": 54,
+        "trend_filter": 438
+      },
+      "total_r": -25.165535358640128,
+      "trades": 153,
+      "trades_per_week": 2.9416622955509992,
+      "variant": {
+        "family": "rejection",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.33986928104575165
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1785505094938729,
+      "by_strategy": {
+        "zone_rejection-w288-r3-rr2-HOUR_4-london-ny": {
+          "total_r": -21.783162158252495,
+          "trades": 122,
+          "wins": 34
+        }
+      },
+      "exit_reasons": {
+        "STOP": 88,
+        "TARGET": 34
+      },
+      "extra_cost_average_r": -0.24717697510757541,
+      "first_half_r": -18.0,
+      "label": "zone_rejection-w288-r3-rr2-HOUR_4-london-ny",
+      "max_drawdown_r": 28.783162158252495,
+      "median_spread_r": 0.09299596351456285,
+      "pnl": -8.103660714285933,
+      "profit_factor": 0.7573803190418118,
+      "quarters": [
+        -13.0,
+        -5.0,
+        -5.783162158252495,
+        2.0
+      ],
+      "second_half_r": -3.783162158252495,
+      "side": {
+        "BUY": {
+          "total_r": 1.0,
+          "trades": 92
+        },
+        "SELL": {
+          "total_r": -22.783162158252495,
+          "trades": 30
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 20,
+        "trend_filter": 273
+      },
+      "total_r": -21.783162158252495,
+      "trades": 122,
+      "trades_per_week": 2.345639216060274,
+      "variant": {
+        "family": "rejection",
+        "hours": "london-ny",
+        "parameter": 2.0,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.2786885245901639
+    },
+    {
+      "adds": 0,
+      "average_r": -0.14705882352940114,
+      "by_strategy": {
+        "zone_breakout_retest-w288-r3-rr1.5-HOUR_4-london-ny": {
+          "total_r": -12.499999999999096,
+          "trades": 85,
+          "wins": 29
+        }
+      },
+      "exit_reasons": {
+        "STOP": 56,
+        "TARGET": 29
+      },
+      "extra_cost_average_r": -0.22240015203717928,
+      "first_half_r": -3.9999999999993063,
+      "label": "zone_breakout_retest-w288-r3-rr1.5-HOUR_4-london-ny",
+      "max_drawdown_r": 14.499999999999249,
+      "median_spread_r": 0.10289704171012441,
+      "pnl": -4.722767857142117,
+      "profit_factor": 0.7767857142857304,
+      "quarters": [
+        -8.99999999999996,
+        5.000000000000653,
+        -4.999999999999943,
+        -3.4999999999998472
+      ],
+      "second_half_r": -8.49999999999979,
+      "side": {
+        "BUY": {
+          "total_r": -1.4999999999991358,
+          "trades": 64
+        },
+        "SELL": {
+          "total_r": -10.999999999999961,
+          "trades": 21
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 7,
+        "risk: Reward-to-risk is below the configured minimum": 30,
+        "trend_filter": 200
+      },
+      "total_r": -12.499999999999098,
+      "trades": 85,
+      "trades_per_week": 1.6342568308616663,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.3411764705882353
+    },
+    {
+      "adds": 0,
+      "average_r": -0.0970873786407767,
+      "by_strategy": {
+        "zone_breakout_retest-w288-r3-rr2-HOUR_4-london-ny": {
+          "total_r": -10.0,
+          "trades": 103,
+          "wins": 31
+        }
+      },
+      "exit_reasons": {
+        "STOP": 72,
+        "TARGET": 31
+      },
+      "extra_cost_average_r": -0.17582120447283284,
+      "first_half_r": -4.0,
+      "label": "zone_breakout_retest-w288-r3-rr2-HOUR_4-london-ny",
+      "max_drawdown_r": 15.0,
+      "median_spread_r": 0.10551438261515984,
+      "pnl": -2.840294642856952,
+      "profit_factor": 0.8611111111111112,
+      "quarters": [
+        -9.0,
+        5.0,
+        -5.0,
+        -1.0
+      ],
+      "second_half_r": -6.0,
+      "side": {
+        "BUY": {
+          "total_r": -1.0,
+          "trades": 79
+        },
+        "SELL": {
+          "total_r": -9.0,
+          "trades": 24
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 7,
+        "trend_filter": 174
+      },
+      "total_r": -10.0,
+      "trades": 103,
+      "trades_per_week": 1.980334747985313,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "london-ny",
+        "parameter": 2.0,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.30097087378640774
+    },
+    {
+      "adds": 0,
+      "average_r": -0.13113969128162276,
+      "by_strategy": {
+        "zone_ema_room-w288-r6-room1-none-all": {
+          "total_r": -223.19975456132178,
+          "trades": 1702,
+          "wins": 595
+        }
+      },
+      "exit_reasons": {
+        "STOP": 1107,
+        "TARGET": 595
+      },
+      "extra_cost_average_r": -0.19991287711397773,
+      "first_half_r": -87.88929299397113,
+      "label": "zone_ema_room-w288-r6-room1-none-all",
+      "max_drawdown_r": 228.19975456132266,
+      "median_spread_r": 0.08681725793031018,
+      "pnl": -77.39778124999626,
+      "profit_factor": 0.8005882140958985,
+      "quarters": [
+        -53.36133063486206,
+        -36.27622337268942,
+        -66.562200553774,
+        -66.99999999999646
+      ],
+      "second_half_r": -135.3104615673508,
+      "side": {
+        "BUY": {
+          "total_r": -110.23238452275017,
+          "trades": 929
+        },
+        "SELL": {
+          "total_r": -112.96737003857179,
+          "trades": 773
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 2013,
+        "risk: Reward-to-risk is below the configured minimum": 583,
+        "risk: spread above maximum": 2
+      },
+      "total_r": -223.19975456132195,
+      "trades": 1702,
+      "trades_per_week": 32.72358971913595,
+      "variant": {
+        "family": "ema_room",
+        "hours": "all",
+        "parameter": 1.0,
+        "radius": 6,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.3495887191539365
+    },
+    {
+      "adds": 0,
+      "average_r": -0.13135673831129618,
+      "by_strategy": {
+        "zone_ema_room-w288-r6-room1.5-none-all": {
+          "total_r": -173.65360804753348,
+          "trades": 1322,
+          "wins": 460
+        }
+      },
+      "exit_reasons": {
+        "STOP": 862,
+        "TARGET": 460
+      },
+      "extra_cost_average_r": -0.1994921243594529,
+      "first_half_r": -94.2712057728574,
+      "label": "zone_ema_room-w288-r6-room1.5-none-all",
+      "max_drawdown_r": 181.15360804753382,
+      "median_spread_r": 0.08658901972297545,
+      "pnl": -59.49763839285479,
+      "profit_factor": 0.7995389816834505,
+      "quarters": [
+        -60.769910100406236,
+        -33.501295672451164,
+        -49.382402274679215,
+        -29.99999999999693
+      ],
+      "second_half_r": -79.38240227467615,
+      "side": {
+        "BUY": {
+          "total_r": -86.70571783609344,
+          "trades": 747
+        },
+        "SELL": {
+          "total_r": -86.94789021144011,
+          "trades": 575
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 1467,
+        "risk: Reward-to-risk is below the configured minimum": 430,
+        "risk: spread above maximum": 2
+      },
+      "total_r": -173.65360804753354,
+      "trades": 1322,
+      "trades_per_week": 25.417500357636737,
+      "variant": {
+        "family": "ema_room",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.34795763993948564
+    },
+    {
+      "adds": 0,
+      "average_r": -0.10945084819322075,
+      "by_strategy": {
+        "zone_rejection-w288-r6-rr1.5-none-all": {
+          "total_r": -81.10307851117656,
+          "trades": 741,
+          "wins": 265
+        }
+      },
+      "exit_reasons": {
+        "STOP": 476,
+        "TARGET": 265
+      },
+      "extra_cost_average_r": -0.18501570831947092,
+      "first_half_r": -61.057623736321304,
+      "label": "zone_rejection-w288-r6-rr1.5-none-all",
+      "max_drawdown_r": 112.48540338025828,
+      "median_spread_r": 0.0996559496975324,
+      "pnl": -30.962602678568512,
+      "profit_factor": 0.8307030359951904,
+      "quarters": [
+        -7.0722203560613925,
+        -53.98540338025991,
+        -44.59331500257664,
+        24.547860227721362
+      ],
+      "second_half_r": -20.045454774855276,
+      "side": {
+        "BUY": {
+          "total_r": -8.112810718011314,
+          "trades": 335
+        },
+        "SELL": {
+          "total_r": -72.99026779316526,
+          "trades": 406
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 260,
+        "risk: Reward-to-risk is below the configured minimum": 283,
+        "risk: spread above maximum": 1
+      },
+      "total_r": -81.10307851117658,
+      "trades": 741,
+      "trades_per_week": 14.246874254923467,
+      "variant": {
+        "family": "rejection",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.3576248313090418
+    },
+    {
+      "adds": 0,
+      "average_r": -0.10978687023280141,
+      "by_strategy": {
+        "zone_rejection-w288-r6-rr2-none-all": {
+          "total_r": -75.42357984993457,
+          "trades": 687,
+          "wins": 205
+        }
+      },
+      "exit_reasons": {
+        "STOP": 482,
+        "TARGET": 205
+      },
+      "extra_cost_average_r": -0.18810456039465076,
+      "first_half_r": -81.95763411625164,
+      "label": "zone_rejection-w288-r6-rr2-none-all",
+      "max_drawdown_r": 107.93465512856939,
+      "median_spread_r": 0.10334645669299372,
+      "pnl": -20.503035714284806,
+      "profit_factor": 0.8446328013137465,
+      "quarters": [
+        -17.072220356063376,
+        -64.88541376018826,
+        -18.070336014895446,
+        24.60439028121252
+      ],
+      "second_half_r": 6.534054266317075,
+      "side": {
+        "BUY": {
+          "total_r": -15.03330167683914,
+          "trades": 308
+        },
+        "SELL": {
+          "total_r": -60.390278173095425,
+          "trades": 379
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 193,
+        "risk: spread above maximum": 1
+      },
+      "total_r": -75.42357984993457,
+      "trades": 687,
+      "trades_per_week": 13.208640503552525,
+      "variant": {
+        "family": "rejection",
+        "hours": "all",
+        "parameter": 2.0,
+        "radius": 6,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.29839883551673946
+    },
+    {
+      "adds": 0,
+      "average_r": -0.034930869956237925,
+      "by_strategy": {
+        "zone_breakout_retest-w288-r6-rr1.5-none-all": {
+          "total_r": -11.631979695427233,
+          "trades": 333,
+          "wins": 129
+        }
+      },
+      "exit_reasons": {
+        "STOP": 204,
+        "TARGET": 129
+      },
+      "extra_cost_average_r": -0.12495769917746355,
+      "first_half_r": 6.368020304571886,
+      "label": "zone_breakout_retest-w288-r6-rr1.5-none-all",
+      "max_drawdown_r": 37.99999999999832,
+      "median_spread_r": 0.12282497441134647,
+      "pnl": 2.763553571430339,
+      "profit_factor": 0.9432951424117403,
+      "quarters": [
+        18.368020304570774,
+        -11.999999999998888,
+        -3.999999999999615,
+        -13.999999999999499
+      ],
+      "second_half_r": -17.999999999999115,
+      "side": {
+        "BUY": {
+          "total_r": -5.631979695428844,
+          "trades": 192
+        },
+        "SELL": {
+          "total_r": -5.9999999999983835,
+          "trades": 141
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 13,
+        "risk: Reward-to-risk is below the configured minimum": 111,
+        "risk: spread above maximum": 4
+      },
+      "total_r": -11.631979695427228,
+      "trades": 333,
+      "trades_per_week": 6.402441466787469,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.38738738738738737
+    },
+    {
+      "adds": 0,
+      "average_r": -0.006821419188766478,
+      "by_strategy": {
+        "zone_breakout_retest-w288-r6-rr2-none-all": {
+          "total_r": -2.626246387675092,
+          "trades": 385,
+          "wins": 131
+        }
+      },
+      "exit_reasons": {
+        "STOP": 254,
+        "TARGET": 131
+      },
+      "extra_cost_average_r": -0.09586936512940361,
+      "first_half_r": -5.626246387675094,
+      "label": "zone_breakout_retest-w288-r6-rr2-none-all",
+      "max_drawdown_r": 28.70562310628138,
+      "median_spread_r": 0.12039558549523936,
+      "pnl": 9.360428571429066,
+      "profit_factor": 0.9900756390436507,
+      "quarters": [
+        -9.626246387675094,
+        4.0,
+        -3.0,
+        6.0
+      ],
+      "second_half_r": 3.0,
+      "side": {
+        "BUY": {
+          "total_r": 0.3737536123249061,
+          "trades": 232
+        },
+        "SELL": {
+          "total_r": -3.0,
+          "trades": 153
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 20,
+        "risk: spread above maximum": 4
+      },
+      "total_r": -2.626246387675094,
+      "trades": 385,
+      "trades_per_week": 7.402222116255782,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "all",
+        "parameter": 2.0,
+        "radius": 6,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.34025974025974026
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1540595711676243,
+      "by_strategy": {
+        "zone_ema_room-w288-r6-room1-none-london-ny": {
+          "total_r": -149.43778403259554,
+          "trades": 970,
+          "wins": 328
+        }
+      },
+      "exit_reasons": {
+        "STOP": 642,
+        "TARGET": 328
+      },
+      "extra_cost_average_r": -0.21514385644034326,
+      "first_half_r": -63.499999999995914,
+      "label": "zone_ema_room-w288-r6-room1-none-london-ny",
+      "max_drawdown_r": 158.43778403259586,
+      "median_spread_r": 0.08060070068615574,
+      "pnl": -58.83980803571385,
+      "profit_factor": 0.7672308659928417,
+      "quarters": [
+        -23.49999999999751,
+        -39.9999999999984,
+        -55.437784032602295,
+        -30.49999999999736
+      ],
+      "second_half_r": -85.93778403259965,
+      "side": {
+        "BUY": {
+          "total_r": -88.49999999999558,
+          "trades": 531
+        },
+        "SELL": {
+          "total_r": -60.93778403259998,
+          "trades": 439
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 992,
+        "risk: Reward-to-risk is below the configured minimum": 319
+      },
+      "total_r": -149.43778403259557,
+      "trades": 970,
+      "trades_per_week": 18.649754422774308,
+      "variant": {
+        "family": "ema_room",
+        "hours": "london-ny",
+        "parameter": 1.0,
+        "radius": 6,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.33814432989690724
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1385762076948058,
+      "by_strategy": {
+        "zone_ema_room-w288-r6-room1.5-none-london-ny": {
+          "total_r": -101.43778403259786,
+          "trades": 732,
+          "wins": 252
+        }
+      },
+      "exit_reasons": {
+        "STOP": 480,
+        "TARGET": 252
+      },
+      "extra_cost_average_r": -0.1983780324554512,
+      "first_half_r": -47.49999999999718,
+      "label": "zone_ema_room-w288-r6-room1.5-none-london-ny",
+      "max_drawdown_r": 108.93778403259806,
+      "median_spread_r": 0.08018738110063381,
+      "pnl": -43.6360580357145,
+      "profit_factor": 0.7886712832654211,
+      "quarters": [
+        -18.499999999998526,
+        -28.999999999998657,
+        -37.93778403260284,
+        -15.999999999997817
+      ],
+      "second_half_r": -53.93778403260066,
+      "side": {
+        "BUY": {
+          "total_r": -53.499999999996476,
+          "trades": 411
+        },
+        "SELL": {
+          "total_r": -47.937784032601364,
+          "trades": 321
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 743,
+        "risk: Reward-to-risk is below the configured minimum": 236
+      },
+      "total_r": -101.43778403259785,
+      "trades": 732,
+      "trades_per_week": 14.073835296361644,
+      "variant": {
+        "family": "ema_room",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.3442622950819672
+    },
+    {
+      "adds": 0,
+      "average_r": -0.007856443132887669,
+      "by_strategy": {
+        "zone_rejection-w288-r6-rr1.5-none-london-ny": {
+          "total_r": -3.3468447746101466,
+          "trades": 426,
+          "wins": 170
+        }
+      },
+      "exit_reasons": {
+        "STOP": 256,
+        "TARGET": 170
+      },
+      "extra_cost_average_r": -0.07566500108088757,
+      "first_half_r": -18.75352977203456,
+      "label": "zone_rejection-w288-r6-rr1.5-none-london-ny",
+      "max_drawdown_r": 46.75352977203419,
+      "median_spread_r": 0.09054418339368972,
+      "pnl": -2.6148303571410914,
+      "profit_factor": 0.9870655334550916,
+      "quarters": [
+        -1.5722203560623893,
+        -17.18130941597217,
+        -17.093315002576965,
+        32.50000000000138
+      ],
+      "second_half_r": 15.406684997424414,
+      "side": {
+        "BUY": {
+          "total_r": 17.33932905426846,
+          "trades": 187
+        },
+        "SELL": {
+          "total_r": -20.68617382887861,
+          "trades": 239
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 133,
+        "risk: Reward-to-risk is below the configured minimum": 159
+      },
+      "total_r": -3.346844774610147,
+      "trades": 426,
+      "trades_per_week": 8.190510705259644,
+      "variant": {
+        "family": "rejection",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.39906103286384975
+    },
+    {
+      "adds": 0,
+      "average_r": -0.00037776683610883134,
+      "by_strategy": {
+        "zone_rejection-w288-r6-rr2-none-london-ny": {
+          "total_r": -0.14959566709909566,
+          "trades": 396,
+          "wins": 133
+        }
+      },
+      "exit_reasons": {
+        "STOP": 263,
+        "TARGET": 133
+      },
+      "extra_cost_average_r": -0.07040692244950135,
+      "first_half_r": -13.660670945733916,
+      "label": "zone_rejection-w288-r6-rr2-none-london-ny",
+      "max_drawdown_r": 43.588450589670536,
+      "median_spread_r": 0.09622960044733869,
+      "pnl": 0.5908571428570675,
+      "profit_factor": 0.9994379263784935,
+      "quarters": [
+        1.9277796439366224,
+        -15.588450589670538,
+        -14.0933150025777,
+        27.60439028121252
+      ],
+      "second_half_r": 13.511075278634818,
+      "side": {
+        "BUY": {
+          "total_r": 7.943719335478604,
+          "trades": 171
+        },
+        "SELL": {
+          "total_r": -8.0933150025777,
+          "trades": 225
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 98
+      },
+      "total_r": -0.14959566709909722,
+      "trades": 396,
+      "trades_per_week": 7.613714176720233,
+      "variant": {
+        "family": "rejection",
+        "hours": "london-ny",
+        "parameter": 2.0,
+        "radius": 6,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.33585858585858586
+    },
+    {
+      "adds": 0,
+      "average_r": 0.039156626506037615,
+      "by_strategy": {
+        "zone_breakout_retest-w288-r6-rr1.5-none-london-ny": {
+          "total_r": 6.50000000000224,
+          "trades": 166,
+          "wins": 69
+        }
+      },
+      "exit_reasons": {
+        "STOP": 97,
+        "TARGET": 69
+      },
+      "extra_cost_average_r": -0.040166429710202796,
+      "first_half_r": 14.000000000001862,
+      "label": "zone_breakout_retest-w288-r6-rr1.5-none-london-ny",
+      "max_drawdown_r": 21.49999999999981,
+      "median_spread_r": 0.10984123727203234,
+      "pnl": -0.6406919642850426,
+      "profit_factor": 1.0670103092783736,
+      "quarters": [
+        15.000000000001219,
+        -0.999999999999357,
+        -8.499999999999925,
+        1.000000000000308
+      ],
+      "second_half_r": -7.499999999999618,
+      "side": {
+        "BUY": {
+          "total_r": 9.000000000001261,
+          "trades": 91
+        },
+        "SELL": {
+          "total_r": -2.499999999999017,
+          "trades": 75
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 9,
+        "risk: Reward-to-risk is below the configured minimum": 49
+      },
+      "total_r": 6.500000000002244,
+      "trades": 166,
+      "trades_per_week": 3.1916074579180775,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.41566265060240964
+    },
+    {
+      "adds": 0,
+      "average_r": 0.06806282722513089,
+      "by_strategy": {
+        "zone_breakout_retest-w288-r6-rr2-none-london-ny": {
+          "total_r": 13.0,
+          "trades": 191,
+          "wins": 68
+        }
+      },
+      "exit_reasons": {
+        "STOP": 123,
+        "TARGET": 68
+      },
+      "extra_cost_average_r": -0.011157045990721265,
+      "first_half_r": 9.0,
+      "label": "zone_breakout_retest-w288-r6-rr2-none-london-ny",
+      "max_drawdown_r": 26.0,
+      "median_spread_r": 0.10738941447207055,
+      "pnl": 1.2251160714289653,
+      "profit_factor": 1.1056910569105691,
+      "quarters": [
+        7.0,
+        2.0,
+        -13.0,
+        17.0
+      ],
+      "second_half_r": 4.0,
+      "side": {
+        "BUY": {
+          "total_r": 18.0,
+          "trades": 111
+        },
+        "SELL": {
+          "total_r": -5.0,
+          "trades": 80
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 13
+      },
+      "total_r": 13.0,
+      "trades": 191,
+      "trades_per_week": 3.6722712317009205,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "london-ny",
+        "parameter": 2.0,
+        "radius": 6,
+        "trend": null,
+        "window": 288
+      },
+      "win_rate": 0.35602094240837695
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1210440164778143,
+      "by_strategy": {
+        "zone_ema_room-w288-r6-room1-HOUR_4-all": {
+          "total_r": -85.94125169924817,
+          "trades": 710,
+          "wins": 251
+        }
+      },
+      "exit_reasons": {
+        "STOP": 459,
+        "TARGET": 251
+      },
+      "extra_cost_average_r": -0.1912291680838949,
+      "first_half_r": -18.099955820636044,
+      "label": "zone_ema_room-w288-r6-room1-HOUR_4-all",
+      "max_drawdown_r": 87.94125169924818,
+      "median_spread_r": 0.08661914657006824,
+      "pnl": -23.230825892856185,
+      "profit_factor": 0.8144863624971697,
+      "quarters": [
+        -22.75980392156664,
+        2.998704327547661,
+        -23.180152105230043,
+        -42.99999999999914
+      ],
+      "second_half_r": -67.84129587861212,
+      "side": {
+        "BUY": {
+          "total_r": -57.441251699249136,
+          "trades": 524
+        },
+        "SELL": {
+          "total_r": -28.49999999999902,
+          "trades": 186
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 694,
+        "risk: Reward-to-risk is below the configured minimum": 251,
+        "trend_filter": 2646
+      },
+      "total_r": -85.94125169924816,
+      "trades": 710,
+      "trades_per_week": 13.650851175432742,
+      "variant": {
+        "family": "ema_room",
+        "hours": "all",
+        "parameter": 1.0,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.35352112676056335
+    },
+    {
+      "adds": 0,
+      "average_r": -0.10281122012742541,
+      "by_strategy": {
+        "zone_ema_room-w288-r6-room1.5-HOUR_4-all": {
+          "total_r": -58.602395472632466,
+          "trades": 570,
+          "wins": 206
+        }
+      },
+      "exit_reasons": {
+        "STOP": 364,
+        "TARGET": 206
+      },
+      "extra_cost_average_r": -0.17173794839950912,
+      "first_half_r": -13.761099594019797,
+      "label": "zone_ema_room-w288-r6-room1.5-HOUR_4-all",
+      "max_drawdown_r": 61.60239547263249,
+      "median_spread_r": 0.08574491448003604,
+      "pnl": -13.950334821427578,
+      "profit_factor": 0.8408672663573842,
+      "quarters": [
+        -26.259803921567283,
+        12.498704327547484,
+        -18.841295878613334,
+        -25.999999999999357
+      ],
+      "second_half_r": -44.84129587861269,
+      "side": {
+        "BUY": {
+          "total_r": -39.60239547263311,
+          "trades": 431
+        },
+        "SELL": {
+          "total_r": -18.99999999999937,
+          "trades": 139
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 555,
+        "risk: Reward-to-risk is below the configured minimum": 192,
+        "trend_filter": 1905
+      },
+      "total_r": -58.60239547263249,
+      "trades": 570,
+      "trades_per_week": 10.95913404224882,
+      "variant": {
+        "family": "ema_room",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.36140350877192984
+    },
+    {
+      "adds": 0,
+      "average_r": -0.2021001067244429,
+      "by_strategy": {
+        "zone_rejection-w288-r6-rr1.5-HOUR_4-all": {
+          "total_r": -48.70612572059075,
+          "trades": 241,
+          "wins": 78
+        }
+      },
+      "exit_reasons": {
+        "STOP": 163,
+        "TARGET": 78
+      },
+      "extra_cost_average_r": -0.27626940651226356,
+      "first_half_r": -45.16067094573326,
+      "label": "zone_rejection-w288-r6-rr1.5-HOUR_4-all",
+      "max_drawdown_r": 56.25398594831082,
+      "median_spread_r": 0.09636342778470665,
+      "pnl": -16.2713749999984,
+      "profit_factor": 0.7061541208681451,
+      "quarters": [
+        -22.572220356062964,
+        -22.588450589670295,
+        -10.093315002577551,
+        6.547860227720065
+      ],
+      "second_half_r": -3.5454547748574865,
+      "side": {
+        "BUY": {
+          "total_r": -27.112810718013787,
+          "trades": 169
+        },
+        "SELL": {
+          "total_r": -21.593315002576958,
+          "trades": 72
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 72,
+        "risk: Reward-to-risk is below the configured minimum": 105,
+        "risk: spread above maximum": 1,
+        "trend_filter": 866
+      },
+      "total_r": -48.70612572059074,
+      "trades": 241,
+      "trades_per_week": 4.633598779266607,
+      "variant": {
+        "family": "rejection",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.3236514522821577
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1824657821086541,
+      "by_strategy": {
+        "zone_rejection-w288-r6-rr2-HOUR_4-all": {
+          "total_r": -42.1495956670991,
+          "trades": 231,
+          "wins": 64
+        }
+      },
+      "exit_reasons": {
+        "STOP": 167,
+        "TARGET": 64
+      },
+      "extra_cost_average_r": -0.26132622709092623,
+      "first_half_r": -37.66067094573392,
+      "label": "zone_rejection-w288-r6-rr2-HOUR_4-all",
+      "max_drawdown_r": 44.753985948311616,
+      "median_spread_r": 0.10299797682538414,
+      "pnl": -12.085830357141687,
+      "profit_factor": 0.7522791899572563,
+      "quarters": [
+        -17.072220356063376,
+        -20.58845058967054,
+        -5.093315002577701,
+        0.6043902812125199
+      ],
+      "second_half_r": -4.488924721365182,
+      "side": {
+        "BUY": {
+          "total_r": -15.056280664521395,
+          "trades": 161
+        },
+        "SELL": {
+          "total_r": -27.0933150025777,
+          "trades": 70
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 54,
+        "risk: spread above maximum": 1,
+        "trend_filter": 595
+      },
+      "total_r": -42.1495956670991,
+      "trades": 231,
+      "trades_per_week": 4.4413332697534695,
+      "variant": {
+        "family": "rejection",
+        "hours": "all",
+        "parameter": 2.0,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.27705627705627706
+    },
+    {
+      "adds": 0,
+      "average_r": 0.00427350427351899,
+      "by_strategy": {
+        "zone_breakout_retest-w288-r6-rr1.5-HOUR_4-all": {
+          "total_r": 0.500000000001722,
+          "trades": 117,
+          "wins": 47
+        }
+      },
+      "exit_reasons": {
+        "STOP": 70,
+        "TARGET": 47
+      },
+      "extra_cost_average_r": -0.08392662332541359,
+      "first_half_r": -3.999999999998536,
+      "label": "zone_breakout_retest-w288-r6-rr1.5-HOUR_4-all",
+      "max_drawdown_r": 9.5,
+      "median_spread_r": 0.12294182217348938,
+      "pnl": 7.307316964286565,
+      "profit_factor": 1.0071428571428818,
+      "quarters": [
+        -4.999999999999519,
+        1.0000000000009828,
+        8.000000000000218,
+        -3.49999999999996
+      ],
+      "second_half_r": 4.500000000000258,
+      "side": {
+        "BUY": {
+          "total_r": 2.0000000000013793,
+          "trades": 93
+        },
+        "SELL": {
+          "total_r": -1.4999999999996578,
+          "trades": 24
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 6,
+        "risk: Reward-to-risk is below the configured minimum": 41,
+        "trend_filter": 297
+      },
+      "total_r": 0.5000000000017217,
+      "trades": 117,
+      "trades_per_week": 2.2495064613037052,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.4017094017094017
+    },
+    {
+      "adds": 0,
+      "average_r": 0.06032434970039998,
+      "by_strategy": {
+        "zone_breakout_retest-w288-r6-rr2-HOUR_4-all": {
+          "total_r": 8.505733307756397,
+          "trades": 141,
+          "wins": 53
+        }
+      },
+      "exit_reasons": {
+        "STOP": 88,
+        "TARGET": 53
+      },
+      "extra_cost_average_r": -0.026023510330381236,
+      "first_half_r": -3.494266692243602,
+      "label": "zone_breakout_retest-w288-r6-rr2-HOUR_4-all",
+      "max_drawdown_r": 18.494266692243603,
+      "median_spread_r": 0.11720385098360415,
+      "pnl": 12.956767857143314,
+      "profit_factor": 1.0872434205244716,
+      "quarters": [
+        -13.494266692243603,
+        10.0,
+        10.0,
+        2.0
+      ],
+      "second_half_r": 12.0,
+      "side": {
+        "BUY": {
+          "total_r": 9.505733307756397,
+          "trades": 116
+        },
+        "SELL": {
+          "total_r": -1.0,
+          "trades": 25
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 8,
+        "trend_filter": 260
+      },
+      "total_r": 8.505733307756397,
+      "trades": 141,
+      "trades_per_week": 2.7109436841352346,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "all",
+        "parameter": 2.0,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.375886524822695
+    },
+    {
+      "adds": 0,
+      "average_r": -0.2007672634271046,
+      "by_strategy": {
+        "zone_ema_room-w288-r6-room1-HOUR_4-london-ny": {
+          "total_r": -78.49999999999791,
+          "trades": 391,
+          "wins": 125
+        }
+      },
+      "exit_reasons": {
+        "STOP": 266,
+        "TARGET": 125
+      },
+      "extra_cost_average_r": -0.2600147232022906,
+      "first_half_r": -22.49999999999849,
+      "label": "zone_ema_room-w288-r6-room1-HOUR_4-london-ny",
+      "max_drawdown_r": 80.49999999999793,
+      "median_spread_r": 0.07816862088222881,
+      "pnl": -29.508991071428685,
+      "profit_factor": 0.7048872180451207,
+      "quarters": [
+        -16.999999999999357,
+        -5.499999999999132,
+        -37.999999999999844,
+        -17.99999999999956
+      ],
+      "second_half_r": -55.9999999999994,
+      "side": {
+        "BUY": {
+          "total_r": -57.49999999999829,
+          "trades": 280
+        },
+        "SELL": {
+          "total_r": -20.999999999999602,
+          "trades": 111
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 357,
+        "risk: Reward-to-risk is below the configured minimum": 131,
+        "trend_filter": 1402
+      },
+      "total_r": -78.4999999999979,
+      "trades": 391,
+      "trades_per_week": 7.517581421963665,
+      "variant": {
+        "family": "ema_room",
+        "hours": "london-ny",
+        "parameter": 1.0,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.319693094629156
+    },
+    {
+      "adds": 0,
+      "average_r": -0.13651315789473192,
+      "by_strategy": {
+        "zone_ema_room-w288-r6-room1.5-HOUR_4-london-ny": {
+          "total_r": -41.4999999999985,
+          "trades": 304,
+          "wins": 105
+        }
+      },
+      "exit_reasons": {
+        "STOP": 199,
+        "TARGET": 105
+      },
+      "extra_cost_average_r": -0.19332198580010215,
+      "first_half_r": -8.999999999998861,
+      "label": "zone_ema_room-w288-r6-room1.5-HOUR_4-london-ny",
+      "max_drawdown_r": 44.99999999999852,
+      "median_spread_r": 0.07601290373004302,
+      "pnl": -17.362321428571615,
+      "profit_factor": 0.7914572864321684,
+      "quarters": [
+        -15.49999999999963,
+        6.50000000000077,
+        -24.499999999999865,
+        -7.999999999999778
+      ],
+      "second_half_r": -32.499999999999645,
+      "side": {
+        "BUY": {
+          "total_r": -30.499999999998693,
+          "trades": 223
+        },
+        "SELL": {
+          "total_r": -10.999999999999812,
+          "trades": 81
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 289,
+        "risk: Reward-to-risk is below the configured minimum": 102,
+        "trend_filter": 1016
+      },
+      "total_r": -41.4999999999985,
+      "trades": 304,
+      "trades_per_week": 5.844871489199371,
+      "variant": {
+        "family": "ema_room",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.34539473684210525
+    },
+    {
+      "adds": 0,
+      "average_r": -0.16252847105936147,
+      "by_strategy": {
+        "zone_rejection-w288-r6-rr1.5-HOUR_4-london-ny": {
+          "total_r": -22.7539859483106,
+          "trades": 140,
+          "wins": 48
+        }
+      },
+      "exit_reasons": {
+        "STOP": 92,
+        "TARGET": 48
+      },
+      "extra_cost_average_r": -0.22782979406663983,
+      "first_half_r": -31.160670945733546,
+      "label": "zone_rejection-w288-r6-rr1.5-HOUR_4-london-ny",
+      "max_drawdown_r": 36.660670945733756,
+      "median_spread_r": 0.08316119975361295,
+      "pnl": -7.351156249999259,
+      "profit_factor": 0.7598624931649531,
+      "quarters": [
+        -18.072220356063216,
+        -13.08845058967033,
+        -2.0933150025776257,
+        10.500000000000567
+      ],
+      "second_half_r": 8.406684997422941,
+      "side": {
+        "BUY": {
+          "total_r": -12.66067094573318,
+          "trades": 97
+        },
+        "SELL": {
+          "total_r": -10.093315002577425,
+          "trades": 43
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 39,
+        "risk: Reward-to-risk is below the configured minimum": 53,
+        "trend_filter": 486
+      },
+      "total_r": -22.753985948310607,
+      "trades": 140,
+      "trades_per_week": 2.691717133183921,
+      "variant": {
+        "family": "rejection",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.34285714285714286
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1271621706070795,
+      "by_strategy": {
+        "zone_rejection-w288-r6-rr2-HOUR_4-london-ny": {
+          "total_r": -16.149595667099096,
+          "trades": 127,
+          "wins": 38
+        }
+      },
+      "exit_reasons": {
+        "STOP": 89,
+        "TARGET": 38
+      },
+      "extra_cost_average_r": -0.19575120079085787,
+      "first_half_r": -19.660670945733916,
+      "label": "zone_rejection-w288-r6-rr2-HOUR_4-london-ny",
+      "max_drawdown_r": 27.660670945733916,
+      "median_spread_r": 0.0856443719413276,
+      "pnl": -4.683303571428223,
+      "profit_factor": 0.8247458868355609,
+      "quarters": [
+        -15.072220356063378,
+        -4.588450589670538,
+        -0.0933150025777012,
+        3.60439028121252
+      ],
+      "second_half_r": 3.5110752786348187,
+      "side": {
+        "BUY": {
+          "total_r": -7.056280664521396,
+          "trades": 90
+        },
+        "SELL": {
+          "total_r": -9.0933150025777,
+          "trades": 37
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 26,
+        "trend_filter": 341
+      },
+      "total_r": -16.149595667099096,
+      "trades": 127,
+      "trades_per_week": 2.4417719708168426,
+      "variant": {
+        "family": "rejection",
+        "hours": "london-ny",
+        "parameter": 2.0,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.2992125984251969
+    },
+    {
+      "adds": 0,
+      "average_r": -0.02777777777776542,
+      "by_strategy": {
+        "zone_breakout_retest-w288-r6-rr1.5-HOUR_4-london-ny": {
+          "total_r": -1.4999999999993339,
+          "trades": 54,
+          "wins": 21
+        }
+      },
+      "exit_reasons": {
+        "STOP": 33,
+        "TARGET": 21
+      },
+      "extra_cost_average_r": -0.10957752634821981,
+      "first_half_r": -6.499999999999333,
+      "label": "zone_breakout_retest-w288-r6-rr1.5-HOUR_4-london-ny",
+      "max_drawdown_r": 9.499999999999527,
+      "median_spread_r": 0.12288339829241793,
+      "pnl": 0.8914419642861504,
+      "profit_factor": 0.9545454545454748,
+      "quarters": [
+        -6.999999999999897,
+        0.5000000000005647,
+        3.0,
+        2.0
+      ],
+      "second_half_r": 5.0,
+      "side": {
+        "BUY": {
+          "total_r": 0.5000000000005647,
+          "trades": 42
+        },
+        "SELL": {
+          "total_r": -1.9999999999998974,
+          "trades": 12
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 3,
+        "risk: Reward-to-risk is below the configured minimum": 17,
+        "trend_filter": 150
+      },
+      "total_r": -1.4999999999993328,
+      "trades": 54,
+      "trades_per_week": 1.038233751370941,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.3888888888888889
+    },
+    {
+      "adds": 0,
+      "average_r": 0.078125,
+      "by_strategy": {
+        "zone_breakout_retest-w288-r6-rr2-HOUR_4-london-ny": {
+          "total_r": 5.0,
+          "trades": 64,
+          "wins": 23
+        }
+      },
+      "exit_reasons": {
+        "STOP": 41,
+        "TARGET": 23
+      },
+      "extra_cost_average_r": -0.0041461628041539085,
+      "first_half_r": 0.0,
+      "label": "zone_breakout_retest-w288-r6-rr2-HOUR_4-london-ny",
+      "max_drawdown_r": 10.0,
+      "median_spread_r": 0.11876603083535693,
+      "pnl": 2.3230714285718026,
+      "profit_factor": 1.1219512195121952,
+      "quarters": [
+        -6.0,
+        6.0,
+        0.0,
+        5.0
+      ],
+      "second_half_r": 5.0,
+      "side": {
+        "BUY": {
+          "total_r": 8.0,
+          "trades": 52
+        },
+        "SELL": {
+          "total_r": -3.0,
+          "trades": 12
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 4,
+        "trend_filter": 136
+      },
+      "total_r": 5.0,
+      "trades": 64,
+      "trades_per_week": 1.2304992608840781,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "london-ny",
+        "parameter": 2.0,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 288
+      },
+      "win_rate": 0.359375
+    },
+    {
+      "adds": 0,
+      "average_r": -0.10316347221512312,
+      "by_strategy": {
+        "zone_ema_room-w864-r3-room1-none-all": {
+          "total_r": -116.05890624201358,
+          "trades": 1125,
+          "wins": 404
+        }
+      },
+      "exit_reasons": {
+        "STOP": 721,
+        "TARGET": 404
+      },
+      "extra_cost_average_r": -0.17144610573208777,
+      "first_half_r": -24.676503967336302,
+      "label": "zone_ema_room-w864-r3-room1-none-all",
+      "max_drawdown_r": 125.55890624201469,
+      "median_spread_r": 0.08502024291503037,
+      "pnl": -39.16763392856874,
+      "profit_factor": 0.840062106708471,
+      "quarters": [
+        -20.149837280680376,
+        -6.27492770023628,
+        -26.13414126109896,
+        -63.49999999999789
+      ],
+      "second_half_r": -91.3824022746772,
+      "side": {
+        "BUY": {
+          "total_r": -59.019595496114796,
+          "trades": 645
+        },
+        "SELL": {
+          "total_r": -57.03931074589872,
+          "trades": 480
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 701,
+        "risk: Reward-to-risk is below the configured minimum": 361,
+        "risk: spread above maximum": 2
+      },
+      "total_r": -116.0589062420135,
+      "trades": 1125,
+      "trades_per_week": 21.629869820227935,
+      "variant": {
+        "family": "ema_room",
+        "hours": "all",
+        "parameter": 1.0,
+        "radius": 3,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.3591111111111111
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1313151023802242,
+      "by_strategy": {
+        "zone_ema_room-w864-r3-room1.5-none-all": {
+          "total_r": -94.94081902090215,
+          "trades": 723,
+          "wins": 252
+        }
+      },
+      "exit_reasons": {
+        "STOP": 471,
+        "TARGET": 252
+      },
+      "extra_cost_average_r": -0.19275421883720334,
+      "first_half_r": -30.058416746223475,
+      "label": "zone_ema_room-w864-r3-room1.5-none-all",
+      "max_drawdown_r": 96.4408190209026,
+      "median_spread_r": 0.07966238323301632,
+      "pnl": -29.583388392854612,
+      "profit_factor": 0.8003592919866971,
+      "quarters": [
+        -22.558416746225056,
+        -7.499999999998418,
+        -27.382402274680064,
+        -37.499999999998565
+      ],
+      "second_half_r": -64.88240227467863,
+      "side": {
+        "BUY": {
+          "total_r": -43.99292880945949,
+          "trades": 424
+        },
+        "SELL": {
+          "total_r": -50.94789021144261,
+          "trades": 299
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 456,
+        "risk: Reward-to-risk is below the configured minimum": 229,
+        "risk: spread above maximum": 1
+      },
+      "total_r": -94.9408190209021,
+      "trades": 723,
+      "trades_per_week": 13.90079633779982,
+      "variant": {
+        "family": "ema_room",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.34854771784232363
+    },
+    {
+      "adds": 0,
+      "average_r": -0.14539684761844812,
+      "by_strategy": {
+        "zone_rejection-w864-r3-rr1.5-none-all": {
+          "total_r": -119.22541504712751,
+          "trades": 820,
+          "wins": 279
+        }
+      },
+      "exit_reasons": {
+        "STOP": 541,
+        "TARGET": 279
+      },
+      "extra_cost_average_r": -0.2198141723522961,
+      "first_half_r": -85.13210004455235,
+      "label": "zone_rejection-w864-r3-rr1.5-none-all",
+      "max_drawdown_r": 125.72541504712805,
+      "median_spread_r": 0.09754841527104939,
+      "pnl": -31.074281249997515,
+      "profit_factor": 0.7806849503541613,
+      "quarters": [
+        -34.82800608026647,
+        -50.30409396428587,
+        -25.593315002577064,
+        -8.499999999998053
+      ],
+      "second_half_r": -34.09331500257512,
+      "side": {
+        "BUY": {
+          "total_r": -24.8280060802653,
+          "trades": 393
+        },
+        "SELL": {
+          "total_r": -94.39740896686216,
+          "trades": 427
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 192,
+        "risk: Reward-to-risk is below the configured minimum": 297,
+        "risk: spread above maximum": 3
+      },
+      "total_r": -119.22541504712746,
+      "trades": 820,
+      "trades_per_week": 15.76577178007725,
+      "variant": {
+        "family": "rejection",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.3402439024390244
+    },
+    {
+      "adds": 0,
+      "average_r": -0.18397063019440868,
+      "by_strategy": {
+        "zone_rejection-w864-r3-rr2-none-all": {
+          "total_r": -125.83591105297552,
+          "trades": 684,
+          "wins": 185
+        }
+      },
+      "exit_reasons": {
+        "STOP": 499,
+        "TARGET": 185
+      },
+      "extra_cost_average_r": -0.263203669973219,
+      "first_half_r": -95.05274889472304,
+      "label": "zone_rejection-w864-r3-rr2-none-all",
+      "max_drawdown_r": 146.83591105297552,
+      "median_spread_r": 0.10455245890037788,
+      "pnl": -49.72791071428628,
+      "profit_factor": 0.7489527149036461,
+      "quarters": [
+        -46.75578572420531,
+        -48.29696317051772,
+        -32.783162158252495,
+        2.0
+      ],
+      "second_half_r": -30.783162158252495,
+      "side": {
+        "BUY": {
+          "total_r": -29.755785724205307,
+          "trades": 311
+        },
+        "SELL": {
+          "total_r": -96.08012532877022,
+          "trades": 373
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 128,
+        "risk: spread above maximum": 2
+      },
+      "total_r": -125.83591105297553,
+      "trades": 684,
+      "trades_per_week": 13.150960850698585,
+      "variant": {
+        "family": "rejection",
+        "hours": "all",
+        "parameter": 2.0,
+        "radius": 3,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.27046783625730997
+    },
+    {
+      "adds": 0,
+      "average_r": -0.043209876543198036,
+      "by_strategy": {
+        "zone_breakout_retest-w864-r3-rr1.5-none-all": {
+          "total_r": -17.4999999999952,
+          "trades": 405,
+          "wins": 155
+        }
+      },
+      "exit_reasons": {
+        "STOP": 250,
+        "TARGET": 155
+      },
+      "extra_cost_average_r": -0.13660188569735446,
+      "first_half_r": -1.999999999996738,
+      "label": "zone_breakout_retest-w864-r3-rr1.5-none-all",
+      "max_drawdown_r": 29.49999999999713,
+      "median_spread_r": 0.12487920909845295,
+      "pnl": 2.9928660714313993,
+      "profit_factor": 0.9300000000000193,
+      "quarters": [
+        6.5000000000020615,
+        -8.4999999999988,
+        8.50000000000085,
+        -23.999999999999314
+      ],
+      "second_half_r": -15.499999999998465,
+      "side": {
+        "BUY": {
+          "total_r": -4.49999999999749,
+          "trades": 222
+        },
+        "SELL": {
+          "total_r": -12.999999999997714,
+          "trades": 183
+        }
+      },
+      "skipped": {
+        "entry_drift": 3,
+        "risk: 1 position(s) already open": 37,
+        "risk: Reward-to-risk is below the configured minimum": 130,
+        "risk: spread above maximum": 2
+      },
+      "total_r": -17.499999999995204,
+      "trades": 405,
+      "trades_per_week": 7.786753135282057,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.38271604938271603
+    },
+    {
+      "adds": 0,
+      "average_r": -0.08869646703281936,
+      "by_strategy": {
+        "zone_breakout_retest-w864-r3-rr2-none-all": {
+          "total_r": -38.4942666922436,
+          "trades": 434,
+          "wins": 135
+        }
+      },
+      "exit_reasons": {
+        "STOP": 299,
+        "TARGET": 135
+      },
+      "extra_cost_average_r": -0.1810379411469631,
+      "first_half_r": -38.4942666922436,
+      "label": "zone_breakout_retest-w864-r3-rr2-none-all",
+      "max_drawdown_r": 42.4942666922436,
+      "median_spread_r": 0.1287998082345522,
+      "pnl": -2.4028214285709057,
+      "profit_factor": 0.8752188586679771,
+      "quarters": [
+        -23.494266692243603,
+        -15.0,
+        12.0,
+        -12.0
+      ],
+      "second_half_r": 0.0,
+      "side": {
+        "BUY": {
+          "total_r": -20.494266692243603,
+          "trades": 260
+        },
+        "SELL": {
+          "total_r": -18.0,
+          "trades": 174
+        }
+      },
+      "skipped": {
+        "entry_drift": 3,
+        "risk: 1 position(s) already open": 38,
+        "risk: spread above maximum": 2
+      },
+      "total_r": -38.4942666922436,
+      "trades": 434,
+      "trades_per_week": 8.344323112870155,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "all",
+        "parameter": 2.0,
+        "radius": 3,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.31105990783410137
+    },
+    {
+      "adds": 0,
+      "average_r": -0.08171534550842732,
+      "by_strategy": {
+        "zone_ema_room-w864-r3-room1-none-london-ny": {
+          "total_r": -49.437784032598536,
+          "trades": 605,
+          "wins": 222
+        }
+      },
+      "exit_reasons": {
+        "STOP": 383,
+        "TARGET": 222
+      },
+      "extra_cost_average_r": -0.14306170730584625,
+      "first_half_r": -20.999999999996902,
+      "label": "zone_ema_room-w864-r3-room1-none-london-ny",
+      "max_drawdown_r": 55.937784032598884,
+      "median_spread_r": 0.07998476480662903,
+      "pnl": -19.420857142856903,
+      "profit_factor": 0.870919623935774,
+      "quarters": [
+        -9.49999999999818,
+        -11.499999999998721,
+        -11.937784032602869,
+        -16.499999999998757
+      ],
+      "second_half_r": -28.437784032601627,
+      "side": {
+        "BUY": {
+          "total_r": -32.99999999999728,
+          "trades": 348
+        },
+        "SELL": {
+          "total_r": -16.43778403260125,
+          "trades": 257
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 343,
+        "risk: Reward-to-risk is below the configured minimum": 188
+      },
+      "total_r": -49.43778403259853,
+      "trades": 605,
+      "trades_per_week": 11.6320633255448,
+      "variant": {
+        "family": "ema_room",
+        "hours": "london-ny",
+        "parameter": 1.0,
+        "radius": 3,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.3669421487603306
+    },
+    {
+      "adds": 0,
+      "average_r": -0.08760048944840673,
+      "by_strategy": {
+        "zone_ema_room-w864-r3-room1.5-none-london-ny": {
+          "total_r": -32.93778403260093,
+          "trades": 376,
+          "wins": 137
+        }
+      },
+      "exit_reasons": {
+        "STOP": 239,
+        "TARGET": 137
+      },
+      "extra_cost_average_r": -0.1429079694848425,
+      "first_half_r": -10.499999999998535,
+      "label": "zone_ema_room-w864-r3-room1.5-none-london-ny",
+      "max_drawdown_r": 39.937784032601115,
+      "median_spread_r": 0.07331927008705774,
+      "pnl": -12.747933035714185,
+      "profit_factor": 0.8621850040476948,
+      "quarters": [
+        -9.49999999999945,
+        -0.9999999999990861,
+        -8.43778403260316,
+        -13.999999999999236
+      ],
+      "second_half_r": -22.437784032602398,
+      "side": {
+        "BUY": {
+          "total_r": -15.999999999998519,
+          "trades": 221
+        },
+        "SELL": {
+          "total_r": -16.937784032602412,
+          "trades": 155
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 225,
+        "risk: Reward-to-risk is below the configured minimum": 117
+      },
+      "total_r": -32.93778403260093,
+      "trades": 376,
+      "trades_per_week": 7.229183157693958,
+      "variant": {
+        "family": "ema_room",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.36436170212765956
+    },
+    {
+      "adds": 0,
+      "average_r": -0.11305368787448149,
+      "by_strategy": {
+        "zone_rejection-w864-r3-rr1.5-none-london-ny": {
+          "total_r": -51.665535358638046,
+          "trades": 457,
+          "wins": 163
+        }
+      },
+      "exit_reasons": {
+        "STOP": 294,
+        "TARGET": 163
+      },
+      "extra_cost_average_r": -0.17886375605426263,
+      "first_half_r": -60.07222035606192,
+      "label": "zone_rejection-w864-r3-rr1.5-none-london-ny",
+      "max_drawdown_r": 74.57222035606173,
+      "median_spread_r": 0.08844432745450745,
+      "pnl": -14.672834821427251,
+      "profit_factor": 0.8255518310188464,
+      "quarters": [
+        -35.07222035606255,
+        -24.999999999999368,
+        -1.0933150025772507,
+        9.500000000001128
+      ],
+      "second_half_r": 8.406684997423877,
+      "side": {
+        "BUY": {
+          "total_r": 3.927779643938452,
+          "trades": 226
+        },
+        "SELL": {
+          "total_r": -55.593315002576496,
+          "trades": 231
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 100,
+        "risk: Reward-to-risk is below the configured minimum": 159,
+        "risk: spread above maximum": 1
+      },
+      "total_r": -51.66553535863804,
+      "trades": 457,
+      "trades_per_week": 8.78653378475037,
+      "variant": {
+        "family": "rejection",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.35667396061269147
+    },
+    {
+      "adds": 0,
+      "average_r": -0.0622595868017081,
+      "by_strategy": {
+        "zone_rejection-w864-r3-rr2-none-london-ny": {
+          "total_r": -23.783162158252495,
+          "trades": 382,
+          "wins": 120
+        }
+      },
+      "exit_reasons": {
+        "STOP": 262,
+        "TARGET": 120
+      },
+      "extra_cost_average_r": -0.1314359561636492,
+      "first_half_r": -35.0,
+      "label": "zone_rejection-w864-r3-rr2-none-london-ny",
+      "max_drawdown_r": 54.0,
+      "median_spread_r": 0.09519059294654648,
+      "pnl": -23.13708928571518,
+      "profit_factor": 0.9098382096732006,
+      "quarters": [
+        -27.0,
+        -8.0,
+        -8.783162158252495,
+        20.0
+      ],
+      "second_half_r": 11.216837841747505,
+      "side": {
+        "BUY": {
+          "total_r": 0.0,
+          "trades": 180
+        },
+        "SELL": {
+          "total_r": -23.783162158252495,
+          "trades": 202
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 67,
+        "risk: spread above maximum": 1
+      },
+      "total_r": -23.783162158252495,
+      "trades": 382,
+      "trades_per_week": 7.344542463401841,
+      "variant": {
+        "family": "rejection",
+        "hours": "london-ny",
+        "parameter": 2.0,
+        "radius": 3,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.31413612565445026
+    },
+    {
+      "adds": 0,
+      "average_r": -0.06249999999998687,
+      "by_strategy": {
+        "zone_breakout_retest-w864-r3-rr1.5-none-london-ny": {
+          "total_r": -11.999999999997478,
+          "trades": 192,
+          "wins": 72
+        }
+      },
+      "exit_reasons": {
+        "STOP": 120,
+        "TARGET": 72
+      },
+      "extra_cost_average_r": -0.14583796817125289,
+      "first_half_r": 0.5000000000018137,
+      "label": "zone_breakout_retest-w864-r3-rr1.5-none-london-ny",
+      "max_drawdown_r": 22.999999999998245,
+      "median_spread_r": 0.1133191987334942,
+      "pnl": -1.6451562499985812,
+      "profit_factor": 0.900000000000021,
+      "quarters": [
+        1.0000000000009783,
+        -0.49999999999916467,
+        -3.999999999999835,
+        -8.499999999999458
+      ],
+      "second_half_r": -12.499999999999293,
+      "side": {
+        "BUY": {
+          "total_r": 4.0000000000012745,
+          "trades": 101
+        },
+        "SELL": {
+          "total_r": -15.999999999998753,
+          "trades": 91
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 17,
+        "risk: Reward-to-risk is below the configured minimum": 64
+      },
+      "total_r": -11.99999999999748,
+      "trades": 192,
+      "trades_per_week": 3.691497782652234,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.375
+    },
+    {
+      "adds": 0,
+      "average_r": -0.14084507042253522,
+      "by_strategy": {
+        "zone_breakout_retest-w864-r3-rr2-none-london-ny": {
+          "total_r": -30.0,
+          "trades": 213,
+          "wins": 61
+        }
+      },
+      "exit_reasons": {
+        "STOP": 152,
+        "TARGET": 61
+      },
+      "extra_cost_average_r": -0.22325481124250351,
+      "first_half_r": -27.0,
+      "label": "zone_breakout_retest-w864-r3-rr2-none-london-ny",
+      "max_drawdown_r": 46.0,
+      "median_spread_r": 0.1148325358852291,
+      "pnl": -9.795062500000178,
+      "profit_factor": 0.8026315789473685,
+      "quarters": [
+        -13.0,
+        -14.0,
+        -9.0,
+        6.0
+      ],
+      "second_half_r": -3.0,
+      "side": {
+        "BUY": {
+          "total_r": -15.0,
+          "trades": 126
+        },
+        "SELL": {
+          "total_r": -15.0,
+          "trades": 87
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 18
+      },
+      "total_r": -30.0,
+      "trades": 213,
+      "trades_per_week": 4.095255352629822,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "london-ny",
+        "parameter": 2.0,
+        "radius": 3,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.2863849765258216
+    },
+    {
+      "adds": 0,
+      "average_r": -0.10803628751551202,
+      "by_strategy": {
+        "zone_ema_room-w864-r3-room1-HOUR_4-all": {
+          "total_r": -51.641345432414745,
+          "trades": 478,
+          "wins": 172
+        }
+      },
+      "exit_reasons": {
+        "STOP": 306,
+        "TARGET": 172
+      },
+      "extra_cost_average_r": -0.1754167400208667,
+      "first_half_r": -9.300049553802126,
+      "label": "zone_ema_room-w864-r3-room1-HOUR_4-all",
+      "max_drawdown_r": 54.14134543241514,
+      "median_spread_r": 0.08264157935690539,
+      "pnl": -13.984714285712881,
+      "profit_factor": 0.8337091406549155,
+      "quarters": [
+        -17.04831056738408,
+        6.000000000001596,
+        -3.59303486503294,
+        -36.999999999999325
+      ],
+      "second_half_r": -42.34129587861262,
+      "side": {
+        "BUY": {
+          "total_r": -47.14134543241516,
+          "trades": 371
+        },
+        "SELL": {
+          "total_r": -4.499999999999591,
+          "trades": 107
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 299,
+        "risk: Reward-to-risk is below the configured minimum": 142,
+        "trend_filter": 1271
+      },
+      "total_r": -51.641345432414745,
+      "trades": 478,
+      "trades_per_week": 9.190291354727957,
+      "variant": {
+        "family": "ema_room",
+        "hours": "all",
+        "parameter": 1.0,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.3598326359832636
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1561099603684134,
+      "by_strategy": {
+        "zone_ema_room-w864-r3-room1.5-HOUR_4-all": {
+          "total_r": -53.38960644599738,
+          "trades": 342,
+          "wins": 117
+        }
+      },
+      "exit_reasons": {
+        "STOP": 225,
+        "TARGET": 117
+      },
+      "extra_cost_average_r": -0.21456773417240538,
+      "first_half_r": -20.548310567384174,
+      "label": "zone_ema_room-w864-r3-room1.5-HOUR_4-all",
+      "max_drawdown_r": 53.88960644599738,
+      "median_spread_r": 0.0745987440086687,
+      "pnl": -14.374589285712819,
+      "profit_factor": 0.7674145093290745,
+      "quarters": [
+        -21.548310567385304,
+        1.0000000000011275,
+        -7.341295878613616,
+        -25.499999999999588
+      ],
+      "second_half_r": -32.8412958786132,
+      "side": {
+        "BUY": {
+          "total_r": -50.38960644599762,
+          "trades": 264
+        },
+        "SELL": {
+          "total_r": -2.999999999999755,
+          "trades": 78
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 229,
+        "risk: Reward-to-risk is below the configured minimum": 109,
+        "trend_filter": 729
+      },
+      "total_r": -53.38960644599738,
+      "trades": 342,
+      "trades_per_week": 6.5754804253492924,
+      "variant": {
+        "family": "ema_room",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.34210526315789475
+    },
+    {
+      "adds": 0,
+      "average_r": -0.22140609278777454,
+      "by_strategy": {
+        "zone_rejection-w864-r3-rr1.5-HOUR_4-all": {
+          "total_r": -63.322142537303534,
+          "trades": 286,
+          "wins": 90
+        }
+      },
+      "exit_reasons": {
+        "STOP": 196,
+        "TARGET": 90
+      },
+      "extra_cost_average_r": -0.29278942626075183,
+      "first_half_r": -36.728827534726626,
+      "label": "zone_rejection-w864-r3-rr1.5-HOUR_4-all",
+      "max_drawdown_r": 67.32214253730376,
+      "median_spread_r": 0.09068282733854248,
+      "pnl": -17.407566964284754,
+      "profit_factor": 0.680710677450491,
+      "quarters": [
+        -18.22882753472718,
+        -18.49999999999945,
+        -13.593315002577565,
+        -12.999999999999325
+      ],
+      "second_half_r": -26.59331500257689,
+      "side": {
+        "BUY": {
+          "total_r": -31.728827534726822,
+          "trades": 204
+        },
+        "SELL": {
+          "total_r": -31.5933150025767,
+          "trades": 82
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 56,
+        "risk: Reward-to-risk is below the configured minimum": 115,
+        "risk: spread above maximum": 1,
+        "trend_filter": 854
+      },
+      "total_r": -63.32214253730352,
+      "trades": 286,
+      "trades_per_week": 5.498793572075724,
+      "variant": {
+        "family": "rejection",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.3146853146853147
+    },
+    {
+      "adds": 0,
+      "average_r": -0.34934865584112673,
+      "by_strategy": {
+        "zone_rejection-w864-r3-rr2-HOUR_4-all": {
+          "total_r": -85.9397693369172,
+          "trades": 246,
+          "wins": 54
+        }
+      },
+      "exit_reasons": {
+        "STOP": 192,
+        "TARGET": 54
+      },
+      "extra_cost_average_r": -0.4254486347100075,
+      "first_half_r": -46.15660717866469,
+      "label": "zone_rejection-w864-r3-rr2-HOUR_4-all",
+      "max_drawdown_r": 94.9397693369172,
+      "median_spread_r": 0.09586850506176739,
+      "pnl": -35.833125000000386,
+      "profit_factor": 0.5568739220906239,
+      "quarters": [
+        -26.156607178664693,
+        -20.0,
+        -23.783162158252495,
+        -16.0
+      ],
+      "second_half_r": -39.783162158252495,
+      "side": {
+        "BUY": {
+          "total_r": -38.15660717866469,
+          "trades": 176
+        },
+        "SELL": {
+          "total_r": -47.783162158252495,
+          "trades": 70
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 38,
+        "trend_filter": 530
+      },
+      "total_r": -85.93976933691718,
+      "trades": 246,
+      "trades_per_week": 4.729731534023175,
+      "variant": {
+        "family": "rejection",
+        "hours": "all",
+        "parameter": 2.0,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.21951219512195122
+    },
+    {
+      "adds": 0,
+      "average_r": -0.15624999999998945,
+      "by_strategy": {
+        "zone_breakout_retest-w864-r3-rr1.5-HOUR_4-all": {
+          "total_r": -24.99999999999831,
+          "trades": 160,
+          "wins": 54
+        }
+      },
+      "exit_reasons": {
+        "STOP": 106,
+        "TARGET": 54
+      },
+      "extra_cost_average_r": -0.24686723272257946,
+      "first_half_r": -20.99999999999879,
+      "label": "zone_breakout_retest-w864-r3-rr1.5-HOUR_4-all",
+      "max_drawdown_r": 26.9999999999992,
+      "median_spread_r": 0.12217332473028714,
+      "pnl": -3.468071428570011,
+      "profit_factor": 0.7641509433962423,
+      "quarters": [
+        -8.999999999999543,
+        -11.999999999999247,
+        7.500000000000325,
+        -11.499999999999847
+      ],
+      "second_half_r": -3.999999999999522,
+      "side": {
+        "BUY": {
+          "total_r": -11.499999999998716,
+          "trades": 124
+        },
+        "SELL": {
+          "total_r": -13.499999999999595,
+          "trades": 36
+        }
+      },
+      "skipped": {
+        "entry_drift": 3,
+        "risk: 1 position(s) already open": 13,
+        "risk: Reward-to-risk is below the configured minimum": 56,
+        "trend_filter": 345
+      },
+      "total_r": -24.999999999998312,
+      "trades": 160,
+      "trades_per_week": 3.076248152210195,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.3375
+    },
+    {
+      "adds": 0,
+      "average_r": -0.12699603617428976,
+      "by_strategy": {
+        "zone_breakout_retest-w864-r3-rr2-HOUR_4-all": {
+          "total_r": -23.4942666922436,
+          "trades": 185,
+          "wins": 57
+        }
+      },
+      "exit_reasons": {
+        "STOP": 128,
+        "TARGET": 57
+      },
+      "extra_cost_average_r": -0.21301689870479018,
+      "first_half_r": -31.494266692243603,
+      "label": "zone_breakout_retest-w864-r3-rr2-HOUR_4-all",
+      "max_drawdown_r": 35.4942666922436,
+      "median_spread_r": 0.11599005799493504,
+      "pnl": 2.906758928571889,
+      "profit_factor": 0.8291254809567346,
+      "quarters": [
+        -15.494266692243603,
+        -16.0,
+        15.0,
+        -7.0
+      ],
+      "second_half_r": 8.0,
+      "side": {
+        "BUY": {
+          "total_r": -11.494266692243603,
+          "trades": 149
+        },
+        "SELL": {
+          "total_r": -12.0,
+          "trades": 36
+        }
+      },
+      "skipped": {
+        "entry_drift": 2,
+        "risk: 1 position(s) already open": 13,
+        "trend_filter": 277
+      },
+      "total_r": -23.494266692243603,
+      "trades": 185,
+      "trades_per_week": 3.556911925993038,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "all",
+        "parameter": 2.0,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.3081081081081081
+    },
+    {
+      "adds": 0,
+      "average_r": -0.14370078740156825,
+      "by_strategy": {
+        "zone_ema_room-w864-r3-room1-HOUR_4-london-ny": {
+          "total_r": -36.49999999999834,
+          "trades": 254,
+          "wins": 87
+        }
+      },
+      "exit_reasons": {
+        "STOP": 167,
+        "TARGET": 87
+      },
+      "extra_cost_average_r": -0.20316567236718455,
+      "first_half_r": -9.999999999998733,
+      "label": "zone_ema_room-w864-r3-room1-HOUR_4-london-ny",
+      "max_drawdown_r": 36.49999999999834,
+      "median_spread_r": 0.07715122038972819,
+      "pnl": -11.583214285713986,
+      "profit_factor": 0.7814371257485129,
+      "quarters": [
+        -14.499999999999632,
+        4.500000000000899,
+        -9.499999999999856,
+        -16.999999999999748
+      ],
+      "second_half_r": -26.499999999999606,
+      "side": {
+        "BUY": {
+          "total_r": -30.49999999999842,
+          "trades": 193
+        },
+        "SELL": {
+          "total_r": -5.999999999999922,
+          "trades": 61
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 154,
+        "risk: Reward-to-risk is below the configured minimum": 74,
+        "trend_filter": 654
+      },
+      "total_r": -36.49999999999834,
+      "trades": 254,
+      "trades_per_week": 4.883543941633685,
+      "variant": {
+        "family": "ema_room",
+        "hours": "london-ny",
+        "parameter": 1.0,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.3425196850393701
+    },
+    {
+      "adds": 0,
+      "average_r": -0.11202185792349263,
+      "by_strategy": {
+        "zone_ema_room-w864-r3-room1.5-HOUR_4-london-ny": {
+          "total_r": -20.499999999999154,
+          "trades": 183,
+          "wins": 65
+        }
+      },
+      "exit_reasons": {
+        "STOP": 118,
+        "TARGET": 65
+      },
+      "extra_cost_average_r": -0.16519881631647618,
+      "first_half_r": -5.4999999999993605,
+      "label": "zone_ema_room-w864-r3-room1.5-HOUR_4-london-ny",
+      "max_drawdown_r": 22.499999999999154,
+      "median_spread_r": 0.07151370679374207,
+      "pnl": -7.084392857142621,
+      "profit_factor": 0.8262711864406852,
+      "quarters": [
+        -11.0,
+        5.5000000000006395,
+        -2.999999999999878,
+        -11.999999999999913
+      ],
+      "second_half_r": -14.99999999999979,
+      "side": {
+        "BUY": {
+          "total_r": -20.499999999999208,
+          "trades": 138
+        },
+        "SELL": {
+          "total_r": 5.6621374255882984e-14,
+          "trades": 45
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 120,
+        "risk: Reward-to-risk is below the configured minimum": 56,
+        "trend_filter": 359
+      },
+      "total_r": -20.49999999999915,
+      "trades": 183,
+      "trades_per_week": 3.518458824090411,
+      "variant": {
+        "family": "ema_room",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.3551912568306011
+    },
+    {
+      "adds": 0,
+      "average_r": -0.14979485332523884,
+      "by_strategy": {
+        "zone_rejection-w864-r3-rr1.5-HOUR_4-london-ny": {
+          "total_r": -25.165535358640128,
+          "trades": 168,
+          "wins": 58
+        }
+      },
+      "exit_reasons": {
+        "STOP": 110,
+        "TARGET": 58
+      },
+      "extra_cost_average_r": -0.21320832868195533,
+      "first_half_r": -27.572220356062925,
+      "label": "zone_rejection-w864-r3-rr1.5-HOUR_4-london-ny",
+      "max_drawdown_r": 31.072220356062964,
+      "median_spread_r": 0.08142365175283929,
+      "pnl": -7.217624999999499,
+      "profit_factor": 0.7756393238067721,
+      "quarters": [
+        -17.57222035606308,
+        -9.999999999999845,
+        -0.09331500257759617,
+        2.5000000000003917
+      ],
+      "second_half_r": 2.4066849974227957,
+      "side": {
+        "BUY": {
+          "total_r": -3.072220356062707,
+          "trades": 123
+        },
+        "SELL": {
+          "total_r": -22.093315002577423,
+          "trades": 45
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 31,
+        "risk: Reward-to-risk is below the configured minimum": 55,
+        "trend_filter": 463
+      },
+      "total_r": -25.165535358640128,
+      "trades": 168,
+      "trades_per_week": 3.230060559820705,
+      "variant": {
+        "family": "rejection",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.34523809523809523
+    },
+    {
+      "adds": 0,
+      "average_r": -0.2132086085796481,
+      "by_strategy": {
+        "zone_rejection-w864-r3-rr2-HOUR_4-london-ny": {
+          "total_r": -28.783162158252495,
+          "trades": 135,
+          "wins": 36
+        }
+      },
+      "exit_reasons": {
+        "STOP": 99,
+        "TARGET": 36
+      },
+      "extra_cost_average_r": -0.2785232355864814,
+      "first_half_r": -21.0,
+      "label": "zone_rejection-w864-r3-rr2-HOUR_4-london-ny",
+      "max_drawdown_r": 35.783162158252495,
+      "median_spread_r": 0.0856443719413276,
+      "pnl": -17.320571428571885,
+      "profit_factor": 0.7144050499918193,
+      "quarters": [
+        -16.0,
+        -5.0,
+        -6.783162158252495,
+        -1.0
+      ],
+      "second_half_r": -7.783162158252495,
+      "side": {
+        "BUY": {
+          "total_r": -5.0,
+          "trades": 101
+        },
+        "SELL": {
+          "total_r": -23.783162158252495,
+          "trades": 34
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 23,
+        "trend_filter": 292
+      },
+      "total_r": -28.783162158252495,
+      "trades": 135,
+      "trades_per_week": 2.5955843784273522,
+      "variant": {
+        "family": "rejection",
+        "hours": "london-ny",
+        "parameter": 2.0,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.26666666666666666
+    },
+    {
+      "adds": 0,
+      "average_r": -0.27631578947367447,
+      "by_strategy": {
+        "zone_breakout_retest-w864-r3-rr1.5-HOUR_4-london-ny": {
+          "total_r": -20.999999999999257,
+          "trades": 76,
+          "wins": 22
+        }
+      },
+      "exit_reasons": {
+        "STOP": 54,
+        "TARGET": 22
+      },
+      "extra_cost_average_r": -0.35656667520510466,
+      "first_half_r": -12.999999999999472,
+      "label": "zone_breakout_retest-w864-r3-rr1.5-HOUR_4-london-ny",
+      "max_drawdown_r": 22.49999999999941,
+      "median_spread_r": 0.11122931282906086,
+      "pnl": -6.745187499999384,
+      "profit_factor": 0.6111111111111248,
+      "quarters": [
+        -8.49999999999996,
+        -4.499999999999513,
+        -1.9999999999999434,
+        -5.999999999999847
+      ],
+      "second_half_r": -7.99999999999979,
+      "side": {
+        "BUY": {
+          "total_r": -7.999999999999302,
+          "trades": 58
+        },
+        "SELL": {
+          "total_r": -12.999999999999961,
+          "trades": 18
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 6,
+        "risk: Reward-to-risk is below the configured minimum": 29,
+        "trend_filter": 162
+      },
+      "total_r": -20.99999999999926,
+      "trades": 76,
+      "trades_per_week": 1.4612178722998428,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.2894736842105263
+    },
+    {
+      "adds": 0,
+      "average_r": -0.25806451612903225,
+      "by_strategy": {
+        "zone_breakout_retest-w864-r3-rr2-HOUR_4-london-ny": {
+          "total_r": -24.0,
+          "trades": 93,
+          "wins": 23
+        }
+      },
+      "exit_reasons": {
+        "STOP": 70,
+        "TARGET": 23
+      },
+      "extra_cost_average_r": -0.33960167846179523,
+      "first_half_r": -19.0,
+      "label": "zone_breakout_retest-w864-r3-rr2-HOUR_4-london-ny",
+      "max_drawdown_r": 28.0,
+      "median_spread_r": 0.11146496815277476,
+      "pnl": -6.668044642857013,
+      "profit_factor": 0.6571428571428571,
+      "quarters": [
+        -9.0,
+        -10.0,
+        -2.0,
+        -3.0
+      ],
+      "second_half_r": -5.0,
+      "side": {
+        "BUY": {
+          "total_r": -13.0,
+          "trades": 73
+        },
+        "SELL": {
+          "total_r": -11.0,
+          "trades": 20
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 5,
+        "trend_filter": 133
+      },
+      "total_r": -24.0,
+      "trades": 93,
+      "trades_per_week": 1.788069238472176,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "london-ny",
+        "parameter": 2.0,
+        "radius": 3,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.24731182795698925
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1422696899602326,
+      "by_strategy": {
+        "zone_ema_room-w864-r6-room1-none-all": {
+          "total_r": -245.69975456132158,
+          "trades": 1727,
+          "wins": 596
+        }
+      },
+      "exit_reasons": {
+        "STOP": 1131,
+        "TARGET": 596
+      },
+      "extra_cost_average_r": -0.21323218247892978,
+      "first_half_r": -89.38929299397137,
+      "label": "zone_ema_room-w864-r6-room1-none-all",
+      "max_drawdown_r": 250.19975456132238,
+      "median_spread_r": 0.08949022532352013,
+      "pnl": -84.09363392856758,
+      "profit_factor": 0.7850942392376978,
+      "quarters": [
+        -59.86133063486211,
+        -31.276223372689618,
+        -69.56220055377406,
+        -84.99999999999591
+      ],
+      "second_half_r": -156.3104615673503,
+      "side": {
+        "BUY": {
+          "total_r": -124.23238452274991,
+          "trades": 953
+        },
+        "SELL": {
+          "total_r": -121.46737003857177,
+          "trades": 774
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 1670,
+        "risk: Reward-to-risk is below the configured minimum": 606,
+        "risk: spread above maximum": 2
+      },
+      "total_r": -245.6997545613217,
+      "trades": 1727,
+      "trades_per_week": 33.204253492918795,
+      "variant": {
+        "family": "ema_room",
+        "hours": "all",
+        "parameter": 1.0,
+        "radius": 6,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.34510712217718587
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1466307039128167,
+      "by_strategy": {
+        "zone_ema_room-w864-r6-room1.5-none-all": {
+          "total_r": -189.1536080475335,
+          "trades": 1290,
+          "wins": 441
+        }
+      },
+      "exit_reasons": {
+        "STOP": 849,
+        "TARGET": 441
+      },
+      "extra_cost_average_r": -0.21841959592429888,
+      "first_half_r": -92.27120577285754,
+      "label": "zone_ema_room-w864-r6-room1.5-none-all",
+      "max_drawdown_r": 195.15360804753377,
+      "median_spread_r": 0.09189869510654977,
+      "pnl": -64.1929732142834,
+      "profit_factor": 0.7783194759558251,
+      "quarters": [
+        -63.26991010040632,
+        -29.001295672451217,
+        -43.88240227467933,
+        -52.999999999996696
+      ],
+      "second_half_r": -96.88240227467602,
+      "side": {
+        "BUY": {
+          "total_r": -101.70571783609344,
+          "trades": 737
+        },
+        "SELL": {
+          "total_r": -87.44789021144013,
+          "trades": 553
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 1160,
+        "risk: Reward-to-risk is below the configured minimum": 424,
+        "risk: spread above maximum": 2
+      },
+      "total_r": -189.15360804753357,
+      "trades": 1290,
+      "trades_per_week": 24.8022507271947,
+      "variant": {
+        "family": "ema_room",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.34186046511627904
+    },
+    {
+      "adds": 0,
+      "average_r": -0.10012884813897026,
+      "by_strategy": {
+        "zone_rejection-w864-r6-rr1.5-none-all": {
+          "total_r": -80.1030785111762,
+          "trades": 800,
+          "wins": 289
+        }
+      },
+      "exit_reasons": {
+        "STOP": 511,
+        "TARGET": 289
+      },
+      "extra_cost_average_r": -0.17344945367617304,
+      "first_half_r": -67.05762373632102,
+      "label": "zone_rejection-w864-r6-rr1.5-none-all",
+      "max_drawdown_r": 117.55762373632034,
+      "median_spread_r": 0.09645480164595739,
+      "pnl": -30.2809374999968,
+      "profit_factor": 0.8441750423905497,
+      "quarters": [
+        -9.072220356061264,
+        -57.98540338025976,
+        -45.09331500257659,
+        32.0478602277214
+      ],
+      "second_half_r": -13.045454774855182,
+      "side": {
+        "BUY": {
+          "total_r": -11.112810718011243,
+          "trades": 373
+        },
+        "SELL": {
+          "total_r": -68.99026779316496,
+          "trades": 427
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 289,
+        "risk: Reward-to-risk is below the configured minimum": 296,
+        "risk: spread above maximum": 1
+      },
+      "total_r": -80.10307851117621,
+      "trades": 800,
+      "trades_per_week": 15.381240761050975,
+      "variant": {
+        "family": "rejection",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.36125
+    },
+    {
+      "adds": 0,
+      "average_r": -0.0981598661095382,
+      "by_strategy": {
+        "zone_rejection-w864-r6-rr2-none-all": {
+          "total_r": -73.42357984993457,
+          "trades": 748,
+          "wins": 226
+        }
+      },
+      "exit_reasons": {
+        "STOP": 522,
+        "TARGET": 226
+      },
+      "extra_cost_average_r": -0.17437071548989205,
+      "first_half_r": -86.95763411625164,
+      "label": "zone_rejection-w864-r6-rr2-none-all",
+      "max_drawdown_r": 110.93465512856939,
+      "median_spread_r": 0.1010315153715998,
+      "pnl": -20.88555357142759,
+      "profit_factor": 0.8602663159498561,
+      "quarters": [
+        -23.072220356063376,
+        -63.885413760188264,
+        -16.070336014895446,
+        29.60439028121252
+      ],
+      "second_half_r": 13.534054266317074,
+      "side": {
+        "BUY": {
+          "total_r": -21.03330167683914,
+          "trades": 350
+        },
+        "SELL": {
+          "total_r": -52.390278173095425,
+          "trades": 398
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 219,
+        "risk: spread above maximum": 1
+      },
+      "total_r": -73.42357984993457,
+      "trades": 748,
+      "trades_per_week": 14.381460111582662,
+      "variant": {
+        "family": "rejection",
+        "hours": "all",
+        "parameter": 2.0,
+        "radius": 6,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.30213903743315507
+    },
+    {
+      "adds": 0,
+      "average_r": -0.05691687606454398,
+      "by_strategy": {
+        "zone_breakout_retest-w864-r6-rr1.5-none-all": {
+          "total_r": -17.13197969542774,
+          "trades": 301,
+          "wins": 114
+        }
+      },
+      "exit_reasons": {
+        "STOP": 187,
+        "TARGET": 114
+      },
+      "extra_cost_average_r": -0.15037563037351262,
+      "first_half_r": 0.8680203045714374,
+      "label": "zone_breakout_retest-w864-r6-rr1.5-none-all",
+      "max_drawdown_r": 43.99999999999868,
+      "median_spread_r": 0.12835205134088823,
+      "pnl": 0.1356383928586184,
+      "profit_factor": 0.9089363768820015,
+      "quarters": [
+        19.368020304570667,
+        -18.49999999999923,
+        -2.999999999999615,
+        -14.999999999999561
+      ],
+      "second_half_r": -17.999999999999176,
+      "side": {
+        "BUY": {
+          "total_r": -16.131979695429262,
+          "trades": 180
+        },
+        "SELL": {
+          "total_r": -0.9999999999984788,
+          "trades": 121
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 13,
+        "risk: Reward-to-risk is below the configured minimum": 108,
+        "risk: spread above maximum": 3
+      },
+      "total_r": -17.131979695427738,
+      "trades": 301,
+      "trades_per_week": 5.787191836345429,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.3787375415282392
+    },
+    {
+      "adds": 0,
+      "average_r": -0.06501794938987096,
+      "by_strategy": {
+        "zone_breakout_retest-w864-r6-rr2-none-all": {
+          "total_r": -22.626246387675092,
+          "trades": 348,
+          "wins": 112
+        }
+      },
+      "exit_reasons": {
+        "STOP": 236,
+        "TARGET": 112
+      },
+      "extra_cost_average_r": -0.157015342617612,
+      "first_half_r": -17.626246387675096,
+      "label": "zone_breakout_retest-w864-r6-rr2-none-all",
+      "max_drawdown_r": 27.70562310628138,
+      "median_spread_r": 0.12445366391737388,
+      "pnl": -0.6894553571428333,
+      "profit_factor": 0.9082569405362129,
+      "quarters": [
+        -9.626246387675094,
+        -8.0,
+        -1.0,
+        -4.0
+      ],
+      "second_half_r": -5.0,
+      "side": {
+        "BUY": {
+          "total_r": -20.626246387675096,
+          "trades": 220
+        },
+        "SELL": {
+          "total_r": -2.0,
+          "trades": 128
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 16,
+        "risk: spread above maximum": 3
+      },
+      "total_r": -22.626246387675096,
+      "trades": 348,
+      "trades_per_week": 6.690839731057174,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "all",
+        "parameter": 2.0,
+        "radius": 6,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.3218390804597701
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1723102612768695,
+      "by_strategy": {
+        "zone_ema_room-w864-r6-room1-none-london-ny": {
+          "total_r": -160.93778403259606,
+          "trades": 934,
+          "wins": 309
+        }
+      },
+      "exit_reasons": {
+        "STOP": 625,
+        "TARGET": 309
+      },
+      "extra_cost_average_r": -0.2349504495352932,
+      "first_half_r": -64.99999999999626,
+      "label": "zone_ema_room-w864-r6-room1-none-london-ny",
+      "max_drawdown_r": 166.93778403259628,
+      "median_spread_r": 0.08266598229951502,
+      "pnl": -63.41553571428576,
+      "profit_factor": 0.7424995455478463,
+      "quarters": [
+        -29.499999999997673,
+        -35.49999999999859,
+        -57.93778403260238,
+        -37.99999999999746
+      ],
+      "second_half_r": -95.93778403259984,
+      "side": {
+        "BUY": {
+          "total_r": -95.49999999999582,
+          "trades": 518
+        },
+        "SELL": {
+          "total_r": -65.43778403260029,
+          "trades": 416
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 833,
+        "risk: Reward-to-risk is below the configured minimum": 321
+      },
+      "total_r": -160.9377840325961,
+      "trades": 934,
+      "trades_per_week": 17.957598588527013,
+      "variant": {
+        "family": "ema_room",
+        "hours": "london-ny",
+        "parameter": 1.0,
+        "radius": 6,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.33083511777301927
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1522106746398194,
+      "by_strategy": {
+        "zone_ema_room-w864-r6-room1.5-none-london-ny": {
+          "total_r": -102.43778403259844,
+          "trades": 673,
+          "wins": 228
+        }
+      },
+      "exit_reasons": {
+        "STOP": 445,
+        "TARGET": 228
+      },
+      "extra_cost_average_r": -0.2148912721078581,
+      "first_half_r": -42.49999999999746,
+      "label": "zone_ema_room-w864-r6-room1.5-none-london-ny",
+      "max_drawdown_r": 109.43778403259863,
+      "median_spread_r": 0.08425698380051234,
+      "pnl": -43.14894642857198,
+      "profit_factor": 0.7698027325110147,
+      "quarters": [
+        -19.49999999999869,
+        -22.999999999998774,
+        -33.93778403260293,
+        -25.999999999998067
+      ],
+      "second_half_r": -59.937784032600995,
+      "side": {
+        "BUY": {
+          "total_r": -58.99999999999686,
+          "trades": 384
+        },
+        "SELL": {
+          "total_r": -43.4377840326016,
+          "trades": 289
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 585,
+        "risk: Reward-to-risk is below the configured minimum": 224
+      },
+      "total_r": -102.43778403259846,
+      "trades": 673,
+      "trades_per_week": 12.939468790234134,
+      "variant": {
+        "family": "ema_room",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.3387815750371471
+    },
+    {
+      "adds": 0,
+      "average_r": -0.03158903143534028,
+      "by_strategy": {
+        "zone_rejection-w864-r6-rr1.5-none-london-ny": {
+          "total_r": -14.846844774609949,
+          "trades": 470,
+          "wins": 183
+        }
+      },
+      "exit_reasons": {
+        "STOP": 287,
+        "TARGET": 183
+      },
+      "extra_cost_average_r": -0.09718129144713536,
+      "first_half_r": -28.253529772034444,
+      "label": "zone_rejection-w864-r6-rr1.5-none-london-ny",
+      "max_drawdown_r": 55.75352977203402,
+      "median_spread_r": 0.0872999414146387,
+      "pnl": -10.843116071426586,
+      "profit_factor": 0.9487605158354633,
+      "quarters": [
+        -2.0722203560623274,
+        -26.181309415972116,
+        -16.593315002576908,
+        30.000000000001425
+      ],
+      "second_half_r": 13.406684997424513,
+      "side": {
+        "BUY": {
+          "total_r": 12.339329054268624,
+          "trades": 217
+        },
+        "SELL": {
+          "total_r": -27.186173828878555,
+          "trades": 253
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 150,
+        "risk: Reward-to-risk is below the configured minimum": 165
+      },
+      "total_r": -14.84684477460993,
+      "trades": 470,
+      "trades_per_week": 9.036478947117448,
+      "variant": {
+        "family": "rejection",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.3893617021276596
+    },
+    {
+      "adds": 0,
+      "average_r": 0.004215044038498639,
+      "by_strategy": {
+        "zone_rejection-w864-r6-rr2-none-london-ny": {
+          "total_r": 1.8504043329009079,
+          "trades": 439,
+          "wins": 148
+        }
+      },
+      "exit_reasons": {
+        "STOP": 291,
+        "TARGET": 148
+      },
+      "extra_cost_average_r": -0.0632731885736369,
+      "first_half_r": -18.660670945733916,
+      "label": "zone_rejection-w864-r6-rr2-none-london-ny",
+      "max_drawdown_r": 47.588450589670536,
+      "median_spread_r": 0.09064422143081016,
+      "pnl": -3.7637499999998902,
+      "profit_factor": 1.0062906914038225,
+      "quarters": [
+        -0.07222035606337762,
+        -18.58845058967054,
+        -12.0933150025777,
+        32.60439028121252
+      ],
+      "second_half_r": 20.51107527863482,
+      "side": {
+        "BUY": {
+          "total_r": 6.943719335478604,
+          "trades": 202
+        },
+        "SELL": {
+          "total_r": -5.093315002577701,
+          "trades": 237
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 114
+      },
+      "total_r": 1.8504043329009028,
+      "trades": 439,
+      "trades_per_week": 8.440455867626723,
+      "variant": {
+        "family": "rejection",
+        "hours": "london-ny",
+        "parameter": 2.0,
+        "radius": 6,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.33712984054669703
+    },
+    {
+      "adds": 0,
+      "average_r": -0.010791366906460948,
+      "by_strategy": {
+        "zone_breakout_retest-w864-r6-rr1.5-none-london-ny": {
+          "total_r": -1.4999999999980722,
+          "trades": 139,
+          "wins": 55
+        }
+      },
+      "exit_reasons": {
+        "STOP": 84,
+        "TARGET": 55
+      },
+      "extra_cost_average_r": -0.09453124085309128,
+      "first_half_r": 6.500000000001546,
+      "label": "zone_breakout_retest-w864-r6-rr1.5-none-london-ny",
+      "max_drawdown_r": 24.499999999999506,
+      "median_spread_r": 0.12209302325571711,
+      "pnl": -1.4435446428565684,
+      "profit_factor": 0.9821428571428802,
+      "quarters": [
+        12.500000000001094,
+        -5.999999999999547,
+        -8.499999999999925,
+        0.500000000000308
+      ],
+      "second_half_r": -7.999999999999618,
+      "side": {
+        "BUY": {
+          "total_r": 9.956480084838404e-13,
+          "trades": 80
+        },
+        "SELL": {
+          "total_r": -1.4999999999990674,
+          "trades": 59
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 7,
+        "risk: Reward-to-risk is below the configured minimum": 49
+      },
+      "total_r": -1.4999999999980718,
+      "trades": 139,
+      "trades_per_week": 2.6724905822326073,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.39568345323741005
+    },
+    {
+      "adds": 0,
+      "average_r": -0.06832298136645963,
+      "by_strategy": {
+        "zone_breakout_retest-w864-r6-rr2-none-london-ny": {
+          "total_r": -11.0,
+          "trades": 161,
+          "wins": 50
+        }
+      },
+      "exit_reasons": {
+        "STOP": 111,
+        "TARGET": 50
+      },
+      "extra_cost_average_r": -0.15115165974393882,
+      "first_half_r": -7.0,
+      "label": "zone_breakout_retest-w864-r6-rr2-none-london-ny",
+      "max_drawdown_r": 30.0,
+      "median_spread_r": 0.12209302325571711,
+      "pnl": -8.478785714285596,
+      "profit_factor": 0.9009009009009009,
+      "quarters": [
+        2.0,
+        -9.0,
+        -16.0,
+        12.0
+      ],
+      "second_half_r": -4.0,
+      "side": {
+        "BUY": {
+          "total_r": -3.0,
+          "trades": 99
+        },
+        "SELL": {
+          "total_r": -8.0,
+          "trades": 62
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 9
+      },
+      "total_r": -11.0,
+      "trades": 161,
+      "trades_per_week": 3.095474703161509,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "london-ny",
+        "parameter": 2.0,
+        "radius": 6,
+        "trend": null,
+        "window": 864
+      },
+      "win_rate": 0.3105590062111801
+    },
+    {
+      "adds": 0,
+      "average_r": -0.12309220364321903,
+      "by_strategy": {
+        "zone_ema_room-w864-r6-room1-HOUR_4-all": {
+          "total_r": -84.44125169924826,
+          "trades": 686,
+          "wins": 242
+        }
+      },
+      "exit_reasons": {
+        "STOP": 444,
+        "TARGET": 242
+      },
+      "extra_cost_average_r": -0.19402246188677527,
+      "first_half_r": -17.09995582063619,
+      "label": "zone_ema_room-w864-r6-room1-HOUR_4-all",
+      "max_drawdown_r": 85.44125169924865,
+      "median_spread_r": 0.08690310331111084,
+      "pnl": -20.14166964285596,
+      "profit_factor": 0.8116248503924962,
+      "quarters": [
+        -25.259803921566743,
+        6.4987043275476175,
+        -22.1801521052301,
+        -43.499999999999034
+      ],
+      "second_half_r": -67.34129587861207,
+      "side": {
+        "BUY": {
+          "total_r": -58.94125169924923,
+          "trades": 508
+        },
+        "SELL": {
+          "total_r": -25.499999999999034,
+          "trades": 178
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 637,
+        "risk: Reward-to-risk is below the configured minimum": 249,
+        "trend_filter": 2434
+      },
+      "total_r": -84.44125169924826,
+      "trades": 686,
+      "trades_per_week": 13.189413952601212,
+      "variant": {
+        "family": "ema_room",
+        "hours": "all",
+        "parameter": 1.0,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.35276967930029157
+    },
+    {
+      "adds": 0,
+      "average_r": -0.11255130238320744,
+      "by_strategy": {
+        "zone_ema_room-w864-r6-room1.5-HOUR_4-all": {
+          "total_r": -60.10239547263277,
+          "trades": 534,
+          "wins": 191
+        }
+      },
+      "exit_reasons": {
+        "STOP": 343,
+        "TARGET": 191
+      },
+      "extra_cost_average_r": -0.18317756400450905,
+      "first_half_r": -14.26109959402001,
+      "label": "zone_ema_room-w864-r6-room1.5-HOUR_4-all",
+      "max_drawdown_r": 60.10239547263277,
+      "median_spread_r": 0.08612734633754851,
+      "pnl": -11.232553571427479,
+      "profit_factor": 0.826924479756306,
+      "quarters": [
+        -28.25980392156737,
+        13.998704327547362,
+        -15.84129587861339,
+        -29.99999999999937
+      ],
+      "second_half_r": -45.84129587861276,
+      "side": {
+        "BUY": {
+          "total_r": -44.602395472633404,
+          "trades": 406
+        },
+        "SELL": {
+          "total_r": -15.499999999999371,
+          "trades": 128
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 496,
+        "risk: Reward-to-risk is below the configured minimum": 185,
+        "trend_filter": 1661
+      },
+      "total_r": -60.10239547263277,
+      "trades": 534,
+      "trades_per_week": 10.266978208001527,
+      "variant": {
+        "family": "ema_room",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.35767790262172283
+    },
+    {
+      "adds": 0,
+      "average_r": -0.19310048354073392,
+      "by_strategy": {
+        "zone_rejection-w864-r6-rr1.5-HOUR_4-all": {
+          "total_r": -50.20612572059081,
+          "trades": 260,
+          "wins": 85
+        }
+      },
+      "exit_reasons": {
+        "STOP": 175,
+        "TARGET": 85
+      },
+      "extra_cost_average_r": -0.2642142140445909,
+      "first_half_r": -45.66067094573326,
+      "label": "zone_rejection-w864-r6-rr1.5-HOUR_4-all",
+      "max_drawdown_r": 56.75398594831079,
+      "median_spread_r": 0.09112396873823861,
+      "pnl": -18.403455357141276,
+      "profit_factor": 0.7175527431762343,
+      "quarters": [
+        -19.572220356062964,
+        -26.088450589670295,
+        -10.093315002577535,
+        5.547860227719974
+      ],
+      "second_half_r": -4.545454774857562,
+      "side": {
+        "BUY": {
+          "total_r": -25.11281071801386,
+          "trades": 182
+        },
+        "SELL": {
+          "total_r": -25.093315002576958,
+          "trades": 78
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 78,
+        "risk: Reward-to-risk is below the configured minimum": 114,
+        "risk: spread above maximum": 1,
+        "trend_filter": 933
+      },
+      "total_r": -50.20612572059082,
+      "trades": 260,
+      "trades_per_week": 4.998903247341567,
+      "variant": {
+        "family": "rejection",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.3269230769230769
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1888219437925455,
+      "by_strategy": {
+        "zone_rejection-w864-r6-rr2-HOUR_4-all": {
+          "total_r": -48.1495956670991,
+          "trades": 255,
+          "wins": 70
+        }
+      },
+      "exit_reasons": {
+        "STOP": 185,
+        "TARGET": 70
+      },
+      "extra_cost_average_r": -0.2646221128571511,
+      "first_half_r": -42.66067094573392,
+      "label": "zone_rejection-w864-r6-rr2-HOUR_4-all",
+      "max_drawdown_r": 52.1495956670991,
+      "median_spread_r": 0.09622819829872786,
+      "pnl": -16.664785714284836,
+      "profit_factor": 0.7440887635374344,
+      "quarters": [
+        -18.072220356063376,
+        -24.58845058967054,
+        -4.093315002577701,
+        -1.39560971878748
+      ],
+      "second_half_r": -5.488924721365182,
+      "side": {
+        "BUY": {
+          "total_r": -20.056280664521395,
+          "trades": 181
+        },
+        "SELL": {
+          "total_r": -28.0933150025777,
+          "trades": 74
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 58,
+        "risk: spread above maximum": 1,
+        "trend_filter": 654
+      },
+      "total_r": -48.1495956670991,
+      "trades": 255,
+      "trades_per_week": 4.902770492584999,
+      "variant": {
+        "family": "rejection",
+        "hours": "all",
+        "parameter": 2.0,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.27450980392156865
+    },
+    {
+      "adds": 0,
+      "average_r": -0.045454545454532744,
+      "by_strategy": {
+        "zone_breakout_retest-w864-r6-rr1.5-HOUR_4-all": {
+          "total_r": -4.999999999998601,
+          "trades": 110,
+          "wins": 42
+        }
+      },
+      "exit_reasons": {
+        "STOP": 68,
+        "TARGET": 42
+      },
+      "extra_cost_average_r": -0.13476540790773492,
+      "first_half_r": -8.99999999999886,
+      "label": "zone_breakout_retest-w864-r6-rr1.5-HOUR_4-all",
+      "max_drawdown_r": 12.999999999999902,
+      "median_spread_r": 0.12315397761629812,
+      "pnl": 2.9561607142864434,
+      "profit_factor": 0.9264705882353147,
+      "quarters": [
+        -1.4999999999995002,
+        -7.499999999999359,
+        9.500000000000218,
+        -5.49999999999996
+      ],
+      "second_half_r": 4.000000000000258,
+      "side": {
+        "BUY": {
+          "total_r": -6.499999999998963,
+          "trades": 89
+        },
+        "SELL": {
+          "total_r": 1.5000000000003606,
+          "trades": 21
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 5,
+        "risk: Reward-to-risk is below the configured minimum": 40,
+        "trend_filter": 270
+      },
+      "total_r": -4.999999999998602,
+      "trades": 110,
+      "trades_per_week": 2.1149206046445093,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "all",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.38181818181818183
+    },
+    {
+      "adds": 0,
+      "average_r": 0.011321303065837578,
+      "by_strategy": {
+        "zone_breakout_retest-w864-r6-rr2-HOUR_4-all": {
+          "total_r": 1.5057333077563975,
+          "trades": 133,
+          "wins": 48
+        }
+      },
+      "exit_reasons": {
+        "STOP": 85,
+        "TARGET": 48
+      },
+      "extra_cost_average_r": -0.07538762438990686,
+      "first_half_r": -12.494266692243603,
+      "label": "zone_breakout_retest-w864-r6-rr2-HOUR_4-all",
+      "max_drawdown_r": 18.494266692243603,
+      "median_spread_r": 0.11631127111611178,
+      "pnl": 8.800500000000193,
+      "profit_factor": 1.0159346525505129,
+      "quarters": [
+        -9.494266692243603,
+        -3.0,
+        16.0,
+        -2.0
+      ],
+      "second_half_r": 14.0,
+      "side": {
+        "BUY": {
+          "total_r": -1.494266692243602,
+          "trades": 112
+        },
+        "SELL": {
+          "total_r": 3.0,
+          "trades": 21
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 4,
+        "trend_filter": 230
+      },
+      "total_r": 1.505733307756398,
+      "trades": 133,
+      "trades_per_week": 2.557131276524725,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "all",
+        "parameter": 2.0,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.3609022556390977
+    },
+    {
+      "adds": 0,
+      "average_r": -0.20485175202155795,
+      "by_strategy": {
+        "zone_ema_room-w864-r6-room1-HOUR_4-london-ny": {
+          "total_r": -75.999999999998,
+          "trades": 371,
+          "wins": 118
+        }
+      },
+      "exit_reasons": {
+        "STOP": 253,
+        "TARGET": 118
+      },
+      "extra_cost_average_r": -0.26531972044433655,
+      "first_half_r": -22.499999999998636,
+      "label": "zone_ema_room-w864-r6-room1-HOUR_4-london-ny",
+      "max_drawdown_r": 76.499999999998,
+      "median_spread_r": 0.08003811338726366,
+      "pnl": -25.607937500000027,
+      "profit_factor": 0.6996047430830118,
+      "quarters": [
+        -19.49999999999946,
+        -2.999999999999174,
+        -33.499999999999844,
+        -19.99999999999952
+      ],
+      "second_half_r": -53.49999999999937,
+      "side": {
+        "BUY": {
+          "total_r": -56.99999999999839,
+          "trades": 267
+        },
+        "SELL": {
+          "total_r": -18.999999999999616,
+          "trades": 104
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 327,
+        "risk: Reward-to-risk is below the configured minimum": 129,
+        "trend_filter": 1261
+      },
+      "total_r": -75.999999999998,
+      "trades": 371,
+      "trades_per_week": 7.13305040293739,
+      "variant": {
+        "family": "ema_room",
+        "hours": "london-ny",
+        "parameter": 1.0,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.31805929919137466
+    },
+    {
+      "adds": 0,
+      "average_r": -0.13669064748200968,
+      "by_strategy": {
+        "zone_ema_room-w864-r6-room1.5-HOUR_4-london-ny": {
+          "total_r": -37.9999999999987,
+          "trades": 278,
+          "wins": 96
+        }
+      },
+      "exit_reasons": {
+        "STOP": 182,
+        "TARGET": 96
+      },
+      "extra_cost_average_r": -0.19488994642555188,
+      "first_half_r": -7.499999999999006,
+      "label": "zone_ema_room-w864-r6-room1.5-HOUR_4-london-ny",
+      "max_drawdown_r": 39.9999999999987,
+      "median_spread_r": 0.07698476670584524,
+      "pnl": -12.535625000000165,
+      "profit_factor": 0.7912087912087984,
+      "quarters": [
+        -15.999999999999734,
+        8.500000000000728,
+        -18.999999999999865,
+        -11.499999999999824
+      ],
+      "second_half_r": -30.499999999999687,
+      "side": {
+        "BUY": {
+          "total_r": -30.999999999998867,
+          "trades": 206
+        },
+        "SELL": {
+          "total_r": -6.999999999999826,
+          "trades": 72
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 260,
+        "risk: Reward-to-risk is below the configured minimum": 95,
+        "trend_filter": 849
+      },
+      "total_r": -37.99999999999869,
+      "trades": 278,
+      "trades_per_week": 5.3449811644652145,
+      "variant": {
+        "family": "ema_room",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.34532374100719426
+    },
+    {
+      "adds": 0,
+      "average_r": -0.16826406256799112,
+      "by_strategy": {
+        "zone_rejection-w864-r6-rr1.5-HOUR_4-london-ny": {
+          "total_r": -26.753985948310586,
+          "trades": 159,
+          "wins": 54
+        }
+      },
+      "exit_reasons": {
+        "STOP": 105,
+        "TARGET": 54
+      },
+      "extra_cost_average_r": -0.23056169676584218,
+      "first_half_r": -31.660670945733546,
+      "label": "zone_rejection-w864-r6-rr1.5-HOUR_4-london-ny",
+      "max_drawdown_r": 36.160670945733756,
+      "median_spread_r": 0.08003430041451332,
+      "pnl": -11.413040178570647,
+      "profit_factor": 0.7517123314478206,
+      "quarters": [
+        -15.072220356063216,
+        -16.58845058967033,
+        -2.0933150025776097,
+        7.000000000000567
+      ],
+      "second_half_r": 4.906684997422957,
+      "side": {
+        "BUY": {
+          "total_r": -13.160670945733166,
+          "trades": 110
+        },
+        "SELL": {
+          "total_r": -13.593315002577425,
+          "trades": 49
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 43,
+        "risk: Reward-to-risk is below the configured minimum": 57,
+        "trend_filter": 526
+      },
+      "total_r": -26.75398594831059,
+      "trades": 159,
+      "trades_per_week": 3.0570216012588816,
+      "variant": {
+        "family": "rejection",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.33962264150943394
+    },
+    {
+      "adds": 0,
+      "average_r": -0.12346663719115031,
+      "by_strategy": {
+        "zone_rejection-w864-r6-rr2-HOUR_4-london-ny": {
+          "total_r": -18.149595667099096,
+          "trades": 147,
+          "wins": 44
+        }
+      },
+      "exit_reasons": {
+        "STOP": 103,
+        "TARGET": 44
+      },
+      "extra_cost_average_r": -0.18804887482375082,
+      "first_half_r": -23.660670945733916,
+      "label": "zone_rejection-w864-r6-rr2-HOUR_4-london-ny",
+      "max_drawdown_r": 31.660670945733916,
+      "median_spread_r": 0.08089757788804511,
+      "pnl": -8.203464285714109,
+      "profit_factor": 0.8290187018326577,
+      "quarters": [
+        -15.072220356063378,
+        -8.588450589670538,
+        0.9066849974222988,
+        4.60439028121252
+      ],
+      "second_half_r": 5.511075278634818,
+      "side": {
+        "BUY": {
+          "total_r": -8.056280664521395,
+          "trades": 106
+        },
+        "SELL": {
+          "total_r": -10.0933150025777,
+          "trades": 41
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 30,
+        "trend_filter": 376
+      },
+      "total_r": -18.149595667099096,
+      "trades": 147,
+      "trades_per_week": 2.826302989843117,
+      "variant": {
+        "family": "rejection",
+        "hours": "london-ny",
+        "parameter": 2.0,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.29931972789115646
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1836734693877454,
+      "by_strategy": {
+        "zone_breakout_retest-w864-r6-rr1.5-HOUR_4-london-ny": {
+          "total_r": -8.999999999999522,
+          "trades": 49,
+          "wins": 16
+        }
+      },
+      "exit_reasons": {
+        "STOP": 33,
+        "TARGET": 16
+      },
+      "extra_cost_average_r": -0.26869763774729255,
+      "first_half_r": -12.499999999999524,
+      "label": "zone_breakout_retest-w864-r6-rr1.5-HOUR_4-london-ny",
+      "max_drawdown_r": 12.999999999999522,
+      "median_spread_r": 0.12336613305910686,
+      "pnl": -1.9398571428567266,
+      "profit_factor": 0.7272727272727417,
+      "quarters": [
+        -5.999999999999897,
+        -6.499999999999626,
+        3.0,
+        0.5
+      ],
+      "second_half_r": 3.5,
+      "side": {
+        "BUY": {
+          "total_r": -6.499999999999626,
+          "trades": 39
+        },
+        "SELL": {
+          "total_r": -2.4999999999998974,
+          "trades": 10
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 2,
+        "risk: Reward-to-risk is below the configured minimum": 17,
+        "trend_filter": 127
+      },
+      "total_r": -8.999999999999524,
+      "trades": 49,
+      "trades_per_week": 0.9421009966143723,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "london-ny",
+        "parameter": 1.5,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.32653061224489793
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1206896551724138,
+      "by_strategy": {
+        "zone_breakout_retest-w864-r6-rr2-HOUR_4-london-ny": {
+          "total_r": -7.0,
+          "trades": 58,
+          "wins": 17
+        }
+      },
+      "exit_reasons": {
+        "STOP": 41,
+        "TARGET": 17
+      },
+      "extra_cost_average_r": -0.2044409371141223,
+      "first_half_r": -10.0,
+      "label": "zone_breakout_retest-w864-r6-rr2-HOUR_4-london-ny",
+      "max_drawdown_r": 12.0,
+      "median_spread_r": 0.11876603083535693,
+      "pnl": -2.762767857142535,
+      "profit_factor": 0.8292682926829268,
+      "quarters": [
+        -5.0,
+        -5.0,
+        0.0,
+        3.0
+      ],
+      "second_half_r": 3.0,
+      "side": {
+        "BUY": {
+          "total_r": -3.0,
+          "trades": 48
+        },
+        "SELL": {
+          "total_r": -4.0,
+          "trades": 10
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 2,
+        "trend_filter": 110
+      },
+      "total_r": -7.0,
+      "trades": 58,
+      "trades_per_week": 1.1151399551761958,
+      "variant": {
+        "family": "breakout_retest",
+        "hours": "london-ny",
+        "parameter": 2.0,
+        "radius": 6,
+        "trend": "HOUR_4",
+        "window": 864
+      },
+      "win_rate": 0.29310344827586204
+    }
+  ]
+}

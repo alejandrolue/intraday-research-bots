@@ -1,0 +1,82 @@
+{
+  "created_utc": "2026-09-29T17:56:25.343973+00:00",
+  "selected": [
+    {
+      "eligible": true,
+      "id": "1m-US500-orbside-nycash-15-rr1-none",
+      "variant": {
+        "bias": null,
+        "family": "orbside",
+        "market": "US500",
+        "minutes": 15,
+        "reward": 1.0,
+        "timeframe": "1m"
+      }
+    },
+    {
+      "eligible": true,
+      "id": "1m-US500-orbmid-nycash-30-rr1-none",
+      "variant": {
+        "bias": null,
+        "family": "orbmid",
+        "market": "US500",
+        "minutes": 30,
+        "reward": 1.0,
+        "timeframe": "1m"
+      }
+    },
+    {
+      "eligible": true,
+      "id": "1m-US100-orbside-nycash-15-rr1-none",
+      "variant": {
+        "bias": null,
+        "family": "orbside",
+        "market": "US100",
+        "minutes": 15,
+        "reward": 1.0,
+        "timeframe": "1m"
+      }
+    },
+    {
+      "eligible": true,
+      "id": "1m-US100-orbmid-nycash-5-rr1.5-none",
+      "variant": {
+        "bias": null,
+        "family": "orbmid",
+        "market": "US100",
+        "minutes": 5,
+        "reward": 1.5,
+        "timeframe": "1m"
+      }
+    }
+  ],
+  "source_hashes": {
+    "research/FLUX_ORB_PROTOCOL.md": "8f7143e1f1881b58807b0c7e56313f820f68384054b9f8203d05653ea73d201b",
+    "research/orb_flux_study.py": "9d8b862a990876be70f7f6b86c6871a2aa9a8af5b9a5d3f6e70d96f917ef90b4",
+    "src/goldbot/__init__.py": "6d5e141a0f8090e139e30ddb37030766118878e9d0f8d8c9676221c6f019aaaf",
+    "src/goldbot/ai_review.py": "f90eb17f839f43307015008959f30329efefb9492bc8eb5f9e42187195f83615",
+    "src/goldbot/backtest.py": "aeeddc7ff6701c09480822d65afa9524691ddc69dd0d50db1f59d0a2551e6216",
+    "src/goldbot/capital.py": "dd5cda3687ed8ab15a619b1e24551513b5eee4d0587427900bf0aab83427ede9",
+    "src/goldbot/cli.py": "440545ee6dcb0e3b0b76726951135ab929d935e3ad938253c023195b6ce13838",
+    "src/goldbot/commands.py": "4235e749285e2ba1ebb6b38ec64a8e066aa3ccbcdc8aa798584d0d21992d7aeb",
+    "src/goldbot/config.py": "e1b124914d3492d692db3479b8e59046346bec95cb140079ade53bf7e5da0f2f",
+    "src/goldbot/control.py": "4c9478ada654fcf36e6fc8402e56c7773baffd55b0b82b6c5c064ad00a7e2861",
+    "src/goldbot/execution.py": "251afd993869ed9823e306d1bc41f80fdca466065de31fad92df37721d55bbd7",
+    "src/goldbot/history.py": "87b88c9f63e65d672e2a603598ab1ff51abd8620bf74ca28611226c47d44763c",
+    "src/goldbot/indicators.py": "91dacb0c236dbf7aa210dd555c3af10d6479787760fa2af50522bf6b5cfee3d5",
+    "src/goldbot/lab.py": "432457adb0aac1e9b948841239219dd2d1c5081488a18979e21a54e21d199df4",
+    "src/goldbot/management.py": "bffa35701b9952ebba32b4202741af5f440f829019034c9eadc4136976503af8",
+    "src/goldbot/models.py": "440f54fded65a7ce167ca09922035ca20e580d6c70c4e814bfe4ddd4a744c20c",
+    "src/goldbot/paper.py": "649523c5f813a6a8cc8cd9383c1c8b311dc94990e23a2d76df822199730633bc",
+    "src/goldbot/risk.py": "51adfe6f9325e377e28a5bed6cc1b926a94a6646af94cb788898e6edcbdfcbe7",
+    "src/goldbot/runner.py": "4def185ef98dc0abc493a50f93e7192918fc804b55d4b0f9513d14039f071f11",
+    "src/goldbot/session_strategies.py": "f4b9a102bd568339a8a20f0b5dcd6e0f736c8af9f3708e71d4aa577d99f928e1",
+    "src/goldbot/sessions.py": "3b6712cdf1d21a0a23b07350175ebbbd5053b7de7ba7262764259af8ed350d24",
+    "src/goldbot/stats.py": "663b82cfc62c556c1c3ad7010cb3792fd2d6980690e3e9211da9c95942008178",
+    "src/goldbot/strategy.py": "9733689dad8352585904a53a9693ff37dd850d4ed83263cb2a7b9fef6aee2533",
+    "src/goldbot/structure_strategies.py": "6ae88a8f5646126cf22ce5057132eb521b769fabf0d3f4adb40e3e4ccdebdd17",
+    "src/goldbot/telegram.py": "d7bf8deeb337f81e1f7c6e50c875415a4f1f498cf6287c7a286b2d9fe82c9df3"
+  },
+  "training_sha256": "1d9f63a98b15df86999a3973bea9eb38118e82096a439555ba6540436fd9d80b",
+  "trial_count": 96
+}

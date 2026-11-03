@@ -1,0 +1,473 @@
+{
+ "issue": 189,
+ "GOLD": {
+  "period": "2024-01-01 .. 2026-10-09",
+  "events": 4147,
+  "by_session": {
+   "Asia": {
+    "hold": 627,
+    "break": 384,
+    "neither": 142,
+    "hold_rate": 0.62
+   },
+   "London": {
+    "hold": 526,
+    "break": 356,
+    "neither": 60,
+    "hold_rate": 0.596
+   },
+   "London open": {
+    "hold": 374,
+    "break": 233,
+    "neither": 53,
+    "hold_rate": 0.616
+   },
+   "US afternoon": {
+    "hold": 106,
+    "break": 47,
+    "neither": 121,
+    "hold_rate": 0.693
+   },
+   "US midday": {
+    "hold": 266,
+    "break": 148,
+    "neither": 66,
+    "hold_rate": 0.643
+   },
+   "US open": {
+    "hold": 433,
+    "break": 201,
+    "neither": 4,
+    "hold_rate": 0.683
+   }
+  },
+  "by_session_period": {
+   "Asia | 2024": {
+    "hold": 192,
+    "break": 126,
+    "neither": 50,
+    "hold_rate": 0.604
+   },
+   "Asia | 2025-26": {
+    "hold": 435,
+    "break": 258,
+    "neither": 92,
+    "hold_rate": 0.628
+   },
+   "London open | 2024": {
+    "hold": 155,
+    "break": 102,
+    "neither": 14,
+    "hold_rate": 0.603
+   },
+   "London open | 2025-26": {
+    "hold": 219,
+    "break": 131,
+    "neither": 39,
+    "hold_rate": 0.626
+   },
+   "London | 2024": {
+    "hold": 195,
+    "break": 141,
+    "neither": 15,
+    "hold_rate": 0.58
+   },
+   "London | 2025-26": {
+    "hold": 331,
+    "break": 215,
+    "neither": 45,
+    "hold_rate": 0.606
+   },
+   "US afternoon | 2024": {
+    "hold": 26,
+    "break": 15,
+    "neither": 51,
+    "hold_rate": 0.634
+   },
+   "US afternoon | 2025-26": {
+    "hold": 80,
+    "break": 32,
+    "neither": 70,
+    "hold_rate": 0.714
+   },
+   "US midday | 2024": {
+    "hold": 100,
+    "break": 60,
+    "neither": 18,
+    "hold_rate": 0.625
+   },
+   "US midday | 2025-26": {
+    "hold": 166,
+    "break": 88,
+    "neither": 48,
+    "hold_rate": 0.654
+   },
+   "US open | 2024": {
+    "hold": 190,
+    "break": 79,
+    "neither": 1,
+    "hold_rate": 0.706
+   },
+   "US open | 2025-26": {
+    "hold": 243,
+    "break": 122,
+    "neither": 3,
+    "hold_rate": 0.666
+   }
+  },
+  "by_kind_session": {
+   "asia | London": {
+    "hold": 130,
+    "break": 98,
+    "neither": 18,
+    "hold_rate": 0.57
+   },
+   "asia | London open": {
+    "hold": 201,
+    "break": 121,
+    "neither": 23,
+    "hold_rate": 0.624
+   },
+   "asia | US afternoon": {
+    "hold": 19,
+    "break": 6,
+    "neither": 2,
+    "hold_rate": 0.76
+   },
+   "asia | US midday": {
+    "hold": 46,
+    "break": 26,
+    "neither": 4,
+    "hold_rate": 0.639
+   },
+   "asia | US open": {
+    "hold": 105,
+    "break": 59,
+    "neither": 1,
+    "hold_rate": 0.64
+   },
+   "fvg | Asia": {
+    "hold": 428,
+    "break": 255,
+    "neither": 126,
+    "hold_rate": 0.627
+   },
+   "fvg | London": {
+    "hold": 344,
+    "break": 229,
+    "neither": 40,
+    "hold_rate": 0.6
+   },
+   "fvg | London open": {
+    "hold": 152,
+    "break": 95,
+    "neither": 29,
+    "hold_rate": 0.615
+   },
+   "fvg | US afternoon": {
+    "hold": 76,
+    "break": 35,
+    "neither": 117,
+    "hold_rate": 0.685
+   },
+   "fvg | US midday": {
+    "hold": 182,
+    "break": 106,
+    "neither": 61,
+    "hold_rate": 0.632
+   },
+   "fvg | US open": {
+    "hold": 254,
+    "break": 114,
+    "neither": 2,
+    "hold_rate": 0.69
+   },
+   "prev-day | Asia": {
+    "hold": 199,
+    "break": 129,
+    "neither": 16,
+    "hold_rate": 0.607
+   },
+   "prev-day | London": {
+    "hold": 52,
+    "break": 29,
+    "neither": 2,
+    "hold_rate": 0.642
+   },
+   "prev-day | London open": {
+    "hold": 21,
+    "break": 17,
+    "neither": 1,
+    "hold_rate": 0.553
+   },
+   "prev-day | US afternoon": {
+    "hold": 11,
+    "break": 6,
+    "neither": 2,
+    "hold_rate": 0.647
+   },
+   "prev-day | US midday": {
+    "hold": 38,
+    "break": 16,
+    "neither": 1,
+    "hold_rate": 0.704
+   },
+   "prev-day | US open": {
+    "hold": 74,
+    "break": 28,
+    "neither": 1,
+    "hold_rate": 0.725
+   }
+  }
+ },
+ "US100": {
+  "period": "2024-01-01 .. 2026-09-30",
+  "events": 4756,
+  "by_session": {
+   "Asia": {
+    "hold": 412,
+    "break": 301,
+    "neither": 346,
+    "hold_rate": 0.578
+   },
+   "London": {
+    "hold": 541,
+    "break": 356,
+    "neither": 89,
+    "hold_rate": 0.603
+   },
+   "London open": {
+    "hold": 411,
+    "break": 277,
+    "neither": 78,
+    "hold_rate": 0.597
+   },
+   "US afternoon": {
+    "hold": 214,
+    "break": 105,
+    "neither": 72,
+    "hold_rate": 0.671
+   },
+   "US midday": {
+    "hold": 404,
+    "break": 204,
+    "neither": 23,
+    "hold_rate": 0.664
+   },
+   "US open": {
+    "hold": 670,
+    "break": 231,
+    "neither": 0,
+    "hold_rate": 0.744
+   },
+   "other": {
+    "hold": 6,
+    "break": 6,
+    "neither": 10,
+    "hold_rate": 0.5
+   }
+  },
+  "by_session_period": {
+   "Asia | 2024": {
+    "hold": 87,
+    "break": 82,
+    "neither": 144,
+    "hold_rate": 0.515
+   },
+   "Asia | 2025-26": {
+    "hold": 325,
+    "break": 219,
+    "neither": 202,
+    "hold_rate": 0.597
+   },
+   "London open | 2024": {
+    "hold": 159,
+    "break": 120,
+    "neither": 29,
+    "hold_rate": 0.57
+   },
+   "London open | 2025-26": {
+    "hold": 252,
+    "break": 157,
+    "neither": 49,
+    "hold_rate": 0.616
+   },
+   "London | 2024": {
+    "hold": 182,
+    "break": 132,
+    "neither": 31,
+    "hold_rate": 0.58
+   },
+   "London | 2025-26": {
+    "hold": 359,
+    "break": 224,
+    "neither": 58,
+    "hold_rate": 0.616
+   },
+   "US afternoon | 2024": {
+    "hold": 80,
+    "break": 31,
+    "neither": 24,
+    "hold_rate": 0.721
+   },
+   "US afternoon | 2025-26": {
+    "hold": 134,
+    "break": 74,
+    "neither": 48,
+    "hold_rate": 0.644
+   },
+   "US midday | 2024": {
+    "hold": 152,
+    "break": 77,
+    "neither": 7,
+    "hold_rate": 0.664
+   },
+   "US midday | 2025-26": {
+    "hold": 252,
+    "break": 127,
+    "neither": 16,
+    "hold_rate": 0.665
+   },
+   "US open | 2024": {
+    "hold": 265,
+    "break": 90,
+    "neither": 0,
+    "hold_rate": 0.746
+   },
+   "US open | 2025-26": {
+    "hold": 405,
+    "break": 141,
+    "neither": 0,
+    "hold_rate": 0.742
+   },
+   "other | 2025-26": {
+    "hold": 6,
+    "break": 6,
+    "neither": 10,
+    "hold_rate": 0.5
+   }
+  },
+  "by_kind_session": {
+   "asia | London": {
+    "hold": 158,
+    "break": 105,
+    "neither": 36,
+    "hold_rate": 0.601
+   },
+   "asia | London open": {
+    "hold": 213,
+    "break": 157,
+    "neither": 38,
+    "hold_rate": 0.576
+   },
+   "asia | US afternoon": {
+    "hold": 19,
+    "break": 9,
+    "neither": 1,
+    "hold_rate": 0.679
+   },
+   "asia | US midday": {
+    "hold": 59,
+    "break": 37,
+    "neither": 3,
+    "hold_rate": 0.615
+   },
+   "asia | US open": {
+    "hold": 188,
+    "break": 58,
+    "neither": 0,
+    "hold_rate": 0.764
+   },
+   "asia | other": {
+    "hold": 1,
+    "break": 0,
+    "neither": 0,
+    "hold_rate": 1.0
+   },
+   "fvg | Asia": {
+    "hold": 324,
+    "break": 202,
+    "neither": 273,
+    "hold_rate": 0.616
+   },
+   "fvg | London": {
+    "hold": 335,
+    "break": 230,
+    "neither": 52,
+    "hold_rate": 0.593
+   },
+   "fvg | London open": {
+    "hold": 176,
+    "break": 102,
+    "neither": 38,
+    "hold_rate": 0.633
+   },
+   "fvg | US afternoon": {
+    "hold": 164,
+    "break": 84,
+    "neither": 69,
+    "hold_rate": 0.661
+   },
+   "fvg | US midday": {
+    "hold": 288,
+    "break": 142,
+    "neither": 18,
+    "hold_rate": 0.67
+   },
+   "fvg | US open": {
+    "hold": 377,
+    "break": 128,
+    "neither": 0,
+    "hold_rate": 0.747
+   },
+   "fvg | other": {
+    "hold": 4,
+    "break": 3,
+    "neither": 9,
+    "hold_rate": 0.571
+   },
+   "prev-day | Asia": {
+    "hold": 88,
+    "break": 99,
+    "neither": 73,
+    "hold_rate": 0.471
+   },
+   "prev-day | London": {
+    "hold": 48,
+    "break": 21,
+    "neither": 1,
+    "hold_rate": 0.696
+   },
+   "prev-day | London open": {
+    "hold": 22,
+    "break": 18,
+    "neither": 2,
+    "hold_rate": 0.55
+   },
+   "prev-day | US afternoon": {
+    "hold": 31,
+    "break": 12,
+    "neither": 2,
+    "hold_rate": 0.721
+   },
+   "prev-day | US midday": {
+    "hold": 57,
+    "break": 25,
+    "neither": 2,
+    "hold_rate": 0.695
+   },
+   "prev-day | US open": {
+    "hold": 105,
+    "break": 45,
+    "neither": 0,
+    "hold_rate": 0.7
+   },
+   "prev-day | other": {
+    "hold": 1,
+    "break": 3,
+    "neither": 1,
+    "hold_rate": 0.25
+   }
+  }
+ }
+}

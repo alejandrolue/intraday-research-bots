@@ -1,0 +1,46 @@
+{
+  "account": "YOUR_DEMO_ACCOUNT_ID",
+  "poll_seconds": 20,
+  "starting_balance": 1000,
+  "risk_per_trade": 0.01,
+  "max_size": 100,
+  "max_daily_loss": 0.05,
+  "max_open_positions": 40,
+  "max_account_open_risk": 0.05,
+  "max_account_daily_loss": 0.1,
+  "notes": {
+    "issue": "#24"
+  },
+  "entries": [
+    {
+      "name": "us100-orb15-rr2-hour4",
+      "epic": "US100",
+      "strategies": [
+        "orb-nycash-15-rr2"
+      ],
+      "resolution": "MINUTE_5",
+      "trend_resolution": "HOUR_4",
+      "max_positions": 1,
+      "max_trades_per_day": 3,
+      "manage": false,
+      "hours": "london-ny",
+      "max_spread": 6.0,
+      "source": "#18 year-1 eligible: US100-orb-nycash-15-rr2-HOUR_4"
+    },
+    {
+      "name": "us100-orb15-rr1.6-hour4",
+      "epic": "US100",
+      "strategies": [
+        "orb-nycash-15-rr1.6"
+      ],
+      "resolution": "MINUTE_5",
+      "trend_resolution": "HOUR_4",
+      "max_positions": 1,
+      "max_trades_per_day": 3,
+      "manage": false,
+      "hours": "london-ny",
+      "max_spread": 6.0,
+      "source": "#18 year-1 eligible: US100-orb-nycash-15-rr1.6-HOUR_4"
+    }
+  ]
+}

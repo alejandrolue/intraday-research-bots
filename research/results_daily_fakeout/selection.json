@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-09-30T21:48:49.372215+00:00",
+  "selected": {
+    "eligible": false,
+    "id": "both-r3-w144-rr2-MINUTE_30-all",
+    "variant": {
+      "hours": "all",
+      "mode": "both",
+      "radius": 3,
+      "reward": 2.0,
+      "trend": "MINUTE_30",
+      "window": 144
+    }
+  },
+  "source_hashes": {
+    "research/DAILY_FAKEOUT_PROTOCOL.md": "4c2ca811e527b36e0408a94a70e1cad51e30d1ebf0f31fce67567051eeb9276a",
+    "research/daily_fakeout_study.py": "63acaa180e1bfa73276c59b8f7dda2fa1d1dd7b7a31e420a0c6125e1fa180ab7",
+    "src/goldbot/backtest.py": "4b5d03aebfeb2d54e55bf87033234c88b1457a8a334d18501eb0774560f48b27",
+    "src/goldbot/evolution_strategy.py": "42a3361bb5d95615d3d2fece5e7a8fd712757a4dd52590aa83b32e5f968adb3f",
+    "src/goldbot/risk.py": "51adfe6f9325e377e28a5bed6cc1b926a94a6646af94cb788898e6edcbdfcbe7"
+  },
+  "training_sha256": "243f5d66a1d82e2f64d5d032f77048e7c9012f796537ed3a63c1908bfde8b884",
+  "trial_count": 64
+}

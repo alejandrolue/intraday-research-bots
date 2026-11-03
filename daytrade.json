@@ -1,0 +1,85 @@
+{
+  "account": "YOUR_DEMO_ACCOUNT_ID",
+  "notes": {
+    "issue": "#166 Part C; rules pre-registered before the forward test"
+  },
+  "risk_per_trade": 0.01,
+  "max_size": 100,
+  "max_account_open_risk": 0.03,
+  "max_account_daily_loss": 0.02,
+  "prior_trades": 50,
+  "min_trades": 20,
+  "min_multiplier": 0.25,
+  "max_multiplier": 1.25,
+  "pause_after": 40,
+  "poll_seconds": 15,
+  "starting_balance": 10000,
+  "lanes": [
+    {
+      "name": "gold-london",
+      "epic": "GOLD",
+      "strategy": "rangebreak-london",
+      "resolution": "MINUTE_5",
+      "entry_orders": "stop",
+      "trail": true,
+      "flat_at": "Europe/London 16:00",
+      "prior_r": 0.043,
+      "window": [
+        "Europe/London",
+        "07:00",
+        "12:00"
+      ]
+    },
+    {
+      "name": "us100-orb",
+      "epic": "US100",
+      "strategy": "orb-nycash-15-rr2",
+      "resolution": "MINUTE_5",
+      "trend_resolution": "HOUR_4",
+      "max_trades_per_day": 3,
+      "max_spread": 6.0,
+      "hours": "london-ny",
+      "flat_at": "America/New_York 15:45",
+      "prior_r": 0.073,
+      "window": [
+        "America/New_York",
+        "09:45",
+        "15:45"
+      ]
+    },
+    {
+      "name": "us100-orbmid5",
+      "epic": "US100",
+      "strategy": "orbmid-nycash-5-rr1.5",
+      "resolution": "MINUTE",
+      "max_spread": 6.0,
+      "min_rr": 1.5,
+      "hours": "london-ny",
+      "price_count": 500,
+      "flat_at": "America/New_York 15:45",
+      "prior_r": 0.052,
+      "window": [
+        "America/New_York",
+        "09:35",
+        "15:45"
+      ]
+    },
+    {
+      "name": "us500-orbmid30",
+      "epic": "US500",
+      "strategy": "orbmid-nycash-30-rr1",
+      "resolution": "MINUTE",
+      "max_spread": 3.0,
+      "min_rr": 1.0,
+      "hours": "london-ny",
+      "price_count": 500,
+      "flat_at": "America/New_York 15:45",
+      "prior_r": 0.032,
+      "window": [
+        "America/New_York",
+        "10:00",
+        "15:45"
+      ]
+    }
+  ]
+}

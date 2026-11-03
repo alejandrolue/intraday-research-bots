@@ -1,0 +1,2678 @@
+{
+  "data": {
+    "GOLD": {
+      "bars": 70655,
+      "entry_sha256": "7f09b8a2032552fe5a5772f182ad6cd85a0c2cdfea5ac65b35cb4a1a76edd688",
+      "first_bar": "2024-09-29T22:00:00+00:00",
+      "last_bar": "2025-09-28T23:55:00+00:00",
+      "median_spread": 0.3000000000001819,
+      "repaired_in_period": [
+        "2025-02-07T16:15:00+00:00"
+      ]
+    },
+    "US100": {
+      "bars": 71555,
+      "entry_sha256": "9eec111cb13b0a7748aba62f9be2d8f8d0c720d681e410e51cbdc06fa35e16c3",
+      "first_bar": "2024-09-29T22:00:00+00:00",
+      "last_bar": "2025-09-28T23:55:00+00:00",
+      "median_spread": 1.7999999999992724,
+      "repaired_in_period": [
+        "2025-08-19T13:30:00+00:00",
+        "2025-08-19T14:15:00+00:00",
+        "2025-08-19T14:55:00+00:00",
+        "2025-08-19T15:00:00+00:00"
+      ]
+    },
+    "US500": {
+      "bars": 71383,
+      "entry_sha256": "3898826ebbbfb9cc8dd3868e449fa3555734a22a07ab8772a3c9d057ea53d97e",
+      "first_bar": "2024-09-29T22:00:00+00:00",
+      "last_bar": "2025-09-28T23:55:00+00:00",
+      "median_spread": 0.5,
+      "repaired_in_period": [
+        "2025-08-19T14:45:00+00:00"
+      ]
+    },
+    "end_exclusive": "2025-09-29T00:00:00+00:00",
+    "start_inclusive": "2024-09-29T00:00:00+00:00",
+    "timeframe": "ts5m"
+  },
+  "rows": [
+    {
+      "adds": 0,
+      "average_r": -0.16103157905670748,
+      "buckets": [
+        -22.015415279758027,
+        -21.86174844895811,
+        3.935155437632087,
+        -4.180644370453796
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r2-rr1.5": {
+          "total_r": -44.122652661537856,
+          "trades": 274,
+          "wins": 34
+        }
+      },
+      "exit_reasons": {
+        "STOP": 240,
+        "TARGET": 34
+      },
+      "extra_cost_average_r": -0.21141462783677267,
+      "first_half_r": -43.877163728716134,
+      "label": "ts5m-GOLD-turtlesoup-day-r2-rr1.5-none",
+      "max_drawdown_r": 50.87716372871614,
+      "median_hold_hours": 1.375,
+      "median_spread_r": 0.06469990522318303,
+      "pnl": -21.546410714285503,
+      "profit_factor": 0.8166711838771926,
+      "second_half_r": -0.24548893282170892,
+      "side": {
+        "BUY": {
+          "total_r": 56.40743338970026,
+          "trades": 97
+        },
+        "SELL": {
+          "total_r": -100.5300860512381,
+          "trades": 177
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 137,
+        "risk: The daily paper-trade limit has been reached": 17
+      },
+      "total_r": -44.12265266153785,
+      "trades": 274,
+      "trades_per_week": 5.268074960659959,
+      "variant": {
+        "bias": null,
+        "market": "GOLD",
+        "name": "turtlesoup-day-r2-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.12408759124087591
+    },
+    {
+      "adds": 0,
+      "average_r": 0.12194334077249203,
+      "buckets": [
+        30.548967920466445,
+        -2.038942308736273,
+        -23.036923707596962,
+        5.623742106163567
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r2-rr1.5": {
+          "total_r": 11.096844010296774,
+          "trades": 91,
+          "wins": 14
+        }
+      },
+      "exit_reasons": {
+        "STOP": 77,
+        "TARGET": 14
+      },
+      "extra_cost_average_r": 0.07230981406738511,
+      "first_half_r": 28.51002561173017,
+      "label": "ts5m-GOLD-turtlesoup-day-r2-rr1.5-DAY",
+      "max_drawdown_r": 34.890534439697305,
+      "median_hold_hours": 1.5,
+      "median_spread_r": 0.06229513059723726,
+      "pnl": -14.896303571428962,
+      "profit_factor": 1.1439457688696955,
+      "second_half_r": -17.413181601433397,
+      "side": {
+        "BUY": {
+          "total_r": 19.001961826042827,
+          "trades": 78
+        },
+        "SELL": {
+          "total_r": -7.905117815746054,
+          "trades": 13
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 20,
+        "risk: The daily paper-trade limit has been reached": 2,
+        "trend_filter": 316
+      },
+      "total_r": 11.096844010296774,
+      "trades": 91,
+      "trades_per_week": 1.7496161365695486,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "turtlesoup-day-r2-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.15384615384615385
+    },
+    {
+      "adds": 0,
+      "average_r": -0.08210373947299644,
+      "buckets": [
+        -4.8102224012363735,
+        -15.23592566177527,
+        3.383374076404267,
+        -4.930509494790689
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r2-rr2.5": {
+          "total_r": -21.593283481398068,
+          "trades": 263,
+          "wins": 32
+        }
+      },
+      "exit_reasons": {
+        "STOP": 231,
+        "TARGET": 32
+      },
+      "extra_cost_average_r": -0.13532323056253592,
+      "first_half_r": -20.046148063011643,
+      "label": "ts5m-GOLD-turtlesoup-day-r2-rr2.5-none",
+      "max_drawdown_r": 40.38367337528955,
+      "median_hold_hours": 1.4166666666666667,
+      "median_spread_r": 0.06684811154078363,
+      "pnl": -16.393589285714235,
+      "profit_factor": 0.9067949125016453,
+      "second_half_r": -1.5471354183864217,
+      "side": {
+        "BUY": {
+          "total_r": 75.84214399916374,
+          "trades": 96
+        },
+        "SELL": {
+          "total_r": -97.43542748056181,
+          "trades": 167
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 117,
+        "risk: The daily paper-trade limit has been reached": 10
+      },
+      "total_r": -21.593283481398064,
+      "trades": 263,
+      "trades_per_week": 5.056582900195508,
+      "variant": {
+        "bias": null,
+        "market": "GOLD",
+        "name": "turtlesoup-day-r2-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.12167300380228137
+    },
+    {
+      "adds": 0,
+      "average_r": 0.2582948397034385,
+      "buckets": [
+        35.548967920466445,
+        -0.038942308736273024,
+        -21.036923707596962,
+        5.932190432438435
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r2-rr2.5": {
+          "total_r": 20.405292336571648,
+          "trades": 79,
+          "wins": 13
+        }
+      },
+      "exit_reasons": {
+        "STOP": 66,
+        "TARGET": 13
+      },
+      "extra_cost_average_r": 0.20584120957928967,
+      "first_half_r": 35.51002561173017,
+      "label": "ts5m-GOLD-turtlesoup-day-r2-rr2.5-DAY",
+      "max_drawdown_r": 28.853610732100336,
+      "median_hold_hours": 1.6666666666666667,
+      "median_spread_r": 0.06598793363502667,
+      "pnl": -7.957489285714474,
+      "profit_factor": 1.3087479737870218,
+      "second_half_r": -15.10473327515853,
+      "side": {
+        "BUY": {
+          "total_r": 26.310410152317697,
+          "trades": 68
+        },
+        "SELL": {
+          "total_r": -5.905117815746054,
+          "trades": 11
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 17,
+        "risk: The daily paper-trade limit has been reached": 2,
+        "trend_filter": 293
+      },
+      "total_r": 20.40529233657164,
+      "trades": 79,
+      "trades_per_week": 1.518897525153784,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "turtlesoup-day-r2-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.16455696202531644
+    },
+    {
+      "adds": 0,
+      "average_r": -0.10519920796807664,
+      "buckets": [
+        -4.919662265441095,
+        -9.971577772450557,
+        -1.5457528311005304,
+        -7.0224305078889095
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r4-rr1.5": {
+          "total_r": -23.45942337688109,
+          "trades": 223,
+          "wins": 36
+        }
+      },
+      "exit_reasons": {
+        "STOP": 187,
+        "TARGET": 36
+      },
+      "extra_cost_average_r": -0.15301046963696843,
+      "first_half_r": -14.89124003789165,
+      "label": "ts5m-GOLD-turtlesoup-day-r4-rr1.5-none",
+      "max_drawdown_r": 32.66180349639951,
+      "median_hold_hours": 1.9166666666666667,
+      "median_spread_r": 0.056552708470823644,
+      "pnl": -2.5756249999996728,
+      "profit_factor": 0.8746091879458796,
+      "second_half_r": -8.568183338989439,
+      "side": {
+        "BUY": {
+          "total_r": 29.32170408149915,
+          "trades": 76
+        },
+        "SELL": {
+          "total_r": -52.78112745838024,
+          "trades": 147
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 69,
+        "risk: The daily paper-trade limit has been reached": 7
+      },
+      "total_r": -23.45942337688109,
+      "trades": 223,
+      "trades_per_week": 4.2875208621429595,
+      "variant": {
+        "bias": null,
+        "market": "GOLD",
+        "name": "turtlesoup-day-r4-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.16143497757847533
+    },
+    {
+      "adds": 0,
+      "average_r": 0.15723189116162534,
+      "buckets": [
+        21.728771925868923,
+        8.379912320031575,
+        -14.036923707596964,
+        -6.008919503959513
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r4-rr1.5": {
+          "total_r": 10.062841034344022,
+          "trades": 64,
+          "wins": 12
+        }
+      },
+      "exit_reasons": {
+        "STOP": 52,
+        "TARGET": 12
+      },
+      "extra_cost_average_r": 0.10809188940995892,
+      "first_half_r": 30.1086842459005,
+      "label": "ts5m-GOLD-turtlesoup-day-r4-rr1.5-DAY",
+      "max_drawdown_r": 24.202699538725458,
+      "median_hold_hours": 3.541666666666667,
+      "median_spread_r": 0.05773943907629662,
+      "pnl": -6.599107142857157,
+      "profit_factor": 1.193180153976857,
+      "second_half_r": -20.045843211556477,
+      "side": {
+        "BUY": {
+          "total_r": 14.967958850090076,
+          "trades": 54
+        },
+        "SELL": {
+          "total_r": -4.905117815746054,
+          "trades": 10
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 11,
+        "risk: The daily paper-trade limit has been reached": 3,
+        "trend_filter": 222
+      },
+      "total_r": 10.062841034344022,
+      "trades": 64,
+      "trades_per_week": 1.2304992608840781,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "turtlesoup-day-r4-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.1875
+    },
+    {
+      "adds": 0,
+      "average_r": -0.09734203013183017,
+      "buckets": [
+        -3.549419938415357,
+        -7.2539708668790945,
+        -1.0975341923283501,
+        -7.859507119138723
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r4-rr2.5": {
+          "total_r": -19.760432116761525,
+          "trades": 203,
+          "wins": 30
+        }
+      },
+      "exit_reasons": {
+        "STOP": 173,
+        "TARGET": 30
+      },
+      "extra_cost_average_r": -0.14720974700522993,
+      "first_half_r": -10.803390805294452,
+      "label": "ts5m-GOLD-turtlesoup-day-r4-rr2.5-none",
+      "max_drawdown_r": 33.33305456330568,
+      "median_hold_hours": 1.9166666666666667,
+      "median_spread_r": 0.05807281224501419,
+      "pnl": -0.6110035714284553,
+      "profit_factor": 0.8858375364664619,
+      "second_half_r": -8.957041311467073,
+      "side": {
+        "BUY": {
+          "total_r": 30.484627470249336,
+          "trades": 72
+        },
+        "SELL": {
+          "total_r": -50.24505958701086,
+          "trades": 131
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 58,
+        "risk: The daily paper-trade limit has been reached": 6
+      },
+      "total_r": -19.760432116761525,
+      "trades": 203,
+      "trades_per_week": 3.902989843116685,
+      "variant": {
+        "bias": null,
+        "market": "GOLD",
+        "name": "turtlesoup-day-r4-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.1477832512315271
+    },
+    {
+      "adds": 0,
+      "average_r": 0.20224816996119072,
+      "buckets": [
+        22.728771925868923,
+        7.536768647200557,
+        -14.036923707596964,
+        -4.700471177684645
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r4-rr2.5": {
+          "total_r": 11.528145687787873,
+          "trades": 57,
+          "wins": 10
+        }
+      },
+      "exit_reasons": {
+        "STOP": 47,
+        "TARGET": 10
+      },
+      "extra_cost_average_r": 0.1511940528662255,
+      "first_half_r": 30.26554057306948,
+      "label": "ts5m-GOLD-turtlesoup-day-r4-rr2.5-DAY",
+      "max_drawdown_r": 24.737394885281606,
+      "median_hold_hours": 3.6666666666666665,
+      "median_spread_r": 0.06229513059723726,
+      "pnl": -5.179021428571378,
+      "profit_factor": 1.2448085723652667,
+      "second_half_r": -18.73739488528161,
+      "side": {
+        "BUY": {
+          "total_r": 14.433263503533926,
+          "trades": 49
+        },
+        "SELL": {
+          "total_r": -2.905117815746055,
+          "trades": 8
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 10,
+        "risk: The daily paper-trade limit has been reached": 3,
+        "trend_filter": 198
+      },
+      "total_r": 11.528145687787871,
+      "trades": 57,
+      "trades_per_week": 1.095913404224882,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "turtlesoup-day-r4-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.17543859649122806
+    },
+    {
+      "adds": 0,
+      "average_r": 0.04418036824299246,
+      "buckets": [
+        19.80353135026877,
+        24.337265301351696,
+        4.32871765375605,
+        -18.603585373113617
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r2-rr1.5": {
+          "total_r": 29.865928932262932,
+          "trades": 676,
+          "wins": 177
+        }
+      },
+      "exit_reasons": {
+        "STOP": 499,
+        "TARGET": 177
+      },
+      "extra_cost_average_r": -0.010527397514297971,
+      "first_half_r": 44.14079665162047,
+      "label": "ts5m-GOLD-turtlesoup-dayh1-r2-rr1.5-none",
+      "max_drawdown_r": 31.79942919625429,
+      "median_hold_hours": 1.0,
+      "median_spread_r": 0.07199920019381428,
+      "pnl": -2.709296428570453,
+      "profit_factor": 1.0592631678916369,
+      "second_half_r": -14.274867719357566,
+      "side": {
+        "BUY": {
+          "total_r": 53.664603216402114,
+          "trades": 297
+        },
+        "SELL": {
+          "total_r": -23.798674284139214,
+          "trades": 379
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 848,
+        "risk: The daily paper-trade limit has been reached": 927
+      },
+      "total_r": 29.8659289322629,
+      "trades": 676,
+      "trades_per_week": 12.997148443088074,
+      "variant": {
+        "bias": null,
+        "market": "GOLD",
+        "name": "turtlesoup-dayh1-r2-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.2618343195266272
+    },
+    {
+      "adds": 0,
+      "average_r": 0.07607428840532797,
+      "buckets": [
+        -1.370731403364953,
+        28.732352195703598,
+        -9.711479641775572,
+        9.584454098544338
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r2-rr1.5": {
+          "total_r": 27.23459524910742,
+          "trades": 358,
+          "wins": 105
+        }
+      },
+      "exit_reasons": {
+        "STOP": 253,
+        "TARGET": 105
+      },
+      "extra_cost_average_r": 0.02134883875735958,
+      "first_half_r": 27.361620792338645,
+      "label": "ts5m-GOLD-turtlesoup-dayh1-r2-rr1.5-DAY",
+      "max_drawdown_r": 27.520715052834902,
+      "median_hold_hours": 1.1666666666666667,
+      "median_spread_r": 0.07440294370966449,
+      "pnl": -1.8623785714286454,
+      "profit_factor": 1.1058189173511423,
+      "second_half_r": -0.12702554323123327,
+      "side": {
+        "BUY": {
+          "total_r": 34.66684758918205,
+          "trades": 336
+        },
+        "SELL": {
+          "total_r": -7.432252340074637,
+          "trades": 22
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 228,
+        "risk: The daily paper-trade limit has been reached": 198,
+        "trend_filter": 1668
+      },
+      "total_r": 27.234595249107414,
+      "trades": 358,
+      "trades_per_week": 6.883105240570312,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "turtlesoup-dayh1-r2-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.29329608938547486
+    },
+    {
+      "adds": 0,
+      "average_r": 0.015746019492256066,
+      "buckets": [
+        0.46097682039597965,
+        24.504025956664563,
+        -0.8947442517171147,
+        -14.055790128268569
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r2-rr2.5": {
+          "total_r": 10.014468397074866,
+          "trades": 636,
+          "wins": 133
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 503,
+        "TARGET": 132
+      },
+      "extra_cost_average_r": -0.04072897025979613,
+      "first_half_r": 24.96500277706054,
+      "label": "ts5m-GOLD-turtlesoup-dayh1-r2-rr2.5-none",
+      "max_drawdown_r": 34.386138727163015,
+      "median_hold_hours": 1.25,
+      "median_spread_r": 0.07439524234000389,
+      "pnl": -14.452217857142024,
+      "profit_factor": 1.019715293646721,
+      "second_half_r": -14.950534379985685,
+      "side": {
+        "BUY": {
+          "total_r": 72.40268462068939,
+          "trades": 269
+        },
+        "SELL": {
+          "total_r": -62.388216223614535,
+          "trades": 367
+        }
+      },
+      "skipped": {
+        "entry_drift": 1,
+        "risk: 1 position(s) already open": 1039,
+        "risk: The daily paper-trade limit has been reached": 657
+      },
+      "total_r": 10.014468397074857,
+      "trades": 636,
+      "trades_per_week": 12.228086405035526,
+      "variant": {
+        "bias": null,
+        "market": "GOLD",
+        "name": "turtlesoup-dayh1-r2-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.20911949685534592
+    },
+    {
+      "adds": 0,
+      "average_r": 0.1237890413857501,
+      "buckets": [
+        -13.615707668026273,
+        45.288608699045696,
+        -7.458233511265208,
+        16.140559972000325
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r2-rr2.5": {
+          "total_r": 40.35522749175455,
+          "trades": 326,
+          "wins": 77
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 249,
+        "TARGET": 76
+      },
+      "extra_cost_average_r": 0.06713664971629497,
+      "first_half_r": 31.67290103101942,
+      "label": "ts5m-GOLD-turtlesoup-dayh1-r2-rr2.5-DAY",
+      "max_drawdown_r": 30.862579598906727,
+      "median_hold_hours": 1.375,
+      "median_spread_r": 0.07871773037236153,
+      "pnl": 1.1816107142850798,
+      "profit_factor": 1.1592740137217763,
+      "second_half_r": 8.682326460735117,
+      "side": {
+        "BUY": {
+          "total_r": 53.35863162876946,
+          "trades": 304
+        },
+        "SELL": {
+          "total_r": -13.003404137014918,
+          "trades": 22
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 257,
+        "risk: The daily paper-trade limit has been reached": 152,
+        "trend_filter": 1598
+      },
+      "total_r": 40.35522749175453,
+      "trades": 326,
+      "trades_per_week": 6.267855610128272,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "turtlesoup-dayh1-r2-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.2361963190184049
+    },
+    {
+      "adds": 0,
+      "average_r": -0.03419379051140474,
+      "buckets": [
+        10.528712721637852,
+        -22.71799609860158,
+        5.408787887813947,
+        -15.479662133774701
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r4-rr1.5": {
+          "total_r": -22.26015762292449,
+          "trades": 651,
+          "wins": 167
+        }
+      },
+      "exit_reasons": {
+        "STOP": 484,
+        "TARGET": 167
+      },
+      "extra_cost_average_r": -0.08758290933311888,
+      "first_half_r": -12.18928337696373,
+      "label": "ts5m-GOLD-turtlesoup-dayh1-r4-rr1.5-none",
+      "max_drawdown_r": 47.5173390365095,
+      "median_hold_hours": 1.0,
+      "median_spread_r": 0.06883891693441974,
+      "pnl": -45.949185714284255,
+      "profit_factor": 0.9540274384004456,
+      "second_half_r": -10.070874245960754,
+      "side": {
+        "BUY": {
+          "total_r": -6.719088149698819,
+          "trades": 297
+        },
+        "SELL": {
+          "total_r": -15.541069473225665,
+          "trades": 354
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 534,
+        "risk: The daily paper-trade limit has been reached": 557
+      },
+      "total_r": -22.260157622924485,
+      "trades": 651,
+      "trades_per_week": 12.516484669305232,
+      "variant": {
+        "bias": null,
+        "market": "GOLD",
+        "name": "turtlesoup-dayh1-r4-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.2565284178187404
+    },
+    {
+      "adds": 0,
+      "average_r": -0.06779959678238316,
+      "buckets": [
+        1.9299351055360785,
+        -12.364431603978337,
+        -7.906423334978647,
+        -3.2193519433769366
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r4-rr1.5": {
+          "total_r": -21.56027177679784,
+          "trades": 318,
+          "wins": 85
+        }
+      },
+      "exit_reasons": {
+        "STOP": 233,
+        "TARGET": 85
+      },
+      "extra_cost_average_r": -0.12159090298392206,
+      "first_half_r": -10.43449649844226,
+      "label": "ts5m-GOLD-turtlesoup-dayh1-r4-rr1.5-DAY",
+      "max_drawdown_r": 36.92818156615339,
+      "median_hold_hours": 1.0833333333333333,
+      "median_spread_r": 0.07190553460384991,
+      "pnl": -18.404035714285193,
+      "profit_factor": 0.9074808337301757,
+      "second_half_r": -11.125775278355583,
+      "side": {
+        "BUY": {
+          "total_r": -13.663003518994607,
+          "trades": 299
+        },
+        "SELL": {
+          "total_r": -7.897268257803236,
+          "trades": 19
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 151,
+        "risk: The daily paper-trade limit has been reached": 92,
+        "trend_filter": 1181
+      },
+      "total_r": -21.560271776797844,
+      "trades": 318,
+      "trades_per_week": 6.114043202517763,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "turtlesoup-dayh1-r4-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.2672955974842767
+    },
+    {
+      "adds": 0,
+      "average_r": 0.01560236009810436,
+      "buckets": [
+        26.96790255540764,
+        -15.18879618454883,
+        14.156520497068287,
+        -16.948667451418988
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r4-rr2.5": {
+          "total_r": 8.986959416508101,
+          "trades": 576,
+          "wins": 122
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 454,
+        "TARGET": 121
+      },
+      "extra_cost_average_r": -0.040079222818748664,
+      "first_half_r": 11.779106370858813,
+      "label": "ts5m-GOLD-turtlesoup-dayh1-r4-rr2.5-none",
+      "max_drawdown_r": 33.15891443488465,
+      "median_hold_hours": 1.1666666666666667,
+      "median_spread_r": 0.07120436137592134,
+      "pnl": -13.420414285713377,
+      "profit_factor": 1.0197950647940708,
+      "second_half_r": -2.792146954350699,
+      "side": {
+        "BUY": {
+          "total_r": 34.640273970707696,
+          "trades": 253
+        },
+        "SELL": {
+          "total_r": -25.653314554199582,
+          "trades": 323
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 713,
+        "risk: The daily paper-trade limit has been reached": 345
+      },
+      "total_r": 8.986959416508112,
+      "trades": 576,
+      "trades_per_week": 11.074493347956702,
+      "variant": {
+        "bias": null,
+        "market": "GOLD",
+        "name": "turtlesoup-dayh1-r4-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.21180555555555555
+    },
+    {
+      "adds": 0,
+      "average_r": -0.010045610252632453,
+      "buckets": [
+        -14.928387809978986,
+        14.184587685297906,
+        -4.309066392380931,
+        2.3204605283459854
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r4-rr2.5": {
+          "total_r": -2.732405988716026,
+          "trades": 272,
+          "wins": 56
+        }
+      },
+      "exit_reasons": {
+        "STOP": 216,
+        "TARGET": 56
+      },
+      "extra_cost_average_r": -0.06769689804354763,
+      "first_half_r": -0.7438001246810813,
+      "label": "ts5m-GOLD-turtlesoup-dayh1-r4-rr2.5-DAY",
+      "max_drawdown_r": 29.323875842780467,
+      "median_hold_hours": 1.2083333333333335,
+      "median_spread_r": 0.07975013804731762,
+      "pnl": -14.754621428571228,
+      "profit_factor": 0.9873520646601666,
+      "second_half_r": -1.988605864034946,
+      "side": {
+        "BUY": {
+          "total_r": 11.08226243464804,
+          "trades": 253
+        },
+        "SELL": {
+          "total_r": -13.814668423364068,
+          "trades": 19
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 169,
+        "risk: The daily paper-trade limit has been reached": 74,
+        "trend_filter": 1119
+      },
+      "total_r": -2.7324059887160272,
+      "trades": 272,
+      "trades_per_week": 5.229621858757332,
+      "variant": {
+        "bias": "DAY",
+        "market": "GOLD",
+        "name": "turtlesoup-dayh1-r4-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.20588235294117646
+    },
+    {
+      "adds": 0,
+      "average_r": -0.23764840859824038,
+      "buckets": [
+        -19.24738198742946,
+        -7.026192266036154,
+        -7.747817981829539,
+        -33.70840421520336
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r2-rr1.5": {
+          "total_r": -67.72979645049851,
+          "trades": 285,
+          "wins": 38
+        }
+      },
+      "exit_reasons": {
+        "STOP": 247,
+        "TARGET": 38
+      },
+      "extra_cost_average_r": -0.27929559989005937,
+      "first_half_r": -26.27357425346561,
+      "label": "ts5m-US100-turtlesoup-day-r2-rr1.5-none",
+      "max_drawdown_r": 70.91642126112022,
+      "median_hold_hours": 1.1666666666666667,
+      "median_spread_r": 0.058120762027749955,
+      "pnl": -211.54257142857568,
+      "profit_factor": 0.7329467300409298,
+      "second_half_r": -41.45622219703289,
+      "side": {
+        "BUY": {
+          "total_r": -10.807720198972442,
+          "trades": 118
+        },
+        "SELL": {
+          "total_r": -56.922076251526065,
+          "trades": 167
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 76,
+        "risk: The daily paper-trade limit has been reached": 33
+      },
+      "total_r": -67.72979645049851,
+      "trades": 285,
+      "trades_per_week": 5.47956702112441,
+      "variant": {
+        "bias": null,
+        "market": "US100",
+        "name": "turtlesoup-day-r2-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.13333333333333333
+    },
+    {
+      "adds": 0,
+      "average_r": -0.41267933776055793,
+      "buckets": [
+        -23.374945287843943,
+        3.012250075304517,
+        -8.558600431658782,
+        -7.39448607873089
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r2-rr1.5": {
+          "total_r": -36.31578172292909,
+          "trades": 88,
+          "wins": 12
+        }
+      },
+      "exit_reasons": {
+        "STOP": 76,
+        "TARGET": 12
+      },
+      "extra_cost_average_r": -0.4584892266740597,
+      "first_half_r": -20.36269521253943,
+      "label": "ts5m-US100-turtlesoup-day-r2-rr1.5-DAY",
+      "max_drawdown_r": 42.502406533550804,
+      "median_hold_hours": 0.7916666666666667,
+      "median_spread_r": 0.06257107853079256,
+      "pnl": -84.83957142857435,
+      "profit_factor": 0.5221607668035645,
+      "second_half_r": -15.95308651038967,
+      "side": {
+        "BUY": {
+          "total_r": -33.86646073753428,
+          "trades": 80
+        },
+        "SELL": {
+          "total_r": -2.4493209853948192,
+          "trades": 8
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 14,
+        "risk: The daily paper-trade limit has been reached": 5,
+        "trend_filter": 287
+      },
+      "total_r": -36.315781722929096,
+      "trades": 88,
+      "trades_per_week": 1.6919364837156075,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "turtlesoup-day-r2-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.13636363636363635
+    },
+    {
+      "adds": 0,
+      "average_r": -0.27125365712910077,
+      "buckets": [
+        -16.55636943780383,
+        -9.103538343881073,
+        -8.299136142234707,
+        -35.48189230113019
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r2-rr2.5": {
+          "total_r": -69.4409362250498,
+          "trades": 256,
+          "wins": 28
+        }
+      },
+      "exit_reasons": {
+        "STOP": 228,
+        "TARGET": 28
+      },
+      "extra_cost_average_r": -0.3153500090553448,
+      "first_half_r": -25.659907781684907,
+      "label": "ts5m-US100-turtlesoup-day-r2-rr2.5-none",
+      "max_drawdown_r": 74.14721208269782,
+      "median_hold_hours": 0.9583333333333333,
+      "median_spread_r": 0.06209573100336803,
+      "pnl": -253.05964285714364,
+      "profit_factor": 0.7040268621835508,
+      "second_half_r": -43.781028443364896,
+      "side": {
+        "BUY": {
+          "total_r": -12.84396644106719,
+          "trades": 99
+        },
+        "SELL": {
+          "total_r": -56.59696978398261,
+          "trades": 157
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 64,
+        "risk: The daily paper-trade limit has been reached": 30
+      },
+      "total_r": -69.4409362250498,
+      "trades": 256,
+      "trades_per_week": 4.9219970435363125,
+      "variant": {
+        "bias": null,
+        "market": "US100",
+        "name": "turtlesoup-day-r2-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.109375
+    },
+    {
+      "adds": 0,
+      "average_r": -0.4323079629925152,
+      "buckets": [
+        -15.374945287843945,
+        3.1576383846272877,
+        -10.737778518873547,
+        -7.738779950378373
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r2-rr2.5": {
+          "total_r": -30.693865372468576,
+          "trades": 71,
+          "wins": 8
+        }
+      },
+      "exit_reasons": {
+        "STOP": 63,
+        "TARGET": 8
+      },
+      "extra_cost_average_r": -0.4843070504400283,
+      "first_half_r": -12.217306903216656,
+      "label": "ts5m-US100-turtlesoup-day-r2-rr2.5-DAY",
+      "max_drawdown_r": 37.88049018309029,
+      "median_hold_hours": 0.9166666666666666,
+      "median_spread_r": 0.07204322593553053,
+      "pnl": -80.93364285714415,
+      "profit_factor": 0.512795787738594,
+      "second_half_r": -18.47655846925192,
+      "side": {
+        "BUY": {
+          "total_r": -29.24454438707376,
+          "trades": 64
+        },
+        "SELL": {
+          "total_r": -1.4493209853948192,
+          "trades": 7
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 11,
+        "risk: The daily paper-trade limit has been reached": 5,
+        "trend_filter": 263
+      },
+      "total_r": -30.69386537246858,
+      "trades": 71,
+      "trades_per_week": 1.365085117543274,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "turtlesoup-day-r2-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.11267605633802817
+    },
+    {
+      "adds": 0,
+      "average_r": -0.19197190086267837,
+      "buckets": [
+        -18.212940213872916,
+        -11.292757517659641,
+        6.339004088682787,
+        -19.259096447802154
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r4-rr1.5": {
+          "total_r": -42.425790090651915,
+          "trades": 221,
+          "wins": 32
+        }
+      },
+      "exit_reasons": {
+        "STOP": 189,
+        "TARGET": 32
+      },
+      "extra_cost_average_r": -0.22765420028656436,
+      "first_half_r": -29.505697731532557,
+      "label": "ts5m-US100-turtlesoup-day-r4-rr1.5-none",
+      "max_drawdown_r": 47.14283499804295,
+      "median_hold_hours": 1.25,
+      "median_spread_r": 0.04833048848313227,
+      "pnl": -165.92203571428402,
+      "profit_factor": 0.7762623787372234,
+      "second_half_r": -12.920092359119367,
+      "side": {
+        "BUY": {
+          "total_r": 12.317966954128345,
+          "trades": 92
+        },
+        "SELL": {
+          "total_r": -54.74375704478027,
+          "trades": 129
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 46,
+        "risk: The daily paper-trade limit has been reached": 11
+      },
+      "total_r": -42.42579009065192,
+      "trades": 221,
+      "trades_per_week": 4.249067760240332,
+      "variant": {
+        "bias": null,
+        "market": "US100",
+        "name": "turtlesoup-day-r4-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.14479638009049775
+    },
+    {
+      "adds": 0,
+      "average_r": -0.2415540742140752,
+      "buckets": [
+        -12.49751252465688,
+        2.1576383846272877,
+        3.2177879636276736,
+        -8.337374573298895
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r4-rr1.5": {
+          "total_r": -15.459460749700813,
+          "trades": 64,
+          "wins": 12
+        }
+      },
+      "exit_reasons": {
+        "STOP": 52,
+        "TARGET": 12
+      },
+      "extra_cost_average_r": -0.2856403029252249,
+      "first_half_r": -10.339874140029591,
+      "label": "ts5m-US100-turtlesoup-day-r4-rr1.5-DAY",
+      "max_drawdown_r": 17.3781143672474,
+      "median_hold_hours": 1.2916666666666665,
+      "median_spread_r": 0.05636751827003282,
+      "pnl": -11.67385714285738,
+      "profit_factor": 0.702702677890369,
+      "second_half_r": -5.119586609671221,
+      "side": {
+        "BUY": {
+          "total_r": -16.010139764305993,
+          "trades": 59
+        },
+        "SELL": {
+          "total_r": 0.5506790146051808,
+          "trades": 5
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 7,
+        "risk: The daily paper-trade limit has been reached": 1,
+        "trend_filter": 206
+      },
+      "total_r": -15.459460749700813,
+      "trades": 64,
+      "trades_per_week": 1.2304992608840781,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "turtlesoup-day-r4-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.1875
+    },
+    {
+      "adds": 0,
+      "average_r": -0.21877114437538206,
+      "buckets": [
+        -15.318338346732318,
+        -12.504393120907643,
+        5.78768592827762,
+        -19.750243036335632
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r4-rr2.5": {
+          "total_r": -41.785288575697976,
+          "trades": 191,
+          "wins": 22
+        }
+      },
+      "exit_reasons": {
+        "STOP": 169,
+        "TARGET": 22
+      },
+      "extra_cost_average_r": -0.2567041508275369,
+      "first_half_r": -27.82273146763996,
+      "label": "ts5m-US100-turtlesoup-day-r4-rr2.5-none",
+      "max_drawdown_r": 44.82988630980298,
+      "median_hold_hours": 1.0833333333333333,
+      "median_spread_r": 0.05244318654788797,
+      "pnl": -185.59082142856826,
+      "profit_factor": 0.7536578274319582,
+      "second_half_r": -13.962557108058014,
+      "side": {
+        "BUY": {
+          "total_r": 12.802294600719245,
+          "trades": 77
+        },
+        "SELL": {
+          "total_r": -54.58758317641722,
+          "trades": 114
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 38,
+        "risk: The daily paper-trade limit has been reached": 9
+      },
+      "total_r": -41.785288575697976,
+      "trades": 191,
+      "trades_per_week": 3.6722712317009205,
+      "variant": {
+        "bias": null,
+        "market": "US100",
+        "name": "turtlesoup-day-r4-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.11518324607329843
+    },
+    {
+      "adds": 0,
+      "average_r": -0.19217826736334426,
+      "buckets": [
+        -9.49751252465688,
+        3.1576383846272877,
+        2.0386098764129077,
+        -5.884183906640563
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r4-rr2.5": {
+          "total_r": -10.185448170257247,
+          "trades": 53,
+          "wins": 10
+        }
+      },
+      "exit_reasons": {
+        "STOP": 43,
+        "TARGET": 10
+      },
+      "extra_cost_average_r": -0.24090883024482798,
+      "first_half_r": -6.3398741400295915,
+      "label": "ts5m-US100-turtlesoup-day-r4-rr2.5-DAY",
+      "max_drawdown_r": 13.104101787803835,
+      "median_hold_hours": 1.3333333333333333,
+      "median_spread_r": 0.05906480721901094,
+      "pnl": 0.7538571428569408,
+      "profit_factor": 0.7631291123195989,
+      "second_half_r": -3.845574030227655,
+      "side": {
+        "BUY": {
+          "total_r": -10.736127184862427,
+          "trades": 48
+        },
+        "SELL": {
+          "total_r": 0.5506790146051808,
+          "trades": 5
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 6,
+        "risk: The daily paper-trade limit has been reached": 1,
+        "trend_filter": 178
+      },
+      "total_r": -10.185448170257246,
+      "trades": 53,
+      "trades_per_week": 1.0190072004196271,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "turtlesoup-day-r4-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.18867924528301888
+    },
+    {
+      "adds": 0,
+      "average_r": -0.15157355210206735,
+      "buckets": [
+        -28.01431442165823,
+        -5.399439332426926,
+        -41.947819160771196,
+        -26.04113344142671
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r2-rr1.5": {
+          "total_r": -101.40270635628309,
+          "trades": 669,
+          "wins": 151
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 518,
+        "TARGET": 150
+      },
+      "extra_cost_average_r": -0.20036571231033273,
+      "first_half_r": -33.41375375408516,
+      "label": "ts5m-US100-turtlesoup-dayh1-r2-rr1.5-none",
+      "max_drawdown_r": 112.26949654885982,
+      "median_hold_hours": 1.0,
+      "median_spread_r": 0.0744482850307154,
+      "pnl": -197.1261071428493,
+      "profit_factor": 0.804637575003157,
+      "second_half_r": -67.98895260219791,
+      "side": {
+        "BUY": {
+          "total_r": -49.21639485138183,
+          "trades": 295
+        },
+        "SELL": {
+          "total_r": -52.186311504901234,
+          "trades": 374
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 871,
+        "risk: The daily paper-trade limit has been reached": 962
+      },
+      "total_r": -101.40270635628306,
+      "trades": 669,
+      "trades_per_week": 12.86256258642888,
+      "variant": {
+        "bias": null,
+        "market": "US100",
+        "name": "turtlesoup-dayh1-r2-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.2257100149476831
+    },
+    {
+      "adds": 0,
+      "average_r": -0.10085942121423028,
+      "buckets": [
+        -9.541779271931913,
+        9.97450532868476,
+        -5.2163044611545475,
+        -34.34987702671965
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r2-rr1.5": {
+          "total_r": -39.133455431121355,
+          "trades": 388,
+          "wins": 106
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 282,
+        "TARGET": 105
+      },
+      "extra_cost_average_r": -0.14657814167124558,
+      "first_half_r": 0.43272605675284614,
+      "label": "ts5m-US100-turtlesoup-dayh1-r2-rr1.5-DAY",
+      "max_drawdown_r": 55.86865765940918,
+      "median_hold_hours": 0.9166666666666666,
+      "median_spread_r": 0.07146363646945444,
+      "pnl": 19.85025000000025,
+      "profit_factor": 0.8629778949844319,
+      "second_half_r": -39.566181487874196,
+      "side": {
+        "BUY": {
+          "total_r": -44.70210964004656,
+          "trades": 323
+        },
+        "SELL": {
+          "total_r": 5.568654208925208,
+          "trades": 65
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 307,
+        "risk: The daily paper-trade limit has been reached": 232,
+        "trend_filter": 1575
+      },
+      "total_r": -39.13345543112135,
+      "trades": 388,
+      "trades_per_week": 7.459901769109723,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "turtlesoup-dayh1-r2-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.27319587628865977
+    },
+    {
+      "adds": 0,
+      "average_r": -0.24700284016774532,
+      "buckets": [
+        -42.61955061720681,
+        -24.443228934517563,
+        -47.138930534224265,
+        -38.199042297550214
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r2-rr2.5": {
+          "total_r": -152.40075238349883,
+          "trades": 617,
+          "wins": 98
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 519,
+        "TARGET": 97
+      },
+      "extra_cost_average_r": -0.29502252085637387,
+      "first_half_r": -67.06277955172438,
+      "label": "ts5m-US100-turtlesoup-dayh1-r2-rr2.5-none",
+      "max_drawdown_r": 157.48226574203062,
+      "median_hold_hours": 1.0833333333333333,
+      "median_spread_r": 0.07301596499881322,
+      "pnl": -392.14378571428097,
+      "profit_factor": 0.7093265611355343,
+      "second_half_r": -85.33797283177448,
+      "side": {
+        "BUY": {
+          "total_r": -95.83910265612127,
+          "trades": 262
+        },
+        "SELL": {
+          "total_r": -56.561649727377585,
+          "trades": 355
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 984,
+        "risk: The daily paper-trade limit has been reached": 731
+      },
+      "total_r": -152.40075238349885,
+      "trades": 617,
+      "trades_per_week": 11.862781936960566,
+      "variant": {
+        "bias": null,
+        "market": "US100",
+        "name": "turtlesoup-dayh1-r2-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.15883306320907617
+    },
+    {
+      "adds": 0,
+      "average_r": -0.18315585637580878,
+      "buckets": [
+        -8.28217981980684,
+        8.084957645428204,
+        -21.064698508212707,
+        -44.3078758999482
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r2-rr2.5": {
+          "total_r": -65.56979658253957,
+          "trades": 358,
+          "wins": 66
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 292,
+        "TARGET": 65
+      },
+      "extra_cost_average_r": -0.230264047197407,
+      "first_half_r": -0.19722217437863665,
+      "label": "ts5m-US100-turtlesoup-dayh1-r2-rr2.5-DAY",
+      "max_drawdown_r": 73.47789699698544,
+      "median_hold_hours": 1.0,
+      "median_spread_r": 0.07533781274478066,
+      "pnl": -160.5563214285794,
+      "profit_factor": 0.7782509910823695,
+      "second_half_r": -65.37257440816092,
+      "side": {
+        "BUY": {
+          "total_r": -63.25313182119582,
+          "trades": 301
+        },
+        "SELL": {
+          "total_r": -2.3166647613437217,
+          "trades": 57
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 291,
+        "risk: The daily paper-trade limit has been reached": 183,
+        "trend_filter": 1500
+      },
+      "total_r": -65.56979658253954,
+      "trades": 358,
+      "trades_per_week": 6.883105240570312,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "turtlesoup-dayh1-r2-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.18435754189944134
+    },
+    {
+      "adds": 0,
+      "average_r": -0.20178421989674436,
+      "buckets": [
+        -24.190542934466574,
+        -43.09488064323145,
+        -42.132393429553005,
+        -11.450930710898856
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r4-rr1.5": {
+          "total_r": -120.86874771814988,
+          "trades": 599,
+          "wins": 135
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 464,
+        "TARGET": 134
+      },
+      "extra_cost_average_r": -0.24394153202408547,
+      "first_half_r": -67.28542357769803,
+      "label": "ts5m-US100-turtlesoup-dayh1-r4-rr1.5-none",
+      "max_drawdown_r": 129.1489042309135,
+      "median_hold_hours": 1.0833333333333333,
+      "median_spread_r": 0.06242259103304889,
+      "pnl": -388.9003285714362,
+      "profit_factor": 0.7435329392366054,
+      "second_half_r": -53.58332414045186,
+      "side": {
+        "BUY": {
+          "total_r": -50.38042259672247,
+          "trades": 267
+        },
+        "SELL": {
+          "total_r": -70.48832512142741,
+          "trades": 332
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 721,
+        "risk: The daily paper-trade limit has been reached": 471
+      },
+      "total_r": -120.86874771814988,
+      "trades": 599,
+      "trades_per_week": 11.516704019836919,
+      "variant": {
+        "bias": null,
+        "market": "US100",
+        "name": "turtlesoup-dayh1-r4-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.22537562604340566
+    },
+    {
+      "adds": 0,
+      "average_r": -0.10189202855356425,
+      "buckets": [
+        1.1729583240022903,
+        -0.20284542980053577,
+        -4.447726990745001,
+        -30.961891554561472
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r4-rr1.5": {
+          "total_r": -34.43950565110472,
+          "trades": 338,
+          "wins": 96
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 242,
+        "TARGET": 95
+      },
+      "extra_cost_average_r": -0.14415114272970536,
+      "first_half_r": 0.9701128942017545,
+      "label": "ts5m-US100-turtlesoup-dayh1-r4-rr1.5-DAY",
+      "max_drawdown_r": 46.83030282503076,
+      "median_hold_hours": 1.0,
+      "median_spread_r": 0.06493340570745802,
+      "pnl": -1.968249999997779,
+      "profit_factor": 0.861962810705216,
+      "second_half_r": -35.40961854530647,
+      "side": {
+        "BUY": {
+          "total_r": -37.97976345233346,
+          "trades": 280
+        },
+        "SELL": {
+          "total_r": 3.540257801228739,
+          "trades": 58
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 225,
+        "risk: The daily paper-trade limit has been reached": 94,
+        "trend_filter": 1134
+      },
+      "total_r": -34.43950565110472,
+      "trades": 338,
+      "trades_per_week": 6.498574221544037,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "turtlesoup-dayh1-r4-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.28402366863905326
+    },
+    {
+      "adds": 0,
+      "average_r": -0.29098573999749144,
+      "buckets": [
+        -46.06228706482308,
+        -54.60727108391756,
+        -38.529466131925716,
+        -20.261161237958945
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r4-rr2.5": {
+          "total_r": -159.4601855186253,
+          "trades": 548,
+          "wins": 82
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 466,
+        "TARGET": 81
+      },
+      "extra_cost_average_r": -0.33233111813715777,
+      "first_half_r": -100.66955814874065,
+      "label": "ts5m-US100-turtlesoup-dayh1-r4-rr2.5-none",
+      "max_drawdown_r": 161.29018489909237,
+      "median_hold_hours": 1.25,
+      "median_spread_r": 0.06035668957159038,
+      "pnl": -508.77528571429104,
+      "profit_factor": 0.6639302215780123,
+      "second_half_r": -58.79062736988466,
+      "side": {
+        "BUY": {
+          "total_r": -57.30458889643765,
+          "trades": 229
+        },
+        "SELL": {
+          "total_r": -102.15559662218766,
+          "trades": 319
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 796,
+        "risk: The daily paper-trade limit has been reached": 312
+      },
+      "total_r": -159.4601855186253,
+      "trades": 548,
+      "trades_per_week": 10.536149921319918,
+      "variant": {
+        "bias": null,
+        "market": "US100",
+        "name": "turtlesoup-dayh1-r4-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.14963503649635038
+    },
+    {
+      "adds": 0,
+      "average_r": -0.15540374573597762,
+      "buckets": [
+        -2.3693046070858843,
+        -4.276844748630683,
+        -1.4427190801731955,
+        -36.978217827543745
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r4-rr2.5": {
+          "total_r": -45.06708626343351,
+          "trades": 290,
+          "wins": 59
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 231,
+        "TARGET": 58
+      },
+      "extra_cost_average_r": -0.19979953742288104,
+      "first_half_r": -6.646149355716568,
+      "label": "ts5m-US100-turtlesoup-dayh1-r4-rr2.5-DAY",
+      "max_drawdown_r": 50.197225413572276,
+      "median_hold_hours": 1.2083333333333335,
+      "median_spread_r": 0.07167813413738906,
+      "pnl": -19.32235714285779,
+      "profit_factor": 0.8110350332803341,
+      "second_half_r": -38.42093690771694,
+      "side": {
+        "BUY": {
+          "total_r": -50.83998214533068,
+          "trades": 242
+        },
+        "SELL": {
+          "total_r": 5.7728958818971705,
+          "trades": 48
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 219,
+        "risk: The daily paper-trade limit has been reached": 68,
+        "trend_filter": 1079
+      },
+      "total_r": -45.06708626343351,
+      "trades": 290,
+      "trades_per_week": 5.575699775880979,
+      "variant": {
+        "bias": "DAY",
+        "market": "US100",
+        "name": "turtlesoup-dayh1-r4-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.20344827586206896
+    },
+    {
+      "adds": 0,
+      "average_r": -0.2311753540580854,
+      "buckets": [
+        -8.850677822130246,
+        -10.49856798470039,
+        -51.88683910813008,
+        7.894037903045328
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r2-rr1.5": {
+          "total_r": -63.3420470119154,
+          "trades": 274,
+          "wins": 38
+        }
+      },
+      "exit_reasons": {
+        "STOP": 236,
+        "TARGET": 38
+      },
+      "extra_cost_average_r": -0.27495866852328976,
+      "first_half_r": -19.349245806830638,
+      "label": "ts5m-US500-turtlesoup-day-r2-rr1.5-none",
+      "max_drawdown_r": 79.16058702856294,
+      "median_hold_hours": 1.5,
+      "median_spread_r": 0.05959017488122639,
+      "pnl": -83.70646428571455,
+      "profit_factor": 0.7327373503860276,
+      "second_half_r": -43.99280120508476,
+      "side": {
+        "BUY": {
+          "total_r": -17.55213668664583,
+          "trades": 105
+        },
+        "SELL": {
+          "total_r": -45.78991032526957,
+          "trades": 169
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 93,
+        "risk: The daily paper-trade limit has been reached": 34
+      },
+      "total_r": -63.3420470119154,
+      "trades": 274,
+      "trades_per_week": 5.268074960659959,
+      "variant": {
+        "bias": null,
+        "market": "US500",
+        "name": "turtlesoup-day-r2-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.1386861313868613
+    },
+    {
+      "adds": 0,
+      "average_r": -0.3208527300976749,
+      "buckets": [
+        -9.10998641676011,
+        6.985055796019035,
+        -17.79376733023235,
+        -7.353784107328941
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r2-rr1.5": {
+          "total_r": -27.27248205830236,
+          "trades": 85,
+          "wins": 14
+        }
+      },
+      "exit_reasons": {
+        "STOP": 71,
+        "TARGET": 14
+      },
+      "extra_cost_average_r": -0.35897679308836383,
+      "first_half_r": -2.1249306207410754,
+      "label": "ts5m-US500-turtlesoup-day-r2-rr1.5-DAY",
+      "max_drawdown_r": 27.27248205830236,
+      "median_hold_hours": 2.0833333333333335,
+      "median_spread_r": 0.05747716309152529,
+      "pnl": -38.85807142857175,
+      "profit_factor": 0.6186113343275812,
+      "second_half_r": -25.14755143756129,
+      "side": {
+        "BUY": {
+          "total_r": -25.34979586301678,
+          "trades": 69
+        },
+        "SELL": {
+          "total_r": -1.922686195285585,
+          "trades": 16
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 27,
+        "risk: The daily paper-trade limit has been reached": 5,
+        "trend_filter": 284
+      },
+      "total_r": -27.272482058302366,
+      "trades": 85,
+      "trades_per_week": 1.6342568308616663,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "turtlesoup-day-r2-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.16470588235294117
+    },
+    {
+      "adds": 0,
+      "average_r": -0.2803693551493156,
+      "buckets": [
+        -9.68969246321311,
+        -9.838547611454649,
+        -55.001663487262405,
+        5.839411550347847
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r2-rr2.5": {
+          "total_r": -68.69049201158232,
+          "trades": 245,
+          "wins": 26
+        }
+      },
+      "exit_reasons": {
+        "STOP": 219,
+        "TARGET": 26
+      },
+      "extra_cost_average_r": -0.32765249585789,
+      "first_half_r": -19.528240074667757,
+      "label": "ts5m-US500-turtlesoup-day-r2-rr2.5-none",
+      "max_drawdown_r": 85.25781335556988,
+      "median_hold_hours": 1.5,
+      "median_spread_r": 0.0675675675676693,
+      "pnl": -85.5806071428572,
+      "profit_factor": 0.6870515902363219,
+      "second_half_r": -49.16225193691456,
+      "side": {
+        "BUY": {
+          "total_r": -23.821363258940217,
+          "trades": 86
+        },
+        "SELL": {
+          "total_r": -44.869128752642105,
+          "trades": 159
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 75,
+        "risk: The daily paper-trade limit has been reached": 28
+      },
+      "total_r": -68.69049201158232,
+      "trades": 245,
+      "trades_per_week": 4.7105049830718615,
+      "variant": {
+        "bias": null,
+        "market": "US500",
+        "name": "turtlesoup-day-r2-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.10612244897959183
+    },
+    {
+      "adds": 0,
+      "average_r": -0.4476954378235717,
+      "buckets": [
+        -7.573650246402706,
+        5.236411754488082,
+        -19.44834819087585,
+        -9.553093964859544
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r2-rr2.5": {
+          "total_r": -31.338680647650023,
+          "trades": 70,
+          "wins": 7
+        }
+      },
+      "exit_reasons": {
+        "STOP": 63,
+        "TARGET": 7
+      },
+      "extra_cost_average_r": -0.49168655902265257,
+      "first_half_r": -2.337238491914624,
+      "label": "ts5m-US500-turtlesoup-day-r2-rr2.5-DAY",
+      "max_drawdown_r": 31.338680647650023,
+      "median_hold_hours": 1.4583333333333335,
+      "median_spread_r": 0.06089748344178177,
+      "pnl": -40.26050000000005,
+      "profit_factor": 0.5025606246404759,
+      "second_half_r": -29.001442155735397,
+      "side": {
+        "BUY": {
+          "total_r": -28.712126836432162,
+          "trades": 56
+        },
+        "SELL": {
+          "total_r": -2.626553811217857,
+          "trades": 14
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 17,
+        "risk: The daily paper-trade limit has been reached": 3,
+        "trend_filter": 258
+      },
+      "total_r": -31.33868064765002,
+      "trades": 70,
+      "trades_per_week": 1.3458585665919605,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "turtlesoup-day-r2-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.1
+    },
+    {
+      "adds": 0,
+      "average_r": -0.35150871526446753,
+      "buckets": [
+        -9.683750906161334,
+        -15.168197724574142,
+        -49.75374372782443,
+        -8.701873159118904
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r4-rr1.5": {
+          "total_r": -83.3075655176788,
+          "trades": 237,
+          "wins": 30
+        }
+      },
+      "exit_reasons": {
+        "STOP": 207,
+        "TARGET": 30
+      },
+      "extra_cost_average_r": -0.39456777653818786,
+      "first_half_r": -24.851948630735478,
+      "label": "ts5m-US500-turtlesoup-day-r4-rr1.5-none",
+      "max_drawdown_r": 99.21959506955591,
+      "median_hold_hours": 1.6666666666666667,
+      "median_spread_r": 0.06067961165048705,
+      "pnl": -96.25832142857234,
+      "profit_factor": 0.5988863607297924,
+      "second_half_r": -58.45561688694333,
+      "side": {
+        "BUY": {
+          "total_r": -36.98478119134599,
+          "trades": 94
+        },
+        "SELL": {
+          "total_r": -46.32278432633282,
+          "trades": 143
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 55,
+        "risk: The daily paper-trade limit has been reached": 12
+      },
+      "total_r": -83.30756551767881,
+      "trades": 237,
+      "trades_per_week": 4.556692575461351,
+      "variant": {
+        "bias": null,
+        "market": "US500",
+        "name": "turtlesoup-day-r4-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.12658227848101267
+    },
+    {
+      "adds": 0,
+      "average_r": -0.5618439609972798,
+      "buckets": [
+        -14.790796867994764,
+        4.174716403353451,
+        -11.49763494616462,
+        -18.900893741995493
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r4-rr1.5": {
+          "total_r": -41.01460915280143,
+          "trades": 73,
+          "wins": 9
+        }
+      },
+      "exit_reasons": {
+        "STOP": 64,
+        "TARGET": 9
+      },
+      "extra_cost_average_r": -0.6043322530322897,
+      "first_half_r": -10.616080464641312,
+      "label": "ts5m-US500-turtlesoup-day-r4-rr1.5-DAY",
+      "max_drawdown_r": 41.01460915280143,
+      "median_hold_hours": 2.0833333333333335,
+      "median_spread_r": 0.06129597197906625,
+      "pnl": -44.86242857142898,
+      "profit_factor": 0.3643727790618451,
+      "second_half_r": -30.398528688160113,
+      "side": {
+        "BUY": {
+          "total_r": -37.577715948917984,
+          "trades": 64
+        },
+        "SELL": {
+          "total_r": -3.4368932038834403,
+          "trades": 9
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 13,
+        "risk: The daily paper-trade limit has been reached": 3,
+        "trend_filter": 215
+      },
+      "total_r": -41.01460915280143,
+      "trades": 73,
+      "trades_per_week": 1.4035382194459016,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "turtlesoup-day-r4-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.1232876712328767
+    },
+    {
+      "adds": 0,
+      "average_r": -0.44753347910689006,
+      "buckets": [
+        -15.86383674606051,
+        -10.867389987183612,
+        -57.48259598815255,
+        -9.320674411943351
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r4-rr2.5": {
+          "total_r": -93.53449713334001,
+          "trades": 209,
+          "wins": 17
+        }
+      },
+      "exit_reasons": {
+        "STOP": 192,
+        "TARGET": 17
+      },
+      "extra_cost_average_r": -0.49382674415819267,
+      "first_half_r": -26.731226733244124,
+      "label": "ts5m-US500-turtlesoup-day-r4-rr2.5-none",
+      "max_drawdown_r": 108.01659997742867,
+      "median_hold_hours": 1.5,
+      "median_spread_r": 0.0673595073133226,
+      "pnl": -97.4117142857148,
+      "profit_factor": 0.513178031770406,
+      "second_half_r": -66.8032704000959,
+      "side": {
+        "BUY": {
+          "total_r": -48.538986862536404,
+          "trades": 79
+        },
+        "SELL": {
+          "total_r": -44.99551027080363,
+          "trades": 130
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 41,
+        "risk: The daily paper-trade limit has been reached": 9
+      },
+      "total_r": -93.53449713334003,
+      "trades": 209,
+      "trades_per_week": 4.0183491488245675,
+      "variant": {
+        "bias": null,
+        "market": "US500",
+        "name": "turtlesoup-day-r4-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.08133971291866028
+    },
+    {
+      "adds": 0,
+      "average_r": -0.7030883468233134,
+      "buckets": [
+        -14.25446069763736,
+        2.4260723618224986,
+        -12.448348190875851,
+        -20.017829323178034
+      ],
+      "by_strategy": {
+        "turtlesoup-day-r4-rr2.5": {
+          "total_r": -44.29456584986875,
+          "trades": 63,
+          "wins": 4
+        }
+      },
+      "exit_reasons": {
+        "STOP": 59,
+        "TARGET": 4
+      },
+      "extra_cost_average_r": -0.7505024599172192,
+      "first_half_r": -11.82838833581486,
+      "label": "ts5m-US500-turtlesoup-day-r4-rr2.5-DAY",
+      "max_drawdown_r": 44.29456584986875,
+      "median_hold_hours": 1.5833333333333333,
+      "median_spread_r": 0.0659319958557042,
+      "pnl": -43.97467857142856,
+      "profit_factor": 0.2494714502745534,
+      "second_half_r": -32.46617751405389,
+      "side": {
+        "BUY": {
+          "total_r": -41.85767264598531,
+          "trades": 55
+        },
+        "SELL": {
+          "total_r": -2.4368932038834403,
+          "trades": 8
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 5,
+        "risk: The daily paper-trade limit has been reached": 1,
+        "trend_filter": 190
+      },
+      "total_r": -44.29456584986875,
+      "trades": 63,
+      "trades_per_week": 1.2112727099327643,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "turtlesoup-day-r4-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.06349206349206349
+    },
+    {
+      "adds": 0,
+      "average_r": -0.1466143535946452,
+      "buckets": [
+        -24.34895388416666,
+        4.444242322472977,
+        -53.87499726914456,
+        -24.305293723979386
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r2-rr1.5": {
+          "total_r": -98.08500255481765,
+          "trades": 669,
+          "wins": 153
+        }
+      },
+      "exit_reasons": {
+        "STOP": 516,
+        "TARGET": 153
+      },
+      "extra_cost_average_r": -0.2040918123906454,
+      "first_half_r": -19.904711561693684,
+      "label": "ts5m-US500-turtlesoup-dayh1-r2-rr1.5-none",
+      "max_drawdown_r": 107.71352352265798,
+      "median_hold_hours": 1.0833333333333333,
+      "median_spread_r": 0.08927432725416243,
+      "pnl": -54.492892857141484,
+      "profit_factor": 0.8100444876300433,
+      "second_half_r": -78.18029099312395,
+      "side": {
+        "BUY": {
+          "total_r": -15.462609648726279,
+          "trades": 296
+        },
+        "SELL": {
+          "total_r": -82.62239290609135,
+          "trades": 373
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 901,
+        "risk: The daily paper-trade limit has been reached": 915
+      },
+      "total_r": -98.08500255481763,
+      "trades": 669,
+      "trades_per_week": 12.86256258642888,
+      "variant": {
+        "bias": null,
+        "market": "US500",
+        "name": "turtlesoup-dayh1-r2-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.22869955156950672
+    },
+    {
+      "adds": 0,
+      "average_r": -0.093832121507964,
+      "buckets": [
+        -14.961747235935084,
+        7.582641267917114,
+        -21.621763793415703,
+        -7.968986112704144
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r2-rr1.5": {
+          "total_r": -36.96985587413783,
+          "trades": 394,
+          "wins": 102
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 292,
+        "TARGET": 101
+      },
+      "extra_cost_average_r": -0.14971948337289395,
+      "first_half_r": -7.379105968017969,
+      "label": "ts5m-US500-turtlesoup-dayh1-r2-rr1.5-DAY",
+      "max_drawdown_r": 46.705723487067004,
+      "median_hold_hours": 0.8333333333333334,
+      "median_spread_r": 0.08969960729902342,
+      "pnl": 2.0881071428579174,
+      "profit_factor": 0.8760487238157678,
+      "second_half_r": -29.590749906119846,
+      "side": {
+        "BUY": {
+          "total_r": -49.99093146949933,
+          "trades": 329
+        },
+        "SELL": {
+          "total_r": 13.021075595361513,
+          "trades": 65
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 298,
+        "risk: The daily paper-trade limit has been reached": 245,
+        "trend_filter": 1548
+      },
+      "total_r": -36.969855874137814,
+      "trades": 394,
+      "trades_per_week": 7.575261074817606,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "turtlesoup-dayh1-r2-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.25888324873096447
+    },
+    {
+      "adds": 0,
+      "average_r": -0.13457659215243756,
+      "buckets": [
+        -1.9456050049610152,
+        -1.4929595602964978,
+        -62.710084260065535,
+        -20.92240629730405
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r2-rr2.5": {
+          "total_r": -87.07105512262709,
+          "trades": 647,
+          "wins": 121
+        }
+      },
+      "exit_reasons": {
+        "STOP": 526,
+        "TARGET": 121
+      },
+      "extra_cost_average_r": -0.1920650183849785,
+      "first_half_r": -3.438564565257513,
+      "label": "ts5m-US500-turtlesoup-dayh1-r2-rr2.5-none",
+      "max_drawdown_r": 105.6498908954211,
+      "median_hold_hours": 1.1666666666666667,
+      "median_spread_r": 0.09146739840584878,
+      "pnl": -65.77557142857032,
+      "profit_factor": 0.8347444412984727,
+      "second_half_r": -83.6324905573696,
+      "side": {
+        "BUY": {
+          "total_r": -6.63849436067192,
+          "trades": 273
+        },
+        "SELL": {
+          "total_r": -80.43256076195517,
+          "trades": 374
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 914,
+        "risk: The daily paper-trade limit has been reached": 772
+      },
+      "total_r": -87.0710551226271,
+      "trades": 647,
+      "trades_per_week": 12.439578465499977,
+      "variant": {
+        "bias": null,
+        "market": "US500",
+        "name": "turtlesoup-dayh1-r2-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.18701700154559506
+    },
+    {
+      "adds": 0,
+      "average_r": -0.042180960909541265,
+      "buckets": [
+        8.120537496363298,
+        5.513527637685275,
+        -14.539323622112697,
+        -14.364249361189813
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r2-rr2.5": {
+          "total_r": -15.26950784925394,
+          "trades": 362,
+          "wins": 79
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 283,
+        "TARGET": 78
+      },
+      "extra_cost_average_r": -0.10048272776015021,
+      "first_half_r": 13.634065134048573,
+      "label": "ts5m-US500-turtlesoup-dayh1-r2-rr2.5-DAY",
+      "max_drawdown_r": 39.70129682979109,
+      "median_hold_hours": 0.9166666666666666,
+      "median_spread_r": 0.09380871294622767,
+      "pnl": -4.150642857142336,
+      "profit_factor": 0.9472262064106197,
+      "second_half_r": -28.90357298330251,
+      "side": {
+        "BUY": {
+          "total_r": -16.772507272811488,
+          "trades": 304
+        },
+        "SELL": {
+          "total_r": 1.5029994235575503,
+          "trades": 58
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 280,
+        "risk: The daily paper-trade limit has been reached": 209,
+        "trend_filter": 1482
+      },
+      "total_r": -15.269507849253937,
+      "trades": 362,
+      "trades_per_week": 6.960011444375566,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "turtlesoup-dayh1-r2-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.21823204419889503
+    },
+    {
+      "adds": 0,
+      "average_r": -0.2321768963334415,
+      "buckets": [
+        -32.46728456810623,
+        -7.981640995699567,
+        -55.62066317392317,
+        -48.576617678005086
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r4-rr1.5": {
+          "total_r": -144.646206415734,
+          "trades": 623,
+          "wins": 134
+        }
+      },
+      "exit_reasons": {
+        "STOP": 489,
+        "TARGET": 134
+      },
+      "extra_cost_average_r": -0.2835640106035068,
+      "first_half_r": -40.448925563805794,
+      "label": "ts5m-US500-turtlesoup-dayh1-r4-rr1.5-none",
+      "max_drawdown_r": 158.56666687607418,
+      "median_hold_hours": 1.0833333333333333,
+      "median_spread_r": 0.07817735090462287,
+      "pnl": -119.92246428571417,
+      "profit_factor": 0.7044097836723711,
+      "second_half_r": -104.19728085192826,
+      "side": {
+        "BUY": {
+          "total_r": -37.80349174370848,
+          "trades": 271
+        },
+        "SELL": {
+          "total_r": -106.84271467202556,
+          "trades": 352
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 613,
+        "risk: The daily paper-trade limit has been reached": 529
+      },
+      "total_r": -144.64620641573404,
+      "trades": 623,
+      "trades_per_week": 11.978141242668448,
+      "variant": {
+        "bias": null,
+        "market": "US500",
+        "name": "turtlesoup-dayh1-r4-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.21508828250401285
+    },
+    {
+      "adds": 0,
+      "average_r": -0.07804519553403048,
+      "buckets": [
+        -14.391440883400044,
+        6.157864804262813,
+        -3.0604340449741088,
+        -16.02180831279933
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r4-rr1.5": {
+          "total_r": -27.31581843691067,
+          "trades": 350,
+          "wins": 96
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 254,
+        "TARGET": 95
+      },
+      "extra_cost_average_r": -0.13008964458965813,
+      "first_half_r": -8.233576079137231,
+      "label": "ts5m-US500-turtlesoup-dayh1-r4-rr1.5-DAY",
+      "max_drawdown_r": 31.95039779126407,
+      "median_hold_hours": 1.0,
+      "median_spread_r": 0.08318486424951997,
+      "pnl": -11.764464285713894,
+      "profit_factor": 0.8925642798705775,
+      "second_half_r": -19.08224235777344,
+      "side": {
+        "BUY": {
+          "total_r": -21.986075784536794,
+          "trades": 293
+        },
+        "SELL": {
+          "total_r": -5.329742652373875,
+          "trades": 57
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 182,
+        "risk: The daily paper-trade limit has been reached": 126,
+        "trend_filter": 1107
+      },
+      "total_r": -27.315818436910668,
+      "trades": 350,
+      "trades_per_week": 6.729292832959802,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "turtlesoup-dayh1-r4-rr1.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.2742857142857143
+    },
+    {
+      "adds": 0,
+      "average_r": -0.20469169858881064,
+      "buckets": [
+        -17.945879449448977,
+        -16.806324212275097,
+        -77.89853378057904,
+        -12.62058209404899
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r4-rr2.5": {
+          "total_r": -125.27131953635211,
+          "trades": 612,
+          "wins": 105
+        }
+      },
+      "exit_reasons": {
+        "STOP": 507,
+        "TARGET": 105
+      },
+      "extra_cost_average_r": -0.2567139922770828,
+      "first_half_r": -34.752203661724074,
+      "label": "ts5m-US500-turtlesoup-dayh1-r4-rr2.5-none",
+      "max_drawdown_r": 153.06266942922588,
+      "median_hold_hours": 1.0833333333333333,
+      "median_spread_r": 0.07911393314569004,
+      "pnl": -130.00428571428694,
+      "profit_factor": 0.753101326016649,
+      "second_half_r": -90.51911587462803,
+      "side": {
+        "BUY": {
+          "total_r": -35.94501636461821,
+          "trades": 257
+        },
+        "SELL": {
+          "total_r": -89.3263031717339,
+          "trades": 355
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 598,
+        "risk: The daily paper-trade limit has been reached": 431
+      },
+      "total_r": -125.27131953635211,
+      "trades": 612,
+      "trades_per_week": 11.766649182203997,
+      "variant": {
+        "bias": null,
+        "market": "US500",
+        "name": "turtlesoup-dayh1-r4-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.1715686274509804
+    },
+    {
+      "adds": 0,
+      "average_r": -0.05623982001637991,
+      "buckets": [
+        -2.406399269753228,
+        1.1044938976085215,
+        -3.099000277829343,
+        -13.202158015152863
+      ],
+      "by_strategy": {
+        "turtlesoup-dayh1-r4-rr2.5": {
+          "total_r": -17.603063665126914,
+          "trades": 313,
+          "wins": 66
+        }
+      },
+      "exit_reasons": {
+        "END_OF_DATA": 1,
+        "STOP": 247,
+        "TARGET": 65
+      },
+      "extra_cost_average_r": -0.11077798145203355,
+      "first_half_r": -1.3019053721447067,
+      "label": "ts5m-US500-turtlesoup-dayh1-r4-rr2.5-DAY",
+      "max_drawdown_r": 40.47327257446418,
+      "median_hold_hours": 1.1666666666666667,
+      "median_spread_r": 0.0846228239845305,
+      "pnl": -12.18539285714305,
+      "profit_factor": 0.928811534621635,
+      "second_half_r": -16.301158292982205,
+      "side": {
+        "BUY": {
+          "total_r": -8.686000982091569,
+          "trades": 262
+        },
+        "SELL": {
+          "total_r": -8.917062683035343,
+          "trades": 51
+        }
+      },
+      "skipped": {
+        "risk: 1 position(s) already open": 183,
+        "risk: The daily paper-trade limit has been reached": 98,
+        "trend_filter": 1047
+      },
+      "total_r": -17.60306366512691,
+      "trades": 313,
+      "trades_per_week": 6.017910447761194,
+      "variant": {
+        "bias": "DAY",
+        "market": "US500",
+        "name": "turtlesoup-dayh1-r4-rr2.5",
+        "timeframe": "ts5m"
+      },
+      "win_rate": 0.2108626198083067
+    }
+  ]
+}

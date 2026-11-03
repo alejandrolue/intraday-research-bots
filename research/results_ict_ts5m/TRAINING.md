@@ -1,0 +1,52 @@
+# All 48 training variants (ICT ts5m)
+
+| Variant | N | Avg R | Total R | PF | DD R | Long R | Short R | Positive Q | Eligible |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| ts5m-GOLD-turtlesoup-day-r2-rr2.5-DAY | 79 | +0.258 | +20.4 | 1.31 | 28.9 | +26.3 | -5.9 | 2/4 | False |
+| ts5m-GOLD-turtlesoup-day-r4-rr2.5-DAY | 57 | +0.202 | +11.5 | 1.24 | 24.7 | +14.4 | -2.9 | 2/4 | False |
+| ts5m-GOLD-turtlesoup-day-r4-rr1.5-DAY | 64 | +0.157 | +10.1 | 1.19 | 24.2 | +15.0 | -4.9 | 2/4 | False |
+| ts5m-GOLD-turtlesoup-dayh1-r2-rr2.5-DAY | 326 | +0.124 | +40.4 | 1.16 | 30.9 | +53.4 | -13.0 | 2/4 | False |
+| ts5m-GOLD-turtlesoup-day-r2-rr1.5-DAY | 91 | +0.122 | +11.1 | 1.14 | 34.9 | +19.0 | -7.9 | 2/4 | False |
+| ts5m-GOLD-turtlesoup-dayh1-r2-rr1.5-DAY | 358 | +0.076 | +27.2 | 1.11 | 27.5 | +34.7 | -7.4 | 2/4 | False |
+| ts5m-GOLD-turtlesoup-dayh1-r2-rr1.5-none | 676 | +0.044 | +29.9 | 1.06 | 31.8 | +53.7 | -23.8 | 3/4 | False |
+| ts5m-GOLD-turtlesoup-dayh1-r2-rr2.5-none | 636 | +0.016 | +10.0 | 1.02 | 34.4 | +72.4 | -62.4 | 2/4 | False |
+| ts5m-GOLD-turtlesoup-dayh1-r4-rr2.5-none | 576 | +0.016 | +9.0 | 1.02 | 33.2 | +34.6 | -25.7 | 2/4 | False |
+| ts5m-GOLD-turtlesoup-dayh1-r4-rr2.5-DAY | 272 | -0.010 | -2.7 | 0.99 | 29.3 | +11.1 | -13.8 | 2/4 | False |
+| ts5m-GOLD-turtlesoup-dayh1-r4-rr1.5-none | 651 | -0.034 | -22.3 | 0.95 | 47.5 | -6.7 | -15.5 | 2/4 | False |
+| ts5m-US500-turtlesoup-dayh1-r2-rr2.5-DAY | 362 | -0.042 | -15.3 | 0.95 | 39.7 | -16.8 | +1.5 | 2/4 | False |
+| ts5m-US500-turtlesoup-dayh1-r4-rr2.5-DAY | 313 | -0.056 | -17.6 | 0.93 | 40.5 | -8.7 | -8.9 | 1/4 | False |
+| ts5m-GOLD-turtlesoup-dayh1-r4-rr1.5-DAY | 318 | -0.068 | -21.6 | 0.91 | 36.9 | -13.7 | -7.9 | 1/4 | False |
+| ts5m-US500-turtlesoup-dayh1-r4-rr1.5-DAY | 350 | -0.078 | -27.3 | 0.89 | 32.0 | -22.0 | -5.3 | 1/4 | False |
+| ts5m-GOLD-turtlesoup-day-r2-rr2.5-none | 263 | -0.082 | -21.6 | 0.91 | 40.4 | +75.8 | -97.4 | 1/4 | False |
+| ts5m-US500-turtlesoup-dayh1-r2-rr1.5-DAY | 394 | -0.094 | -37.0 | 0.88 | 46.7 | -50.0 | +13.0 | 1/4 | False |
+| ts5m-GOLD-turtlesoup-day-r4-rr2.5-none | 203 | -0.097 | -19.8 | 0.89 | 33.3 | +30.5 | -50.2 | 0/4 | False |
+| ts5m-US100-turtlesoup-dayh1-r2-rr1.5-DAY | 388 | -0.101 | -39.1 | 0.86 | 55.9 | -44.7 | +5.6 | 1/4 | False |
+| ts5m-US100-turtlesoup-dayh1-r4-rr1.5-DAY | 338 | -0.102 | -34.4 | 0.86 | 46.8 | -38.0 | +3.5 | 1/4 | False |
+| ts5m-GOLD-turtlesoup-day-r4-rr1.5-none | 223 | -0.105 | -23.5 | 0.87 | 32.7 | +29.3 | -52.8 | 0/4 | False |
+| ts5m-US500-turtlesoup-dayh1-r2-rr2.5-none | 647 | -0.135 | -87.1 | 0.83 | 105.6 | -6.6 | -80.4 | 0/4 | False |
+| ts5m-US500-turtlesoup-dayh1-r2-rr1.5-none | 669 | -0.147 | -98.1 | 0.81 | 107.7 | -15.5 | -82.6 | 1/4 | False |
+| ts5m-US100-turtlesoup-dayh1-r2-rr1.5-none | 669 | -0.152 | -101.4 | 0.80 | 112.3 | -49.2 | -52.2 | 0/4 | False |
+| ts5m-US100-turtlesoup-dayh1-r4-rr2.5-DAY | 290 | -0.155 | -45.1 | 0.81 | 50.2 | -50.8 | +5.8 | 0/4 | False |
+| ts5m-GOLD-turtlesoup-day-r2-rr1.5-none | 274 | -0.161 | -44.1 | 0.82 | 50.9 | +56.4 | -100.5 | 1/4 | False |
+| ts5m-US100-turtlesoup-dayh1-r2-rr2.5-DAY | 358 | -0.183 | -65.6 | 0.78 | 73.5 | -63.3 | -2.3 | 1/4 | False |
+| ts5m-US100-turtlesoup-day-r4-rr1.5-none | 221 | -0.192 | -42.4 | 0.78 | 47.1 | +12.3 | -54.7 | 1/4 | False |
+| ts5m-US100-turtlesoup-day-r4-rr2.5-DAY | 53 | -0.192 | -10.2 | 0.76 | 13.1 | -10.7 | +0.6 | 2/4 | False |
+| ts5m-US100-turtlesoup-dayh1-r4-rr1.5-none | 599 | -0.202 | -120.9 | 0.74 | 129.1 | -50.4 | -70.5 | 0/4 | False |
+| ts5m-US500-turtlesoup-dayh1-r4-rr2.5-none | 612 | -0.205 | -125.3 | 0.75 | 153.1 | -35.9 | -89.3 | 0/4 | False |
+| ts5m-US100-turtlesoup-day-r4-rr2.5-none | 191 | -0.219 | -41.8 | 0.75 | 44.8 | +12.8 | -54.6 | 1/4 | False |
+| ts5m-US500-turtlesoup-day-r2-rr1.5-none | 274 | -0.231 | -63.3 | 0.73 | 79.2 | -17.6 | -45.8 | 1/4 | False |
+| ts5m-US500-turtlesoup-dayh1-r4-rr1.5-none | 623 | -0.232 | -144.6 | 0.70 | 158.6 | -37.8 | -106.8 | 0/4 | False |
+| ts5m-US100-turtlesoup-day-r2-rr1.5-none | 285 | -0.238 | -67.7 | 0.73 | 70.9 | -10.8 | -56.9 | 0/4 | False |
+| ts5m-US100-turtlesoup-day-r4-rr1.5-DAY | 64 | -0.242 | -15.5 | 0.70 | 17.4 | -16.0 | +0.6 | 2/4 | False |
+| ts5m-US100-turtlesoup-dayh1-r2-rr2.5-none | 617 | -0.247 | -152.4 | 0.71 | 157.5 | -95.8 | -56.6 | 0/4 | False |
+| ts5m-US100-turtlesoup-day-r2-rr2.5-none | 256 | -0.271 | -69.4 | 0.70 | 74.1 | -12.8 | -56.6 | 0/4 | False |
+| ts5m-US500-turtlesoup-day-r2-rr2.5-none | 245 | -0.280 | -68.7 | 0.69 | 85.3 | -23.8 | -44.9 | 1/4 | False |
+| ts5m-US100-turtlesoup-dayh1-r4-rr2.5-none | 548 | -0.291 | -159.5 | 0.66 | 161.3 | -57.3 | -102.2 | 0/4 | False |
+| ts5m-US500-turtlesoup-day-r2-rr1.5-DAY | 85 | -0.321 | -27.3 | 0.62 | 27.3 | -25.3 | -1.9 | 1/4 | False |
+| ts5m-US500-turtlesoup-day-r4-rr1.5-none | 237 | -0.352 | -83.3 | 0.60 | 99.2 | -37.0 | -46.3 | 0/4 | False |
+| ts5m-US100-turtlesoup-day-r2-rr1.5-DAY | 88 | -0.413 | -36.3 | 0.52 | 42.5 | -33.9 | -2.4 | 1/4 | False |
+| ts5m-US100-turtlesoup-day-r2-rr2.5-DAY | 71 | -0.432 | -30.7 | 0.51 | 37.9 | -29.2 | -1.4 | 1/4 | False |
+| ts5m-US500-turtlesoup-day-r4-rr2.5-none | 209 | -0.448 | -93.5 | 0.51 | 108.0 | -48.5 | -45.0 | 0/4 | False |
+| ts5m-US500-turtlesoup-day-r2-rr2.5-DAY | 70 | -0.448 | -31.3 | 0.50 | 31.3 | -28.7 | -2.6 | 1/4 | False |
+| ts5m-US500-turtlesoup-day-r4-rr1.5-DAY | 73 | -0.562 | -41.0 | 0.36 | 41.0 | -37.6 | -3.4 | 1/4 | False |
+| ts5m-US500-turtlesoup-day-r4-rr2.5-DAY | 63 | -0.703 | -44.3 | 0.25 | 44.3 | -41.9 | -2.4 | 1/4 | False |

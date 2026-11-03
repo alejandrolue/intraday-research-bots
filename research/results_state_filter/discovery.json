@@ -1,0 +1,163 @@
+{
+  "baseline": {
+    "trades": 7244,
+    "total_r": -766.996867212739,
+    "average_r": -0.1058802964125813,
+    "profit_factor": 0.8379690889238497
+  },
+  "bins": {
+    "session": {
+      "comex": {
+        "trades": 866,
+        "total_r": -110.5321146033725,
+        "average_r": -0.12763523626255485,
+        "profit_factor": 0.8060949343524629
+      },
+      "london": {
+        "trades": 1944,
+        "total_r": -147.0185336321497,
+        "average_r": -0.07562681771201117,
+        "profit_factor": 0.8817246829772274
+      },
+      "ny-cash": {
+        "trades": 1908,
+        "total_r": -131.97320554294407,
+        "average_r": -0.06916834672062058,
+        "profit_factor": 0.8917019802921023
+      },
+      "tokyo": {
+        "trades": 2297,
+        "total_r": -407.9898846577204,
+        "average_r": -0.1776185827852505,
+        "profit_factor": 0.7406049638507114
+      },
+      "us-data": {
+        "trades": 229,
+        "total_r": 30.516871223447772,
+        "average_r": 0.1332614463906016,
+        "profit_factor": 1.2363255113549265
+      }
+    },
+    "adx": {
+      "20-30": {
+        "trades": 2336,
+        "total_r": -132.04986328416686,
+        "average_r": -0.05652819489904403,
+        "profit_factor": 0.9113414307056786
+      },
+      "<20": {
+        "trades": 2661,
+        "total_r": -531.2416868729777,
+        "average_r": -0.19963986729536928,
+        "profit_factor": 0.7089863790614075
+      },
+      ">=30": {
+        "trades": 2247,
+        "total_r": -103.70531705559432,
+        "average_r": -0.046152789076811,
+        "profit_factor": 0.9269031120780734
+      }
+    },
+    "volatility": {
+      "0.3-0.7": {
+        "trades": 2724,
+        "total_r": -295.47255697672165,
+        "average_r": -0.10847010168014745,
+        "profit_factor": 0.8339759632617019
+      },
+      "<0.3": {
+        "trades": 1852,
+        "total_r": -428.58657945473203,
+        "average_r": -0.23141823944639958,
+        "profit_factor": 0.6714352309933879
+      },
+      ">=0.7": {
+        "trades": 2668,
+        "total_r": -42.93773078128525,
+        "average_r": -0.016093602241861037,
+        "profit_factor": 0.9739696787479524
+      }
+    },
+    "efficiency": {
+      "0.3-0.5": {
+        "trades": 2214,
+        "total_r": -162.55643673021098,
+        "average_r": -0.07342205814372672,
+        "profit_factor": 0.8859676037512755
+      },
+      "<0.3": {
+        "trades": 4214,
+        "total_r": -527.4414662153115,
+        "average_r": -0.1251640878536572,
+        "profit_factor": 0.8091826407355941
+      },
+      ">=0.5": {
+        "trades": 816,
+        "total_r": -76.99896426721644,
+        "average_r": -0.0943614758176672,
+        "profit_factor": 0.8584577862734992
+      }
+    },
+    "state": {
+      "breakout_with": {
+        "trades": 997,
+        "total_r": -83.69025958527524,
+        "average_r": -0.08394208584280366,
+        "profit_factor": 0.8696799611390533
+      },
+      "mixed": {
+        "trades": 1383,
+        "total_r": -179.74121390843706,
+        "average_r": -0.12996472444572454,
+        "profit_factor": 0.8059996259495981
+      },
+      "sideways": {
+        "trades": 1809,
+        "total_r": -371.3967836866877,
+        "average_r": -0.20530502138567588,
+        "profit_factor": 0.7005354448139635
+      },
+      "trend_against": {
+        "trades": 114,
+        "total_r": -13.997626409999027,
+        "average_r": -0.12278619657893883,
+        "profit_factor": 0.8108428863513645
+      },
+      "trend_with": {
+        "trades": 2941,
+        "total_r": -118.17098362233992,
+        "average_r": -0.04018054526431143,
+        "profit_factor": 0.9361497797353433
+      }
+    },
+    "range": {
+      "early": {
+        "trades": 7,
+        "total_r": -2.0,
+        "average_r": -0.2857142857142857,
+        "profit_factor": 0.6
+      },
+      "late": {
+        "trades": 4869,
+        "total_r": -565.6084434652664,
+        "average_r": -0.11616521738863554,
+        "profit_factor": 0.8242344530244246
+      },
+      "middle": {
+        "trades": 2368,
+        "total_r": -199.3884237474725,
+        "average_r": -0.08420119246092589,
+        "profit_factor": 0.8680136239148784
+      }
+    }
+  },
+  "candidates": [],
+  "locked": null,
+  "sources": {
+    "research/state_filter_study.py": "23d5571f016b1aa1d57a062eb90008e3cf3d86ee132d34a2783c8c246abba097",
+    "research/STATE_FILTER_PROTOCOL.md": "c51d6713eca158cb8487cb5e891b5e48f7b7d6179d5af5dc8b25be24c4d1db57",
+    "src/goldbot/regime.py": "aa7d6fe25c98e5b0bd524d00c38afc391982124f0947be3783f166ccd23a8ecc",
+    "src/goldbot/backtest.py": "935f394bdb7c724295040d7534299aae9816a66a25aa7a238d25b20a70967330"
+  },
+  "created_utc": "2026-10-07T19:53:21.759935+00:00"
+}

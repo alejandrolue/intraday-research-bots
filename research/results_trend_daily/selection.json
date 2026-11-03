@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-10-06T23:11:52.849735+00:00",
+  "training_sha256": "f883b32acca2565ff01fa1aafb5d13273d852c5f880f5ffc020e83534534f3cc",
+  "source_hashes": {
+    "research/trend_daily_study.py": "c924168e8fc9b1fa07de43c998e2198d1f5b4cf9faa6892eb6d4b29f9e20a0ef",
+    "research/TREND_DAILY_PROTOCOL.md": "435146f3662205f46c277ceb2ae11edc14983ee74ed4a3e1a902741e3c3a74f1",
+    "research/trend_daily.py": "73172138f9fc830a2ae0d0286a3cc34f9d52b38c5a3336108b0c9cf715167dcd"
+  },
+  "selected": [
+    {
+      "rule": "donchian-55-20-k2",
+      "eligible": false
+    },
+    {
+      "rule": "ma-20-100-k3",
+      "eligible": false
+    },
+    {
+      "rule": "tsmom-126-k3",
+      "eligible": false
+    }
+  ]
+}

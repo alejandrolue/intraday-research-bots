@@ -1,0 +1,52 @@
+# All 48 training variants (5m-v1 volume pullback, GOLD)
+
+| Variant | N | N/year | Avg R | Total R | DD R | Long R | Short R | +Q | +50% spread | Eligible |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| evp-breakout-off-rr3-all | 47 | 24 | +0.191 | +9.0 | 9.0 | -7.0 | +16.0 | 4/8 | +0.157 | False |
+| evp-breakout-off-rr3-london-ny | 27 | 14 | +0.185 | +5.0 | 9.0 | -9.0 | +14.0 | 4/8 | +0.155 | False |
+| evp-pullback-rvol-rr3-all | 75 | 38 | +0.120 | +9.0 | 13.0 | +24.0 | -15.0 | 4/8 | +0.081 | False |
+| evp-combined-rvol-rr3-all | 75 | 38 | +0.120 | +9.0 | 13.0 | +24.0 | -15.0 | 4/8 | +0.081 | False |
+| evp-breakout-off-rr2-london-ny | 27 | 14 | +0.111 | +3.0 | 7.0 | -4.0 | +7.0 | 4/8 | +0.081 | False |
+| evp-pullback-rvol-rr2-all | 76 | 38 | +0.105 | +8.0 | 6.0 | +17.0 | -9.0 | 5/8 | +0.067 | False |
+| evp-combined-rvol-rr2-all | 76 | 38 | +0.105 | +8.0 | 6.0 | +17.0 | -9.0 | 5/8 | +0.067 | False |
+| evp-breakout-off-rr2-all | 47 | 24 | +0.085 | +4.0 | 10.0 | -5.0 | +9.0 | 3/8 | +0.051 | False |
+| evp-pullback-off-rr3-all | 1245 | 623 | +0.057 | +70.7 | 47.0 | +113.4 | -42.7 | 6/8 | +0.028 | False |
+| evp-pullback-sma-rr3-all | 515 | 258 | +0.056 | +28.9 | 23.1 | +74.9 | -46.1 | 4/8 | +0.024 | False |
+| evp-combined-sma-rr3-all | 515 | 258 | +0.056 | +28.9 | 23.1 | +74.9 | -46.1 | 4/8 | +0.024 | False |
+| evp-combined-off-rr3-all | 1261 | 631 | +0.047 | +58.7 | 47.0 | +105.4 | -46.7 | 6/8 | +0.017 | False |
+| evp-pullback-off-rr2-all | 1384 | 692 | +0.021 | +28.5 | 51.0 | +52.9 | -24.4 | 4/8 | -0.009 | False |
+| evp-pullback-off-rr3-london-ny | 731 | 366 | +0.016 | +11.9 | 38.7 | +59.5 | -47.6 | 4/8 | -0.010 | False |
+| evp-combined-off-rr2-all | 1402 | 701 | +0.014 | +19.5 | 53.0 | +49.9 | -30.4 | 3/8 | -0.016 | False |
+| evp-pullback-sma-rr2-all | 543 | 272 | +0.012 | +6.7 | 23.0 | +31.8 | -25.1 | 3/8 | -0.020 | False |
+| evp-combined-sma-rr2-all | 543 | 272 | +0.012 | +6.7 | 23.0 | +31.8 | -25.1 | 3/8 | -0.020 | False |
+| evp-combined-off-rr3-london-ny | 741 | 371 | +0.008 | +5.9 | 40.7 | +54.5 | -48.6 | 4/8 | -0.019 | False |
+| evp-retest-sma-rr2-all | 0 | 0 | +0.000 | +0.0 | 0.0 | +0.0 | +0.0 | 0/8 | +0.000 | False |
+| evp-retest-sma-rr2-london-ny | 0 | 0 | +0.000 | +0.0 | 0.0 | +0.0 | +0.0 | 0/8 | +0.000 | False |
+| evp-retest-sma-rr3-all | 0 | 0 | +0.000 | +0.0 | 0.0 | +0.0 | +0.0 | 0/8 | +0.000 | False |
+| evp-retest-sma-rr3-london-ny | 0 | 0 | +0.000 | +0.0 | 0.0 | +0.0 | +0.0 | 0/8 | +0.000 | False |
+| evp-retest-rvol-rr2-all | 0 | 0 | +0.000 | +0.0 | 0.0 | +0.0 | +0.0 | 0/8 | +0.000 | False |
+| evp-retest-rvol-rr2-london-ny | 0 | 0 | +0.000 | +0.0 | 0.0 | +0.0 | +0.0 | 0/8 | +0.000 | False |
+| evp-retest-rvol-rr3-all | 0 | 0 | +0.000 | +0.0 | 0.0 | +0.0 | +0.0 | 0/8 | +0.000 | False |
+| evp-retest-rvol-rr3-london-ny | 0 | 0 | +0.000 | +0.0 | 0.0 | +0.0 | +0.0 | 0/8 | +0.000 | False |
+| evp-breakout-sma-rr2-all | 0 | 0 | +0.000 | +0.0 | 0.0 | +0.0 | +0.0 | 0/8 | +0.000 | False |
+| evp-breakout-sma-rr2-london-ny | 0 | 0 | +0.000 | +0.0 | 0.0 | +0.0 | +0.0 | 0/8 | +0.000 | False |
+| evp-breakout-sma-rr3-all | 0 | 0 | +0.000 | +0.0 | 0.0 | +0.0 | +0.0 | 0/8 | +0.000 | False |
+| evp-breakout-sma-rr3-london-ny | 0 | 0 | +0.000 | +0.0 | 0.0 | +0.0 | +0.0 | 0/8 | +0.000 | False |
+| evp-breakout-rvol-rr2-all | 0 | 0 | +0.000 | +0.0 | 0.0 | +0.0 | +0.0 | 0/8 | +0.000 | False |
+| evp-breakout-rvol-rr2-london-ny | 0 | 0 | +0.000 | +0.0 | 0.0 | +0.0 | +0.0 | 0/8 | +0.000 | False |
+| evp-breakout-rvol-rr3-all | 0 | 0 | +0.000 | +0.0 | 0.0 | +0.0 | +0.0 | 0/8 | +0.000 | False |
+| evp-breakout-rvol-rr3-london-ny | 0 | 0 | +0.000 | +0.0 | 0.0 | +0.0 | +0.0 | 0/8 | +0.000 | False |
+| evp-pullback-off-rr2-london-ny | 794 | 397 | -0.005 | -3.7 | 34.8 | +22.1 | -25.9 | 5/8 | -0.031 | False |
+| evp-combined-off-rr2-london-ny | 804 | 402 | -0.013 | -10.7 | 37.8 | +17.1 | -27.9 | 3/8 | -0.040 | False |
+| evp-pullback-sma-rr3-london-ny | 302 | 151 | -0.023 | -6.9 | 35.9 | +19.0 | -25.9 | 4/8 | -0.051 | False |
+| evp-combined-sma-rr3-london-ny | 302 | 151 | -0.023 | -6.9 | 35.9 | +19.0 | -25.9 | 4/8 | -0.051 | False |
+| evp-pullback-sma-rr2-london-ny | 310 | 155 | -0.026 | -7.9 | 25.9 | +2.0 | -9.9 | 5/8 | -0.054 | False |
+| evp-combined-sma-rr2-london-ny | 310 | 155 | -0.026 | -7.9 | 25.9 | +2.0 | -9.9 | 5/8 | -0.054 | False |
+| evp-pullback-rvol-rr2-london-ny | 38 | 19 | -0.053 | -2.0 | 6.0 | +4.0 | -6.0 | 4/8 | -0.081 | False |
+| evp-combined-rvol-rr2-london-ny | 38 | 19 | -0.053 | -2.0 | 6.0 | +4.0 | -6.0 | 4/8 | -0.081 | False |
+| evp-pullback-rvol-rr3-london-ny | 38 | 19 | -0.158 | -6.0 | 12.0 | +7.0 | -13.0 | 4/8 | -0.186 | False |
+| evp-combined-rvol-rr3-london-ny | 38 | 19 | -0.158 | -6.0 | 12.0 | +7.0 | -13.0 | 4/8 | -0.186 | False |
+| evp-retest-off-rr2-all | 35 | 18 | -0.314 | -11.0 | 12.0 | -1.0 | -10.0 | 3/8 | -0.376 | False |
+| evp-retest-off-rr2-london-ny | 20 | 10 | -0.400 | -8.0 | 9.0 | -5.0 | -3.0 | 2/8 | -0.462 | False |
+| evp-retest-off-rr3-all | 35 | 18 | -0.543 | -19.0 | 19.0 | -7.0 | -12.0 | 1/8 | -0.605 | False |
+| evp-retest-off-rr3-london-ny | 20 | 10 | -0.600 | -12.0 | 12.0 | -7.0 | -5.0 | 1/8 | -0.662 | False |

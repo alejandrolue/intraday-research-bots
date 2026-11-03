@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-09T17:57:19.564896+00:00",
+  "sources": {
+    "research/fib_retrace_study.py": "fc25c3b512fe5ac65cc15ee565dcd1c6a805de097f692a678b4ef0d4e7028128",
+    "research/FIB_RETRACE_PROTOCOL.md": "7a7c1179dcd3373fe67d7a4d92641a2b3076ab34a86c86c85ad30c7decc6a317",
+    "research/fib_retrace.py": "1b06dd1c54cb971840f59e68ce2ee79767a2f2a98c8aa211471e2d53edeeaff0"
+  },
+  "training_sha256": "6048304af59b4246b469917b887864e18f9757dd6d0c653a65e189718b3a74ef",
+  "locked": [
+    {
+      "rule": "fib0.382-any-ext",
+      "eligible": false
+    }
+  ]
+}
