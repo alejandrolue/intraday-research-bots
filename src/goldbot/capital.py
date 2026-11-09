@@ -18,6 +18,17 @@ class _SessionExpired(Exception):
     pass
 
 
+def _error_detail(response: httpx.Response) -> str:
+    """The broker's reason for a refused request (e.g. errorCode), so journals show why (#203)."""
+    try:
+        body = response.json()
+        text = str(body.get("errorCode") or body) if isinstance(body, dict) else str(body)
+    except Exception:
+        text = response.text or ""
+    text = " ".join(text.split())[:200]
+    return f": {text}" if text else ""
+
+
 # Capital.com allows about 10 requests per second per API key, shared by every bot.
 MIN_REQUEST_INTERVAL = 0.15  # seconds between requests from one client (at most ~7 per second)
 RATE_LIMIT_RETRIES = (1.0, 2.0)  # waits before retrying a throttled GET
@@ -341,6 +352,7 @@ class CapitalDemoClient:
                 raise _SessionExpired from exc
             raise CapitalAPIError(
                 f"Capital.com API returned HTTP {exc.response.status_code} for {method} {path}"
+                f"{_error_detail(exc.response) if path != '/session' else ''}"
             ) from exc
         except httpx.HTTPError as exc:
             raise CapitalAPIError(f"Capital.com API request failed for {method} {path}") from exc

@@ -197,15 +197,16 @@ def test_status_notifier_reports_trade_open_and_close() -> None:
     )
     client.close()
 
-    assert "Trade opened: BUY Gold (Capital.com demo)" in messages[0]
-    assert "R:R: 1.44" in messages[0]
-    assert "Deal ID: pos-1" in messages[0]
-    assert "Trade closed: STOP" in messages[1]
-    assert "Entry 4131.59 → Exit 4126.52 (-5.07 pts)" in messages[1]
-    assert "Broker P&L: CHF -0.46" in messages[1]
-    assert "Local estimate: USD -0.51 (-1.04R)" in messages[1]
-    assert "Held: 15m" in messages[1]
-    assert "Local balance estimate: USD 9,997.35" in messages[1]
+    assert messages[0].split("\n") == [
+        "🟢 BUY Gold · ema_pullback",
+        "Entry 4,131.59 · Stop 4,126.72 · Target 4,138.62",
+        "1:1.4 · size 0.1 · risk 0.49",
+    ]
+    assert messages[1].split("\n") == [
+        "❌ -1.04R · CHF -0.46",
+        "BUY Gold · ema_pullback · stop",
+        "4,131.59 → 4,126.52 · 15m",
+    ]
 
 
 def test_status_notifier_labels_a_close_without_broker_pnl_as_local() -> None:
@@ -236,8 +237,7 @@ def test_status_notifier_labels_a_close_without_broker_pnl_as_local() -> None:
     )
     client.close()
 
-    assert "P&L (local estimate): USD +0.30 (+1.50R)" in messages[0]
-    assert "Broker P&L" not in messages[0]
+    assert messages[0].split("\n")[0] == "✅ +1.50R · about USD +0.30"
 
 
 def test_status_notifier_reports_stop_and_target_changes() -> None:
@@ -263,10 +263,12 @@ def test_status_notifier_reports_stop_and_target_changes() -> None:
     )
     client.close()
 
-    assert messages[0].startswith("[5m] 🔒 Stop moved: this trade can no longer lose")
-    assert "🎯 Target extended" in messages[0]
-    assert "Stop: 98.10 → 100.10 (locks +0.00R)" in messages[0]
-    assert "Target: 104.10 → 106.10" in messages[0]
+    assert messages[0].split("\n") == [
+        "[5m] 🔒 Stop to breakeven · +1.80R",
+        "BUY Gold · ema_pullback",
+        "Stop 98.10 → 100.10",
+        "Target 104.10 → 106.10",
+    ]
 
 
 def test_trade_messages_name_the_market() -> None:
@@ -284,4 +286,4 @@ def test_trade_messages_name_the_market() -> None:
     notifier.trade_opened({"position": position, "risk_budget": 0.24}, deal_id="pos-9")
     client.close()
 
-    assert messages[0].startswith("[us100-orb] 🟢 Trade opened: SELL US100")
+    assert messages[0].startswith("[us100-orb] 🟢 SELL US100")

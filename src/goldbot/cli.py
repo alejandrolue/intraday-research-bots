@@ -34,6 +34,7 @@ from .lab import (
     LabEntry,
     LabRoster,
     PollCache,
+    BrokerBalance,
     account_balance as lab_account_balance,
     load_roster,
     risk_snapshot as lab_risk_snapshot,
@@ -869,7 +870,7 @@ def _lab_settings(base: Settings, roster: LabRoster, entry: LabEntry) -> Setting
     return replace(
         base,
         session=f"lab-{entry.name}",
-        data_dir=LAB_DIR / entry.name,
+        data_dir=LAB_DIR.parent / roster.data_dir / entry.name,
         capital_epic=entry.epic,
         capital_resolution=entry.resolution,
         capital_trend_resolution=entry.trend_resolution,
@@ -996,6 +997,9 @@ def _daytrade_command(args: argparse.Namespace, settings: Settings) -> int:
                     balance = lab_account_balance(client.get_accounts(), str(account.get("accountId")))
                 except (CapitalAPIError, ValueError) as exc:
                     _print({"event": "DAYTRADE_BALANCE_UNAVAILABLE", "error": str(exc)})
+            if balance is not None:  # #198: size from the account, not the lane ledger
+                for ledger in ledgers:
+                    ledger.sizing_balance = balance
             edges = {i["lane"].name: dt.edge(dt.closed_r(i["settings"].data_dir / "journal.jsonl"),
                                               i["lane"].prior_r, roster) for i in lanes}
             snapshot = (lab_risk_snapshot(ledgers, account_balance_value=balance, trading_day=now.date(),
@@ -1166,6 +1170,9 @@ def _lab_command(args: argparse.Namespace, settings: Settings) -> int:
                         )
                     except (CapitalAPIError, ValueError) as exc:
                         _print({"event": "LAB_ACCOUNT_RISK_UNAVAILABLE", "error": str(exc)})
+                if account_balance_value is not None:  # #198: size from the account
+                    for ledger in lab_ledgers:
+                        ledger.sizing_balance = account_balance_value
                 for lane in lanes:
                     entry = lane["entry"]
                     if reopening[entry.epic] is not None:
@@ -1483,6 +1490,12 @@ def main(argv: list[str] | None = None) -> int:
                     if args.demo_execute
                     else None
                 )
+                # #198: demo bots size 1% of their account's broker balance (read every 5 min).
+                broker_balance = (
+                    BrokerBalance(client, str(account["accountId"]))
+                    if demo_executor is not None and account.get("accountId")
+                    else None
+                )
                 if args.command == "once":
                     if demo_executor:
                         _manage_positions(
@@ -1562,6 +1575,8 @@ def main(argv: list[str] | None = None) -> int:
                         _print({"event": "MARKET_OPEN", "epic": settings.capital_epic})
                         market_closed = False
                     try:
+                        if broker_balance is not None:
+                            broker_balance.apply([runner.ledger], now)
                         if settings.capital_epic:
                             _weekend_guard(
                                 market_clock, settings.capital_epic, now, runner, demo_executor,

@@ -26,11 +26,20 @@ class FakeClient:
         self.orders, self.deleted, self.closed, self.positions = [], [], [], []
         self.live_orders = None
         self.activities = []
+        self.quote = {}
+        self.market_orders = []
 
     def get_market_details(self, epic):
-        return {"dealingRules": {}, "snapshot": {"decimalPlacesFactor": 2}}
+        return {"dealingRules": {}, "snapshot": {"decimalPlacesFactor": 2, **self.quote}}
+
+    def create_position(self, **kw):
+        self.market_orders.append(kw)
+        return f"mkt-{kw['direction']}"
 
     def create_working_order(self, **kw):
+        if kw["direction"] in getattr(self, "reject", ()):
+            self.quote = self.reject[kw["direction"]]           # the price moves while the order is sent
+            raise CapitalAPIError("Capital.com API returned HTTP 400 for POST /workingorders: error.invalid.level")
         self.orders.append(kw)
         return f"ref-{kw['direction']}"
 
@@ -245,3 +254,75 @@ def test_an_executed_order_without_a_position_yet_stays_pending(tmp_path):
     client.activities = [{"type": "WORKING_ORDER", "status": "EXPIRED", "dealId": "WO-ref-SELL"}]
     bracket.sync(STRATEGY, asia_range, NOW + timedelta(minutes=7))
     assert bracket.state["orders"]["SELL"]["status"] == "GONE"
+
+
+def test_price_already_through_a_level_enters_that_side_at_market(tmp_path):
+    # 4 Nov 2026: gold was above the buy level when the bracket was placed and the broker refused the buy stop (#196)
+    bracket, client, ledger = make(tmp_path)
+    client.quote = {"bid": 2905.5, "offer": 2905.8}           # 0.5 points past the 2905.3 buy level
+    events = bracket.sync(STRATEGY, asia_range, NOW)
+    assert [e["event"] for e in events] == ["BRACKET_MARKET_ENTRY", "BRACKET_FILLED"]
+    assert client.orders == []                                 # no stop orders at all
+    [order] = client.market_orders
+    assert (order["direction"], order["stop_level"]) == ("BUY", 2895)
+    assert order["size"] == round(round(110 / 10.3, 2) * 10.3 / 10.8, 2)   # risk sized from the quote
+    [position] = ledger.open_positions
+    assert position.direction == "BUY" and position.entry == 2905.8 and position.deal_id == "WO-mkt-BUY"
+    assert abs(events[1]["slippage_points"] - 0.5) < 1e-9
+    # later polls and a restart do not enter again
+    assert bracket.sync(STRATEGY, asia_range, NOW + timedelta(minutes=5)) == []
+    again, client2, _ = make(tmp_path)
+    client2.quote = client.quote
+    assert again.sync(STRATEGY, asia_range, NOW + timedelta(minutes=6)) == [] and client2.market_orders == []
+
+
+def test_price_far_past_a_level_skips_the_day(tmp_path):
+    bracket, client, ledger = make(tmp_path)
+    client.quote = {"bid": 2888.0, "offer": 2888.3}           # 6.7 points (0.65R) below the 2894.7 sell level
+    events = bracket.sync(STRATEGY, asia_range, NOW)
+    assert [e["event"] for e in events] == ["BRACKET_SKIPPED"] and events[0]["side"] == "SELL"
+    assert client.orders == [] and client.market_orders == [] and ledger.open_positions == []
+    assert bracket.sync(STRATEGY, asia_range, NOW + timedelta(minutes=5)) == []
+
+
+def test_quote_inside_the_range_places_both_stop_orders(tmp_path):
+    bracket, client, _ = make(tmp_path)
+    client.quote = {"bid": 2900.0, "offer": 2900.3}
+    events = bracket.sync(STRATEGY, asia_range, NOW)
+    assert [e["event"] for e in events] == ["BRACKET_PLACED", "BRACKET_PLACED"] and client.market_orders == []
+
+
+def test_a_rejected_stop_order_enters_at_market_when_the_price_is_now_through(tmp_path):
+    # 6 Nov 2026 (jobs report): the buy stop was placed, then the sell stop was refused because gold had just
+    # fallen through the sell level after the snapshot was read (#203)
+    bracket, client, ledger = make(tmp_path)
+    client.quote = {"bid": 2900.0, "offer": 2900.3}
+    client.reject = {"SELL": {"bid": 2894.2, "offer": 2894.5}}   # 0.5 points below the 2894.7 sell level
+    events = bracket.sync(STRATEGY, asia_range, NOW)
+    assert [e["event"] for e in events] == ["BRACKET_PLACED", "BRACKET_REJECTED", "BRACKET_MARKET_ENTRY",
+                                            "BRACKET_FILLED", "BRACKET_CANCELLED"]
+    assert "error.invalid.level" in events[1]["reason"]
+    [order] = client.market_orders
+    assert (order["direction"], order["stop_level"]) == ("SELL", 2905)
+    assert client.deleted == ["WO-ref-BUY"]                       # the buy stop is not left behind
+    [position] = ledger.open_positions
+    assert position.direction == "SELL" and position.entry == 2894.2
+    assert bracket.sync(STRATEGY, asia_range, NOW + timedelta(minutes=5)) == [] and len(client.market_orders) == 1
+
+
+def test_a_rejected_stop_order_with_the_price_still_inside_only_records_the_rejection(tmp_path):
+    bracket, client, ledger = make(tmp_path)
+    client.quote = {"bid": 2900.0, "offer": 2900.3}
+    client.reject = {"SELL": {"bid": 2899.0, "offer": 2899.3}}
+    events = bracket.sync(STRATEGY, asia_range, NOW)
+    assert [e["event"] for e in events] == ["BRACKET_PLACED", "BRACKET_REJECTED"]
+    assert client.market_orders == [] and client.deleted == [] and ledger.open_positions == []
+
+
+def test_a_rejected_first_side_entered_at_market_skips_the_other_side(tmp_path):
+    bracket, client, ledger = make(tmp_path)
+    client.quote = {"bid": 2900.0, "offer": 2900.3}
+    client.reject = {"BUY": {"bid": 2905.4, "offer": 2905.7}}
+    events = bracket.sync(STRATEGY, asia_range, NOW)
+    assert [e["event"] for e in events] == ["BRACKET_REJECTED", "BRACKET_MARKET_ENTRY", "BRACKET_FILLED"]
+    assert client.orders == [] and [o["direction"] for o in client.market_orders] == ["BUY"]

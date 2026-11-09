@@ -22,7 +22,7 @@ from .sessions import resolution_delta
 
 
 # Markets the lab may trade, on the lab demo account only. Main sessions use DEMO_EPICS.
-LAB_EPICS = ("GOLD", "US100", "US30", "US500", "J225", "HK50")
+LAB_EPICS = ("GOLD", "US100", "US30", "US500", "J225", "HK50", "DE40")
 BUILT_IN = ("breakout_retest", "ema_pullback", "demand_zone_rejection")
 
 
@@ -56,6 +56,7 @@ class LabRoster:
     max_open_positions: int = 40
     max_account_open_risk: float = 0.05
     max_account_daily_loss: float = 0.10
+    data_dir: str = "lab"               # folder under data/ holding one directory per lane
     notes: dict[str, Any] = field(default_factory=dict)
 
 
@@ -116,6 +117,7 @@ def load_roster(path: Path) -> LabRoster:
         max_open_positions=int(payload.get("max_open_positions", 40)),
         max_account_open_risk=float(payload.get("max_account_open_risk", 0.05)),
         max_account_daily_loss=float(payload.get("max_account_daily_loss", 0.10)),
+        data_dir=str(payload.get("data_dir", "lab")),
         notes=dict(payload.get("notes", {})),
     )
     if not 0 < roster.max_account_open_risk <= 1:
@@ -139,6 +141,42 @@ def account_balance(accounts: list[dict[str, Any]], account_id: str) -> float:
     if balance <= 0:
         raise ValueError("Lab account balance must be positive")
     return balance
+
+
+class BrokerBalance:
+    """The demo account's balance for sizing (#198), read at most every `ttl_seconds`.
+
+    A failed read keeps the last good value; before the first good read it returns None,
+    and the ledgers then size from their own balance.
+    """
+
+    def __init__(self, client: Any, account_id: str, *, ttl_seconds: float = 300.0) -> None:
+        self.client = client
+        self.account_id = str(account_id)
+        self.ttl_seconds = ttl_seconds
+        self.value: float | None = None
+        self.read_at: datetime | None = None
+        self.last_error: str | None = None
+
+    def set(self, value: float, now: datetime) -> None:
+        self.value, self.read_at, self.last_error = value, now, None
+
+    def get(self, now: datetime) -> float | None:
+        if self.read_at is not None and (now - self.read_at).total_seconds() < self.ttl_seconds:
+            return self.value
+        try:
+            self.set(account_balance(self.client.get_accounts(), self.account_id), now)
+        except Exception as exc:  # keep the last good value
+            self.last_error = str(exc)
+            self.read_at = now
+        return self.value
+
+    def apply(self, ledgers: list[PaperLedger], now: datetime) -> float | None:
+        value = self.get(now)
+        if value is not None:
+            for ledger in ledgers:
+                ledger.sizing_balance = value
+        return value
 
 
 def risk_snapshot(

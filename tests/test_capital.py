@@ -5,7 +5,7 @@ import json
 import httpx
 import pytest
 
-from goldbot.capital import CapitalDemoClient
+from goldbot.capital import CapitalAPIError, CapitalDemoClient
 from goldbot.config import DEMO_BASE_URL
 
 
@@ -227,3 +227,19 @@ def test_demo_client_spaces_requests_apart() -> None:
     now[0] += 0.05
     client.get_accounts()
     assert sleeps == pytest.approx([0.15, 0.10])
+
+
+def test_a_refused_request_carries_the_broker_error_code() -> None:
+    # 6 Nov 2026: a stop order was refused with a bare "HTTP 400"; the reason is now journaled (#203)
+    def handler(request: httpx.Request) -> httpx.Response:
+        return _session(request) or httpx.Response(400, json={"errorCode": "error.invalid.stoploss.minvalue: 4041.4"})
+
+    client = _throttle_client(handler, [], [0.0])
+    client.login()
+    try:
+        client.get_market_details("GOLD")
+    except CapitalAPIError as exc:
+        assert str(exc) == ("Capital.com API returned HTTP 400 for GET /markets/GOLD: "
+                            "error.invalid.stoploss.minvalue: 4041.4")
+    else:
+        raise AssertionError("expected CapitalAPIError")

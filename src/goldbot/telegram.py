@@ -123,16 +123,16 @@ _LABELS = {
 }
 
 
-def _market_line(position: dict[str, Any], *, prefix: str = "Market") -> str | None:
-    """One line describing the market state stored with the position (issue #77)."""
-    context = position.get("context") or {}
-    if not context.get("label"):
-        return None
-    return (
-        f"{prefix}: {_LABELS.get(context['label'], context['label'])} "
-        f"(ER {context.get('efficiency', 0):.2f}, ADX {context.get('adx', 0):.0f}, "
-        f"at {context.get('position_in_range', 0):.0%} of the 20-candle range)"
-    )
+def _market_line(position: dict[str, Any]) -> str | None:
+    """The market state stored with the position (issue #77), in words."""
+    label = (position.get("context") or {}).get("label")
+    return f"Market: {_LABELS.get(label, label)}" if label else None
+
+
+def _price(value: Any) -> str:
+    """Two decimals, or four for low-priced markets."""
+    number = float(value)
+    return f"{number:,.4f}" if abs(number) < 20 else f"{number:,.2f}"
 
 
 def _held_for(opened_at: Any, closed_at: Any) -> str | None:
@@ -240,107 +240,70 @@ class TelegramStatusNotifier:
         position = event["position"]
         entry, stop, target = position["entry"], position["stop"], position["target"]
         risk_points = abs(entry - stop)
-        reward_points = abs(target - entry)
-        heading = (
-            f"➕ Added to winner: {position['direction']} {self.market}"
-            if position.get("role") == "add"
-            else f"🟢 Trade opened: {position['direction']} {self.market}"
-        )
+        icon = "➕ Added" if position.get("role") == "add" else "🟢"
         lines = [
-            heading + (" (Capital.com demo)" if deal_id else " (paper)"),
-            f"Strategy: {position.get('strategy')}",
-            f"Entry: {entry:.2f}",
-            f"Stop: {stop:.2f} ({risk_points:.2f} pts)",
-            f"Target: {target:.2f} ({reward_points:.2f} pts)",
-            f"R:R: {reward_points / risk_points:.2f}" if risk_points else "R:R: n/a",
-            f"Size: {position['units']:g}",
-            f"Risk: ${float(event.get('risk_budget') or 0):.2f}",
+            f"{icon} {position['direction']} {self.market} · {position.get('strategy')}" + ("" if deal_id else " (paper)"),
+            f"Entry {_price(entry)} · Stop {_price(stop)} · Target {_price(target)}",
+            (f"1:{abs(target - entry) / risk_points:.1f} · " if risk_points else "")
+            + f"size {position['units']:g} · risk {float(event.get('risk_budget') or 0):,.2f}",
         ]
         market = _market_line(position)
         if market:
             lines.append(market)
         if event.get("open_positions", 1) > 1:
-            lines.append(f"Open positions: {event['open_positions']}")
-        if deal_id:
-            lines.append(f"Deal ID: {deal_id}")
+            lines.append(f"Open now: {event['open_positions']}")
         self._send("\n".join(lines))
 
     def trade_managed(self, event: dict[str, Any]) -> None:
         position = event["position"]
         reasons = str(event.get("reason") or "").split("+")
         locked_r = float(event.get("locked_r") or 0.0)
-        lines = []
-        if "BREAKEVEN" in reasons:
-            lines.append("🔒 Stop moved: this trade can no longer lose")
-        elif "TRAIL" in reasons:
-            lines.append(f"📈 Trailing stop raised: locks {locked_r:+.2f}R")
-        if "TARGET_EXTENDED" in reasons:
-            lines.append("🎯 Target extended to let the winner run")
-        lines += [
-            f"{position['direction']} {self.market} · {position.get('strategy')} · entry {position['entry']:.2f}",
-            f"Price: {float(event['price']):.2f} ({float(event['profit_r']):+.2f}R)",
+        title = ("🔒 Stop to breakeven" if "BREAKEVEN" in reasons
+                 else f"📈 Stop raised, locks {locked_r:+.2f}R" if "TRAIL" in reasons
+                 else "🎯 Target extended")
+        lines = [
+            f"{title} · {float(event['profit_r']):+.2f}R",
+            f"{position['direction']} {self.market} · {position.get('strategy')}",
         ]
         if event["stop"] != event["old_stop"]:
-            lines.append(f"Stop: {event['old_stop']:.2f} → {event['stop']:.2f} (locks {locked_r:+.2f}R)")
+            lines.append(f"Stop {_price(event['old_stop'])} → {_price(event['stop'])}")
         if event["target"] != event["old_target"]:
-            lines.append(f"Target: {event['old_target']:.2f} → {event['target']:.2f}")
+            lines.append(f"Target {_price(event['old_target'])} → {_price(event['target'])}")
         self._send("\n".join(lines))
 
     def trade_closed(self, event: dict[str, Any]) -> None:
         position = event["position"]
         entry, exit_price = position["entry"], float(event["exit_price"])
         pnl = float(event["pnl"])
-        broker_pnl = (
-            float(event["broker_pnl"]) if event.get("broker_pnl") is not None else None
-        )
+        broker_pnl = float(event["broker_pnl"]) if event.get("broker_pnl") is not None else None
         displayed_pnl = broker_pnl if broker_pnl is not None else pnl
         points = (exit_price - entry) * (1 if position["direction"] == "BUY" else -1)
         risk_points = abs(entry - (position.get("initial_stop") or position["stop"]))
         icon = "✅" if displayed_pnl > 0 else "❌" if displayed_pnl < 0 else "➖"
-        lines = [
-            f"{icon} Trade closed: {event.get('exit_reason')}",
-            f"{position['direction']} {self.market} · {position.get('strategy')}"
-            + (" · added position" if position.get("role") == "add" else ""),
-            f"Entry {entry:.2f} → Exit {exit_price:.2f} ({points:+.2f} pts)",
-        ]
+        result = [f"{points / risk_points:+.2f}R"] if risk_points else []
         if broker_pnl is not None:
             currency = str(event.get("broker_currency") or "account currency").upper()
-            lines.append(f"Broker P&L: {currency} {broker_pnl:+.2f}")
-            lines.append(
-                f"Local estimate: USD {pnl:+.2f}"
-                + (f" ({points / risk_points:+.2f}R)" if risk_points else "")
-            )
+            result.append(f"{currency} {broker_pnl:+,.2f}")
         else:
-            lines.append(
-                f"P&L (local estimate): USD {pnl:+.2f}"
-                + (f" ({points / risk_points:+.2f}R)" if risk_points else "")
-            )
+            result.append(f"about USD {pnl:+,.2f}")
+        reason = str(event.get("exit_reason") or "").replace("_", " ").lower()
+        path = f"{_price(entry)} → {_price(exit_price)}"
+        held = _held_for(position.get("opened_at"), event.get("timestamp"))
+        lines = [
+            f"{icon} {' · '.join(result)}",
+            f"{position['direction']} {self.market} · {position.get('strategy')}"
+            + (" · added" if position.get("role") == "add" else "") + (f" · {reason}" if reason else ""),
+            path + (f" · {held}" if held else ""),
+        ]
         if event.get("financing"):
             fees = float(event["financing"])
             currency = str(event.get("broker_currency") or "CHF").upper()
-            lines.append(
-                f"Overnight fees: {currency} {fees:+.2f}"
-                + (f" · net {currency} {broker_pnl + fees:+.2f}" if broker_pnl is not None else "")
-            )
+            lines.append(f"Fees {currency} {fees:+.2f}"
+                         + (f" · net {currency} {broker_pnl + fees:+,.2f}" if broker_pnl is not None else ""))
         if event.get("partial_fills"):
             lines.append(f"Closed in {event['partial_fills']} fills (average exit shown)")
-        market = _market_line(position, prefix="Market at entry")
-        if market:
-            lines.append(market)
-        held = _held_for(position.get("opened_at"), event.get("timestamp"))
-        if held:
-            lines.append(f"Held: {held}")
-        path = event.get("path")
-        if path:
-            lines.append(
-                f"Path: best {float(path['mfe_r']):+.2f}R, worst {float(path['mae_r']):+.2f}R"
-                + (" (recorded from mid-trade)" if path.get("partial") else "")
-            )
         if event.get("open_positions_left"):
             lines.append(f"Still open: {event['open_positions_left']}")
-        if event.get("daily_realized_pnl") is not None:
-            lines.append(f"Local today estimate: USD {float(event['daily_realized_pnl']):+.2f}")
-        lines.append(f"Local balance estimate: USD {float(event['balance']):,.2f}")
         self._send("\n".join(lines))
 
     def error(self, message: str) -> None:
