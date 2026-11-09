@@ -12,6 +12,11 @@ State lives in `bracket.json` in the session folder, so a restart neither re-pla
 If the spread is too wide when the orders would be placed, nothing is placed and the day is not used up: the
 next poll tries again with the latest candle, for as long as the window is open and the range has not broken
 (amendment on #101, 16 Oct 2026, after a 1.95 spread at the window start skipped a whole day).
+
+If the live price is already through one side's level when the orders would be placed, the broker refuses that
+stop order (a buy stop must be above the price). That side is then entered at market with the same stop and
+target, like the backtest's fill at the level, and no other order is placed. More than 0.5R past the level, the
+day is skipped (issue #196, after gold-london lost 4 Nov 2026 this way).
 """
 
 from __future__ import annotations
@@ -25,6 +30,8 @@ from .capital import CapitalAPIError
 from .models import MarketSetup
 from .risk import RiskDecision
 from .range_breakout import FAR_TARGET_R
+
+MAX_MARKET_DRIFT_R = 0.5   # the same limit as the entry-drift rule for market entries (execution.py)
 
 
 def _spread_too_wide(reason: str) -> bool:
@@ -79,7 +86,11 @@ class StopOrderBracket:
         rules = market.get("dealingRules") or {}
         decimals = int((market.get("snapshot") or {}).get("decimalPlacesFactor") or 2)
         events = []
+        snapshot = market.get("snapshot") or {}
+        through = [side for side in ("BUY", "SELL") if self._through(side, round(plan[side]["level"], decimals), snapshot)]
         for side in ("BUY", "SELL"):
+            if through and side not in through:
+                continue   # the other side is entered at market; its stop order is not needed
             level, stop = round(plan[side]["level"], decimals), round(plan[side]["stop"], decimals)
             sign = 1 if side == "BUY" else -1
             target = round(level + sign * FAR_TARGET_R * abs(level - stop), decimals)
@@ -96,22 +107,90 @@ class StopOrderBracket:
                 events.append(self._event("BRACKET_SKIPPED", side=side, reason=risk.reason if not risk.approved
                                           else "Size below the broker minimum"))
                 continue
+            if side in through:
+                events += self._market_entry(side, level, stop, target, size, snapshot, now, rules)
+                continue
             try:
                 reference = self.client.create_working_order(
                     epic=self.epic, direction=side, size=size, level=level, stop_level=stop,
                     profit_level=target, good_till=datetime.fromisoformat(plan["expires"]))
                 confirmation = self.executor._confirm(reference)
             except CapitalAPIError as exc:
-                events.append(self._event("BRACKET_REJECTED", side=side, reason=str(exc)))
+                events += self._after_rejection(side, level, stop, target, size, now, rules, str(exc))
+                if self._entered_at_market(side):
+                    break
                 continue
             if confirmation.get("dealStatus") != "ACCEPTED":
-                events.append(self._event("BRACKET_REJECTED", side=side, reason=str(confirmation.get("reason"))))
+                events += self._after_rejection(side, level, stop, target, size, now, rules,
+                                                str(confirmation.get("reason")))
+                if self._entered_at_market(side):
+                    break
                 continue
             deal_id = str(confirmation.get("dealId") or "")
             self.state["orders"][side] = {"deal_id": deal_id, "level": level, "stop": stop, "target": target,
                                           "size": size, "status": "PENDING"}
             self._save()
             events.append(self._event("BRACKET_PLACED", side=side, deal_id=deal_id, level=level, stop=stop, size=size))
+        return events
+
+    @staticmethod
+    def _through(side: str, level: float, snapshot: dict[str, Any]) -> bool:
+        """True when the live quote is already at or past the order level, so the broker would refuse the stop."""
+        quote = snapshot.get("offer" if side == "BUY" else "bid")
+        if quote is None:
+            return False
+        return float(quote) >= level if side == "BUY" else float(quote) <= level
+
+    def _after_rejection(self, side: str, level: float, stop: float, target: float, size: float,
+                         now: datetime, rules: dict[str, Any], reason: str) -> list[dict[str, Any]]:
+        """A refused stop order often means the price crossed the level after the snapshot was read (6 Nov 2026,
+        jobs report, #203). Re-read the quote once; if it is now through the level, enter at market as in #196
+        and cancel the other side's pending stop order."""
+        events = [self._event("BRACKET_REJECTED", side=side, reason=reason)]
+        try:
+            snapshot = self.client.get_market_details(self.epic).get("snapshot") or {}
+        except CapitalAPIError:
+            return events
+        if not self._through(side, level, snapshot):
+            return events
+        pending = {s: o for s, o in (self.state.get("orders") or {}).items() if o.get("status") == "PENDING"}
+        events += self._market_entry(side, level, stop, target, size, snapshot, now, rules)
+        if self._entered_at_market(side) and pending:
+            events += self._cancel(pending, "OTHER_SIDE_ENTERED")
+        return events
+
+    def _entered_at_market(self, side: str) -> bool:
+        return bool((self.state.get("orders") or {}).get(side, {}).get("market"))
+
+    def _market_entry(self, side: str, level: float, stop: float, target: float, size: float,
+                      snapshot: dict[str, Any], now: datetime, rules: dict[str, Any]) -> list[dict[str, Any]]:
+        """Enter at market the side whose level the price has already passed (issue #196)."""
+        quote = float(snapshot.get("offer" if side == "BUY" else "bid"))
+        drift_r = abs(quote - level) / abs(level - stop) if level != stop else float("inf")
+        if drift_r > MAX_MARKET_DRIFT_R:
+            return [self._event("BRACKET_SKIPPED", side=side, quote=quote, level=level, drift_r=round(drift_r, 4),
+                                reason=f"Price already {drift_r:.2f}R past the level (limit {MAX_MARKET_DRIFT_R}R)")]
+        # Sized for the stop distance from the quote, so the risk stays the planned amount.
+        size = self.executor._normalized_size(size * abs(level - stop) / abs(quote - stop), rules)
+        if size is None:
+            return [self._event("BRACKET_SKIPPED", side=side, reason="Size below the broker minimum")]
+        try:
+            reference = self.client.create_position(epic=self.epic, direction=side, size=size, stop_level=stop,
+                                                    profit_level=target)
+            confirmation = self.executor._confirm(reference)
+        except CapitalAPIError as exc:
+            return [self._event("BRACKET_MARKET_REJECTED", side=side, reason=str(exc))]
+        if confirmation.get("dealStatus") != "ACCEPTED":
+            return [self._event("BRACKET_MARKET_REJECTED", side=side, reason=str(confirmation.get("reason")))]
+        deal_id = str(confirmation.get("dealId") or "")
+        self.state["orders"][side] = {"deal_id": deal_id, "level": level, "stop": stop, "target": target,
+                                      "size": size, "status": "MARKET", "market": True}
+        self._save()
+        events = [self._event("BRACKET_MARKET_ENTRY", side=side, deal_id=deal_id, level=level, quote=quote,
+                              note="Price already through the level; entered at market")]
+        position = {"dealId": deal_id, "level": confirmation.get("level") or quote, "size": size,
+                    "stopLevel": stop, "profitLevel": target}
+        events.append(self._register(side, position, now))
         return events
 
     def _wait_for_spread(self, plan: dict[str, Any], reason: str) -> list[dict[str, Any]]:

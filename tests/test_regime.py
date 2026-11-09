@@ -42,5 +42,5 @@ def test_too_little_history_gives_no_state() -> None:
 def test_telegram_line() -> None:
     line = _market_line({"context": {"label": "sideways", "efficiency": 0.21, "adx": 16.8,
                                      "position_in_range": 0.85}})
-    assert line == "Market: sideways (ER 0.21, ADX 17, at 85% of the 20-candle range)"
+    assert line == "Market: sideways"
     assert _market_line({"context": {}}) is None

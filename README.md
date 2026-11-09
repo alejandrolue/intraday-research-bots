@@ -44,10 +44,10 @@ Exam period 2025-01 → 2026-09 on 5-minute or 1-minute candles, recorded spread
 | **US100 opening range** | US100 | Break of the first 15 minutes of the cash session, with the 4-hour trend, target 2R | passed; +0.15R on 2025–26 in the portfolio run |
 | **US100 / US500 1-minute ORB** | US100, US500 | Opening-range breakouts on 1-minute candles, target 1–1.5R | +0.09R / +0.06R on the holdout |
 | **Gold London breakout** | Gold | Range 00:00–07:00 London, broken 07:00–12:00 via stop orders, flat at 16:00 | 335 trades, **+0.08R**, PF 1.27 |
-| DE40 opening range | DE40 | Same opening-range rule as US100 | +0.07R, every year positive (not run live) |
+| DE40 opening range | DE40 | Same opening-range rule as US100 | +0.07R, every year positive (in the lab since Nov 2026) |
 
-Three more rules are **kept private** (code, settings and research not published): one on US100 (exam +0.18R per
-trade), one on gold (exam +0.07R) and a gold rule in the lab forward test. Their live numbers are in the table below.
+Four more rules are **kept private** (code, settings and research not published): one on US100 (exam +0.18R per
+trade), one on gold (exam +0.07R), and a gold rule and a Japan 225 rule in the lab forward test. Their live numbers are in the table below.
 
 **Combined as one portfolio**, including private rules A and B (1% risk per trade, −2% daily loss limit,
 2025-01 → 2026-09): +151%, max drawdown 17.5%, 17 of 21 months up. Read that as an upper bound: the rules were selected on this period.
@@ -59,24 +59,28 @@ another. The lab is a separate demo account where variants and experiments run s
 winners and losers. This table is updated about once a month.
 
 <!-- live-results:start -->
-_Updated 3 Nov 2026. R = the trade's initial risk; spread and slippage are included because these are real demo fills._
+_Updated 9 Nov 2026. R = the trade's initial risk; spread and slippage are included because these are real demo fills._
 
 | Rule | Running since | Days | Trades | Won | Total R | Avg R | Backtest exam avg R |
 |---|---|---|---|---|---|---|---|
-| US100 opening range | 29 Sep 2026 | 35 | 9 | 5 | +5.97 | +0.66 | +0.15 |
-| Private rule A (US100) | 12 Oct 2026 | 22 | 1 | 1 | +1.89 | +1.89 | +0.18 |
-| US100 1-minute ORB | 12 Oct 2026 | 22 | 16 | 6 | -0.87 | -0.05 | +0.09 |
-| US500 1-minute ORB | 12 Oct 2026 | 22 | 15 | 6 | -3.01 | -0.20 | +0.06 |
-| Gold London breakout | 12 Oct 2026 | 22 | 10 | 2 | -2.29 | -0.23 | +0.08 |
-| Private rule B (gold) | 27 Oct 2026 | 6 | 1 | 1 | +1.40 | +1.40 | +0.07 |
-| Day-trading portfolio (all rules incl. private A and B, one account) | 27 Oct 2026 | 7 | 15 | 6 | +2.23 | +0.15 | — |
-| Lab: US100 opening range, 2R target | 29 Sep 2026 | 35 | 9 | 5 | +6.06 | +0.67 | — |
-| Lab: US100 opening range, 1.6R target | 29 Sep 2026 | 35 | 9 | 5 | +3.86 | +0.43 | — |
-| Lab: private rule C (gold) | 29 Sep 2026 | 35 | 8 | 4 | +2.38 | +0.30 | — |
-| Lab: ML lines, combined (private, code not included) | 2 Nov 2026 | 0 | 4 | 2 | -0.09 | -0.02 | — |
+| US100 opening range | 29 Sep 2026 | 41 | 10 | 6 | +7.99 | +0.80 | +0.15 |
+| Private rule A (US100) | 12 Oct 2026 | 28 | 4 | 3 | +2.73 | +0.68 | +0.18 |
+| US100 1-minute ORB | 12 Oct 2026 | 28 | 18 | 7 | -0.42 | -0.02 | +0.09 |
+| US500 1-minute ORB | 12 Oct 2026 | 28 | 18 | 8 | -2.00 | -0.11 | +0.06 |
+| Gold London breakout | 12 Oct 2026 | 28 | 10 | 2 | -2.29 | -0.23 | +0.08 |
+| Private rule B (gold) | 27 Oct 2026 | 13 | 4 | 3 | +1.52 | +0.38 | +0.07 |
+| Day-trading portfolio (all rules incl. private A and B, one account) | 27 Oct 2026 | 13 | 28 | 16 | +11.46 | +0.41 | — |
+| Lab: US100 opening range, 2R target | 29 Sep 2026 | 41 | 9 | 5 | +6.06 | +0.67 | — |
+| Lab: US100 opening range, 1.6R target | 29 Sep 2026 | 41 | 9 | 5 | +3.86 | +0.43 | — |
+| Lab: DE40 opening range, 2R target | 6 Nov 2026 | 3 | 0 | 0 | +0.00 | — | — |
+| Lab: DE40 opening range, 3R target | 9 Nov 2026 | 0 | 0 | 0 | +0.00 | — | — |
+| Lab: private rule C (gold), 1.6R target | 29 Sep 2026 | 41 | 10 | 4 | +0.37 | +0.04 | — |
+| Lab: private rule C (gold), 2R target | 9 Nov 2026 | 0 | 0 | 0 | +0.00 | — | — |
+| Lab: private rule D (Japan 225) | 9 Nov 2026 | 0 | 0 | 0 | +0.00 | — | — |
+| ML lab: all lines combined (private, code not included) | 2 Nov 2026 | 7 | 59 | 28 | +0.25 | +0.00 | — |
 <!-- live-results:end -->
 
-Read these with care: 1–16 trades per rule is far too few to confirm or reject a backtest. The evaluation rules for
+Read these with care: 0–28 trades per rule is far too few to confirm or reject a backtest. The evaluation rules for
 each forward test were fixed before it started; the first full review is at the end of January 2027. Some days are
 missing because the computer running the bots went to sleep; open positions stayed protected by broker-side stops.
 

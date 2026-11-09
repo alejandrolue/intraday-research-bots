@@ -36,7 +36,7 @@ def entry(**changes: object) -> dict:
 def test_committed_roster_is_valid() -> None:
     roster = load_roster(Path(__file__).resolve().parents[1] / "lab.json")
     assert roster.account == "YOUR_DEMO_ACCOUNT_ID"
-    assert {item.epic for item in roster.entries} == {"US100"}
+    assert {item.epic for item in roster.entries} == {"US100", "DE40"}
     assert all(not item.manage and item.max_positions == 1 for item in roster.entries)
     assert (roster.max_account_open_risk, roster.max_account_daily_loss) == (0.05, 0.10)
 

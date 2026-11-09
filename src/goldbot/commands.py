@@ -64,7 +64,7 @@ GROUPS = {"lab": ("🧪", "Strategy lab", "strategies"), "daytrade": ("📈", "D
 
 
 def process_running(session: str) -> bool:
-    pattern = f"goldbot {session}" if session in GROUPS else f"goldbot watch --session {session} "
+    pattern = f"goldbot {session}$" if session in GROUPS else f"goldbot watch --session {session} "
     result = subprocess.run(
         ["pgrep", "-f", pattern],
         capture_output=True,
@@ -273,7 +273,7 @@ class CommandService:
         return self.group_entries("lab")
 
     def group_entries(self, name: str) -> list[Path]:
-        root = self.lab_dir if name == "lab" else self.daytrade_dir if name == "daytrade" else None
+        root = {"lab": self.lab_dir, "daytrade": self.daytrade_dir}.get(name)
         if root is None or not root.exists():
             return []
         return sorted(path for path in root.iterdir() if path.is_dir())

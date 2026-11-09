@@ -79,6 +79,10 @@ class PaperLedger:
         self.journal_path = journal_path
         self.starting_balance = starting_balance
         self.point_value_per_unit = point_value_per_unit
+        # Issue #198: the demo account's broker balance, set by the bot loop. When present it
+        # replaces this ledger's own balance for sizing and the daily-loss limit; the ledger
+        # balance keeps tracking this session's own P&L.
+        self.sizing_balance: float | None = None
         self.state = self._load()
 
     @property
@@ -95,7 +99,7 @@ class PaperLedger:
         self._roll_day(now.date())
         positions = self.state.open_positions
         return RiskState(
-            balance=self.state.balance,
+            balance=self.sizing_balance if self.sizing_balance and self.sizing_balance > 0 else self.state.balance,
             daily_realized_pnl=self.state.daily_realized_pnl,
             trades_today=self.state.trades_today,
             open_positions=len(positions),

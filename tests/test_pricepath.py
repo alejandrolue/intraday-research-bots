@@ -85,7 +85,7 @@ def test_record_price_path_makes_no_call_while_flat(tmp_path):
     assert _rows(tmp_path / "paths.jsonl")[0]["r"] == 0.5
 
 
-def test_close_message_shows_the_path():
+def test_close_message_leaves_the_recorded_path_out():
     sent = []
     notifier = TelegramStatusNotifier.__new__(TelegramStatusNotifier)
     notifier.market = "GOLD"
@@ -94,4 +94,4 @@ def test_close_message_shows_the_path():
     event.update(pnl=4.0, balance=1004.0,
                  path={"mfe_r": 2.1, "mae_r": -0.4, "partial": False})
     notifier.trade_closed(event)
-    assert "Path: best +2.10R, worst -0.40R" in sent[0]
+    assert "best +2.10R" not in sent[0]
